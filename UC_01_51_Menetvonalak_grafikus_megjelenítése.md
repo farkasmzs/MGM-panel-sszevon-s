@@ -551,7 +551,7 @@ Időhenger esetén pedig amennyiben a megjelenítési beállítások szerint (az
 – Megjelenítési beállítások lekérdezése (MegjelenitesiBeal l i t asok Qu e ry )
 szolgáltatástól kapott adatok alapján) szükséges a menetengedélyek m e g j elen ítés e,
 akkor a kliens a következő paraméterekkel meghívja az **S** **_** **01** **5** **1** **_** **3** **4** **–**
-**Menetengedélyek lekérdezése (MenetengedelyekQuery)** szolgáltatás t :
+**Menetengedélyek lekérdezése (MenetengedelyekQuery)** szolgáltatást :
 
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
 `o` Időszak kezdet ( **IdoszakKezd** ): Fix időszak üzemmód esetén az
@@ -578,7 +578,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 13/526|
 
 
-– Megjelenítési beállítások lekérdezése (MegjelenitesiBeal l i t asok Qu e ry )
+– Megjelenítési beállítások lekérdezése (MegjelenitesiBe al l i t asok Qu e ry )
 szolgáltatástól kapott adatok alapján) szükséges a *Kulcsfüggés feloldás* m eg j elen ítés e,
 akkor a kliens a következő paraméterekkel meghívja az **S_0151_46** **–** **Ku** **l** **csfü** **g** **gés**
 **feloldás lekérdezése (KulcsfuggesQuery)** szolgáltatást:
@@ -594,7 +594,7 @@ aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallu
 paraméter által meghatározott idő.
 
   - 89001 PV felhasználónál, ha rendelkezik megfelelő j o g o su l t s á g g al
-(OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg j elen ít ési
+(OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg jelen ít ési
 beállítástól függetlenül, Időhenger esetén pedig amennyiben a megj elen ítési
 beállítások szerint szükséges a szöveges megjegyzések megjelenítése, ak k or a k l i en s a
 következő paraméterekkel meghívja az **S_0151_32** **–** **Szöveges** **meg** **jeg** **y** **zése** **k**
@@ -647,7 +647,7 @@ megjelenítő üzemmód esetén,
 üzemmód esetén.
 
 appsettings szinten rögzített SP linket nyit meg egy új böngésző abla k ban (A z o l d al
-csak a jogosult felhasználók számára érhető el). A jelenleg használt érté k :
+csak a jogosult felhasználók számára érhető el). A jelenleg használt érték :
 
 https://intranet.mav.hu/rendszer/pass2/ [m](https://intranet.mav.hu/rendszer/pass2/mgm/_layouts/15/start.aspx#/Felhasznli%20kziknyv/%C3%81ltal%C3%A1nos%20r%C3%A9sz.aspx) gm /_lay outs/15/start.aspx#/Felhasznli%20kzi
 [knyv/%C3%81ltal%C3%A1nos%20](https://intranet.mav.hu/rendszer/pass2/mgm/_layouts/15/start.aspx#/Felhasznli%20kziknyv/%C3%81ltal%C3%A1nos%20r%C3%A9sz.aspx) r %C 3%A 9s z .aspx
@@ -683,7 +683,7 @@ elnevezése
 
   - VK105782 Vonatszám beviteli mező
 
-A grafikonon megjelenő menetvonalak szűrésére szolgáló mező, am ely b en
+A grafikonon megjelenő menetvonalak szűrésére szolgáló mező, am el y b en
 maximum 5 szám karakter adható meg. Minden üzemmódban használh ató .
 
 *A mező elhagyásakor vagy a mezőnél Enter használatakor, ha n* *em ü* *res* *a*
@@ -717,7 +717,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 15/526|
 
 
-`o` Az A_0151_05 – Adatok szűrése PopUp ablakon beállíth ató szű r ő
+`o` Az A_0151_05 – Adatok szűrése PopUp ablakon beállíth ató s zű r ő
 
 paramétereknél törli a vonatszám tartományok tartalmát és az első vonatszám
 
@@ -725,7 +725,7 @@ paramétereknél törli a vonatszám tartományok tartalmát és az első vonats
 tartomány tól mezőjébe helyezi a megadott vonatszámot. (A többi szűrési
 paramétert változatlanul hagyja).
 
-`o` A beállított szűrési paraméterekkel meghívja a grafikon frissítéséhe z szü k ség es
+`o` A beállított szűrési paraméterekkel meghívja a grafikon frissítéséhez szü k ség es
 
 szolgáltatásokat.
 
@@ -739,7 +739,7 @@ menetvonalat (a menetrendi vonalat is, ha van) kiválasztottá teszi. (Ha több
 menetvonalat is visszaadott a szolgáltatás, akkor az első menetvonalat választja
 ki.)
 
-`o` Ha az **S_0151_05** **–** **Tényadatok lekérdezése (Tenyad** **a** **to** **k** **Q** **u** **ery** **)**
+`o` Ha az **S_0151_05** **–** **Tényadatok lekérdezése (Tenyada** **to** **k** **Q** **u** **ery** **)**
 
 szolgáltatás nem adott vissza adatokat, de a megjelenítési beállítások szerint
 meg kellett hívni az **S_0151_04** **–** **Menetrendi adatok lekérdezése**
@@ -748,7 +748,7 @@ S_0151_04 szolgáltatás által visszaadott menetvonal első eseményét helyezi
 grafikon közepére és kiválasztottá teszi a menetvonalat. (Ha több menetvonalat
 is visszaadott a szolgáltatás, akkor az első menetvonalat választja ki.)
 
-`o` Ha az S _ 0151 _ 05 és/vagy az S _ 0151_04 szolgáltatás adott vissza m eg f ele l ő
+`o` Ha az S _ 0151 _ 05 és/vagy az S _ 0151_04 szolgáltatás adott vissz a m eg f elel ő
 
 menetvonalat, akkor a vonatszám beviteli mező tartalmát törli a program, de az
 
@@ -779,7 +779,7 @@ szolgáltatásokat.
 
   -  - Adatfrissítés folyamatjelző (progress bar).
 
-A progress bar teljes terjedelmé be n 30 m ás odpercet jelöl, a folyamatjelző sáv
+A progress bar teljes terjedelmébe n 30 m ásodpercet jelöl, a folyamatjelző sáv
 másodpercenként frissül. Tová bbi r észletek az **Ismétlődő** **(ütemezett)**
 **szolgáltatáshívások vezérlése** fejez e tben.
 
@@ -803,7 +803,7 @@ jelenhetnek meg,
 
 A menü ikonokhoz tartozó ikonsor megjelenítése kétféleképpen történh et :
 
-    - Amennyiben a képernyő szélessége nagyobb, mint egy előre me g h atá r o zt t pi x el
+    - Amennyiben a képernyő szélessége nagyobb, mint egy előre meg h atá r o zt t pi x el
 
 méret (jelenleg 1014 px), akkor az ikonsor horizontálisan a fejléc 3 . so r áb an
 helyezkedik el.
@@ -1633,6 +1633,7 @@ információk frissítéséhez a következő paraméterekkel hívja meg:
 
 szakaszt választott ki a felhasználó, akkor annak a kódja, egyébként
 NULL
+
 `o` Vonal id: Ha az A_0151_02 ablakon vonalat választott ki, akkor annak a
 
 belső azonosítója, egyébként NULL
@@ -2008,10 +2009,10 @@ A _ 0151 _ 02 ablaktól kapott lekérdezési időszak kezdete. Időhenger
 aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallum
 paraméter által meghatározott idő.
 
-  - #89003 PV felhasználónál, fix időszak esetén megjelenítési beállí t ást ó l f üg g etl en ü l,
+  - #89003 PV felhasználónál, fix időszak esetén megjelenítési beáll í t ást ó l f üg g etl en ü l,
 Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldá* *s* m eg j elen ít és e
 a grafikonon a megjelenítési beállítások (a megjelenítést vezérlő ikon) s ze r i n t, ak k o r
-az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuery** **)** s zo l g ált atá st
+az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuer** **y)** s zo l g ált atá st
 a következő paraméterekkel hívja meg:
 
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
@@ -2025,9 +2026,9 @@ aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallu
 paraméter által meghatározott idő.
 
   - 89001 PV felhasználónál, ha rendelkezik megfelelő j o g o su l t s á g g al
-(OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg j elen ít ési
+(OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak esetén m eg j elen ít ési
 beállítástól függetlenül, Időhenger esetén pedig amennyiben a megj elen ítési
-beállítások (a megjelenítést vezérlő ikon) szerint szükséges a szövege s megj eg y zés e k
+beállítások (a megjelenítést vezérlő ikon) szerint szükséges a szöveges megj eg y zés e k
 megjelenítése, akkor a kliens a következő paraméterekkel meghívja a z **S** **_** **0** **1** **5** **1** **_** **3** **2 –**
 **Szöveges megjegyzések lekérdezése (SzovMegjegyzesekQuery)** szol g ált at ást :
 
@@ -2063,7 +2064,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-  - Időhenger üzemmód esetén megrajzolja az idővonalat, melyet [#102741] a látható idősíkot
+  - Időhenger üzemmód esetén megrajzolja az idővonala t, melyet [#102741] a látható idősíkot
 
 1/3 és 2/3 arányban felosztva pozícionál a kliens, tehát a jövőből na g y o bb i d ő szelet
 látható. [ #102741 VÉGE]
@@ -2460,7 +2461,7 @@ aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallu
 paraméter által meghatározott idő.
 
   - #89003 PV felhasználónál, fix időszak esetén megjelenítési beáll í t ást ó l f üg g etl en ü l,
-Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldá* *s* m eg j elen ít és e
+Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldás* m eg j elen ít és e
 a grafikonon a megjelenítési beállítások (a megjelenítést vezérlő ikon) s ze r i n t, ak k o r
 az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuery** **)** s zo l g ált atá st
 a következő paraméterekkel hívja meg:
@@ -2478,7 +2479,7 @@ paraméter által meghatározott idő.
   - 89001 PV felhasználónál, ha rendelkezik megfelelő j o g o su l t s á g g al
 (OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg j elen ít ési
 beállítástól függetlenül, Időhenger esetén pedig amennyiben a megj elen ítési
-beállítások szerint (az S _ 0151 _ 01 – Megjelenítési beállításo k l ek ér de zés e
+beállítások szerint (az S _ 0151 _ 01 – Megjelenítési beállításo k l ek ér dezés e
 (MegjelenitesiBeallitasokQuery) szolgáltatástól kapott adatok alapjá n ) szü k s é g es a
 szöveges megjegyzések megjelenítése, akkor a kliens a következő par am éter ek k el
 meghívja az **S_0151_32** **–** **Szöveges** **megjegyzések** **l** **ek** **érdezés** **e**
@@ -2630,7 +2631,7 @@ szolgálati helyek listája)
 
 szolgálati hely belső azonosítója
 
-`o` Forgalmi vonatkategóriák listája: (Csak akkor kitöltött, ha az A_0151_05
+`o` Forgalmi vonatkategóriák listája: (Csak akkor kitöltött, ha az A _ 0151 _ 05
 
 –
 Adatok szűrése ablak adott át Forgalmi vonatkategóriákat.)
@@ -2663,7 +2664,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-       - Menetvonal tulajdonos id: Az Atulajdonos belső azonosítója _ 0151 _ 05 ablaktól kapott Menetvonal
+       - Menetvonal tulajdonos id: Az A _ 0151 _ 05 ablaktól kapott Menetvonal
+
+tulajdonos belső azonosítója
 
 `o` Vonatszám tartományok listája: (Csak akkor kitöltött, ha az A _ 0151 _ 05
 
@@ -2677,7 +2680,7 @@ Adatok szűrése ablak adott át Vonatszám tartományokat.)
 `o` Eltéréstől (perc) (Csak akkor kitöltött, ha az A _ 0151 _ 05 – Adatok
 
 szűrése ablak adott át Eltérés a menetrendtől – tól adatot)
-`o` Eltérésig (perc) (Csak akkor kitöltött, ha az A _ 0151_05 – Adatok szűrése
+`o` Eltérésig (perc) (Csak akkor kitöltött, ha az A _ 0151 _ 05 – Adatok szűrése
 
 ablak adott át Eltérés a menetrendtől – ig adatot)
 `o` Forgalmi késési főkódok listája (Csak akkor kitöltött, ha az AAdatok szűrése ablak adott át Késési főkódokat) _ 0151 _ 05 –
@@ -2716,7 +2719,7 @@ paraméter által meghatározott idő.
 szolgáltatás (UttengelySzolgalatiHelyAdatokQuery) által visszaadott
 szolgálati helyek listája)
 
-       - Szolgálati hely id: Az S _ 0151 _ 02 szolgáltatás által visszaadott
+       - Szolgálati hely id: Az S _ 01 5 1 _ 02 szolgáltatás által visszaadott
 
 szolgálati hely belső azonosítója
 
@@ -2742,13 +2745,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 vonatkategória azonosító
 
-`o` Forgalmi vonatnemek listája (Csak akkor kitöltött, ha az AAdatok szűrése ablak adott át Forgalmi vonatnemeket.) _ 0151 _ 05 –
+`o` Forgalmi vonatnemek listája (Csak akkor kitöltött, ha az A _ 0151 _ 05 –
+
+Adatok szűrése ablak adott át Forgalmi vonatnemeket.)
 
        - Forgalmi vonatnem kód: Az A_ 0151 _ 05 ablaktól kapott Forgalmi
 
 vonatnem kód
 
-`o` Menetvonal tulajdonosok listája (Csak akkor kitöltött, ha az A _ 0151 _ 05
+`o` Menetvonal tulajdonosok listája (Csak akkor kitöltött, ha az A _ 0151_05
 
 –
 Adatok szűrése ablak adott át Menetvonal tulajdonos azonosítókat.)
@@ -2830,10 +2835,10 @@ A _ 0151 _ 02 ablaktól kapott lekérdezési időszak kezdete. Időhenger
 aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallum
 paraméter által meghatározott idő.
 
-- #89002 PV felhasználónál, fix időszak esetén megjelenítési beállí t ást ó l f üg g etl en ü l,
+- #89002 PV felhasználónál, fix időszak esetén megjelenítési beáll í t ást ó l f üg g etl en ü l,
 Időhenger esetén pedig, amennyiben szükséges, a menetengedélyek m eg j elen ítés e a
 grafikonon a megjelenítési beállítások (a megjelenítést vezérlő ikon) szeri n t, ak ko r az
-**S_0151_34** **–** **Menetengedélyek lekérdezése (MenetengedelyekQuery** **)** szo lg ált atást
+**S_0151_34** **–** **Menetengedélyek lekérdezése (MenetengedelyekQuer** **y** **)** szo lg ált atást
 a következő paraméterekkel hívja meg:
 
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
@@ -2846,7 +2851,7 @@ A _ 0151 _ 02 ablaktól kapott lekérdezési időszak kezdete. Időhenger
 aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallum
 paraméter által meghatározott idő.
 
-- #89003 PV felhasználónál, fix időszak esetén megjelenítési beállí t ást ó l f üg g etl en ü l,
+- #89003 PV felhasználónál, fix időszak esetén megjelenítési beáll í t ást ó l f üg g etl en ü l,
 Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldá* *s* m eg j elen ít és e
 a grafikonon a megjelenítési beállítások (a megjelenítést vezérlő ikon) s ze r i n t, ak k o r
 az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuery** **)** s zo l g ált atá st
@@ -2877,7 +2882,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallum
 paraméter által meghatározott idő.
 
-  - 89001 PV felhasználónál, ha rendelkezik megfelelő j o g o su l ts á g g al
+  - 89001 PV felhasználónál, ha rendelkezik megfelelő j o g o su l t s á g g al
 (OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg j elen ít ési
 beállítástól függetlenül, Időhenger esetén pedig amennyiben a megj elen ítési
 beállítások (a megjelenítést vezérlő ikon) szerint szükséges a szöveges megj eg y zés e k
@@ -2915,14 +2920,14 @@ Ha a következő feltételek közül valamelyik teljesül, akkor törli a f ejl 
 Vonatszám mező tartalmát:
 
 `o` A kapott első vonatszám tartomány – tól mezőjének tartalma nem eg y ezik
-meg a Vonatszám mezőben lévő ért ék kel.
+meg a Vonatszám mezőben lévő értékkel.
 
 `o` A kapott vonatszám tartományoknál nem csak az első vonatszám t art om án y
 első mezője kitöltött. [ VK105782vége]
 
   - Az aktuális szűrési feltételeknek, megjelenítési beállításoknak meg f elelő en az akt u ális
 
-stílus és vonalkészlet szerint ábrázolja a menetvonalak tény és előrejelzés ad at ait az
+stílus és vonalkészlet szerint ábrázolja a menetvonalak tény és előrej elzés ad at ait az
 **S_0151_05** szolgáltatástól kapott adatok alapján.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
@@ -2946,7 +2951,7 @@ megjelenítési beállításoknak megfelelően az aktuális stílus és vonalk �
 
   - Ábrázolja az RDE eseményeket a szűrési feltételeknek m eg f elelő en, h a a.
 
-megjelenítési beállítások szerint szükséges (ha az RDE események meg j elen ít és e i k o n
+megjelenítési beállítások szerint szükséges (ha az RDE események me g j elen ít és e i k o n
 bekapcsolt).
 
   - Ábrázolja a vágányzárakat, ha a megjelenítési beállítások szeri n t szü k ség es ( h a
@@ -3292,7 +3297,7 @@ a következő paraméterekkel hívja meg:
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
 `o` Időszak kezdet ( **IdoszakKezd** ): Fix időszak üzemmód esetén az
 
-A _ 0151 _ 02 ablaktól kapott lekérdezési időszak kezdete. Időhenger
+A_0151 _ 02 ablaktól kapott lekérdezési időszak kezdete. Időhenger
 üzemmód esetén az aktuális időpont mínusz az Akapott múlt időintervallum paraméter által meghatározott idő. _ 0151 _ 02 ablaktól
 `o` Időszak vége (ablaktól kapott lekérdezési időszak vége. Időhenger üzemmód esetén az **IdoszakVeg** ): Fix időszak üzemmód esetén az A _ 0151 _ 02
 
@@ -3300,9 +3305,9 @@ aktuális időpont plusz az A _ 0151 _ 02 ablaktól kapott jövő időintervallu
 paraméter által meghatározott idő.
 
 - #89003 PV felhasználónál, fix időszak esetén megjelenítési beáll í t ást ó l f üg g etl en ü l,
-Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldás* m eg j elen ít és e
+Időhenger esetén pedig, amennyiben szükséges, a *Kulcsfüggés feloldá* *s* m eg j elen ít és e
 a grafikonon a megjelenítési beállítások (a megjelenítést vezérlő ikon) s ze r i n t, ak k o r
-az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuery** **)** s zo l g ált atá st
+az **S_0151_46** **–** **Kulcsfüggés feloldás lekérdezése (KulcsfuggesQuer** **y** **)** s zo l g ált atá st
 a következő paraméterekkel hívja meg:
 
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
@@ -3335,7 +3340,7 @@ paraméter által meghatározott idő.
 (OP_0151_MGMIranyitoiSzovegMegtekint), akkor Fix időszak eseté n m eg j elen ít ési
 beállítástól függetlenül, Időhenger esetén pedig amennyiben a megj elen ítési
 beállítások (a megjelenítést vezérlő ikon) szerint szükséges a szöveges megj eg y zés e k
-megjelenítése, akkor a kliens a következő paraméterekkel meghívja a z **S** **_** **0** **1** **5** **1** **_** **3** **2 –**
+megjelenítése, akkor a kliens a következő paraméterekkel meghívja az **S** **_** **0** **1** **5** **1** **_** **3** **2 –**
 **Szöveges megjegyzések lekérdezése (SzovMegjegyzesekQuery)** szol g ált at ást :
 
 `o` Ábra belső azonosítója ( **AbraId** ) = a kiválasztott ábra belső azonosítója
@@ -3741,40 +3746,6 @@ attól, hogy az ábrán van-e kötelező vonat-összeállítás közlési pont.
 panel fejlécére pozícionálva beúszó szerkesztő **panelen** . Részletek az „Új előrejelzés”
 funkció fejezetben.
 
-**Irányítói** üzemmódú ábrán pontosan **egy előrejelzés** vonal kiválasztásakor (bárhol a vonalra
-kattintva) a „ **Szerkesztés** ” menüsoron az „ **Előrejelzés** **módosítása** ” **ikon** kezelhetővé válik,
-ha a menetvonal **nem MRN** *(menetrend nélküli, ’VNTTId’ <> 1’)* vonat.
-
-- Az ikon kezelésekor **meghívásra** kerül a kiválasztott menetvonal szerkesztésre
-lefoglalását végző **MenetvForgSzabFoglalasCommand** (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás.
-`o` **Bemenő** adatok
-
-      - **’MenetvonalIdLista’**       - a lefoglalni kívánt menetvonal ’MGMMenetvId’ adata.
-Egy elemű lista.
-
-      **’TerMunkahelyId’**
-      - **’AbraId’**
-
-      **’FoglalasJelzo’** = „F” - foglalás.
-      - **’ModositasOk’** = NULL
-
-      **’epaiParamXmlDoc’**
-`o` A szolgáltatás **leellenőrzi**, hogy a menetvonal **nincs** egy másik munkahely által
-szerkesztésre **lefoglalva** .
-Ha a szolgáltatás UC_01_51_CONF_MENETV_FOGLALT **üzenetet** ad vissza,
-akkor **megerősítő** üzenetet ad (az üzenet ERRTEXT részében az egyes paraméterek
-vesszővel vannak elválasztva):
-„151004: A {0} vonatot {1} munkahelyen {2} óta szerkesztik! Felülírja a
-menetvonal foglalását?”, ahol:
-
-{0} = ERRTEXT első paramétere (a lefoglalt menetvonal első
-vonatazonosítója).
-{1} = ERRTEXT második paramétere (a foglaló munkahely megnevezése).
-{2} = ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
-      - < **Nem**       - esetén a feldolgozás leáll, nem történik menetvonal foglalás, a grafikon
-marad **alapfunkcióban**, a „funkciók” ikonsor marad a „ **Szerkesztés** ” ikonon.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -3796,27 +3767,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 58/526|
 
 
-      - < **Igen**       - esetén **újra** meghívásra kerül az S_0151_38       **MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabályozásra
-lefoglalása) szolgáltatás. A **bemenő** adatokban a **’FoglalasJelzo’** = „ **A** ” (átvétel)
-lesz.
-A szolgáltatás **megszűnteti** az előző lefoglalást és **új lefoglalást** rögzít az
-ábrához tartozó munkahely adatával.
-
-- **Sikeres** lefoglalás után az ablak átvált „ **Előrejelzés módosítás” üzemmódra**, megjelenik
-az ehhez tartozó **fejléc** és a **szerkesztőpanel**, a grafikon automatikus **frissítése** **leáll** .
-Ha az ábrán van pulzáltatandó menetvonal, a **pulzálás** **leállításra** kerül.
-
-- A **grafikonon** az előrejelzés vonalon a szolgálati **helyek** és **események** ***(’EsemJelleg’ =***
-***"E")*** **metszéspontjában** megjelennek a **vezérlőpálcák**, az **előrejelzés vonal** **kijelölt** lesz,
-a **többi** mentvonal (menetrendi, tény és előrejelzés) **nem kiválaszthatóvá** válik.
-
 **2.2.3.4.2.8** **[#][106724]** ~~**-**~~ ~~**Rendkívüli**~~ ~~**megállás**~~ ~~**iko**~~ ~~**n**~~ **A fejezet törölve lett összevonás miatt**
 
-**2.2.3.4.2.9** **[#][106724]** ~~**-**~~ ~~**Rendkívüli**~~ ~~**áthaladás**~~ ~~**ikon**~~ **A fejezet törölve lett összevonás miatt**
+**106724vége**
+
+**2.2.3.4.2.9** **[#][106724]** **-** ~~**Rendkívüli**~~ ~~**áthaladás**~~ ~~**ikon**~~ **A fejezet törölve lett összevonás miatt**
+
+**106724vége**
 
 **2.2.3.4.2.10** **#106724** ~~**-**~~ ~~**Tartózkodási**~~ ~~**idő**~~ ~~**módosítása**~~ ~~**ikon**~~ **A fejezet törölve lett**
-
-**összevonás miatt**
+**összevonás miatt** **[ 106724vége]**
 
 **2.2.3.4.2.11** **#88981** **-** **Irányítói feltartóztatás ikon**
 
@@ -3847,12 +3807,6 @@ Megerősítő üzenet: 151004    - UC_01_51_C O NF_MENETV_FOGLALT – „A {0}
 vonatot {1} munkahelyen {2} óta sze r k eszti k! Felülírja a menetvonal foglalását? ”,
 ahol:
 
-      - {0} = ERRTEXT első paramétere (a lefoglalt menetvonal első
-vonatazonosítója).
-
-      - =
-{1} ERRTEXT második paramétere (a foglaló munkahely megnevezése).
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -3864,6 +3818,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 59/526|
 
+
+      - {0} = ERRTEXT első paramétere (a lefoglalt menetvonal első
+vonatazonosítója).
+
+      - =
+{1} ERRTEXT második paramétere (a foglaló munkahely megnevezése).
 
       - =
 {2} ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
@@ -3918,10 +3878,6 @@ lefoglalását végző S_0151_38 - **MenetvForgSzabFoglalasCommand** (Menetvonal
 forgalomszabályozásra lefoglalása) szolgáltatás.
 `o` **Bemenő** adatok:
 
-      - **’MenetvonalIdLista’**       - a lefoglalni kívánt menetvonalak ’MGMMenetvId’ adata
-pontosvesszővel elválasztva.
-Kételemű lista.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -3934,6 +3890,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 60/526|
 
 
+      - **’MenetvonalIdLista’**       - a lefoglalni kívánt menetvonalak ’MGMMenetvId’ adata
+pontosvesszővel elválasztva.
+Kételemű lista.
+
       **’TerMunkahelyId’**
       - **’AbraId’**
 
@@ -3945,7 +3905,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 szerkesztésre **lefoglalva** .
       - Ha **egyik sincs** lefoglalva, akkor a szolgáltatás **lefoglalja** mind két
 menetvonalat.
-
       - Ha az **egyik** **foglalt**, akkor a szolgáltatás
 **UC_01_51_CONF_MENETV_FOGLALT** **üzenetet** ad vissza. Ekkor a kliens
 **megerősítő** üzenetet ad (az üzenet ERRTEXT részében az egyes paraméterek
@@ -3985,8 +3944,6 @@ ehhez tartozó **fejléc** és a **szerkesztőpanel**, a grafikon automatikus fr
 Az **elsőnek** kiválasztott („előre küldendő”) menetvonalon **nem** jelennek meg a
 vezérlőpálcák, de rá lehet kattintani.
 
-**2.2.3.4.2.13** **#88979** **- Vonattalálkozás ikon**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -4002,6 +3959,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 61/526|
+
+
+**2.2.3.4.2.13** **#88979** **- Vonattalálkozás ikon**
+
 
 
 **Irányítói** üzemmódban két olyan **előrejelzés** vonal kiválasztásakor (bárhol a menetrendi
@@ -4056,10 +4017,6 @@ vonatazonosítója).
 {1} = ERRTEXT második paramétere (a foglaló munkahely megnevezése).
 {2} = ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
 
-      - < **Nem**       - esetén a feldolgozás leáll, nem történik menetvonal foglalás, a
-grafikon marad **alapfunkcióban**, a „funkciók” ikonsor marad az
-„ **Szerkesztés** ” ikonon.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -4072,6 +4029,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 62/526|
 
 
+
+      - < **Nem**       - esetén a feldolgozás leáll, nem történik menetvonal foglalás, a
+grafikon marad **alapfunkcióban**, a „funkciók” ikonsor marad az
+„ **Szerkesztés** ” ikonon.
 
       - < **Igen**       - esetén **újra** meghívásra kerül az S_0151_38       **MenetvForgSzabFoglalasCommand** (Menetvonalak
 forgalomszabályozásra lefoglalása) szolgáltatás. A **bemenő** adatokban a
@@ -4123,10 +4084,6 @@ A kliens a következő adatokat adja át az A_0151_10 ablaknak:
 azonosítója ( **S_0151_02** **–** **Út tengely adatok lekérdezése** szo l g ált atá s t ó l
 (UttengelySzolgalatiHelyAdatokQuery) kapott SzhId)
 
-  - A kiválasztott szolgálati hely vagy a már meglévő csatlakozás hely én ek ho s s zú neve
-
-            (S_0151_02 től kapott SzhHosszuNev)
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -4139,6 +4096,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 63/526|
 
 
+
+  - A kiválasztott szolgálati hely vagy a már meglévő csatlakozás hely én ek ho s s zú neve
+
+            (S_0151_02 től kapott SzhHosszuNev)
 
   - A kiválasztott csatlakozás belső azonosítója (S_0151_04  - től kap o t t C s at l akozasI d)
 
@@ -4189,8 +4150,6 @@ marad **alapfunkcióban**, a „funkciók ” ikonsor marad a „ **Szerkesztés
       - < **Igen**       - esetén **újra** meghívásra kerül az S_0151_38       **MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabályozásra
 lefoglalása) szolgáltatás. A **bemenő** adatokban a **’** **FoglalasJelzo** **’** = „ **A** ” (átvétel)
 lesz.
-A szolgáltatás **megszűnteti** az előző lefoglalást és **új lefoglalást** rögzít az
-ábrához tartozó munkahely adatával.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4207,6 +4166,8 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 64/526|
 
 
+A szolgáltatás **megszűnteti** az előző lefoglalást és **új lefoglalást** rögzít az
+ábrához tartozó munkahely adatával.
 
 - **Sikeres** lefoglalás után az ablak átvált „ **Másik pályán közlekedés** **”** **üzemmódra**,
 megjelenik az ehhez tartozó **fejléc** a <Mégsem> nyomógombbal és a grafikon
@@ -4230,7 +4191,7 @@ tengelyen. Az ikon nyomógombszerűen működik, kezelésekor a kliens ellenőrz
 ”
 helyről MRN nem hozható létre! .
 
-  - Amennyiben igen, akkor a kliens meghívja a **K043UmsFor00FormOpen** **Co** **m** **m** **a** **n** **d**  
+  - Amennyiben igen, akkor a kliens meghívja a **K043UmsFor00Form** **Open** **Co** **m** **m** **a** **n** **d**  
 ot az alábbi bemenő paraméterekkel:
 
 `o` **modal** = True
@@ -4258,14 +4219,12 @@ Az ikon kezelésekor:
   - A kliens program meghívja a kiválasztott menetvonal szerkesztésre l ef og l alás át v ég ző
 
 S_0151_38    - **MenetvForgSzabFoglalasCommand** ( Men e t v o nala k
-forgalomszabályozásra lefoglalása) szolgáltatást a következő adatokkal:
+forgalomszabályozásra lefoglalása) szolgáltatást a következő adatokkal :
 
 `o` MenetvonalIdLista: A kiválasztott menetvonal belső MGM azonosítója
 
 (Egy elemű listaként)
 `o` TerMunkahelyId: A kiválasztott munkahely belső azonosítója
-`o` AbraId: A felhasználó által szerkesztésre lefoglalt ábra belső azonosítója
-`o` FoglalasJelzo = „F ”      - foglalás.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4282,11 +4241,11 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 65/526|
 
 
+`o` AbraId: A felhasználó által szerkesztésre lefoglalt ábra belső azonosítója
+`o` FoglalasJelzo = „F ”      - foglalás.
 `o` ModositasOk = NULL
 
 `o` epaiParamXmlDoc
-
-
 
 Ha a szolgáltatás UCa kliens program megerősítő üzenetet ad. _ 01 _ 51 _ CONF _ MEN E TV _ FOGLALT üzenetet ad vissza, akkor
 
@@ -4299,7 +4258,9 @@ vonatazonosítója).
 
       - =
 {1} ERRTEXT második paramétere (a foglaló munkahely megnevezése).
-      - {2} = ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
+
+      - =
+{2} ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
 
 A megerősítő üzenetre adott <Nem> vála sz ese tén, nem történik meg a menetvonal
 foglalása, a menetvonal kijelölése megs zűni k, a többi objektum elérhetővé válik, és az
@@ -4320,7 +4281,7 @@ szükséges adatokat.
 
 `o` **S_0151_44** **–** **Menetvonal** **szolgálati** **helyeinek** **lekérdezése**
 **(MenetvonalSzolgHelyekQuery** ) s zol g á ltatást, ami a panelen lévő szolgálati
-hely beviteli mezők lenyíló listájának ér t ékkészletét biztosítja.
+hely beviteli mezők lenyíló listájána k ér tékkészletét biztosítja.
 
   - A szolgáltatások sikeres futása után az ablak átvált Egyéb seb es ség kor l áto zás
 
@@ -4335,18 +4296,12 @@ sebességkorlátozások szerkesztése ” c í m ű f ejezet en belül találhat
 
   - A szerkesztés befejezése után a menetvonal kijelölése megszűnik, a t ö b bi o b j ekt um
 
-elérhetővé válik, az Egyéb sebességkorlátozás ikon nem kezelhetővé v áli k és a k l i ens
+elérhetővé válik, az Egyéb sebességkorlátozás ikon nem kezelhetővé v áli k és a k l i en s
 program meghívja a grafikon frissítéséhez szükséges szolgáltatásokat.
-
-Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
-üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** **[#]**
 
 
 -----
@@ -4356,6 +4311,8 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 66/526|
 
 
+Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
+üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
 *1* *’* *)* vonathoz tartozó, menetvonalat választott, amihez tartozik tény/előrejelzés vonal, akkor
 kezelhetővé válik a Teljesítménycsökkenés ikon.
 
@@ -4378,9 +4335,6 @@ lehet rögzíteni, módosítani, törölni a kiválasztott menetvonal aktuális 
 
 A teljesítménycsökkenés szerkesztésének leírása a „Teljesítménycsökkenés szerkesztése ”
 című fejezeten belül található.
-
-A szerkesztés befejezése után a menetvonal kijelölése megszűnik, a többi objektum
-elérhetővé válik, a Teljesítménycsökkenés ikon nem kezelhetővé válik és a program meghívja
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4437,6 +4391,8 @@ ideje).maradSzerkesztéson¶
 |Készítette/módosította:|Változat: 1.03|Oldal: 67/526|
 
 
+Nyomógombként működő ikon, amely a „Szerkesztés ikonok ” közt található. Csak
+**irányításra lefoglalt ábra** esetén, **Időhenger** idő üzemmódban érhető el az **ábrát lefoglaló**
 **PV** felhasználók számára, **ha be volt kapcsolva** a „Kulcsfüggés feloldás ” **megjelenítés** ikon
 és **kiválasztott egy nyitott kulcsfüggés feloldás objektumot** .
 
@@ -4491,8 +4447,6 @@ létező menetengedélyek, kulcsfüggé s feloldások, …) **nem kiválaszthat�
 
 Nyomógombként működő ikon, amely a „Szerkesztés ikonok ” közt található. Csak
 **irányításra lefoglalt ábra** esetén, **Időhenger** idő üzemmódban érhető el az **ábrát lefoglaló**
-**PV** felhasználó számára, **ha be volt kapcsolva** a „Menetengedély a szolgálati hely bejárati
-jelzőjéig ” **megjelenítés** ikon.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4506,9 +4460,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 68/526|
 
 
+**PV** felhasználó számára, **ha be volt kapcsolva** a „Menetengedély a szolgálati hely bejárati
+jelzőjéig ” **megjelenítés** ikon.
+
 A menetengedély szerkesztés ikon kezeléséhez a PV felhasználónak rendelkeznie kell az
-**OP_0151_MGMIranyito** illetve az **OP_0151_MGMMefiMerafiRogzit** operandusokkal és
-egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<> 1* *’* *)* vonathoz tartozó, **menetvonalat**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4593,9 +4548,14 @@ környezetre vonatkozóan.¶
 
 
 
- - ***89001*** ***Szöveges megjegyzés esetén***
+ - ***Feltételek…..***
 
 
+
+A Törlés ikonra kattintva a kliens program elvégzi a kiválasztott objektum típusának
+megfelelő műveleteket. A Törlés ikon helyett használható a Del/Delete billentyű is.
+
+  - ***89001*** ***Szöveges megjegyzés esetén***
 
 A leírás a **„Szöveges megjegyzés tö** **rlé** **s** **e”** pontban található
 
@@ -4609,7 +4569,7 @@ A leírás a „ **Kulcsfüggés feloldás tö** **rlé** **se** ” pontban tal
 
   - ***#88980*** ***Csatlakozásra várás esetén***
 
-A törlés végrehajtása előtt a kliens p r ogr am m eg e rősítést kér a folytatáshoz:
+A törlés végrehajtása előtt a kliens p r ogr am m egerősítést kér a folytatáshoz:
 Törli a kiválasztott {0}? <Igen>/<N em    {0} = ’ csatlakozást ’
 
 A megerősítésre adott igenlő válas z esetén, a csatlakozás törléséhez meghívja az
@@ -4644,11 +4604,6 @@ Az ikon működése megegyezik az **A_0151_03** **Megjelenítési beállítások
 Az ikon működése megegyezik az **A_0151_05** **Adatok szűrése ablak megnyitása ikon**
 pontban leírtakkal.
 
-**2.2.3.4.2.27** **-** **A_0151_04** **–** **Stílusok és vonalak beállítása ablak megnyitása ikon**
-
-Az ikon működése megegyezik az **A_0151_04** **–** **Stílusok és vonalak beállítása ablak**
-**megnyitása ikon** pontban leírtakkal.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -4676,19 +4631,17 @@ tartalmát. [ #88996 VÉGE]
 |Készítette/módosította:|Változat: 1.03|Oldal: 70/526|
 
 
+**2.2.3.4.2.27** **-** **A_0151_04** **–** **Stílusok és vonalak beállítása ablak megnyitása ikon**
+
+Az ikon működése megegyezik az **A_0151_04** **–** **Stílusok és vonalak beállítása ablak**
+**megnyitása ikon** pontban leírtakkal.
+
 Az ikon működése megegyezik az **A_0151_06** **–** **Ábra szintű információk ablak**
 **megnyitása ikon** pontban leírtakkal.
 
 **2.2.3.4.2.29** **#88952** **-** **Szolgálat befejezése ikon**
 
 Az ikon csak irányítói üzemmódban érhető el (de szerkesztői üzemmódban nem) és mindig
-kezelhető. Az eszköztáron belül jobb oldalon található. Megnyomásakor a kliens meghívja az
-
-–
-S_0151_31 Munkahely szintű foglalás megszüntetése (MunkahelyFoglMegszuntCommand)
-szolgáltatást az aktuálisan kiválasztott munkahely belső azonosítójával (TerMunkahelyId).
-Amennyiben a szolgáltatás hívás ad vissza foglalási üzenetet (FoglUzenet), akkor a kliens
-információs popup üzenetben jeleníti meg azt. Amennyiben nincs FoglUzenet, akkor a kliens
 
 Nyomógombként működő ikon, ami csak időhenger idő üzemmódban elérhető. Használatakor
 az idő tengelyen az aktuális időhöz pozícionál a program, úgy, hogy az aktuális időhöz tartozó
@@ -4714,10 +4667,6 @@ kicsinyítést végez a program, ha a kicsinyítés még nem érte el a konfigur
 megadott minimumot.
 
 **- X tengely nagyítása ikon**
-
-Nyomógombként működő ikon, ami mindig elérhető. Használatakor vízszintes tengely irányú
-nagyítást végez a program, ha a nagyítás még nem érte el a konfigurációs beállításban
-megadott maximumot.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4789,9 +4738,11 @@ előrejelzés) nem kiválaszthatóvá válik.¶
 |Készítette/módosította:|Változat: 1.03|Oldal: 71/526|
 
 
+Nyomógombként működő ikon, ami mindig elérhető. Használatakor vízszintes tengely irányú
+nagyítást végez a program, ha a nagyítás még nem érte el a konfigurációs beállításban
+megadott maximumot.
+
 **- Y tengely kicsinyítése ikon**
-
-
 
 Nyomógombként működő ikon, ami mindig elérhető. Használatakor függőleges tengely
 irányú kicsinyítést végez a program, ha a kicsinyítés még nem érte el a konfigurációs
@@ -4839,10 +4790,6 @@ használatával, valamint az egeret az adott tengely felé pozicionálva majd a 
 kezelve lehetséges. Mindkét irányban való zoomolás a diagram terület felé pozícionálva az
 egeret és a SHIFT billentyű + egérgörgő együttes használatával lehetséges. A nagyítás és
 kicsinyítés konfigurációs beállításban megadott maximumig, ill. minimumig lehetséges.
-(Külön konfigurációs beállítások tartoznak az idő és az út irányú nagyítás maximumához,
-valamint külön konfigurációs beállítások tartoznak az idő és út irányú kicsinyítés
-minimumához.). A nagyítási szintek változásával a tengelyek beosztásainak a megjelenése is
-dinamikusan változik.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4861,9 +4808,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 72/526|
 
 
+(Külön konfigurációs beállítások tartoznak az idő és az út irányú nagyítás maximumához,
+valamint külön konfigurációs beállítások tartoznak az idő és út irányú kicsinyítés
+minimumához.). A nagyítási szintek változásával a tengelyek beosztásainak a megjelenése is
+dinamikusan változik.
+
 **Alapháló - Út tengely**
-
-
 
 A diagram út tengelyén a kiválasztott menetirányítói szakaszhoz vagy vonalhoz tartozó, az
 A_0151_02 – Út-idő diagram kiválasztása ablakon kiválasztott szolgálati helyek jelennek
@@ -4912,10 +4862,6 @@ típuskód=2), akkor az aktuális stílusnak megfelelően (szaggatottan) rajzolj
 
 vágány nézet ikon kikapcsolt), akkor az alaphálón a megjelenített szolgálati
 helyekhez, az út tengelyre merőleges, vágányokat szimbolizáló vonalakat húz a
-program. Mindig egy vonallal többet húz, mint ahány vágányt visszaadott az
-S_0151_03 – Út tengely vágány adatok lekérdezése szolgáltatás
-(UttengelyVaganyAdatokQuery) a szolgálati helyhez. (A szolgáltatás csak az MGM
-vágányok adatait adja vissza.) A plusz vonal egy gyűjtő (fiktív) vágányt jelképez (A
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -4929,6 +4875,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 73/526|
 
 
+program. Mindig egy vonallal többet húz, mint ahány vágányt visszaadott az
+S_0151_03 – Út tengely vágány adatok lekérdezése szolgáltatás
+(UttengelyVaganyAdatokQuery) a szolgálati helyhez. (A szolgáltatás csak az MGM
+vágányok adatait adja vissza.) A plusz vonal egy gyűjtő (fiktív) vágányt jelképez (A
 nem MGM vágányra érkező vonatok lesznek erre a fiktív vágányra helyezve.).
 Kezdőpont felöli megjelenítési beállítás esetén, a vágányokat (a kezdőponttól felöl) az
 S_0151_03 szolgáltatástól kapott sorszámnak megfelelő sorrendben rajzolja fel a
@@ -4977,12 +4927,6 @@ kijelölése után kezelhető válik:
 **OP_0202_MRNTervezesNaplozas** operandussal. Az ikon működési
 leírása az **MRN vonat létrehozása ikon** pontban található.
 
-`o` #88980 a   - Csatlakozásra várás s zerkesztése ikon. Az ikon működési
-leírása a **Csatlakozásra várás szerk** **e** **sztése ikon** pontban található.
-
-`o` #89003 a   - Kulcsfüggés feloldás rögzítése ikon. Az ikon működési leírása
-a **Kulcsfüggés feloldás rögzítése ikon** pontban található.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5002,9 +4946,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 74/526|
 
 
+`o` #88980 a     - Csatlakozásra várás s zerkesztése ikon. Az ikon működési
+leírása a **Csatlakozásra várás szerk** **e** **sztése ikon** pontban található.
+
+`o` #89003 a     - Kulcsfüggés feloldás rögzítése ikon. Az ikon működési leírása
+a **Kulcsfüggés feloldás rögzítése ikon** pontban található.
+
 **Alapháló - Idő tengely**
-
-
 
 A diagram idő tengelyén az A_0151_02 ablakon kiválasztott idő üzemmód szerint egy fix
 időszak vagy időhenger üzemmód választása esetén egy görgetett időszak jelenik meg. Az
@@ -5053,13 +5001,6 @@ időintervallum paraméter értéke
 `o` Időszak vége = aktuális idő + A_0151_02 ablaktól kapott jövő
 
 időintervallum paraméter értéke
-Ebben az üzemmódban az aktuális időnél az idő tengelyre merőleges az egész
-alaphálón végig húzott idővonal is megjelenik.
-
-A diagramon a görgetett időszakhoz tartozó menetvonal adatok láthatók.
-
-A görgetett időszak, az idővonal és a megjelenő menetvonal adatok 30mp-ként
-automatikusan frissülnek a diagramon.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5074,6 +5015,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 75/526|
 
+
+Ebben az üzemmódban az aktuális időnél az idő tengelyre merőleges az egész
+alaphálón végig húzott idővonal is megjelenik.
+
+A diagramon a görgetett időszakhoz tartozó menetvonal adatok láthatók.
+
+A görgetett időszak, az idővonal és a megjelenő menetvonal adatok 30mp-ként
+automatikusan frissülnek a diagramon.
 
 72236 Irányítói üzemmódban, ha egy s zer kesztőpanel meg van nyitva, nincs
 automatikus frissítés a szerkesztői m ódból v aló k ilépésig.
@@ -5122,12 +5071,6 @@ vonala pulzáló módon jelenik meg egészen addig, míg a felhasználó tudomá
 vagy irányítói módosítás nem történik az előrejelzésre vonatkozóan. A pulzálás részleteit a
 **Menetvonalak pulzálása** pont tartalmazza.
 
-program 30mp-ként újra meghívja a menetvonal adatokat lekérdező szolgáltatásokat és újra
-rajzolja a menetvonalakat.
-
-A menetvonalakhoz rajzolt vonalak fölé pozícionálva a program megváltoztatja az egér
-kurzort, ezzel jelezve, hogy ez kattintható terület.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5137,7 +5080,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 **törölt:** k
 
-**törölt:** 
 
 -----
 
@@ -5145,6 +5087,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 76/526|
 
+
+program 30mp-ként újra meghívja a menetvonal adatokat lekérdező szolgáltatásokat és újra
+rajzolja a menetvonalakat.
+
+A menetvonalakhoz rajzolt vonalak fölé pozícionálva a program megváltoztatja az egér
+kurzort, ezzel jelezve, hogy ez kattintható terület.
 
 A kattintható területen olyan ponton, ahol több objektum található egymáson, az egér bal vagy
 jobb gombját használva, egy választó menü jelenik meg, aminek részletes leírása a az
@@ -5194,18 +5142,12 @@ objektum esetén az ott feljövő választó menüből jobb egér gombbal a be/k
 jelképező nyilacskához tartozó menetvonal egy objektumát választva, megnyílik a
 Be/kilépő menetvonal információs terület. Az információs terület részletes leírása a
 
-**Menetrendi adatok ábrázolása**
-
-A megjelenítési beállítások szerint (ez az adott felhasználóhoz az A_0151_03 ablakon
-
-**–**
-elmentett vagy az alapértelmezett megjelenítési beállítás), amit az **S_0151_01** **Megjelenítési**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
+**törölt:** 
 **törölt:** 2.2.3.9 pontban
 
 **törölt:** 2.2.3.10.2
@@ -5224,6 +5166,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 77/526|
 
 
+**Menetrendi adatok ábrázolása**
+
+
+
+A megjelenítési beállítások szerint (ez az adott felhasználóhoz az A_0151_03 ablakon
+
+**–**
+elmentett vagy az alapértelmezett megjelenítési beállítás), amit az **S_0151_01** **Megjelenítési**
 **beállítások lekérdezése** (MegjelenitesiBeallitasokQuery) szolgáltatás ad vissza (a Menetrend
 mezőben), a menetrendi adatok megjelenítésében a következő esetek lehetnek:
 
@@ -5283,18 +5233,6 @@ vonatkategória azonosító
 
 ablak adott át Forgalmi vonatnemeket.)
 
-`o` Forgalmi vonatnem kód: Az A_0151_05 ablaktól kapott Forgalmi
-
-vonatnem kód
-
-  - Menetvonal tulajdonosok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok
-
-szűrése ablak adott át Menetvonal tulajdonos azonosítókat.)
-
-`o` Menetvonal tulajdonos id: Az A_0151_05 ablaktól kapott Menetvonal
-
-tulajdonos belső azonosítója
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5307,6 +5245,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 78/526|
 
 
+`o` Forgalmi vonatnem kód: Az A_0151_05 ablaktól kapott Forgalmi
+
+vonatnem kód
+
+  - Menetvonal tulajdonosok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok
+
+szűrése ablak adott át Menetvonal tulajdonos azonosítókat.)
+
+`o` Menetvonal tulajdonos id: Az A_0151_05 ablaktól kapott Menetvonal
+
+tulajdonos belső azonosítója
 
   - Vonatszám tartományok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok
 
@@ -5358,12 +5307,6 @@ a közlekedés iránya páros (Irany=0).
 viszonylat megjelenítése ikon kikapcsolt, akkor azokat a menetrendeket jeleníti meg,
 amelyek a lekérdezett szakaszon páratlan irányban közlekednek (Amelyeknél az
 **S_0151_04** szolgáltatástól kapott Viszonylat értéke 1-páratlan), továbbá a mindkét
-irányban közlekedő menetrendeknél (Viszonylat=0) csak azt a részt jeleníti meg, ahol
-a közlekedés iránya páratlan (Irany=1).
-
-  - Ha a  - Páros viszonylat megjelenítése ikon és a  - Páratlan viszonylat
-megjelenítése ikon is bekapcsolt, akkor olyan mintha mind a két ikon kikapcsolt lenne,
-vagyis nincs szűrő hatása a menetrendekre.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5377,6 +5320,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 79/526|
 
 
+irányban közlekedő menetrendeknél (Viszonylat=0) csak azt a részt jeleníti meg, ahol
+a közlekedés iránya páratlan (Irany=1).
+
+  - Ha a  - Páros viszonylat megjelenítése ikon és a  - Páratlan viszonylat
+megjelenítése ikon is bekapcsolt, akkor olyan mintha mind a két ikon kikapcsolt lenne,
+vagyis nincs szűrő hatása a menetrendekre.
 
   - Ha a  - Közlekedő vonatok megjelenítése ikon bekapcsolt, akkor csak a közlekedő
 vonatok menetrendjét jeleníti meg (Amelyeknél az **S_0151_04** szolgáltatástól kapott
@@ -5425,15 +5374,6 @@ jelző (MenetvIndCelJel)= NULL
 `o` Ha a közlekedés irányára szűrni kell (a     - Páros viszonylat megjelenítése és
 
 a         - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
-egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
-(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
-
-  - Ha a menetvonalhoz kapott első eseménynél teljesülnek a következő feltételek, akkor
-
-a menetvonal rajzolását az esemény szolgálati helye előtt kezdi a program egy kicsi,
-rövid vonalkával, ami a szolgálati hely vonalával 45 fokos szöget zár be (Ez azt
-jelképezi, hogy a kiválasztott vonalon/menetirányítói szakaszon a menetvonalnak van
-korábbi eseménye is, csak kívül esik a lekérdezett tartományon időben vagy térben.):
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5452,31 +5392,41 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 80/526|
 
 
+egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
+(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
+
+- Ha a menetvonalhoz kapott első eseménynél teljesülnek a következő feltételek, akkor
+
+a menetvonal rajzolását az esemény szolgálati helye előtt kezdi a program egy kicsi,
+rövid vonalkával, ami a szolgálati hely vonalával 45 fokos szöget zár be (Ez azt
+jelképezi, hogy a kiválasztott vonalon/menetirányítói szakaszon a menetvonalnak van
+korábbi eseménye is, csak kívül esik a lekérdezett tartományon időben vagy térben.):
+
 `o` Az esemény szolgálati helye látható a grafikonon
 `o` Esemény típus id (EsemTipId) értéke 1 (érkezés) vagy 6 (áthaladás)
 `o` Esemény be/kilépés jelző (SzakaszBeKiJel) értéke NULL (közbenső esemény)
 
 vagy 2 (kilépés)
 
-`o` Ha a közlekedés irányára szűrni kell (a  - Páros viszonylat megjelenítése és
+`o` Ha a közlekedés irányára szűrni kell (a   - Páros viszonylat megjelenítése és
 
-a     - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
+a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
 egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
 (Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
 A kis vonalkát a menetvonalhoz, vízszintes úttengely esetén a szolgálati hely bal
 oldaláról, függőleges úttengely esetén alulról rajzolja a következő esetekben:
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „v” (a szolgálati hely végpontja felöli esemény esetén) (Mivel
 áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
@@ -5485,16 +5435,16 @@ oldaláról, függőleges úttengely esetén alulról rajzolja a következő ese
 ellentettje.)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 A kis vonalkát a menetvonalhoz vízszintes úttengely esetén a szolgálati hely
@@ -5502,29 +5452,18 @@ jobb oldaláról, függőleges úttengely esetén felülről kell rajzolni a kö
 esetekben:
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén) (Mivel
-áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
-értéket tartalmazza és az érkezésre vonatkozó érték ennek az
-
-ellentettje.)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
-
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5538,6 +5477,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 81/526|
 
 
+áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
+értéket tartalmazza és az érkezésre vonatkozó érték ennek az
+
+ellentettje.)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 
 - Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
@@ -5597,18 +5547,6 @@ vagy 1 (belépés)
 a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
 egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
 (Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
-A menetvonal rajzolását kis vonalkával, vízszintes úttengely esetén a szolgálati
-hely bal oldalán, függőleges úttengely esetén alul folytatja a következő esetekben:
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
-
-       - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
-
-(áthaladás)
-
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5622,6 +5560,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 82/526|
 
 
+A menetvonal rajzolását kis vonalkával, vízszintes úttengely esetén a szolgálati
+hely bal oldalán, függőleges úttengely esetén alul folytatja a következő esetekben:
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
+
+        - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
+
+(áthaladás)
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
         - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
 
@@ -5685,18 +5635,6 @@ vonalán a lekérdezett időszak kezdetétől, akkor azt az esemény vágányán
   - Ha a menetvonalhoz kapott első eseménynél, az esemény szolgálati helye előtt kicsi,
 
 rövid vonalkát vagy kis nyilacskát kell rajzolni, akkor azt a menetvonal haladási
-iránya szerinti első vágányhoz rajzolja az esemény idejénél és onnan vízszintes
-vonalat húz az esemény vágányáig.
-
-  - Ha az egy menetvonalhoz tartozó, de különböző szolgálati helyen lévő, egymást
-
-követő esemény pontokat össze kell kötni, akkor a szolgálati helyek szélső vágányai
-között húz egyenes vonalat és ott a menetvonalat megtörve az esemény idejénél, az
-esemény vágányáig vízszintes vonalat húz.
-
-  - Ha az adott szolgálati helyen két eseménye van a menetvonalnak, akkor az első
-
-esemény pontjától (az első esemény vágányán) függőleges vonalat húz vízszintes
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -5710,6 +5648,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 83/526|
 
 
+iránya szerinti első vágányhoz rajzolja az esemény idejénél és onnan vízszintes
+vonalat húz az esemény vágányáig.
+
+  - Ha az egy menetvonalhoz tartozó, de különböző szolgálati helyen lévő, egymást
+
+követő esemény pontokat össze kell kötni, akkor a szolgálati helyek szélső vágányai
+között húz egyenes vonalat és ott a menetvonalat megtörve az esemény idejénél, az
+esemény vágányáig vízszintes vonalat húz.
+
+  - Ha az adott szolgálati helyen két eseménye van a menetvonalnak, akkor az első
+
+esemény pontjától (az első esemény vágányán) függőleges vonalat húz vízszintes
 úttengely esetén (függőleges úttengely esetén vízszintes vonalat) a második esemény
 idejéig. Ha a második esemény vágánya eltérő, akkor a második esemény idejénél
 vízszintes vonalat húz a két esemény vágánya között vízszintes úttengely esetén
@@ -5766,19 +5716,6 @@ ellentettje.)
 
         - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
 
-        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-        - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
-
-        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
-A kis nyilacskát vízszintes úttengely esetén a szolgálati hely jobb oldaláról, függőleges
-úttengely esetén felülről rajzolja a következő esetekben:
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5790,6 +5727,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 84/526|
 
+
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
+A kis nyilacskát vízszintes úttengely esetén a szolgálati hely jobb oldaláról, függőleges
+úttengely esetén felülről rajzolja a következő esetekben:
 
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
@@ -5859,19 +5810,6 @@ A kis nyilacskát vízszintes úttengely esetén a szolgálati hely jobb oldalá
 
 (áthaladás)
 
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-       - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
-
-(áthaladás)
-
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5884,6 +5822,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 85/526|
 
 
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+        - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
+
+(áthaladás)
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 
   - Ha az Esemény be/kilépés jelző (SzakaszBeKiJel) értéke 3 (be és kilépés), akkor egy
 
@@ -5938,16 +5889,6 @@ a menetvonal haladási iránya szempontjából utolsó (szélső) vágány melle
 vonatszám vagy az irányszám. Állomási vágányok megjelenítése esetén az előző
 pontban leírtak szerint.
 
-  - Ha a menetvonal kilép, majd visszatér az adott vonalra/menetirányítói szakaszra,
-
-akkor annál az eseménynél, ahol visszatér, ha az esemény megfelel a szűrési
-feltételeknek. Állomási vágányok megjelenítése esetén, a menetvonal visszatérése
-felöli szélső vágány mellett (függőleges úttengely esetén alatt, vagy felett)
-
-  - Ha a menetvonal ábrázolása megszakad, akkor annál az eseménynél, ahol újraindul.
-
-**2.2.3.7.1.5** **Körjelölők**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -5962,6 +5903,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 86/526|
 
+
+
+  - Ha a menetvonal kilép, majd visszatér az adott vonalra/menetirányítói szakaszra,
+
+akkor annál az eseménynél, ahol visszatér, ha az esemény megfelel a szűrési
+feltételeknek. Állomási vágányok megjelenítése esetén, a menetvonal visszatérése
+felöli szélső vágány mellett (függőleges úttengely esetén alatt, vagy felett)
+
+  - Ha a menetvonal ábrázolása megszakad, akkor annál az eseménynél, ahol újraindul.
+
+**2.2.3.7.1.5** **Körjelölők**
 
 Ha a megjelenítési beállítások szerint szükség van körjelölésekre (Kör jelölők megjelenítése
 ikon bekapcsolt), akkor az ábrázolt eseménypontoknál (a menetvonal és a szolgálati hely
@@ -6015,14 +5967,6 @@ szolgáltatástól kapott adatok szerint az eseménynél a Helytelen vágányra 
 rajzolja. Ez a jelölés a menetvonalon lehet az út tengelyen nem látható szolgálati helyek
 között is.
 
-**Tény és előrejelzés adatok ábrázolása**
-
-A tény és előrejelzés adatok (amennyiben a megjelenítési beállítások szerint szükséges az
-előrejelzés adatok megjelenítése) megjelenítéséhez és Időhenger üzemmód esetén 30 m p
-**–**
-ként az adatok frissítéséhez a kliens program meghívja az **S_0151_05** **Tényadatok**
-**lekérdezése** (TenyadatokQuery) szolgáltatást a következő paraméterekkel:
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6035,6 +5979,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 87/526|
 
 
+**Tény és előrejelzés adatok ábrázolása**
+
+
+
+A tény és előrejelzés adatok (amennyiben a megjelenítési beállítások szerint szükséges az
+előrejelzés adatok megjelenítése) megjelenítéséhez és Időhenger üzemmód esetén 30 m p
+**–**
+ként az adatok frissítéséhez a kliens program meghívja az **S_0151_05** **Tényadatok**
+**lekérdezése** (TenyadatokQuery) szolgáltatást a következő paraméterekkel:
 
 - Menetirányítói szakasz kód: Ha az A_0151_02 ablakon menetirányítói szakaszt
 
@@ -6098,16 +6051,6 @@ szűrése ablak adott át Vonatszám tartományokat.)
 
 át Eltérés a menetrendtől –tól adatot)
 
-- Eltérésig (perc) (Csak akkor kitöltött, ha az A_0151_05 – Adatok szűrése ablak adott
-
-át Eltérés a menetrendtől –ig adatot)
-
-- Forgalmi késési főkódok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok
-
-szűrése ablak adott át Késési főkódokat)
-
-`o` Késési főkód id: Az A_0151_05 ablaktól kapott Késési főkód id
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6120,6 +6063,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 88/526|
 
 
+
+  - Eltérésig (perc) (Csak akkor kitöltött, ha az A_0151_05 – Adatok szűrése ablak adott
+
+át Eltérés a menetrendtől –ig adatot)
+
+  - Forgalmi késési főkódok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok
+
+szűrése ablak adott át Késési főkódokat)
+
+`o` Késési főkód id: Az A_0151_05 ablaktól kapott Késési főkód id
 
   - Késési segédkódok listája (Csak akkor kitöltött, ha az A_0151_05 – Adatok szűrése
 
@@ -6165,15 +6118,6 @@ Kozlekedo jelző értéke true).
 közlekedő vonatok menetvonalát jeleníti meg (Amelyeknél az **S_0151_05**
 szolgáltatástól kapott Kozlekedo jelző értéke false).
 
-  - Ha az  - Feloszlatott vonatok megjelenítése ikon bekapcsolt, akkor csak a
-feloszlatott vonatok menetvonalát jeleníti meg (Amelyeknél az **S_0151_05**
-szolgáltatástól kapott Feloszlatott jelző értéke true).
-
-Ha a megjelenítési beállítások szerint nincs szükség az előrejelzés adatok megjelenítésére,
-akkor Az **S_0151_05 – Tényadatok lekérdezése** (TenyadatokQuery) szolgáltatás a
-menetvonalaknak csak a tény eseményeit adja vissza. Ha a megjelenítési beállítások szerint az
-előrejelzés adatokat is meg kell jeleníteni, akkor az **S_0151_05** szolgáltatás visszaadja a
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6186,6 +6130,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 89/526|
 
 
+
+  - Ha az  - Feloszlatott vonatok megjelenítése ikon bekapcsolt, akkor csak a
+feloszlatott vonatok menetvonalát jeleníti meg (Amelyeknél az **S_0151_05**
+szolgáltatástól kapott Feloszlatott jelző értéke true).
+
+Ha a megjelenítési beállítások szerint nincs szükség az előrejelzés adatok megjelenítésére,
+akkor Az **S_0151_05 – Tényadatok lekérdezése** (TenyadatokQuery) szolgáltatás a
+menetvonalaknak csak a tény eseményeit adja vissza. Ha a megjelenítési beállítások szerint az
+előrejelzés adatokat is meg kell jeleníteni, akkor az **S_0151_05** szolgáltatás visszaadja a
 menetvonalak a tény és előre jelzett eseményeit is. Az **S_0151_05** szolgáltatás kimenő
 adataiban az esemény jellege (EsemJelleg) határozza meg, hogy az adott esemény tény („T”)
 vagy előrejelzés („E”) esemény.
@@ -6194,7 +6147,7 @@ szerint hajtja végre:
 
 **2.2.3.7.2.1** **Egy menetvonalhoz tartozó tény és előrejelzés adatok**
 
-Az egy menetvonalhoz tartozó tény és előrejelzés eseményeket az események idej e (EsemIdo)
+Az egy menetvonalhoz tartozó tény és előrejelzés eseményeket az események ideje (EsemIdo)
 és szolgálati hely e (SzhId) (ha a megjelenítési beállítások szerint nincs szükség a vágányok
 megjelenítésére, Állomási vágány nézet ikon kikapcsolt) szerint helyezi el a koordináta
 rendszerben.
@@ -6230,17 +6183,87 @@ tartózkodást jelölve):
 `o` Az S_0151_05 szolgáltatás által visszaadott adatokban az Esemény típus id
 
 (EsemTipId) értéke 2 (indulás) vagy 0 (tartózkodás)
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 90/526|
+
+
 `o` Az S_0151_05 szolgáltatás által visszaadott adatokban a Menetvonal indító/cél
 
 jelző (MenetvIndCelJel) értéke NULL vagy „c”
 
-`o` Ha a közlekedés irányára szűrni kell (a     - Páros viszonylat megjelenítése és
+`o` Ha a közlekedés irányára szűrni kell (a   - Páros viszonylat megjelenítése és
 
-a         - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
+a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
 egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
 (Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
 
-  - Ha a menetvonalhoz kapott első eseménynél teljesülnek a következő feltételek, akkor
+- Ha a menetvonalhoz kapott első eseménynél teljesülnek a következő feltételek, akkor
+
+vonallal [#88992 vége] 45 fokos szöget zár be (Ez azt jelképezi, hogy a kiválasztott
+vonalon/menetirányítói szakaszon a menetvonalnak van korábbi eseménye is, csak
+kívül esik a lekérdezett tartományon időben vagy térben.):
+
+`o` Az esemény szolgálati helye látható a grafikonon, [#88992 ] illetve ha az eseményt
+
+#88981 ~~munkavégzés~~ ~~helyéhez~~ ~~tartozik~~, ~~akkor~~ ~~a~~ ~~munkavégzés~~ ~~helyea~~ szolgálati
+helyek közé kell rajzolni, akkor az esemény [#88981vége] előtti és utáni szolgálati
+hely is látható a grafikonon [ #88992 vége]
+`o` Esemény típus id (EsemTipId) értéke 1 (érkezés) vagy 6 (áthaladás)
+`o` Esemény be/kilépés jelző (SzakaszBeKiJel) értéke NULL (közbenső esemény)
+
+vagy 2 (kilépés)
+
+`o` Ha a közlekedés irányára szűrni kell (a   - Páros viszonylat megjelenítése és
+
+a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
+egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
+(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
+A kis vonalkát a menetvonalhoz, vízszintes úttengely esetén a szolgálati hel y [#88992 ]
+vagy a [#88981] ~~munkavégzés~~ ~~helyének~~ ~~s~~ zol g ál ati helyek között húzott vonal [#88981vége #88992 ]
+
+vége bal oldaláról, függőleges úttengely esetén alulról rajzolja a következő esetekben:
+
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)(Mivel
+áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
+értéket tartalmazza és az érkezésre vonatkozó érték ennek az
+
+ellentettje.)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -6258,66 +6281,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
 |---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 90/526|
+|Készítette/módosította:|Változat: 1.03|Oldal: 91/526|
 
 
-~~helyénél~~ szolgálati helyek között húzott [#88981vége], a szolgálati helyekkel pár h u zam o s,
-vonallal [#88992 vége] 45 fokos szöget zár be (Ez azt jelképezi, hogy a kiválasztott
-vonalon/menetirányítói szakaszon a menetvonalnak van korábbi eseménye is, csak
-kívül esik a lekérdezett tartományon időben vagy térben.):
-
-`o` Az esemény szolgálati helye látható a grafikonon, [#88992 ] illetve ha az eseményt
-
-#88981 ~~munkavégzés~~ ~~helyéhez~~ ~~tartozik~~, ~~akkor~~ ~~a~~ ~~munkavégzés~~ ~~helyea~~ szolgálati
-helyek közé kell rajzolni, akkor az esemény [#88981vége] előtti és utáni szolgálati
-hely is látható a grafikonon [ #88992 vége]
-`o` Esemény típus id (EsemTipId) értéke 1 (érkezés) vagy 6 (áthaladás)
-`o` Esemény be/kilépés jelző (SzakaszBeKiJel) értéke NULL (közbenső esemény)
-
-vagy 2 (kilépés)
-
-`o` Ha a közlekedés irányára szűrni kell (a  - Páros viszonylat megjelenítése és
-
-a     - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
-egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
-(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
-A kis vonalkát a menetvonalhoz, vízszintes úttengely esetén a szolgálati hel y [#88992 ]
-vagy a [#88981] ~~munkavégzés~~ ~~helyének~~ ~~s~~ zol g ál ati helyek között húzott vonal [#88981vége #88992 ]
-
-vége bal oldaláról, függőleges úttengely esetén alulról rajzolja a következő esetekben:
-
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
-
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
-
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
-
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
-
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)(Mivel
-áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
-értéket tartalmazza és az érkezésre vonatkozó érték ennek az
-
-ellentettje.)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
-
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
-
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 A kis vonalkát a menetvonalhoz vízszintes úttengely esetén a szolgálati hely [#88992]
 vagy a [#88981] ~~munkavégzés~~ ~~helyének~~ szolgálati helyek között húzott vonal [#88981vége ]
 
@@ -6325,27 +6291,14 @@ vagy a [#88981] ~~munkavégzés~~ ~~helyének~~ szolgálati helyek között húz
 következő esetekben:
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
 
-     és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
 értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-     - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 91/526|
-
-
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
 
        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
 
@@ -6403,20 +6356,6 @@ párhuzamosan [ #88992 vége], a program vonalat húz a lekérdezett időszak v�
 `o` Az S_0151_05 szolgáltatás által visszaadott adatokban az Esemény típus id
 
 (EsemTipId) értéke 1 (érkezés) vagy 0 (tartózkodás)
-`o` Az S_0151_05 szolgáltatás által visszaadott adatokban a Menetvonal indító/cél
-
-jelző (MenetvIndCelJel) értéke NULL vagy „i”
-
-`o` Ha a közlekedés irányára szűrni kell (a   - Páros viszonylat megjelenítése és
-
-a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
-egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
-(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
-
-- Időhenger üzemmód esetén, ha a menetvonalhoz kapott utolsó eseménynél teljesülnek
-
-a következő feltételek és az esemény jellege „E” – Előrejelzés akkor a lekérdezett
-időszak végéig, ha az esemény jellege „T”- Tény, akkor az idővonalig húz vonalat a
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -6433,6 +6372,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 92/526|
 
 
+`o` Az S_0151_05 szolgáltatás által visszaadott adatokban a Menetvonal indító/cél
+
+jelző (MenetvIndCelJel) értéke NULL vagy „i”
+
+`o` Ha a közlekedés irányára szűrni kell (a   - Páros viszonylat megjelenítése és
+
+a       - Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az
+egyik/ bekapcsolt) és a menetvonal két irányú közlekedést tartalmaz
+(Viszonylat=0), akkor az esemény iránya (Irany) megfelel a szűrésnek.
+
+- Időhenger üzemmód esetén, ha a menetvonalhoz kapott utolsó eseménynél teljesülnek
+
+a következő feltételek és az esemény jellege „E” – Előrejelzés akkor a lekérdezett
+időszak végéig, ha az esemény jellege „T”- Tény, akkor az idővonalig húz vonalat a
 program az esemény pontjától a szolgálati hely vonalán, [#88992 ] vagy ha a Szolgálati
 hely felé belső azonosítója (SzhIdIg) kitöltött, akkor a Szolgálati hely (S zh I d ) és a
 Szolgálati hely felé (SzhIdIg) között, a Szolgálati helytől (SzhId) a kap o t t t ávo l ság ban
@@ -6484,21 +6437,6 @@ A menetvonal rajzolását kis vonalkával, vízszintes úttengely esetén a szol
 
 (áthaladás)
 
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-       - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
-
-(áthaladás)
-
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-A menetvonal rajzolását kis vonalkával, vízszintes úttengely esetén a szolgálati hely
-#88992 vagy a #88981 ~~munkavégzés~~ ~~hely~~ ~~ének~~ szol gálati helyek között húzott vonal #88981vége
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6510,6 +6448,22 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 93/526|
 
+
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+        - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
+
+(áthaladás)
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+A menetvonal rajzolását kis vonalkával, vízszintes úttengely esetén a szolgálati hely
+#88992 vagy a #88981 ~~munkavégzés~~ ~~hely~~ ~~ének~~ szol gálati helyek között húzott vonal #88981vége
 
 #88992 vége jobb oldalán, függőleges úttengely esetén felül folytatja a következő
 esetekben:
@@ -6564,6 +6518,19 @@ Vágányok megjelenítése esetén az egy menetvonalhoz tartozó eseménypontoka
 előrejelzés események pontokat is, a menetvonal forgalmi vonatnemének megfelelő stílusú
 (amit vagy a felhasználóhoz elmentett vagy egy alapértelmezett stílus és vonalkészlet
 tartalmaz) vonallal köti össz e. [92919], ~~de~~ ~~az~~ ~~előrejelzés~~ ~~eseményekhez~~ ~~és~~ ~~az~~ ~~előrejelzés~~
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 94/526|
+
+
 ~~eseményektől~~ ~~vékonyabb~~ ~~vonalat~~ ~~húz~~, ~~valamint~~ ~~vékonyabb~~ ~~nyilakat~~ ~~rajzol~~ . A menetvonalak
 vonalainak megrajzolását a következő módon végzi:
 
@@ -6580,19 +6547,6 @@ vonalat húz az esemény vágányáig.
   - Ha az egy menetvonalhoz tartozó, de különböző szolgálati helyen lévő, egymást
 
 követő esemény pontokat össze kell kötni, akkor a szolgálati helyek szélső vágányai
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 94/526|
-
-
 között húz egyenes vonalat és ott a menetvonalat megtörve az esemény idejénél, az
 esemény vágányáig vízszintes vonalat húz.
 
@@ -6643,24 +6597,6 @@ A kis nyilacskát vízszintes úttengely esetén a szolgálati hely bal oldalár
 értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
 
-        - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
-
-        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)(Mivel
-áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
-értéket tartalmazza és az érkezésre vonatkozó érték ennek az
-
-ellentettje.)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
-        - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
-
-        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6673,6 +6609,24 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 95/526|
 
 
+
+       - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)(Mivel
+áthaladás esetén az EsemAllVegpont jelző az indulásra vonatkozó
+értéket tartalmazza és az érkezésre vonatkozó érték ennek az
+
+ellentettje.)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
+
+       - és az Esemény típus id (EsemTipId) értéke 1 (érkezés)
+
+       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
        - és az Esemény típus id (EsemTipId) értéke 6 (áthaladás)
 
@@ -6733,26 +6687,6 @@ A kis nyilacskát vízszintes úttengely esetén a szolgálati hely bal oldalán
 értéke „k” (a szolgálati hely kezdő pontja felöli esemény esetén)
 `o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
-       - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
-
-(áthaladás)
-
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-A kis nyilacskát vízszintes úttengely esetén a szolgálati hely jobb oldalán,
-függőleges úttengely esetén felül rajzolja a következő esetekben:
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
-
-       - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
-
-(áthaladás)
-
-       és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
-
-értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
-`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -6765,6 +6699,26 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 96/526|
 
 
+
+        - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
+
+(áthaladás)
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+A kis nyilacskát vízszintes úttengely esetén a szolgálati hely jobb oldalán,
+függőleges úttengely esetén felül rajzolja a következő esetekben:
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen kezdőpont felöli
+
+        - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
+
+(áthaladás)
+
+        és az Állomás kezdő/végpontja felöli esemény jelző (EsemAllVegpont)
+
+értéke „v” (a szolgálati hely végpontja felöli esemény esetén)
+`o` Ha a szolgálati helyek elhelyezése az úttengelyen végpont felöli
 
         - és az Esemény típus id (EsemTipId) értéke 2 (indulás) vagy 6
 
@@ -6814,6 +6768,22 @@ kilépést jelző nyilacskát az az S_0151_05 szolgáltatástól kapott Esemény
 (SzakaszBeKiJel) értéke alapján rajzolja, ami Busz-os esemény esetén 2 (kilépés) értéket
 tartalmaz.)
 
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+**törölt:** 2.2.3.10.4
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 97/526|
+
+
+
   - Az eseménynél az S_0151_05 szolgáltatástól kapott Busz jelző értéke true
 
   - Az esemény szolgálati helye látható az út tengelyen
@@ -6825,24 +6795,6 @@ iránya (Irany) megfelel a szűrésnek.
 A menetvonalakhoz tartozó vonatok számát az irányszámmal és „Rk” jelöléssel együtt
 vízszintesen írja ki a program, a menetvonal színével megegyező színnel, a következő
 helyeken dinamikusan elhelyezve, hogy ne fedjék egymást:
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** 2.2.3.10.4
-
-**törölt: R**
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 97/526|
-
-
 
   - Ha a menetvonal ábrázolása a grafikon széléről indul, akkor a grafikus terület és a
 
@@ -6893,26 +6845,13 @@ rajzol körjelölőt.
 
 ha a vonat még nem indult el, egy sablonban előre meghatározott színű (zöld)
 kitöltött karikát rajzol.
-`o` „R” esetén, ami rendkívüli feloszlatást vagy indulás visszavonást jelez, ha még
-
-nincs új készrejelentése a vonatnak, [#97445 ] vagy azt, hogy új készrejelentésre
-van szükség előrejelzés törlése miatt, [ #97445vége] e gy sablonban előre
-meghatározott színű (piros) kitöltött karikát rajzol.
-
-  - #88981 Időhenger üzemmódban, ha a megjelenítési beállítások szerint szü k ség v an
-körjelölésekre (Kör jelölők megjelenítése ikon bekapcsolt), akkor a vonats zám m al
-együtt, a vonatszám mögött is rajzol körjelölőt a program. A vonatszám mög ö t t i
-körjelölőt az S _ 0151 _ 05 szolgáltatás Másod jelölő (MasodJelolo) mezőj éb en k ap o t t
-értéknek megfeleően rajzolja:
-
-`o` Ha NULL szerepel a mezőben, akkor nem rajzol körjelölőt a vonatszám u t án.
-`o` „F ” esetén, ami feltaróztatást jelez, egy sablonban előre meghatározo tt színű
-
-(piros) karikát rajzol. [ #88981vége]
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+**törölt: R**
 
 
 -----
@@ -6922,6 +6861,22 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 98/526|
 
 
+`o` „R” esetén, ami rendkívüli feloszlatást vagy indulás visszavonást jelez, ha még
+
+nincs új készrejelentése a vonatnak, [#97445 ] vagy azt, hogy új készrejelentésre
+van szükség előrejelzés törlése miatt, [ #97445vége] e gy sablonban előre
+meghatározott színű (piros) kitöltött karikát rajzol.
+
+  - #88981 Időhenger üzemmódban, ha a megjelenítési beállítások szerint szü k ség v an
+körjelölésekre (Kör jelölők megjelenítése ikon bekapcsolt), akkor a von ats zám m al
+együtt, a vonatszám mögött is rajzol körjelölőt a program. A vonatszám mög ö t t i
+körjelölőt az S _ 0151 _ 05 szolgáltatás Másod jelölő (MasodJelolo) mezőj éb en k ap o t t
+értéknek megfeleően rajzolja:
+
+`o` Ha NULL szerepel a mezőben, akkor nem rajzol körjelölőt a vonatszám u t án.
+`o` „F ” esetén, ami feltaróztatást jelez, egy sablonban előre meghatároz o tt színű
+
+(piros) karikát rajzol. [ #88981vége]
 
   - Ha a megjelenítési beállítások szerint szükség van körjelölésekre (Kör jelölők
 
@@ -6970,18 +6925,6 @@ szolgáltatástól kapott adatok szerint az eseménynél a Foglalt vágány jelz
   - Az esemény szolgálati helye látható az út tengelyen.
 
   - Ha a közlekedés irányára szűrni kell (a  - Páros viszonylat megjelenítése és a  Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az egyik/ bekapcsolt)
-és a menetvonal két irányú közlekedést tartalmaz (Viszonylat=0), akkor az esemény
-iránya (Irany) megfelel a szűrésnek
-
-**2.2.3.7.2.9** **Helytelen vágány**
-
-Ha egy eseménynél helytelen vágányra indulás történik, vagyis az S_0151_05 szolgáltatástól
-kapott adatok szerint az eseménynél a Helytelen vágányra ind. jelző (HelytVaganyraInd)
-értéke igaz, akkor ezt a program azzal jelzi, hogy az adott szolgálati hely és a menetvonal
-következő szolgálati helye közötti menetvonal szakaszt vastagabb vonallal rajzolja. Ez a
-jelölés a menetvonalon lehet az út tengelyen nem látható szolgálati helyek között is.
-
-**2.2.3.7.2.10** **Eltérések megjelenítése**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -6994,6 +6937,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 99/526|
 
+
+és a menetvonal két irányú közlekedést tartalmaz (Viszonylat=0), akkor az esemény
+iránya (Irany) megfelel a szűrésnek
+
+**2.2.3.7.2.9** **Helytelen vágány**
+
+Ha egy eseménynél helytelen vágányra indulás történik, vagyis az S_0151_05 szolgáltatástól
+kapott adatok szerint az eseménynél a Helytelen vágányra ind. jelző (HelytVaganyraInd)
+értéke igaz, akkor ezt a program azzal jelzi, hogy az adott szolgálati hely és a menetvonal
+következő szolgálati helye közötti menetvonal szakaszt vastagabb vonallal rajzolja. Ez a
+jelölés a menetvonalon lehet az út tengelyen nem látható szolgálati helyek között is.
+
+**2.2.3.7.2.10** **Eltérések megjelenítése**
 
 Ha a megjelenítési beállítások szerint az eltéréseket meg kell jeleníteni (Eltérések
 megjelenítése ikon bekapcsolt) és egy eseménynél teljesülnek a következő feltételek, akkor az
@@ -7043,18 +6999,6 @@ az Esemény be/kilépés jelző (SzakaszBeKiJel) értéke nem NULL, akkor az
 **–**
 **S_0151_01** **Megjelenítési beállítások lekérdezése** (MegjelenitesiBeallitasokQuery)
 szolgáltatástól kapott, a Be/kilépő eltérések megjelenítésére vonatkozó, beállítás (ami
-a felhasználóhoz elmentett vagy alapértelmezett beállítás) szerint meg kell jeleníteni a
-Be/kilépésekhez tartozó eltéréseket.
-
-  - Ha a közlekedés irányára szűrni kell (a  - Páros viszonylat megjelenítése és a  Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az egyik/ bekapcsolt)
-és a menetvonal két irányú közlekedést tartalmaz (Viszonylat=0), akkor az esemény
-iránya (Irany) megfelel a szűrésnek.
-
-**2.2.3.7.2.12** **#88980** **Csatlakozásra várást jelképező** **ikonok kezelése**
-
-Ha a következő feltételek teljesülnek, akkor a program az adott menetvonal adott
-
-eseményéhez csatlakozásra várást jelképező ikont helyez el a grafikonon.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -7068,6 +7012,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 100/526|
 
 
+a felhasználóhoz elmentett vagy alapértelmezett beállítás) szerint meg kell jeleníteni a
+Be/kilépésekhez tartozó eltéréseket.
+
+  - Ha a közlekedés irányára szűrni kell (a  - Páros viszonylat megjelenítése és a  Páratlan viszonylat megjelenítése ikonok közül az egyik /és csak az egyik/ bekapcsolt)
+és a menetvonal két irányú közlekedést tartalmaz (Viszonylat=0), akkor az esemény
+iránya (Irany) megfelel a szűrésnek.
+
+**2.2.3.7.2.12** **#88980** **Csatlakozásra várást jelképező** **ikonok kezelése**
+
+Ha a következő feltételek teljesülnek, akkor a program az adott menetvonal adott
+
+eseményéhez csatlakozásra várást jelképező ikont helyez el a grafikonon.
 
   - A megjelenítési beállítások szerint a csatlakozásra várást meg kell j elen íten i
 
@@ -7117,6 +7073,19 @@ CsatlakozasId)
 Az A _ 0151 _ 10 ablak bezárása után a kliens program a frissítéshez szükséges
 szolgáltatások meghívása után frissíti a grafikon tartalmát.
 
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 101/526|
+
+
+
   - Irányítói üzemmód esetén, a csatlakozásra várást jelképező ikon kijelö l t l es z, a szín e
 
 pirosra változik. (A grafikon más objektumra vagy üres területre (az ikons o rt k i v év e)
@@ -7133,19 +7102,6 @@ működésének leírása az ikonok nevének megfelelő pontban található [#88
 Ha egy **ábra** irányítói **szerkesztés** módban van megnyitva, akkor a menetvonal és az érintett
 szolgálati hely **metszéspontjában**, a legfelső szinten (ez látható elsődlegesen) egy jelölő
 jelenik meg a következők szerint:
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 101/526|
-
-
 
   - Ha az S_0151_01 – **MegjelenitesiBeallitasokQuery** (Megjelenítési beállítások
 
@@ -7192,6 +7148,19 @@ zöld alapszínét.
 
 Az A_0151_01 ablakon a PASS2 adatbázisba bedolgozott, meghatározott feltételeknek eleget
 tevő RDE eseményeket jeleníti meg a rendszer, amennyiben az RDE események
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 102/526|
+
+
 megjelenítése ikon bekapcsolt állapotú. Az RDE adatok megjelenítéséhez szükséges forrás
 adatokat az **S_0151_19** **–** **RDE adatok lekérdezése** szolgáltatás biztosítja a kliens számára.
 
@@ -7207,19 +7176,6 @@ Az **S_0151_19** hívás az alábbi bemenő paraméterekkel történik:
   - Vonal id (VonalId): Ha az A_0151_02 ablakon vonalat választott ki, akkor annak a
 
 belső azonosítója, egyébként NULL
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 102/526|
-
-
 
   - Menetirányítói szakasz kódja (MisKod): Ha az A_0151_02 ablakon menetirányítói
 
@@ -7268,13 +7224,6 @@ Az **S_0151_19** szolgáltatás kimenő paraméterei között kapott Megjelenít
 
 VaganyId is, ez alapján kell a kapott vágányon megjeleníteni az RDE eseményt
 ábrázoló téglalapot. A téglalap egy kicsit túllóg a vágányt jelző vonalon. Amennyiben
-a kapott VaganyId nem MGM vágány, akkor a kliens a fiktív vágányra rajzolja az
-RDE eseményt.
-
-  - **”s” – szolgálati hely** (kis téglalap): Ebben az esetben a kimenő paraméterben szereplő
-
-szolgálati hely -tól (SzhTol) érték alapján kell a szolgálati helyen ábrázolni az RDE
-eseményt jelölő téglalapot. Amennyiben a vágányok megjelenítése bekapcsolt akkor a
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -7288,6 +7237,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 103/526|
 
 
+a kapott VaganyId nem MGM vágány, akkor a kliens a fiktív vágányra rajzolja az
+RDE eseményt.
+
+- **”s” – szolgálati hely** (kis téglalap): Ebben az esetben a kimenő paraméterben szereplő
+
+szolgálati hely -tól (SzhTol) érték alapján kell a szolgálati helyen ábrázolni az RDE
+eseményt jelölő téglalapot. Amennyiben a vágányok megjelenítése bekapcsolt akkor a
 téglalap az összes vágányt magába foglalja. A téglalap egy kicsit túllóg a szolgálati
 helyet jelölő vonalon.
 
@@ -7310,11 +7266,6 @@ hosszát a szolgáltatástól kapott szolgálati hely -tól (SzhTol) és szolgá
 (SzhIg) értékek határozzák meg. A szakaszok kicsit túllógnak a végpontot jelző
 szolgálati helyet jelölő vonalon.
 
-`o` Amennyiben az aktuális kamera nézeten kívül helyezkedik el az „l” - vonal
-típusú RDE időbeli kezdetét jelző szakasz, akkor az összekötő szakasz
-látható, valamint az aktuális nézet felső részén „lebeg” az összekötő
-szakaszon ábrázolt háromszög.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -7326,6 +7277,11 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 104/526|
 
+
+`o` Amennyiben az aktuális kamera nézeten kívül helyezkedik el az „l” - vonal
+típusú RDE időbeli kezdetét jelző szakasz, akkor az összekötő szakasz
+látható, valamint az aktuális nézet felső részén „lebeg” az összekötő
+szakaszon ábrázolt háromszög.
 
 `o` Amennyiben az aktuális kamera nézeten kívül helyezkedik el az „l” - vonal
 típusú RDE időbeli végét jelző szakasz, akkor az összekötő szakasz látható,
@@ -7359,6 +7315,19 @@ szolgáltatás ezeket nemn adja át.)
   - Egy RDE eseményre bal egér gombbal kattintva (vagy több objektum esetén az RDE-t
 
 bal egér gombbal kiválasztva a megjelenő context menüből) az RDE objektumot
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 105/526|
+
+
 kijelöltté teszi a kliens és az S_0151_19 szolgáltatástól kapott RDE kapcsán érintett
 menetvonalak (ErintettMenetvIds) halmazán kívül eső menetvonalakat a háttérrbe
 helyezi, azaz elszürkített (behind) állapotba kerülnek. A kijelölést megszüntetve a
@@ -7375,18 +7344,6 @@ RDE azonosító (RdeAzon) + ’ ’ + ’[’ + Késési forgalmi főkód (FoKod
 pl.: 20200317-028 [6B]
 
   - Vasútvállalati felhasználó esetén:
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 105/526|
-
 
 RDE azonosító (RdeAzon) + ’[’ + Késési UIC kód (UicKod) + ’]’
 
@@ -7427,6 +7384,18 @@ Az RDE információs terület részletes leírása a dokumentum 2.2.3.10.6 pontj
 
 **2.2.3.9** **Forgalomszabályozási műveletek grafikus támogatása**
 
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 106/526|
+
+
 **Irányítói** üzemmódban a választott forgalomszabályozási műveletnek megfelelően a
 meghatározott **eseményeknél** egy „vezérlőpálca” jelenik meg, amely **megragadásával** és
 **mozgatásával** lehet az előre jelzési adatokat grafikusan **szerkeszteni** .
@@ -7441,6 +7410,8 @@ ellenőrzésre kerül, hogy nem lehet a múltban.
 `o` A vezérlőpálca a **vonat** haladási **iránya** szerint jelenik meg:
       - **Érkezési** eseménynél az **előző** szolgálati hely felé mutat.
       - **Indulási/áthaladási** eseménynél a **következő** szolgálati hely felé mutat.
+      - Ha a **vágányok** „nyitva vannak”, akkor az **ábra irányának** megfelelően az
+**esemény** **végpontja** *(’EsemAllVegpont’)* felöli **oldalon** jelenik meg.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -7449,47 +7420,25 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 **törölt:** **[88961]**
 
+**törölt:** [106724]
+
+**törölt:** [106724]
+
+**törölt:** **csak**
+
+**törölt:** **érkezési** eseményidőt módosítja.¶
+Az
+
+**törölt:** **nem** változik.
+
 
 -----
 
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
 |---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 106/526|
+|Készítette/módosította:|Változat: 1.03|Oldal: 107/526|
 
 
-      - Ha a **vágányok** „nyitva vannak”, akkor az **ábra irányának** megfelelően az
-**esemény** **végpontja** *(’EsemAllVegpont’)* felöli **oldalon** jelenik meg.
-
-- Az eseményhez tartozó **előrejelzett** időadat módosítás a hozzá tartozó **vezérlőpálca**
-megragadásával és **mozgatásával** végezhető el.
-`o` A vezérlőpálca **megragadás** után annak színe pirosra változik, mellette megjelenik a
-hozzátartozó **időadat.**
-`o` 106724 Ha a vezérlőpálca által meghatározott eseményhez a **’** **ModJel** **’** **=** **TRUE**, akkor
-a színe **zöld** lesz.
-`o` A szerkesztés pontosságának segítésére a **vezérlőpálca mozgatásakor** az időadat a
-kurzor által meghatározott időadatra **módosul** .
-`o` A vezérlőpálca **nem** mozgatható az előző esemény idejénél **korábbi** időre, de azzal
-egyenlő időre igen.
-`o` 106724 H a az **érkezési** vezérlőpálcát ragadják meg és **mozgatják**, akkor az előrejelzés
-vonal **meredeksége** módosul az **előző** nem oh, pvh típusú szolgálati hely **indulási**
-ideje módosítása **nélkül** .
-      - Az érkezési eseményt **követő** események ideje **a művelet leírás szerint**
-változik.
-
-      - Az **érkezési** esemény **új ideje nem** lehet az **előző** nem oh, pvh típusú szolgálati
-hely indulási idejénél **korábbi** **ÉS** nem lehet a **következő** esemény idejénél
-**későbbi** .
-
-**csak** az **indulási** eseményt és az ábrán az **utána** levő eseményeket is módosítja. (A
-szolgálati helyi „tartózkodási idő” módosul.)
-A szolgálati hely **érkezési** esemény ideje **nem** módosul, az indulási esemény utáni
-események ideje az új indulási idő figyelembevételével módosulnak.
-
-      Az új indulási eseményidő nem lehet az érkezési eseményidőnél korábbi.
-      - Az új áthaladási eseményidő nem lehet az **előző** nem oh, pvh típusú szolgálati
-hely indulási idejénél **korábbi** .
-
-jelenik meg, ha ahhoz nem tartozik nem tartozik tényvonal. [ 106724 vége]
 
 - Előrejelzés **létrehozásakor**, módosításakor az előrejelzés vonalhoz tartozó **vonatszám** a
 vezérlőpálca **elengedésekor** kerül a vonalhoz igazításra.
@@ -7508,53 +7457,7 @@ A **funkció** csak **Irányítói** üzemmódban érhető el egy **menetrendi**
 
 - A grafikon „ **Új előrejelzés** ” üzemmódra vált át, megjelenik az ehhez tartozó **fejléc** és
 **szerkesztő** panel.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** bal egér gombbal ÉS a szerkesztőpanelen a „Csak
-érkezés” kapcsoló bekapcsolt
-
-**törölt:** **csak**
-
-**törölt:** **érkezési** eseményidőt módosítja.¶
-Az
-
-**törölt:** **nem** változik.
-
-**törölt:** <#>Ha az **érkezési** vezérlőpálcához tartozó
-szerkesztőpanelen a „ **Csak érkezés** ” kapcsoló **kikapcsolt**, akkor a
-szolgálati hely **érkezési és indulási** eseményideje is módosul, és a
-következő események ideje is módosul.¶
-Az **érkezési** esemény **új ideje nem** lehet az **előző** nem oh, pvh
-típusú szolgálati hely indulási idejénél **korábbi**  
-**törölt:** <#>Egy vezérlőpálca elengedésekor ellenőrzésre kerül,
-hogy az általa meghatározott idő nem lehet a múltban. Ha az, akkor
-„A tervezett eseményidő nem lehet korábbi, mint az aktuális idő!”
-popup **üzenet** jelenik meg.¶
-
-**törölt:** [94036]
-
-**törölt:** [94036 vége]
-
-**törölt:** [94036]
-
-**törölt:** [94036] [vége]
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 107/526|
-
-
 93048
-
-
-
 
 - **Fejlécben** megjelenik az **„Új előrejelzés”** szöveg, az **ábra** megnevezése, a felhasználói
 aktivitást jelző idősáv, a < **Ment** >, < **Visszavon**   - és a < **Mégsem**   - nyomógombok, és a
@@ -7583,6 +7486,35 @@ szolgáltatás ’K_VEF.k_kod’).
 meghatározott adatokat tartalmazza *(’MenetrendiAdatokQuery’ ’Esemenyek’ lista*
 *’EsemIdo’ dátum és idő, perc pontossággal)*, és **kezelhető** .
 `o` 93048 **„H.vg** **”** **kapcsoló** a menetvonal helytelen vágányra indul jelző.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+**törölt:** [94036]
+
+**törölt:** [94036 vége]
+
+**törölt:** [94036]
+
+**törölt:** [94036] [vége]
+
+**törölt:** Több vonatazonosító esetén vesszővel elválasztva jeleníti
+meg őket a kliens.
+
+**törölt:** [94036]
+
+**törölt:** [94036]
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 108/526|
+
+
 Ha a ’ MenetrendiAdatokQuery ’ ’ Esemenyek ’ lista ’ MGMHelytVaganyraInd ’ = 1,
 akkor bekapcsolt. Kikapcsolható.
 `o` **„3.vg** **”** **kapcsoló** a menetvonal a harmadik helytelen vágányra indul jelző.
@@ -7605,32 +7537,7 @@ grafikonról, csak egy menetrendi adata van.
 - A **grafikonon** a menetvonal adataival megjelenik egy új **vezérlőpálca** **ÉS** egy **előrejelzés**
 vonal (részletek „Új előrejelzés” ikon kezelése leírás).
 
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** Több vonatazonosító esetén vesszővel elválasztva jeleníti
-meg őket a kliens.
-
-**törölt:** [94036]
-
-**törölt:** [94036]
-
-**törölt:** [94036 vége]
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 108/526|
-
-
 **2.2.3.9.2.2** **Működés**
-
-
-
 
 - A **vezérlőpálca** bal egérgombbal **megragadása** után annak az **időtengellyel** párhuzamos
 **mozgatásával** **VAGY** a szerkesztő panelen az új dátum és az **idő módosításával** adható
@@ -7668,6 +7575,26 @@ grafikon időszakán kívül esik!”
       - Ha a ’ MenetrendiAdatokQuery ’ ’ Esemenyek ’ lista
 ’ MGMHelytVaganyraInd ’ = 1, akkor **bekapcsolt** . Kikapcsolható.
 
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+**törölt:** [94036 vége]
+
+**törölt:** [94036]
+
+**törölt:** [94036 vége]
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 109/526|
+
+
+
       - A „3.vg ” kapcsolóval **nem** lehet **egyszerre** bekapcsolva, bekapcsolásakor az
 kikapcsolódik.
 
@@ -7695,24 +7622,6 @@ kiválasztott.
 
       - **Bekapcsolásakor** a grafikonon a következő állomástípusú szolgálati helyig
 vastagabb lesz az előrejelzés vonal.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** [94036]
-
-**törölt:** [94036 vége]
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 109/526|
-
-
 
       - **Kikapcsolásakor**, ha az a menetrendben volt előírva, a következő állomásig
 megszűnik a helytelen vágányon közlekedés előírás, az előrejelzés vonal
@@ -7754,35 +7663,9 @@ azonosítója.
 - A szerkesztő **panelen** kezelt:
 `o` < **Ment**  - nyomógomb kezelésekor:
 
-kerül az előrejelzést végző S_0151_42 **ForgSzabMuveletElokeszitesCommand**
-szolgáltatás, ami a feltételek ellenőrzése után az usp_0202_updMenetvElorejelzes2
-eljárás meghívásával létrehozza az előre jelzést.
-      - **Bemenő** adatok:
-
-      - **’MenetvId’**       - a módosítandó előrejelzés menetvonal MGM azonosítója.
-
-      - **’AbraId’**       - az érintett ábra azonosítója.
-
-      - **’MunkahelyId’**       - az ábra munkahelyazonosítója.
-
-      - **’Megerositve’**       - az esetleges megerősítés ténye.
- **Első** híváskor = **FALSE** .
- Ha a szolgáltatás UC_01_51_CONF_SZEM_VON_KORAI_IND
-üzenetet adott vissza **ÉS** a felhasználó a megerősítő üzenetre < **Igen**            választ adott, akkor **TRUE.**
-
-      - **[{Esemény lista}]** egy elemű lista, a **vezérlőpálca** által meghatározott
-esemény **adatait** tartalmazza.
- **’SzhId’**     - annak a szolgálati helynek a belső azonosítója, amelytől az
-
-előrejelzést létre kell hozni, vagy módosítani kell. Minden esetben
-kötelező
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** [94036]
 
 
 -----
@@ -7791,6 +7674,29 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 110/526|
 
+
+kerül az előrejelzést végző S_0151_42 **ForgSzabMuveletElokeszitesCommand**
+szolgáltatás, ami a feltételek ellenőrzése után az usp_0202_updMenetvElorejelzes2
+eljárás meghívásával létrehozza az előre jelzést.
+ - **Bemenő** adatok:
+
+   - **’MenetvId’**   - a módosítandó előrejelzés menetvonal MGM azonosítója.
+
+   - **’AbraId’**   - az érintett ábra azonosítója.
+
+   - **’MunkahelyId’**   - az ábra munkahelyazonosítója.
+
+   - **’Megerositve’**   - az esetleges megerősítés ténye.
+ **Első** híváskor = **FALSE** .
+ Ha a szolgáltatás UC_01_51_CONF_SZEM_VON_KORAI_IND
+üzenetet adott vissza **ÉS** a felhasználó a megerősítő üzenetre < **Igen**        választ adott, akkor **TRUE.**
+
+   - **[{Esemény lista}]** egy elemű lista, a **vezérlőpálca** által meghatározott
+esemény **adatait** tartalmazza.
+ **’SzhId’**   - annak a szolgálati helynek a belső azonosítója, amelytől az
+
+előrejelzést létre kell hozni, vagy módosítani kell. Minden esetben
+kötelező
 
 helyének érintési sorszáma. - ’ModOk’ = 1 esetén nem kerül átadásra.
  **’ModOk’**   - a módosítás oka.
@@ -7828,33 +7734,13 @@ sorának ' SzhId ' adata alapján a ’ MenetrendiAdatokQuery ’ esemény lista
  - Az eljárás **ellenőrzi**, hogy:
 
    - 100569 Hogy a kezdő időpont nem lehet a **múltban** .
-Ha a szolgáltatás **UC_01_51_ER** **R** **_KORAI_ESEM_IDO** **hibaüzenetet**
-ad, akkor popup ablakban: „151023: A tervezett eseményidő nem lehet a
-rendszeridőnél korábbi! ” üzenet jelenik meg, marad az üzemmód és marad a
-menetvonal kijelölés. *(Jelenleg a klien* *s* *ellenőrzi, az eljárás ilyet nem ad vissza.)*
-
-   - 100569 Nem lehet a grafikon **időszakánál** későbbi.
-Ha a szolgáltatás **UC_01_51_ERR_KESON_INDULO_VONAT**
-hibaüzenetet ad, akkor popup ablakban „151036: A vonat várható indulási
-ideje későbbi, mint a grafikonon k ezelt időszak vége ” . **hibaüzenetet** ad,
-marad az üzemmód és marad a m e netvonal kijelölés. *(Jelenleg a kliens*
-*ellenőrzi, az eljárás ilyet nem ad vissza* *.)*
-
-   - Az adott **munkahely** a felhasználó által van **lefoglalva** .
-Ha UC_01_51_ERR_ERVENYTELEN_FOGLALAS üzenetet ad vissza
-„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
-üzenetet ad, nem történik meg a létrehozás.
-
-   - **Nincs** létező **tény** /előrejelzés adata.
-Ha UC_01_51_ERR_ELOREJELZE_LETEZIK üzenetet ad vissza, akkor
-„ **151019** : Előrejelzés nem hozható létre, már létezik.” üzenetet ad, nem
-történik meg a létrehozás. A feldolgozás leáll, kilép a szerkesztés
-üzemmódból, a menetvonal kijelöltsége megmarad.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
+
+**törölt:** [94036]
 
 **törölt:** [96834]
 
@@ -7870,6 +7756,28 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 111/526|
 
 
+Ha a szolgáltatás **UC_01_51_ER** **R** **_KORAI_ESEM_IDO** **hibaüzenetet**
+ad, akkor popup ablakban: „151023: A tervezett eseményidő nem lehet a
+rendszeridőnél korábbi! ” üzenet jelenik meg, marad az üzemmód és marad a
+menetvonal kijelölés. *(Jelenleg a klien* *s* *ellenőrzi, az eljárás ilyet nem ad vissza.)*
+
+    - 100569 Nem lehet a grafikon **időszakánál** későbbi.
+Ha a szolgáltatás **UC_01_51_ERR_KESON_INDULO_VONAT**
+hibaüzenetet ad, akkor popup ablakban „151036: A vonat várható indulási
+ideje későbbi, mint a grafikonon k ezelt időszak vége ” . **hibaüzenetet** ad,
+marad az üzemmód és marad a m e netvonal kijelölés. *(Jelenleg a kliens*
+*ellenőrzi, az eljárás ilyet nem ad vissza* *.* *)*
+
+    - Az adott **munkahely** a felhasználó által van **lefoglalva** .
+Ha UC_01_51_ERR_ERVENYTELEN_FOGLALAS üzenetet ad vissza
+„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
+üzenetet ad, nem történik meg a létrehozás.
+
+    - **Nincs** létező **tény** /előrejelzés adata.
+Ha UC_01_51_ERR_ELOREJELZE_LETEZIK üzenetet ad vissza, akkor
+„ **151019** : Előrejelzés nem hozható létre, már létezik.” üzenetet ad, nem
+történik meg a létrehozás. A feldolgozás leáll, kilép a szerkesztés
+üzemmódból, a menetvonal kijelöltsége megmarad.
 
     - Az **új** indulási idő nem lehet **korábbi**, mint a **menetrendszerinti** indulás
 idő mínusz a **legkorábbi indulási idő** paraméter (’min_ind_esem_ido’).
@@ -7904,13 +7812,26 @@ menetvonal kijelöltsége megmarad.
 `o` < **Visszavon** - nyomógomb kezelésekor szolgáltatás hívás nincs, az új előrejelzés
 vonal és annak adatai visszaállnak a menetrendszerinti adatokra. (Adatmentés nincs,
 az üzemmód új előrejelzés készítése marad.)
-`o` < **Mégsem** - nyomógomb kezelésekor a grafikon mentés nélkül kilép az „Új
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 112/526|
+
+
+`o` < **Mégsem**  - nyomógomb kezelésekor a grafikon mentés nélkül kilép az „Új
 előrejelzés” üzemmódból, az új előrejelzés vonal „eltűnik”, a menetrendi vonal
 kijelölése megszűnik, a többi menetvonal kijelölhető lesz, a „funkciók” ikonsor
 marad a „ **Szerkesztés** ” ikonon.
 
 `o` **Felhasználói aktivitás lejártakor**
-   - 100302 Ha **popup üzenet** van a grafikonon **ÉS** a felhasználó az **aktivitási** figyelő
+      - 100302 Ha **popup üzenet** van a grafikonon **ÉS** a felhasználó az **aktivitási** figyelő
 **lejártáig** nem kezelte le azt, akkor az üzenet **automatikusan** **bezárásra** kerül,
 újabb **szolgáltatás** hívás **nélkül** *(a megerősítő üzenetet úgy tekintjük, mintha*
 *nemleges választ adott volna a felhasználó)* a grafikon mentés nélkül **kilép** az
@@ -7923,24 +7844,7 @@ szolgáltatás. A szolgáltatás a feltételek ellenőrzése után az
 usp_0202_updMenetvElorejelzes2 eljárás meghívásával létrehozza az előre
 jelzést.
 
-    - **Bemenő adatok** a <Ment> nyomógomb leírásánál.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
-**törölt:** [95926] A szerkesztőpanelen a **felhasználó aktivitásának**
-**lejártakor**, ha
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 112/526|
-
-
+      - **Bemenő adatok** a <Ment> nyomógomb leírásánál.
 
       - Ha a szolgáltatás **hiba** **üzenetet** ad vissza, az „ **elnyomásra** ” kerül, a
 grafikon mentés nélkül kilép az „Új előrejelzés” üzemmódból, az új
@@ -7958,49 +7862,27 @@ marad az újonnan létrehozott előrejelzés vonal, a „funkciók” ikonsor ma
 
 **[106724]** **„** ~~**Előrejelzés**~~ ~~**módosítása”**~~ ~~**funkció**~~ ~~**(érkezés**~~ **,** ~~**indulás**~~ **,** ~~**áthaladás)**~~ **A fejezet**
 
-**törölve lett összevonás miatt**
+**törölve lett összevonás miatt** **[106724vége]**
 
-**[106724]** **„** ~~**Tartózkodási**~~ ~~**idő**~~ ~~**módosítása”**~~ ~~**fu**~~ **n** ~~**k**~~ **c** ~~**ió**~~ **A fejezet törölve lett összevonás**
+**[106724]** **„** ~~**Tartózkodási**~~ ~~**idő**~~ ~~**módosítása”**~~ ~~**fun**~~ **k** ~~**ció**~~ **A fejezet törölve lett összevonás**
 
-**miatt**
+**miatt** **[106724vége]**
 
 **[106724]** ~~**Rendkívüli**~~ ~~**áthaladás**~~ ~~**(megállás**~~ ~~**kihagyása)**~~ ~~**funkci**~~ ~~**ó**~~ **A fejezet törölve lett**
 
-**összevonás miatt**
+**összevonás miatt** **[106724vége]**
 
-**[106724]** ~~**Rendkívüli**~~ ~~**megállás**~~ ~~**funkció**~~ **A fejezet törölve lett összevonás miatt**
+**[106724]** ~~**R**~~ ~~**endkívüli**~~ ~~**megállás**~~ ~~**funkció**~~ **A fejezet törölve lett összevonás miatt**
 
-**[106724]** **Előrejelzés módosítása funkció (érkezés, indulás, tartózkodási idő,**
-
-**rendkívüli megállás és áthaladás)**
-
-Egy **előrejelzés vonal**, azon belül egy esemény ( **vezérlőpálca** ) kiválasztása után a
-**vezérlőpálca** bal egérgombbal **megragadásával** annak az **időtengellyel** párhuzamos
-**mozgatásával** **VAGY** a szerkesztő **panelen** a dátum és az **idő**, illetve **egyéb adatelemek**
-**módosításával** szerkeszthető.
-
-*(Az előrejelzett eseményidő(k) módosításának mentése után egy térben* *k* *o* *rá* *b* *b* *i* *e* *lő* *r* *e* *je* *lz* *é* *s*
-*módosítás vagy tényesemény rögzítés hatására készülő új előrejelzéskor az* *é* *r* *in* *te* *tt e* *s* *e* *mé* *n* *y* *is*
-*módosul. Az irányító által „legkorábbi indulási időként* *”* *(esemény indulás* *ÉS* *M* *o* *d* *Ok* *=* *3* *)*
-*módosított indulási eseményidő csak akkor módosul, ha az új előrejelzett ind* *u* *lá* *s* *i e* *s* *e* *mén* *y* *id* *ő* *az*
-*irányító által megadott előrejelzett indulási időnél későbbi lesz.)*
-
-Egy előrejelzés vonal **összes** az ábrán szereplő előrejelzett adata **módosítható** a **mentésig**,
-azok **egyszerre** kerülnek **elmentésre** .
-
-**2.2.3.9.3.1** **Megjelenés, elérés**
-
-A **funkció** csak **Irányítói** üzemmódban érhető el **egy előrejelzés** vonal kijelölése után a
-„ **Szerkesztés** ” menüsor „ **Előrejelzés módosítása [Alt+e]** ” **ikon** kezelésével (lásd
-„Előrejelzés módosítása [Alt+e] ” ikon leírás).
-
-A grafikon „ **Előrejelzés** **módosítása** ” üzemmódra vált át, megjelenik az ehhez tartozó **fejléc**
-és a **szerkesztő** panel.
+**106724vége**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
+
+**törölt:** [95926] A szerkesztőpanelen a **felhasználó aktivitásának**
+**lejártakor**, ha
 
 **törölt:** [95926 vége]
 
@@ -8012,63 +7894,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 113/526|
 
 
-
-- **Fejlécben** megjelenik az:
-`o` **„Előrejelzés módosítása** **”** szöveg.
-`o` Az **ábra** megnevezése *(az A* *_* *0151* *_* *02 ablaktól kapott* *’* *megjelenitendoNev* *’* *)* .
-`o` A felhasználói **aktivitást** figyelő **idősáv.**
-`o` A kiválasztott **művelet** leírása = **„Eseményidő módosítás** **”**,
-*(A művelet leírás a panelen levő „műveleti* *”* *kapcsolók állapotától függ:*
-       - *Ha* ***egyik*** *„műveleti* *”* *(„Áthalad [Alt+á]* *”* *, „Tart. idő mód. [Alt+t]* *”* *, „Min. ind. idő*
-
-*[Alt+i]* *”* *, „Megáll [Alt+m]* *”* *) kapcsoló* ***sincs*** *bekapcsolva, akkor „* ***Eseményidő***
-
-*”*
-***módosítása*** *.*
-       - *Ha az „* ***Áthalad [Alt+á]*** *”* *kapcsoló* ***van*** *bekapcsolva, akkor* ***„Rendkívüli áthaladás***
-
-***”***
-***tervezése*** *.*
-       - *Ha a „* ***Megáll [Alt+m]*** *”* *kapcsoló* ***van*** *bekapcsolva, akkor* ***„Rendkívüli megállás***
-
-***”***
-***tervezése*** *.*
-       - *Ha a „* ***Tart. idő mód. [Alt+t]*** *”* *kapcsoló* ***van*** *bekapcsolva, akkor* ***„Tartózkodási idő***
-
-***”***
-***módosítása*** *.*
-
-       - *Ha a „* ***Min. ind. idő [Alt+i]*** *”* *kapcsoló* ***van*** *bekapcsolva, akkor* ***„Legkorábbi indulási***
-***idő megadása*** ***”*** *.)*
-`o` A < **Ment** >, a < **Visszavon**  - és a < **Mégsem**  - nyomógombok, valamint a
-szerkesztéshez szükséges **ikonok** *(idővonalra ugrás, nagyítások, kicsinyítések,*
-*alapértelmezett kameranézet)* .
+**2.2.3.9.3.1** **Megjelenés, elérés**
 
 - A **szerkesztőpanel** **négy** oszlopos.
-
-- A **szerkesztőpanelen** megjelennek a következő **adatelemek** :
-`o` Az **első** oszlop a **kijelölés adatai** t jeleníti meg.
-
-      - **”**
-**„Vonatazonosító** megjelenítő mező.
-
-      - A **kiválasztott** előrejelzésvonal **első** **vonatazonosítója** .
-
-      - **20** karakter széles, 99999       - 2 / éééé.hh.nn **formátumú** . *(* *’* *VonatszamIrszam* *’* *+* *’*
-*/* *’* *+ (* *’* *IndDatum* *’* *)*
-
-      - **”**
-**„Szolgálati** **hely** megjelenítő mező:
-**Üres** .
-
-      - „ **Esemény** ” megjelenítő mező.
-**Üres** .
-
-`o` A **második** oszlopban az **érkezési eseménnyel** kapcsolatos **vezérlőelemek** vannak.
-      - **„Érkezési idő** **”** dátum       - idő választó.
-**Üres, nem** kezelhető **.**
-      - **„Áthalad [Alt+á]** **”** kapcsoló *(CheckBox)*       - A vonat rendkívüli módon áthalad
-jelző.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8082,78 +7910,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 114/526|
 
 
-
-      - **Gyorsító** billentyű kombinációja **Alt+á.**
-
-      - **Kikapcsolt, nem** kezelhető **.**
-
-      - **”**       **„Megáll [Alt+m]** kapcsoló *(CheckBox)* A vonat rendkívüli módon megáll
-jelző.
-
-      - **Gyorsító** billentyű kombinációja **Alt+m** .
-
-      - **Kikapcsolt, nem** kezelhető.
-`o` A **harmadik** oszlopban a **tartózkodással** kapcsolatos **vezérlőelemek** vannak.
-      - **„Tart. idő. mód. [Alt+t]** **”** kapcsoló *(CheckBox)*       - Tartózkodási idő módosítás
-jelző.
-
-      - **Gyorsító** billentyű kombinációja **Alt+t.**
-
-      - **Kikapcsolt**, **nem** kezelhető **.**
-      - **„Tartózkodási idő** **”** szám beviteli mező *(MaskedInput)* .
-
-      - **4 karakter** hosszú, **0 is** írható.
-
-      - **Üres**, **nem** kezelhető **.**
-`o` A **negyedik** oszlopban az **indulási/áthaladási** eseménnyel kapcsolatos
-**vezérlőelemek** vannak.
-
-      - **”**       **„Min. ind. idő [Alt+i]** kapcsoló *(CheckBox)* legkorábbi indulási idő
-módosítása jelző.
-
-      - **Gyorsító** billentyű kombinációja **Alt+i.**
-
-      - **Kikapcsolt, nem** kezelhető.
-      - **„Indulási idő** **”** dátum       - idő választó *(DateTimeInput)* .
-
-      - **Üres**, **nem** kezelhető **.**
-
-      - **”**       **„H.vg [Alt+h]** kapcsoló *(CheckBox)* A vonat helytelen vágányra indul jelző.
-
-      - **Gyorsító** billentyű kombinációja **Alt+h** .
-
-      - **Kikapcsolt, nem** kezelhető.
-
-      - **”**       **„3.vg [Alt+3]** kapcsoló *(CheckBox)* A vonat a helytelen harmadik vágányra
-indul jelző.
-
-      - **Gyorsító** billentyű kombinációja **Alt+3** .
-
-      - **Kikapcsolt, nem** kezelhető.
-      - **„Szolg. helyig** **”** választólista *(DropDownList)*       - A helyes/helytelen vágányon
-közlekedés a megadott szolgálati helyig tart.
-
-      - A menetvonalnak a **tényadatokban** szereplő, az ábrán még **hátralevő** **nem**
-**megállóhely** típusú *(* *'* *selUttengelyAd* *a* *tok.SzhTipusKod* *'* *<> 2)* szolgálati helyeit
-tartalmazza a haladás iránya szeri nti sorrendben (a szolgálati hely vft         - n
-belüli sorszámával *(* *’* *vft* *_* *index* *’* *)* a háttérben (nem jelenik meg)).
-
-      - Lehetséges, hogy a lista **nem tartalmaz** adatokat, mert a menetvonal „lelép ”
-a grafikonról, csak egy előrejelzett adata van.
-
-      - Az **üres** sor a kiválasztott, **nem** kezelhető.
-
-- A **grafikonon** a kiválasztott előrejelzés vonalon megjelennek a **vezérlőpálcák.**
-
-**2.2.3.9.3.2** **A szerkesztőpanel adatelemeinek összefüggései, működése**
-
-- A grafikonon egy **vezérlőpálcára** **kattintás** után a **szerkesztőpanelen** az adatelemek az
-adott **esemény** által meghatározott **szolgálati hely** eseményadatival kitöltésre kerülnek *(a*
-*’* *TenyadatokQuery.Esemenyek* *’* *lista alapján).*
-
-A panelen **minden** adatelem **megjelenik**, de csak a **feltételek** t elj esü l és e eseté n
-**kezelhetők** .
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -8166,59 +7922,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 115/526|
 
 
-`o` **Kiválasztott** esemény adatai (1.) oszlop:
-   - **„Vonatazonosító** **”** megjelenítő mező.    - A kiválasztott **vezérlőpálca** által
-meghatározott **szolgálati helyhez** tartozó **első** **esemény** *(ha vezérlőpálca eseménye*
-*indulás, akkor az érkezési esemény)* **vonatazonosítója** .
 
-   - **„Szolgálati** **hely** **”** az **esemény** szolgálati helyének rövid neve. *(* *’* *SzhId* *’* *alapján a*
-*tengely adatokból* *’* *SzhRovidNev* *’* *.)*
-   - „ **Esemény** ” a kiválasztott **esemény** **kódja** *(* *’* *EsemTipId* *’*  *’* *K* *_* *007* *_* *lang* *’*
-*szolgáltatás* *’* *K* *_* *VEF.k* *_* *kod* *’* *.)*
+- A **grafikonon** a kiválasztott előrejelzés vonalon megjelennek a **vezérlőpálcák.**
+
+**2.2.3.9.3.2** **A szerkesztőpanel adatelemeinek összefüggései, működése**
 
 `o` **Érkezési** esemény adatai (2.) oszlop
-
-   - **„Érkezési idő** **”** dátum   - idő választó.
-
-    - A **kiválasztott** esemény **szolgálati helyéhez** tartozó **érkezési** esemény
-*(* *’* *EsemTipId* *’* *=* *1*  *’* *EsemIdo* *’* *)* idejév el **kitöltött** . Lehet **üres** is.
-
-    - Akkor **módosítható, ha kitöltött** :
- Ha a **kiválasztott** esemény **érk** **ez** **és** *(* *’* *EsemTipId* *’* *=* *1)* VAGY **indulás**
-
-*(* *’* *EsemTipId* *’* *=* *2)* **ÉS** az „ **Áthalad** **[Alt+á]** ” kapcsoló **kikapcsolt** .
- Ha a **kiválasztott** esemény **áthaladás** *(* *’* *EsemTipId* *’* *=* *6)* **ÉS** a „ **Megáll**
-
-”
-
-**[Alt+m]** kapcsoló **bekapcsolt** .
-Az **áthaladási esemény idő** értékével *(* *’* *EsemTipId* *’* *=* *6*  *’* *EsemIdo* *’* *)*
-lesz **kitöltve** .
-
-    - **Módosításakor** :
- A mező elhagyásakor **ellenőrzé** **sr** **e** kerül, hogy:
-
- Nem lehet **korábbi**, mint a **rendszeridő** . *(Ideértve a mező törlését*
-
-*is.)*
-Ha az, akkor „A tervezett eseményidő nem lehet korábbi, mint az
-aktuális idő! ” popup **üzenet** jelenik meg.
- Nem lehet **korábbi**, mint a **megelőző** esemény ideje.
-
-Ha az, akkor „A tervezett eseményidő nem lehet korábbi, mint az
-előző eseményidő! ” popup **üzenet** jelenik meg.
- Nem lehet a **grafikon** időszakánál **későbbi** .
-
-Ha az, akkor popup ablakban **hibaüzenetet** ad: „A megadott idő a
-grafikon időszakán kívül esik! ”
- Ha a „ **Tart. idő mód.** **[Alt+t]** **”** kapcsoló **bekapcsolt**, akkor **nem**
-
-**”**
-lehet az „ **Indulási idő** mező értélénél **későbbi** .
-Ha az, akkor „A tervezett esemény idő nem lehet a következő
-esemény idejénél később! ” popup **üzenet** jelenik meg.
-Az üzeneteket **lekezelve** az **eredeti** idő visszaírásra kerül, az érkezési és
-indulási eseménynél a **’** **ModJel** **’** és a **’** **ModOk** **’** értéke **nem** változik.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8232,67 +7941,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 116/526|
 
 
- Ha **egyik** **„műveleti** **”** *(„Tart. id* *ő* *mód. [Alt+t]* *”* *, „Min. ind. idő [Alt+i]* *”* *,*
 
-*„Megáll* *[Alt+m]* *”* *)* **kapcsoló** **sincs** bekapcsolva:
-*(Az érkezési és indulási eseménynél is a* *’* *ModOk* *’* *=* *NULL, beállítása az adott*
-*esemény módosításakor történik meg.)*
- A „ **Tartózkodási idő** ” mező értéke **nem** **módosul** .
- Az „ **Indulási idő** ” mező **módosul** .
- A **grafikonon** az **érkezési** **ÉS** az **indulási** vezérlőpálca is **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** = **TRUE**, a **’** **ModOk** **’** = **3**     
-idő módosítás lesz.
- Az **indulási** eseménynél a **’** **ModJel** **’** és a **’** **ModOk** **’** **nem** módosul.
- Ha a „ **Megáll [Alt+m]** ” kapcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** ***ÉS*** *az* ***áthaladási*** *eseménynél is* ***5*** *-* *rendkívüli*
-*megállás.)*
- A „ **Tartózkodási idő** ” mező értéke **nem** **módosul** .
- Az **„Indulási idő** **”** mező **módosul** .
- A **grafikonon** az **érkezési** vezérlőpálca **ÉS** az **indulási**
-
-vezérlőpálca **is** módosul.
- Az érkezési és az indulási **eseményeknél** a **’** **ModJel** **’** **=** **TRUE**
-
-**lesz.**
- Ha a **„Tart. idő mód. [Alt+t]** **”** k apcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a* ***kapcsoló*** *kezelésekor került*
-*beállításra: az* ***érkezési*** *eseménynél* ***3*** *-* *idő módosításra, az* ***indulási***
-*eseménynél* ***6*** *-* *tartózkodási idő módosításra.)*
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az „ **Indulási idő** ” mező **nem** módosul.
- A **grafikonon** az **érkezési** vezérlőpálca **módosul**, az **indulási**
-
-vezérlőpálca **nem** módosul.
- Az érkezési és az indulási **eseményeknél** a **’** **ModJel** **’** **=** **TRUE**
-
-lesz.
- Ha a „ **Min. ind. idő [Alt+i]** ” ka pc soló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** *és az* ***indulási*** *eseménynél is* ***3*** *-* *idő módosítás.)*
- A „ **Tartózkodási idő** ” mező értéke **nem** **módosul** .
- Az **„Indulási idő** **”** mező **módosul** .
- A **grafikonon** az **érkezési** ÉS az **indulási** vezérlőpálca is **módosul** .
- Az érkezési és az indulási **eseményeknél** a **’** **ModJel** **’** = **TRUE**
-
-lesz.
-
-   - Ha **visszakapja** **eredeti** értékét:
- Ha **egyik** „műveleti ” *(„Tart. idő* *mód. [Alt+t]* *”* *, „Min. ind. idő [Alt+i]* *”* *,*
-
-*„Megáll [Alt+m]* *”* *)* **kapcsoló** **sincs** bekapcsolva, akkor:
- Az **érkezési** eseménynél a **’** **ModJel** **’** = **FALSE**, a **’** **ModOk** **’** **=**
-
-**NULL** lesz.
- A „ **Tartózkodási idő** ” módosul.
- A **grafikonon** az **érkezési ÉS** az **indulási** vezérlőpálca is **módosul** .
- Az **indulási** eseménynél a **’** **ModJel** és a **’** **ModOk** **’** **nem** módosul.
- Ha a „ **Megáll [Alt+m]** ” kapcsoló **bekapcsolt** :
-
- A „ **Tartózkodási idő** ” mező értéke **nem** **módosul** .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8306,67 +7955,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 117/526|
 
 
- Az **„Indulási idő** **”** mező **módosul** .
- A **grafikonon** az **érkezési** vezérlőpálca **ÉS** az **indulási**
-
-vezérlőpálca **is** módosul.
- Az érkezési és az indulási **eseményeknél** a **’** **ModJel** **’** **=** **TRUE**
-
-**lesz.**
- Ha a **„Tart. idő. mód. [Alt+t]** **”** k a pcsoló **bekapcsolt** :
-
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az „ **Indulási idő** ” mező **nem** módosul.
- Az **érkezési** eseménynél a **’** **ModJel** **’** = **FALSE** lesz.
- Az **indulási** eseménynél a **’** **ModJel** **’** nem módosul.
- A **grafikonon** csak az **érkezési** vezérlőpálca módosul.
- Ha a „ **Min. ind. idő [Alt+i]** ” ka pc soló **bekapcsolt** :
-
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az **„Indulási idő** **”** mező **nem** **módosul** .
- A **grafikonon** **csak** az **érkezési** vezérlőpálca **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** = **FALSE** lesz.
- Az **indulási** eseménynél a **’** **ModJel** **’** = **TRUE** lesz.
-
-   - Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- - „ **Áthalad [Alt+á]** ” kapcsoló:
-
-   - **Alapértelmezetten** kikapcsolt.
-
-   - Akkor **kezelhető**, ha a **kiválasztott** esemény **érkezés** *(* *’* *EsemTipId* *’* *=* *1)*
-VAGY **indulás** *(* *’* *EsemTipId* *’* *=* *2)* .
-
-   - **Bekapcsolásakor:**
- **Meghívásra** kerül a **Fo** **r** **gSzabMuveletEllenorzesQuery**   Forgalomszabályozási művelet ellenőrzése szolgáltatás, amely
-ellenőrzi, hogy az adott szolgálati helyen a vonathoz rendkívüli
-áthaladás rögzíthető        - e.
- **Bemenő** adatok:
-
- **’** **MgmMvId** **’**     - a kijelölt menetvonal MGM belső azonosítója.
- **’** **SzhId** **’**     - a kijelölt szolgálati hely belső azonosítója.
- **’** **SzhIndex** **’**     - a kijelölt szolgálati hely vft     - n belüli sorszáma.
- **’** **ModOk** **’**     - a módosítás oka = „A ”     - rendkívüli áthaladás.
- **’** **Megerositve** **’**     - annak a jelzése, hogy a felhasználó a
-
-vonatkozó megerősítő üzenetet elfogadta, mentéskor már nem
-kell ellenőrizni bizonyos feltételeket = FALSE.
-*(Alapértelmezett FALSE az értéke, de egy a szolgáltatástól kapott*
-*megerősítő üzenet elfogadása esetén TRUE lesz. Később a mentéskor ezt*
-*a jelzőt az előrejelzés módosítás előkészítő eljárásnak át kell adni.)*
- Ha a **szolgáltatás** :
-
- UC_01_51_ **ERR** _ATHALADAS_ **IRANYVALTAS**
-
-„151015: Irányváltás miatt a rendkívüli áthaladás nem
-lehetséges! ” **VAGY**
- UC_01_51_ **ERR** _ATHALAD_ELTERO_ **OSSZEALLITAS**
-
-„151018: Eltérő vonatösszeállítás miatt a rendkívüli áthaladás
-nem lehetséges! ” **hibaüzenetet** **ad** vissza,
-**akkor:**
- A kapcsoló **kikapcsolt** állapotba kerül,
- a **fejlécben** „ **Eseményidő módosítás** ” szöveg **marad**,
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -8379,70 +7967,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 118/526|
 
 
- **nem** történik meg a rendkívüli áthaladáshoz szükséges
 
-**adatmódosítás** .
- Az esemény **kiválasztás** **megmarad** .
- Az érkezési és indulási **eseményeknél** a **’** **ModJel** **’** **ÉS** a
-
-**’** **’**
-**ModOk** értéke **nem változik** .
- Ha a **szolgáltatás** :
-
- UC_01_51_ **CONF** _SZEM_VON_ **ATHALAD** „151016:
-Személyszállító vonat! Tényleg rendkívüli módon áthalad? ”
-VAGY
- UC_01_51_ **CONF** _ATHALADAS_ **OSSZEALLITAS** _ **KEL**
-
-**L** „151017: A szolgálati helyen vonat        - összeállítás közlés
-kötelező. Valóban rendkívüli áthaladást tervez? ” *(ez az üzenet*
-*csak akkor jöhet, ha az előrejelzés készítés nem az aktuális*
-*összeállítás végéig történik)* üzenet ad vissza, akkor hozzájuk
-tartozó **megerősítő** üzenetet adja.
-< **Nem**      - esetén:
-
- A kapcsoló **kikapcsolt** állapotba kerül,
- a **fejlécben** „ **Eseményidő módosítás** ” szöveg **marad**,
- **nem** történik meg a rendkívüli áthaladáshoz szükséges
-
-**adatmódosítás** .
- Az érkezési és indulási **eseményeknél** a **’** **ModJel** **’** ÉS a
-
-**’** **’**
-**ModOk** értéke **nem változik** .
-< **Igen**      - esetén, vagy ha **nincs** üzenet:
-
- A panel **fejlécében** megjelenik a **„Rendkívüli áthaladás**
-
-**tervezése** **”** szöveg.
- Az „ **Érkezési idő** ” dátum     - idő választó **üres**, **nem kezelhető** .
- A **„Tart. idő mód. [Alt+t]** **”** kapcsoló **kikapcsolt**, **kezelhető** .
- A **„Tartózkodási idő** **”** szám beviteli mező **üres**, **nem**
-
-**kezelhető** .
- A **„Min. ind. idő [Alt+i]** **”** kapcsoló **kikapcsolt**, **kezelhető** .
- Az „ **Indulási idő** ” dátum     - idő választó az **„Érkezési idő** **”**
-
-értékével *(ha az „Érkezési idő* *”* *dátum* *-* *idő választó módosult, akkor*
-*azzal)* **kitöltött**, **módosítható** .
- A **grafikonon**
-
- Az **érkezési** vezérlőpálca **eltűnik.**
- Az **indulási** vezérlőpálca az „ **Indulási idő** ” mező
-
-értékének megfelelően **módosul** .
- *(A „Megáll* *[Alt+m]* *”* *kapcsoló kikapcsolt, védett.)*
- Az érkezési és az indulási **eseményhez** a **’** **Megerositve** **’** jelző
-
-értéke **TRUE** lesz, amit az eseményhez a mentésig,
-visszavonásig **tárol** .
- Az **érkezési** **ÉS** az **indulási** eseményhez **’** **ModJel** **’** nem
-
-változik, a **’** **ModOk** **’** = **4**              - rendkívüli áthaladás lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
-
-   - **Kikapcsolásakor:**
- A **panel** fejlécében megjelenik az **„Eseményidő módosítása** **”** szöveg.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8456,72 +7981,8 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 119/526|
 
 
- A panelen és a grafikonon is **v** **i** **sszaállításra** kerülnek a **bekapcsolás**
 
-**előtti** adatok, az **érkezési** és **indulási** eseményeknél a **’** **ModJel** **’** =
-**False**, a **’** **ModOk** **’** = **NULL** lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
 
-   - **”**
-**„Megáll [Alt+m]** kapcsoló
-
-    - **Alapértelmezetten** kikapcsolt.
-
-    - Akkor **kezelhető**, ha a **kiválasztott** esemény **áthaladás** *(* *’* *EsemTipId* *’* *=* *6)* .
-
-    - **Bekapcsolásakor:**
- A **panel** fejlécében megjelenik a z **„Rendkívüli megállás tervezése** **”**
-
-szöveg.
- *(Új „érkezés* *”* *adatok kerülnek fel* *véte* *lre.)*
- Az „ **Érkezési idő** ” mező az „In du lási idő ” mező értékével **kitöltött** lesz
-
-és **módosítható** .
- A „ **Tart. idő mód [Alt+t]** ” kapcsoló **kikapcsolt**, **nem** kezelhető.
- A **„Tartózkodási idő** **”** mező **0,** **k** **ezelhető** .
- *(A „Min. ind. idő [Alt+i]* *”* *kapcsoló* *kikapcsolt, nem kezelhető.)*
- Az **érkezési** és az **áthaladási** (új i ndulási) **eseményekhez** a **’** **ModJel** **’** =
-
-**TRUE**, a **’** **ModOk** **’** = **4**      - rendkívüli megállás lesz.
- Az **áthaladási** eseménynél a **’** **hv** **g** **ModJel** **’** **nem** módosul.
- A **grafikonon** az eseményhez t ar tozó **érkezési** vezérlőpálca megjelenik
-
-és **kezelhető** .
-
-    - **Kikapcsolásakor:**
- A **panel** fejlécében megjelenik az **„Eseményidő módosítása** **”** szöveg.
- Az „ **Érkezési idő** ” mező **üres** l es z, **nem** módosítható.
- A **grafikonon** az **érkezési** vezér lő pálca „ **eltűnik** ” .
- *(Az érkezési esemény adatok törlés* *r* *e kerülnek.)*
- A „ **Tart. idő mód [Alt+t]** ” kapcsoló **kikapcsolt**, **nem** kezelhető.
- A **„Tartózkodási idő** **”** mező **ü** **re** **s, nem** kezelhető.
- *(A „Min. ind. idő [Alt+i]* *”* *kapcsoló* *k* *ikapcsolt, nem kezelhető.)*
- Az „ **Indulási idő** ” mező **megtartja** az értékét, a **grafikonon** az
-
-**áthaladási** **vezérlőpálca** **nem** módosul.
- Az **áthaladási** eseményhez a **’** **ModJel** **’** nem változik, a **’** **ModOk** **’** = **6**    
-tartózkodási idő módosítás lesz.
- Az **áthaladási** eseménynél a **’** **hv** **g** **ModJel** **’** **nem** módosul.
-
-`o` **Tartózkodás** adatai (3.) oszlop:
-
-   - **”**
-**„Tart. idő mód. [Alt+t]** kapcsoló.
-*(A panelen csak az „Érkezési idő* *”* *és az „Indulási idő* *”* *mezők, illetve a grafikonon az*
-*érkezési és az indulási vezérlőpálcák egymáshoz való viszonyát szabályozza.)*
-
-    - **Alapértelmezetten** kikapcsolt.
-
-    - Akkor **kezelhető**, ha a **kiválasztott** esemény **érkezés** *(* *’* *EsemTipId* *’* *=* *1)*
-VAGY **indulás** *(* *’* *EsemTipId* *’* *=* *2)* .
-
-    - **Bekapcsolásakor:**
- A **panel** fejlécében megjelenik az **„Tartózkodási idő módosítása** **”**
-
-szöveg.
- Az „ **Áthalad [Alt+á]** ” kapcsoló **kikapcsolt**, **kezelhető** .
- *(A „Megáll [Alt+m]* *”* *kapcsoló ne* *m* *kezelhető.)*
- A „ **Min. ind** . **idő [Alt+i]** ” kapcsoló **kikapcsolt,** **kezelhető** .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8535,72 +7996,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 120/526|
 
 
- Az érkezési és az indulási **esemé** **n** **yeknél** a **’** **ModJel** **’** = **nem változik.**
- Az **érkezési** eseménynél a **’** **Mod** **O** **k** **’** **=** **3**    - idő módosítás lesz.
- Az **indulási** eseménynél a **’Mo** **dOk** **’** **=** **6** lesz    - tartózkodási idő
-
-módosítása lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
-
-    - **Kikapcsolásakor:**
- A **panel** fejlécében megjelenik az **„Eseményidő módosítása** **”** szöveg.
-
-Az **eseményeknél** a **’** **ModJel** **’** **nem** változik.
- Ha az **érkezési** eseménynél:
-
- A **’** **ModJel** **’** = **TRUE**, akkor a **’** **ModOk** **’** **nem** változik.
- A **’** **ModJel** **’** = **FALSE**, akkor a **’** **ModOk** **’** **=** **NULL** lesz.
- Ha az **indulási** eseménynél:
-
- A **’** **ModJel** **’** = **TRUE**, akkor a **’** **ModOk** **’** **nem** változik.
- A **’** **ModJel** **’** = **FALSE**, akkor a **’** **ModOk** **’** = **NULL** lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
-
-   - **„Tartózkodási idő** **”** szám beviteli mező:
-
-    - **Alapértelmezésben** az **„Indulási idő** **”** és az „ **Érkezési idő** **”** mező
-**különbségével** kitöltött.
-
-    - Akkor **írható**, ha az „ **Indulási** idő ” **ÉS** az „ **Érkezési** idő ” mező is **kitöltött** .
-
-    - **Módosításakor:**
- Ha **üres**, akkor „A tartózkodá si idő értéke 0 és 1439 közé kell, hogy
-
-essen! ” **üzenetet** ad. Az üzenet lekezelése után a mező az „Indulási idő ”
-és az „Érkezési idő ” különbségével **kitöltött** lesz.
- **Ellenőrzésre** kerül, hogy **nem** lehet a ’ menetv _ ervv _ utk ’
-**rendszerparaméter** által meghatározott percnél **nagyobb** .
-Ha az, akkor pop        - up **üzenetben** " A tartózkodási idő nem lehet
-% ’ T _ RPT.rparam _ ertek ’* 60% percnél nagyobb! " üzenetet ad és annak
-lekezelése után az eredeti tartózkodási időt **visszaírja** .
- Az „ **Érkezési** **idő** ” **nem** mód os ul, az eseménynél a **’** **ModJel** **’** nem
-
-változik.
- Az „ **Indulás** **idő** ” **módosul** .
- Az **indulási** eseménynél a **’** **Mo** **d** **Jel** **’** = **TRUE** lesz, a **’** **hvgModJel** **’**
-
-**nem** módosul.
- A **grafikonon** az indulási idő és a további esemény idők **módosulnak** .
-
-`o` **Indulási/áthaladási** esemény adatai (4.) oszlop
-
-   - **”**
-**„Min. ind. idő [Alt+i]** kapcsoló
-
-    - **Alapértelmezetten** kikapcsolt.
-
-    - Akkor **kezelhető**, ha a **kiválasztott** esemény **érkezés** ( ’ EsemTipId ’ = 1)
-VAGY **indulás** ( ’ EsemTipId ’ = 2).
-
-    - **Bekapcsolásakor:**
- A **panel** fejlécében megjel eni k az **„Legkorábbi indulási idő**
-
-**megadása** **”** szöveg.
- Az „ **Áthalad [Alt+á]** ” kapcsoló **kikapcsolt**, **kezelhető** .
- *(A „Megáll [Alt+m]* *”* *kapcsoló nem* *k* *ezelhető.)*
- A „ **Tart. idő mód [Alt+t]** ” kapcsoló **kikapcsolt**, **kezelhető** .
- Az érkezési és az indulási **esemé** **n** **yeknél:** a **’** **ModJel** **’** = **nem változik.**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -8613,67 +8008,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 121/526|
 
 
- Az **érkezési** eseménynél a **’** **Mod** **O** **k** **’** = **3**   - idő módosítás lesz.
- Az **indulási** eseménynél a **’** **Mo** **d** **Ok** **’** = **3**   - idő módosítás lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
 
-   - **Kikapcsolásakor:**
- A **panel** fejlécében megjelenik az **„Eseményidő módosítása** **”** szöveg.
- Az **eseményeknél** a **’** **ModJel** **’** nem változik.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- Az **érkezési** eseménynél a **’** **Mod** **O** **k** **’** **= 3** idő módosítás lesz.
- Az **indulási** eseménynél a **’** **Mod** **O** **k** **’** **= 6**   - tartózkodási idő módosítás
+`o` **Indulási/áthaladási** esemény adatai (4.) oszlop
 
-lesz.
 
- - **„Indulási idő** **”** dátum  - idő választó.
 
-   - A kiválasztott esemény **szolgálati helyéhez** tartozó **indulási** *(* *’* *EsemTipId* *’* *=*
-*2* *)* VAGY **áthaladási** *(* *’* *EsemTipI* *d’ =* *6)* esemény idejével *(* *’* *EsemIdo* *’* *)*
-**kitöltött** .
 
-   - Akkor **kezelhető,** ha:
- Ha a **kiválasztott** esemény **érk** **ezé** **s** *(* *’* *EsemTipId* *’* *=* *1)* **ÉS** tartozik hozzá
-
-**indulási** idő.
- A **kiválasztott** esemény **indulás** *(* *’* *EsemTipId* *’* *=* *2)* VAGY **áthaladás**
-
-*(* *’* *EsemTipId* *’* *=* *6)* .
-
-   - **Módosításakor** *(beleértve a „* ***Tartózkodási idő*** *”* *módosítás általi*
-*módosítást* ***is*** *)* :
- A mező elhagyásakor **ellenőrzé** **sr** **e** kerül, hogy:
-
- Nem lehet **korábbi**, mint a **rendszeridő** . *(Ideértve a törlését is.)*
-
-Ha az, akkor „A tervezett eseményidő nem lehet korábbi, mint az
-aktuális idő! ” popup **üzenet** jelenik meg.
- Nem lehet **korábbi**, mint a **megelőző** esemény ideje.
-
-Ha az, akkor „A tervezett eseményidő nem lehet korábbi, mint az
-előző eseményidő! ” popup **üzenet** jelenik meg.
- Nem lehet a **grafikon** időszakánál **későbbi** .
-
-Ha az, akkor popup ablakban **hibaüzenetet** ad: „A megadott idő a
-grafikon időszakán kívül esik! ”
-Az üzeneteket **lekezelve** az **eredeti** idő visszaírásra kerül, az
-indulási/áthaladási eseménynél a **’** **ModJel** **’** ÉS a **’** **ModOk** **’** értéke **nem**
-változik. Az **indulási** /áthaladási eseménynél a **’** **hvgModJel** **’** **nem**
-módosul.
- Ha **egyik** **„műveleti** **”** *(„Tart. id* *ő* *mód. [Alt+t]* *”* *, „Min. ind. idő [Alt+i]* *”* *,*
-
-*„Megáll [Alt+m]* *”* *)* **kapcsoló** **sincs** bekapcsolva:
-*(Az érkezési és indulási eseménynél is a* *’* *ModOk* *’* *=* *NULL, beállítása az adott*
-*esemény módosításakor történik meg.)*
- Az **„Érkezési idő** **”** mező értéke **nem** **módosul** .
- Ha a **kiválasztott** esemény **nem áthaladás** *(* *’* *EsemId* *’* *<> 6)*, akkor a
-
-”
-„ **Tartózkodási idő** mező értéke **módosul** .
- A **grafikonon** **csak** az **indulási/áthaladási** vezérlőpálca **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** ÉS a **’** **ModOk** **’** nem módosul.
- Az **indulási** eseménynél a **’** **ModJel** **’** = **TRUE**, a **’** **ModOk** **’** **=** **6**     
-tartózkodási idő módosítás lesz.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8687,68 +8027,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 122/526|
 
 
- Az **áthaladási** eseménynél a **’** **ModJel** **’** = **TRUE**, a **’** **ModOk** **’** **=** **3**     
-idő módosítás lesz.
- Az **indulási** /áthaladási eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- Ha az „ **Áthalad [Alt+á]** ” kapcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a* ***két*** ***eseménynél*** *a kapcsoló kezelésekor került*
-*beállításra:* ***’*** ***ModOk*** ***’*** *=* ***4*** *-* *rendkívüli áthaladás.)*
- A **grafikonon** az **indulási** vezérlőpálca **módosul,** az **előtte** levő
-
-előrejelzés **vonal meredeksége** változik **.**
- Mind a két eseménynél a **’** **ModJel** **’** = **TRUE** lesz, **indulási**
-
-eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- Ha a **„Tart. idő mód.** **[Alt+t]** **”** k apcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** *eseménynél* ***3*** *-* *idő módosításra, az* ***indulási***
-*eseménynél* ***6*** *-* *tartózkodási idő módosításra.)*
- Az „ **Érkezési idő** ” mező **nem** módosul.
- A **grafikonon** **csak** az **indulási** vezérlőpálca **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** **nem** módosul.
- Az **indulási** eseménynél a **’** **ModJel** **’** **=** **TRUE** lesz.
- Az **indulási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Ha a „ **Megáll [Alt+m]** ” kapcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** ***ÉS*** *az* ***áthaladási*** *eseménynél is* ***5*** *-* *rendkívüli*
-*megállás.)*
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az **„Érkezési idő** **”** mező **nem** **módosul** .
- A **grafikonon** az **érkezési** vezérlőpálca **nem**, az **áthaladási**
-
-vezérlőpálca módosul.
- Az **érkezési** és az **áthaladási** eseménynél a **’** **ModJel** **’** **=** **TRUE**
-
-**lesz.**
- Az **áthaladási** eseménynél **’** **hvgModJel** **’** **nem** módosul.
- Ha a „ **Min. ind. idő [Alt+i]** ” ka pc soló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** *és az* ***indulási*** *eseménynél is* ***3*** *-* *idő módosítás.)*
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az **„Érkezési idő** **”** mező **nem** **módosul** .
- A **grafikonon** csak az **indulási** vezérlőpálca **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** **nem** módosul.
- Az **indulási** eseménynél a **’** **ModJel** **’** = **TRUE** lesz, a **’** **hvgModJel** **’**
-
-**nem** módosul.
-
-   - Ha **visszakapja** **eredeti** értékét:
- Ha **egyik** „műveleti ” *(„Tart. idő* *mód. [Alt+t]* *”* *, „Min. ind. idő [Alt+i]* *”* *,*
-
-*„Megáll [Alt+m]* *”* *)* **kapcsoló** **sincs** bekapcsolva, akkor:
- Az **indulási/áthaladási** eseménynél a **’** **ModJel** **’** = **FALSE** lesz, a
-
-**’** **hvgModJel** **’** **nem** módosul.
- Ha a **kiválasztott** esemény **nem áthaladás** *(* *’* *EsemId* *’* *<> 6)*, akkor a
-
-„ **Tartózkodási idő** ” módosul.
- A **grafikonon** **csak** az **indulási** vezérlőpálca **módosul** .
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -8761,69 +8039,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 123/526|
 
 
- Az **érkezési** eseménynél a **’** **ModJel** **’** ÉS a **’** **ModOk** **’** nem módosul.
- Az **indulási** eseménynél a **’** **ModJel** **’** = **FALSE**, a **’** **hvgModJel** **’**
 
-**nem** módosul, a **’** **ModOk** **’** **=** **NULL** lesz.
- Az **áthaladási** eseménynél a **’** **ModJel** **’** = **FALSE**, a **’** **ModOk** **’** **=**
-
-**NULL** lesz.
- Ha az „ **Áthalad [Alt+á]** ” kapcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a* ***két*** ***eseménynél*** *a kapcsoló kezelésekor került*
-*beállításra:* ***’*** ***ModOk*** ***’*** *=* ***4*** *-* *rendkívüli áthaladás.)*
- A **grafikonon** az **indulási** vezérlőpálca **módosul,** az **előtte** levő
-
-előrejelzés **vonal meredeksége** változik **.**
- Mind a két eseménynél a **’** **ModJel** **’** = **TRUE** marad.
- Az **indulási** eseménynél **’** **hvgModJel** **’** **nem** módosul.
- Ha a „ **Megáll [Alt+m]** ” kapcsoló **bekapcsolt** :
-
-*(A* ***’*** ***ModOk*** ***’*** *értéke mind a két eseménynél a kapcsoló kezelésekor került*
-*beállításra: az* ***érkezési*** ***ÉS*** *az* ***áthaladási*** *eseménynél is* ***5*** *-* *rendkívüli*
-*megállás.)*
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az **„Érkezési idő** **”** mező **nem** **módosul** .
- A **grafikonon** az **érkezési** vezérlőpálca **nem**, az **áthaladási**
-
-vezérlőpálca módosul.
- Az érkezési és az áthaladási **eseménynél** a **’** **ModJel** **’** **=** **TRUE lesz.**
- Az **áthaladási** eseménynél a **’** **hvgModJel** **’** **nem** módosul.
- Ha a **„Tart. idő. mód. [Alt+t]** **”** k a pcsoló **bekapcsolt** :
-
- Az „ **Érkezési idő** ” mező **nem** módosul.
- A **grafikonon** **csak** az **indulási** vezérlőpálca **módosul** .
- Az **érkezési** és az **indulási** eseménynél a **’** **ModJel** **’** **nem** módosul.
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Ha a „ **Min. ind. idő [Alt+i]** ” ka pc soló **bekapcsolt** :
-
- A „ **Tartózkodási idő** ” mező értéke **módosul** .
- Az **„Érkezési idő** **”** mező **nem** **módosul** .
- A **grafikonon** csak az **indulási** vezérlőpálca **módosul** .
- Az **érkezési** eseménynél a **’** **ModJel** **’** = **FALSE** lesz.
- Az **indulási** eseménynél a **’** **ModJel** **’** = **TRUE** lesz, a **’** **hvgModJel** **’**
-
-**nem** módosul.
-
-`o` **„H.vg** ” és „ **3.vg** ” kapcsoló
-Ha a kiválasztott **esemény** szolgálati helyének a típusa **nem megállóhely**
-*(* *'* *selUttengelyAdatok.SzhTipusKod* *'* *<> 2)* **ÉS** az „ **Indulási idő** ” mező **kitöltött,** akkor
-**kezelhetők.**
-
-A **működésük** a következő:
-   - Kezelésükkor az adott **indulási/áthaladási** eseményhez tartozó **’** **ModJel** **’** ÉS
-**’** **ModOk** **’** **nem** változik.
-
-   - „ **H.vg** ” kapcsoló:
-
-    - Ha az **’** **Esemenyek.MGMHelytVaganyraInd** **’** = **1**, akkor **bekapcsolt** .
-
-    - **Módosításakor:**
- Ha a „ **3.vg** ” kapcsoló **bekapcsol** **t**, akkor az **kikapcsolt** lesz.
- A „ **Szolg. helyig** ” választólistáb a n az **üres** sor lesz a **kijelölt** .
- Az **indulási** /áthaladási esem ény hez az **’** **SzhIdIg** **’** = **NULL**, az
-
-**’** **SzhIndexIg** **’** = **NULL** lesz.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8837,80 +8053,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 124/526|
 
 
- **Bekapcsolásakor:**
 
 
 
- A grafikonon a **következő** **nem megállóhely** típusú szolgálati
-
-helyig **vastagabb** lesz az előrejelzés vonal.
- Ha az **indulási** /áthaladási **eseményhez** :
-
- Az **’** **Esemenyek.MGMHelytVaganyraInd** ’ = **NULL** volt,
-
-akkor:
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **„1** **”** (új helytelen
-
-vágányon közlekedés) lesz.
- Az **’** **MGMHelytVaganyraInd** ’ = „ **1** **”** volt, akkor:
-
- A **’** **HvgModJel** **’** = **FALSE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **NULL** (helytelen
-
-vágányon közlekedés nem változott) lesz.
- Az **’** **MGMHelytVaganyraInd** ’ = **„3** **”** volt, akkor
-
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **„1** **”** (helytelen vágányon
-
-közlekedés helyett helytelen 3. helytelen vágányon
-közlekedés) lesz.
- **Kikapcsolásakor:**
-
- A **grafikonon** a következő állomástípusú szolgálati helyig **normál**
-
-**vastag** lesz az előrejelzés **vonal** .
- Ha **indulási** /áthaladási eseményhez eredetileg:
-
- Az **’** **MGMHelytVaganyraInd** **’** = **1** VAGY **3** volt, akkor:
-
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **„0** **”** lesz. (Helytelen
-
-vágányon közlekedés megszűntetése.)
- Az **’** **MGMHelytVaganyraInd** **’** = **NULL** volt, akkor:
-
- A **’** **HvgModJel** **’** = **FALSE**,
- az **’** **MGMHelytVaganyraInd** **’** = **NULL** lesz. (Nincs
-
-módosítás.)
-
- - „ **3.vg** ” kapcsoló:
-
-   - Ha az **’** **Esemenyek.MGMHelytVaganyraInd** **’** = **3**, akkor **bekapcsolt** .
-
-   - **Módosításakor:**
- Ha a „ **H.vg** ” kapcsoló **bekapcs** **ol** **t**, akkor az **kikapcsolt** lesz.
- A „ **Szolg. helyig** ” választólistáb a n az **üres** sor lesz a **kijelölt** .
- Az **indulási** /áthaladási esem ény hez az **’** **SzhIdIg** **’** = **NULL**, az
-
-**’** **SzhIndexIg** **’** = **NULL** lesz.
- **Bekapcsolásakor:**
-
- A grafikonon a **következő** **nem megállóhely** típusú szolgálati
-
-helyig **vastagabb** lesz az előrejelzés vonal.
- Ha az **indulási** /áthaladási **eseményhez** :
-
- Az **’** **Esemenyek.MGMHelytVaganyraInd** ’ = **NULL** volt,
-
-akkor:
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **„3** **”** lesz. (Új helytelen
-
-3. vágányon közlekedés.)
- Az **’** **Esemenyek.MGMHelytVaganyraInd** ’ = „ **3** **”** volt, akkor:
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -8924,70 +8069,11 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 125/526|
 
 
- A **’** **HvgModJel** **’** = **FALSE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **NULL** lesz. (Helytelen
 
-3. vágányon közlekedés nem változott.)
- Az **’** **MGMHelytVaganyraInd** ’ = „ **1** ” volt, akkor:
 
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** = „ **3** ” lesz. (Helytelen
 
-vágányon közlekedés helyett 3. helytelen vágányon
-közlekedés.)
- **Kikapcsolásakor:**
 
- A **grafikonon** a **következő** állomástípusú szolgálati helyig **normál**
-
-**vastag** lesz az előrejelzés vonal.
- Ha **indulási** /áthaladási **eseményhez** eredetileg:
-
- Az **’** **MGMHelytVaganyraInd** **’** = **1** VAGY **3** volt, akkor:
-
- A **’** **HvgModJel** **’** = **TRUE**,
- az **’** **MGMHelytVaganyraInd** **’** **=** **„0** **”** lesz. (Helytelen
-
-vágányon közlekedés megszűntetése.)
- Az **’** **MGMHelytVaganyraInd** **’** = **NULL** volt, akkor:
-
- A **’** **HvgModJel** **’** = **FALSE**,
- az **’** **MGMHelytVaganyraInd** **’** = **NULL** lesz. (Nincs
-
-módosítás.)
-
-      - „ **Szolg. helyig** ” választólista:
-
-      - **Alapértelmezetten** üres.
-
-      - Akkor **kezelhető**, ha **valamelyik** helytelen vágányos **kapcsoló** **módosult**,
-**eltér** az **eredeti** értékétől.
-
-      - **Kitöltésekor** a vezérlőpálca által meghatározott szolgálati **helytől** a
-kiválasztott szolgálati **helyig** (ha ni ncs megadva a szolgálati helyig, akkor a
-következő nem megállóhely típusú szo lgálati helyig) az előrejelzés vonal:
- **Vastagabb** lesz, ha valamelyik k a pcsoló be van kapcsolva.
- **Normál** vastagságú lesz, ha egyi k kapcsoló sincs bekapcsolva.
- Ha ki van töltve, akkor az e **’** Ha üres, akkor az **SzhIndexIg** **’** = ’ szh **’** **SzhIdIg** _ index **’** ’ . = N semU LL és ényhez az **’** **SzhIndexIg** **’** **SzhIdIg** **’** = **’** NULL. = ’ szh _ id ’ és
-
-      Ha az indulási/áthaladási eseményhez:
-
-      - A **’** **ModOk** **’** **=** **NULL** ÉS a **’** **HvgModJel** **’** = **TRUE**, akkor a **’** **ModOk** **’** = **13**
-           - helytelen vágányon közlekedés mó do sítása lesz.
-
-      - A **’** **ModOk** **’** **<>** **NULL**, akkor a **’** **ModOk** **’** nem módosul.
-
-**2.2.3.9.3.3** **A vezérlőpálcák működése**
-
-A vezérlőpálcák kezelésekor a **’** **HvgModJel** **’** **nem módosul.**
-
-- Ha **egyik** **„műveleti** **”** *(„Tart. idő mód. [Alt+t]* *”* *, „Min. ind. idő [Alt+i]* *”* *, „Megáll [Alt+m]* *”* *)*
-**kapcsoló** **sincs** bekapcsolva
-(A panel fejlécében „ **Eseményidő módosítása** ” szöveg van. A ’ M o d Ok’ = NULL,
-vezérlőpálca mozgatáskor kerül beállításra.)
-
-`o` **Érkezési** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
+ Ha az indulási/áthaladási eseményhez:
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9001,79 +8087,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 126/526|
 
 
+**2.2.3.9.3.3** **A vezérlőpálcák működése**
 
-      - Az **indulási** és az azt **követő** vezérlőpálca **is** mozgatásra kerül.
-Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** **nem**
-változik.
-
-      - Az **előző** esemény felé eső előrejelzés **vonal** meredeksége **változik** .
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új érkezési idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - Módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** = **TRUE** és a **’** **ModOk** **’** = **3** lesz.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** és a **’** **ModOk** **’** **nem** módosul.
-
-      - Módosul a „ **Tartózkodási** **idő** ” a panelen.
-
-`o` **Indulási** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **érkezési** vezérlőpálca **nem** kerül mozgatásra.
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-(Üzenetet nem ad.)
-
-      - Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** nem
-változik.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új indulási idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - **Nem** módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** és a **’** **ModOk** **’** **nem** módosul.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** = **TRUE** és a **’** **ModOk** **’** = **6** lesz.
-
-      - Módosul a „ **Tartózkodási** **idő** ” a panelen.
-
-`o` **Áthaladási** vezérlőpálca:
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre. (Üzenetet
-nem ad.)
-      - Módosul az „ **Indulási** **idő** ” a panelen.
-      - Az **áthaladási** eseményhez a **’** **ModJel** **’** = **TRUE** és a **’** **ModOk** **’** = **3** lesz.
-
-- Ha az „ **Áthalad [Alt+á]** ” kapcsoló bekapcsolt
-(A panel fejlécében „ **Rendkívüli áthaladás tervezése** ” szöveg van . A z érk ezési és
-indulási eseményhez a **’** **ModOk** **’** = **4**   - rendkívüli áthaladás, vezérlőpálca mozg atá s k o r
-nem módosul):
-`o` Az **érkezési** vezérlőpálca **eltűnt** (a **panelen** az „Érkezési idő ” és a „Tartózkodási
-idő ” **üres** ).
-`o` Az **indulási** vezérlőpálca **mozgatásakor** :
-      - Az **előző** esemény felé eső előrejelzés **vonal** meredeksége **változik** .
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre. (Üzenetet
-nem ad.)
-      - Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** nem változik.
-`o` A vezérlőpálca **elengedése** után:
+A vezérlőpálcák kezelésekor a **’** **HvgModJel** **’** **nem módosul.**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9087,82 +8103,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 127/526|
 
 
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett eseményidő
-nem lehet korábbi, mint az aktuális idő! ” **üzenetet** ad.
-      - Módosul az „ **Indulási** **idő** ” a panelen.
-      - Az **indulási** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-- Ha a **„Tart. idő mód.** **[Alt+t]** **”** kapcsoló **bekapcsolt** :
-*(A panel fejlécében „* ***Tartózkodási idő módosítása*** *”* *szöveg van. Az érk* *e* *z* *ési* *e* *s* *e* *mé* *n* *yh* *e* *z* *a*
-***’*** ***ModOk*** ***’*** *=* ***3*** *-* *idő módosítás, az indulási eseményhez a* ***’*** ***ModOk*** ***’*** *=* ***6*** *- t* *a* *r* *tó* *z* *k* *o* *d* *ás* *i id* *ő*
-*módosítás, vezérlőpálca mozgatáskor nem módosul.)*
-
-`o` **Érkezési** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **indulási** és az azt **követő** vezérlőpálca **nem** kerül mozgatásra.
-
-      - Az **előző** esemény felé eső előrejelzés **vonal** meredeksége **változik** .
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új érkezési idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - Módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Nem módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul a „ **Tartózkodási** **idő** ” a panelen.
-
-`o` **Indulási** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **érkezési** vezérlőpálca **nem** kerül mozgatásra.
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-(Üzenetet nem ad.)
-
-      - Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** nem
-változik.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új indulási idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - **Nem** módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Módosul a „ **Tartózkodási** idő ” a panelen.
-
-- Ha a „ **Megáll [Alt+m]** ” kapcsoló **bekapcsolt:**
-*(A panel fejlécében „* ***Rendkívüli megállás tervezése*** *”* *szöveg van. Az* ***új*** *é* *r* *k* *e* *zé* *s* *i v* *ez* *é* *r* *lő* *p* *á* *lca*
-*került megjelenítésre. Az* ***új*** *érkezési eseményhez és az indulási eseményhez* *a* ***’M*** ***o*** ***d*** ***Ok*** ***’*** *=* *5* *-*
-*rendkívüli megállás, vezérlőpálca mozgatáskor nem módosul.)*
-`o` **Érkezési** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **áthaladási** és az azt **követő** vezérlőpálca **is** mozgatásra kerül.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -9174,87 +8114,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 128/526|
 
-
-Az **áthaladási** vezérlőpálca **utáni** e lőrejelzés vonal **meredeksége** **nem**
-változik.
-
-      - Az **előző** esemény felé eső előrejelzés **vonal** meredeksége **változik** .
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új érkezési idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - Módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **áthaladási** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul a „ **Tartózkodási** **idő** ” a panelen.
-`o` **Áthaladási** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **érkezési** vezérlőpálca **nem** kerül mozgatásra.
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-(Üzenetet nem ad.)
-
-      - Az **áthaladási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** nem
-változik.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új indulási idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - **Nem** módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **áthaladási** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Módosul a „ **Tartózkodási** idő ” a panelen.
-
-- Ha a „ **Min. ind. idő [Alt+i]** ” kapcsoló bekapcsolt:
-(A panel fejlécében „ **Legkorábbi indulási idő megadása** ” szöveg van. A z ér k ezési és az
-indulási eseményhez a **’** **ModOk** **’** = **3**   - idő módosítás, vezérlőpálca m ozg at ás k o r n em
-módosul.)
-`o` **Érkezési** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **indulási** és az azt **követő** vezérlőpálca **is** mozgatásra kerül.
-Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** **nem**
-változik.
-
-      - Az **előző** esemény felé eső előrejelzés **vonal** meredeksége **változik** .
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új érkezési idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - Módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9268,73 +8127,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 129/526|
 
 
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul a „ **Tartózkodási** **idő** ” a panelen.
-`o` **Indulási** vezérlőpálca:
-
-      A vezérlőpálca **mozgatásakor:**
-
-      - Az **érkezési** vezérlőpálca **nem** kerül mozgatásra.
-
-      - A vezérlőpálca **nem** mozgatható az **előző** eseménynél **korábbi** időre.
-(Üzenetet nem ad.)
-
-      - Az **indulási** vezérlőpálca **utáni** előrejelzés vonal **meredeksége** nem
-változik.
-
-      - ”
-A vezérlőpálca **elengedése** után (ha az általa meghatározott „új indulási idő
-nem azonos az eredeti érkezési idővel):
-
-      - Ha az **új** eseményidő **korábbi**, mint az **idővonal**, akkor „A tervezett
-eseményidő nem lehet korábbi, min t az aktuális idő! ” **üzenetet** ad.
-
-      - **Nem** módosul az „ **Érkezési idő** ” a panelen.
-
-      - Az **érkezési** eseményhez a **’** **ModJel** **’** **nem** módosul.
-
-      - Módosul az „ **Indulási** idő ” a panelen.
-
-      - Az **indulási** eseményhez a **’** **ModJel** **’** = **TRUE** lesz.
-
-      - Módosul a „ **Tartózkodási** idő ” a panelen.
-
-Az **előrejelzés** vonalon az adatok addig módosíthatók egy **másik vezérlőpálca** választásával,
-amíg az **szerkesztő módban** van, azaz nem lett kezelve a <Ment> vagy a <Mégsem>
-nyomógomb.
-
 **2.2.3.9.3.4** **Nyomógombok a szerkesztőpanelen**
-
-- < **Visszavon** `o` Akkor **kezelhető**, ha az előrejelzés vonal **módosult**, azaz van legalább egy olyan
-
-**’** **’** **’** **’**
-esemény, ahol a **ModJel** VAGY a **HvgModJel** értéke **TRUE** .
-`o` A nyomógomb **kezelésekor:**
-      - A **grafikonon** az előrejelzés vonal az **eredeti** helyzetre áll vissza, **nincs**
-**vezérlőpálca** kiválasztva.
-      - **Minden** eseménynél a **’** **ModJel** **’** és a **’** **hvgModJel** **’** = **FALSE**, a **’** **ModOk** **’** =
-**NULL** lesz.
-
-      - Szolgáltatáshívás és **adatmentés nem** történik, az **üzemmód** marad előrejelzés
-**szerkesztése** .
-`o` Az **aktivitás** figyelés **újraindul** .
-
-- < **Ment** `o` A nyomógomb akkor **kezelhető**, ha az előrejelzésben **módosítás** történt, azaz van
-
-**’** **’** **’** **’**
-legalább egy olyan esemény, ahol a **ModJel** VAGY a **HvgModJel** értéke **TRUE** .
-`o` **Kezelésére** **meghívásra** kerül a „Forgalom szabályozási műveletek mentésének
-előkészítése egy menetvonal esetén ” *(* ***ForgSzabMuveletElokeszitesCommand)***
-szolgáltatás, ami a megfelelő ellenőrzések után elvégzi az előrejelzés **módosítását** .
-**Bemenő** adatok:
-
-      - **’** **MenetvId** **’**       - a módosítandó előrejelzés menetvonal MGM azonosítója.
-      - **’** **AbraId** **’**       - az érintett ábra azonosítója.
-
-      - **’** **’**       **MunkahelyId** az ábra munkahelyazonosítója.
-      - **’** **Megerositve** **’**       - az esetleges megerősítés ténye. = False.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9348,69 +8141,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 130/526|
 
 
-      
-**[{Esemény lista}]** több elemű lista, az **előrejelzés vonal** azon események
-**adatait** tartalmazza, ahol módosítás történt *(a* *’* *ModJel* *’* *VAGY* *’* *hvgModJel* *’* *=*
-*TRUE)* .
-
-      - **’** **SzhId** **’**       - annak a szolgálati helynek a belső azonosítója, ahol az előrejelzést
-módosítani kell.
-
-      - **’** **ModOk** **’**       - a módosítás oka:
- Ha az eseményhez a **’** **ModJel** **’** = **TRUE**, akkor az eseményhez tárolt
-
-**’** **’**
-**ModOk** .
- Ha az eseményhez a **’** **ModJel** **’** = **False** ÉS a **’** **hvgModJel** **’** = **TRUE**,
-
-akkor **13**           - helytelen/helyes vágányon közlekedés.
-
-      - **’** **’**       -       **MgmEsemTipId** a módosított esemény típus azonosítója (1 érkezés, 2
-
-           -           indulás vagy 6 áthaladás).
-
-      - **’** **’**       **UjEsemIdo** az új eseményidő.
-
-      - **’** **EredetiEsemIdo** **’**       - az esemény eredeti ideje.
-
-      - **’** **SzhIndex** **’**       - az esemény szolgálati helyének sorszáma a menetrenden belül.
-
-      - **’** **’**       **MGMHelytVaganyraInd** a menetvonal helytelen vágányra indul.
-Lehetséges **értékei** :
- NULL     - Nem történt változás.
- 0     - Mind a kettő kapcsoló kikapcs o lt, helyes vágányon közlekedés.
- 1     - A „H.vg ” a bekapcsolt, helytelen vágányon közlekedés.
- 3     - A „3.vg ” a bekapcsolt, a harm a dik, helytelen vágányon közlekedés.
-
-      - **’** **SzhIdIg** **’**       - az eseményhez tárolt **’** **SzhIdIg** **’** adat. Lehet NULL is.
-
-      - **’** **SzhIndexIg** **’**       - az eseményhez tárolt **’** **SzhIndexIg** **’** adat. Lehet NULL is.
-
-      epaiParamXmlDoc
-`o` Az eljárás **ellenőrzi**, hogy:
-      - Az adott **munkahely** a felhasználó által van **lefoglalva** .
-Ha **UC_01_51_ERR_ERVENYTELEN_FOGLALAS** üzenetet ad vissza
-„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen! ”
-üzenetet ad, nem történik meg a létrehozás.
-      - A **menetvonal** nincs egy másik felhasználó által szerkesztésre **lefoglalva** .
-Ha a szolgáltatás **UC_01_51_ERR_MENETV_FOGLALT** üzenetet ad vissza,
-akkor „ **151010** : A menetvonalat más felhasználó szerkeszti, módosítás nem
-lehetséges! ” hibaüzenetet ad, nem történik meg a módosítás. A feldolgozás leáll,
-kilép a szerkesztés üzemmódból, a menetvonal kijelöltsége megmarad.
-      - **A** módosítandó eseményhez előrejelzés adat tartozik
-(MGMHa **nem** _, TenyEsem.esem **UC_01_51_ERR_TENYADAT_LETEZIK** _ tipus = „B ” ). üzenetet ad vissza, akkor
-„ **151026** : Előrejelzés nem módosítható, az adatok módosultak. ” üzenetet ad,
-nem történik meg a létrehozás. A feldolgozás leáll, kilép a szerkesztés
-üzemmódból, a menetvonal kijelöltsége megmarad.
-`o` **Sikeres** mentés után a grafikon kilép a „Előrejelzés módosítása ” üzemmódból és
-**frissül**, meghívásra kerülnek a grafikon megnyitásakor hívott szolgáltatások. A
-fókuszban és **kiválasztva** marad a módosított előrejelzés vonal, a „funkciók ” ikonsor
-marad a **szerkesztésen** .
-
-- < **Mégsem** `o` Kezelésekor **adatmentés nem** történik, meghívásra kerül a menetvonal foglalást
-**feloldó** S_0151_38     - **MenetvForgSzabFoglalasCommand** (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -9423,61 +8153,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 131/526|
 
 
-**Bemenő** adatok
-
-      - **’** **MenetvonalIdLista** **’**       - a feloldani kívánt menetvonal ’ MGMMenetvId ’ adata.
-Egy elemű lista.
-
-      - **’** **’**
-**MunkahelyId**
-      - **’** **AbraId** **’**
-
-      - **’** **’** = ”       **FoglalasJelzo** „E elengedés, feloldás.
-      - **’** **ModositasOk** **’** = NULL
-
-      - **’** **’**
-**epaiParamXmlDoc**
-`o` Sikeres **feloldás** után a grafikon kilép a „Előrejelzés módosítása ” üzemmódból és a
-grafikon **frissül** a fókuszban és **kiválasztva** marad a módosított előrejelzés vonal, a
-
-”
-„funkciók ikonsor marad a **szerkesztésen** .
-
-- Felhasználói **aktivitás lejártakor**
-`o` Ha **popup üzenet** van a grafikonon **ÉS** a felhasználó az **aktivitási** figyelő **lejártáig**
-nem kezelte le azt, akkor az üzenet **automatikusan** **bezárásra** kerül, a mentő
-**szolgáltatás** hívása **nélkül** *(a megerősítő üzenetet úgy tekintjük, mintha nemleges*
-*választ adott volna a felhasználó)* a grafikon mentés nélkül **kilép** az „Előrejelzés
-módosítása ” üzemmódból, meghívásra kerül a menetvonal foglalását feloldó
-**MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabályozásra
-
-**’** **’** = ”                     lefoglalása) szolgáltatás **FoglalasJelzo** „E elengedés, feloldás paraméterrel, a
-menetvonal **kijelölése** **megmarad**, a többi menetvonal kijelölhető lesz, a „funkciók ”
-ikonsor marad a „ **Szerkesztés** ” ikonon.
-`o` **További** működést lásd a < **Ment**  - nyomógombnál leírtakat, **azzal** a kitétellel, hogy
-ha a szolgáltatás **hibaüzenetet** ad vissza az **nem** lesz figyelembe véve és
-**meghívásra** kerül a menetvonal foglalását feloldó
-**MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabályozásra
-
-**’** **’** = ”                     lefoglalása) szolgáltatás **FoglalasJelzo** „E elengedés, feloldás paraméterrel.
+106724vége
 
 **[88977]** **„Előztetés tervezése” funkció**
 
 Az előztetés tervezés **két azonos** irányú **előrejelzés vonal**, azon belül egy **vezérlőpálca**
 (esemény) kiválasztása után a **vezérlőpálca** bal egérgombbal **megragadásával,** annak az
 **időtengellyel** párhuzamos **mozgatásával** **VAGY** a szerkesztő panelen a dátumok és az **idők**
-**módosításával,** egy előrejelzés vonalnál **rendkívüli áthaladás, rendkívüli megállás**
-rögzítésével **,** illetve **tartózkodási idő** módosításával (a dátumok és az **idők módosításával)**
-végezhető el.
-
-**2.2.3.9.4.1** **Megjelenés, elérés**
-
-A **funkció** csak **Irányítói** üzemmódban érhető el **két azonos irányú előrejelzés** vonal
-kijelölése után a „ **Szerkesztés** ” menüsor „ **Előztetés** ” **ikon** kezelésével (lásd „Előztetés” ikon
-leírás).
-
-- A grafikon **„Vonat előztetés** ” üzemmódra vált át, megjelenik az ehhez tartozó **fejléc** és a
-**szerkesztő** panel.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9491,10 +8173,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 132/526|
 
 
+**módosításával,** egy előrejelzés vonalnál **rendkívüli áthaladás, rendkívüli megállás**
+rögzítésével **,** illetve **tartózkodási idő** módosításával (a dátumok és az **idők módosításával)**
+végezhető el.
+
+**2.2.3.9.4.1** **Megjelenés, elérés**
+
+A **funkció** csak **Irányítói** üzemmódban érhető el **két azonos irányú előrejelzés** vonal
+kijelölése után a „ **Szerkesztés** ” menüsor „ **Előztetés** ” **ikon** kezelésével (lásd „Előztetés” ikon
+leírás).
+
+- A grafikon **„Vonat előztetés** ” üzemmódra vált át, megjelenik az ehhez tartozó **fejléc** és a
+**szerkesztő** panel.
+
 107096
-
-
-
 
 - **Fejlécben** megjelenik az **„Előztetés tervezése”** szöveg, az **ábra** megnevezése, a
 felhasználói **aktivitást** figyelő **idősáv,** a < **Ment** >, < **Visszavon**   - és a < **Mégsem**   nyomógombok, valamint a szerkesztéshez szükséges **ikonok** (nagyítások, kicsinyítések,
@@ -9511,8 +8203,7 @@ vonal első **v** **onatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ 
 `o` „ **Áthaladás** ” kapcsoló, ami kikapcsolt.
 `o` **„Indulási idő”** dátum és idő beviteli mező. **Üres** .
 
-107096
-`o` kijelölés megfordítása ikon. Az előrejelzés vonalak kijelölési
+`o` 107096 kijelölés megfordítása ikon. Az előrejelzés vonalak kijelölési
 sorrendjének, ezzel azok „szerepének ” megfordítása.
 `o` **„Előzendő vonat”** megjelenítő mező. A **másodiknak** kiválasztott előrejelzés vonal
 első **vonatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ + vonat indulási dátuma
@@ -9530,20 +8221,6 @@ első **vonatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ + vonat ind
 **vezérlőpálcák**, a **vonatszám** **zöld** betűszínnel jelenik meg.
 Az elsőnek kiválasztott („előre küldendő”) menetvonalon nem jelennek meg a
 vezérlőpálcák, de rá lehet kattintani.
-
-**2.2.3.9.4.2** **Működés**
-
-- A **grafikonon** előrejelzés **vonal** **kiválasztásakor**, **váltáskor** az előrejelzés vonalon
-azokban a szolgálati **hely** és **esemény** (’EsemJelleg’ = "E") **metszéspontokban**, ahol az
-„ **előre** küldendő” (elsőnek kijelölt) vonat előrejelzett **indulási** / **áthaladási** ideje **későbbi**,
-mint az „ **előzendő** ” (másodiknak kijelölt) vonat előrejelzett **indulási/áthaladási** ideje,
-megjelennek a vezérlőpálcák, a vonatszám zöld betűszínnel jelenik meg. A másik
-előrejelzés vonal kijelölése megszűnik, azon eltűnnek a vezérlőpálcák, a vonatszám fehér
-betűszínű lesz.
-
-- Egy **vezérlőpálcára** **kattintva** a kliens ellenőrzi, hogy az ábrán van-e olyan más
-szolgálati hely, ahol történt előztetés tervezés *(a két előrejelzés vonal közül bármelyiknél az*
-*esemény* ***módosítás jele <> NULL*** *)* .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9564,6 +8241,22 @@ meg őket a kliens.
 |Készítette/módosította:|Változat: 1.03|Oldal: 133/526|
 
 
+**2.2.3.9.4.2** **Működés**
+
+
+
+
+- A **grafikonon** előrejelzés **vonal** **kiválasztásakor**, **váltáskor** az előrejelzés vonalon
+azokban a szolgálati **hely** és **esemény** (’EsemJelleg’ = "E") **metszéspontokban**, ahol az
+„ **előre** küldendő” (elsőnek kijelölt) vonat előrejelzett **indulási** / **áthaladási** ideje **későbbi**,
+mint az „ **előzendő** ” (másodiknak kijelölt) vonat előrejelzett **indulási/áthaladási** ideje,
+megjelennek a vezérlőpálcák, a vonatszám zöld betűszínnel jelenik meg. A másik
+előrejelzés vonal kijelölése megszűnik, azon eltűnnek a vezérlőpálcák, a vonatszám fehér
+betűszínű lesz.
+
+- Egy **vezérlőpálcára** **kattintva** a kliens ellenőrzi, hogy az ábrán van-e olyan más
+szolgálati hely, ahol történt előztetés tervezés *(a két előrejelzés vonal közül bármelyiknél az*
+*esemény* ***módosítás jele <> NULL*** *)* .
 Ha van ilyen, akkor "Előztetés **folyamatban** egy másik szolgálati helyen!" üzenetet ad és
 a vezérlőpálca nem lesz kijelölt.
 A folyamatban lévő előrejelzés folytatható, ha az adott szolgálati helyhez *(ahol az esemény*
@@ -9595,26 +8288,10 @@ Akkor **kezelhető**, ha az az **elsőnek** kiválasztott (előre küldendő) vo
 kiválasztott esemény által meghatározott **v** **onatazonosítója** ( ’ VonatszamIrszam ’ ) + ’
 / ’ + vonat indulási dátuma ( ’ IndDatum ’ ) éééé.hh.nn formában. Ha a vonatnál nincs
 kiválasztva esemény akkor az utoljára kiválasztott esemény alapján jelenik meg.
-#103703
-
-.
+#103703 .
 `o` **„Érkezési idő”**  - a **másodiknak** kiválasztott (előzendő) előrejelzés vonal adott
 szolgálati helyéhez tartozó érkezési eseményének (’EsemTipId’ = 1) ideje
 (’EsemIdo’ dátum idő).
-Ha a vonat az adott szolgálati helyen **áthalad** (’EsemTipId’ = 6 eseménye van),
-akkor üres, nem kezelhető.
-`o` **„Indulási idő”**  - a **másodiknak** kiválasztott (előzendő) előrejelzés vonal adott
-szolgálati helyéhez tartozó indulási (áthaladási) eseményének (’EsemTipId’ = 2 vagy
-6) ideje (’EsemIdo’ dátum idő).
-`o` „ **Megállás** ” kapcsoló - a **másodiknak** kiválasztott (előzendő) vonat rendkívüli
-módon megáll jelzése kapcsoló, ami kikapcsolt.
-Akkor **kezelhető**, ha a **másodiknak** kiválasztott (előzendő) vonatnak eredetileg
-**áthaladási eseménye** *(’EsemTipId’ = 6)* van.
-
-- **Módosítás** a grafikonon a **vezérlőpálcákkal**
-`o` Ha az „ **előzendő”** (másodiknak kiválasztott) vonat az adott szolgálati helyen **áthalad**
-*(’EsemTipId’ = 6)*, akkor **nincs** szerkesztési lehetőség a grafikonon, azt a szerkesztő
-**panelen** kell elvégezni.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -9632,6 +8309,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 134/526|
 
 
+Ha a vonat az adott szolgálati helyen **áthalad** (’EsemTipId’ = 6 eseménye van),
+akkor üres, nem kezelhető.
+`o` **„Indulási idő”**  - a **másodiknak** kiválasztott (előzendő) előrejelzés vonal adott
+szolgálati helyéhez tartozó indulási (áthaladási) eseményének (’EsemTipId’ = 2 vagy
+6) ideje (’EsemIdo’ dátum idő).
+`o` „ **Megállás** ” kapcsoló - a **másodiknak** kiválasztott (előzendő) vonat rendkívüli
+módon megáll jelzése kapcsoló, ami kikapcsolt.
+Akkor **kezelhető**, ha a **másodiknak** kiválasztott (előzendő) vonatnak eredetileg
+**áthaladási eseménye** *(’EsemTipId’ = 6)* van.
+
+- **Módosítás** a grafikonon a **vezérlőpálcákkal**
+`o` Ha az „ **előzendő”** (másodiknak kiválasztott) vonat az adott szolgálati helyen **áthalad**
+*(’EsemTipId’ = 6)*, akkor **nincs** szerkesztési lehetőség a grafikonon, azt a szerkesztő
+**panelen** kell elvégezni.
 **Bármely** előrejelzés vonalhoz tartozó vezérlőpálca **mozgatása** után, annak
 **elengedésekor** „Előztetés nem tervezhető, az előzendő vonat áthalad! A szerkesztő
 panelen rögzítsen rendkívüli megállást!” **üzenetet** ad. A kijelölések megmaradnak, a
@@ -9639,13 +8330,13 @@ szerkesztőpanel kitöltésre kerül. Az **aktivitás** figyelés **újraindul**
 `o` Ha az „ **előzendő** vonat” az adott szolgálati helyen **megálló** *(’EsemTipId’ = 2)*, vagy
 ha a „ **Megállás** ” kapcsoló **bekepcsolt** *(’EsemTipId’ = 6)*, a vonat adatainak
 szerkesztése (a másodiknak kiválasztott előrejelzés vonal kijelölése után):
-   - **Érkezési** vezérlőpálcájának mozgatásakor az **indulási** idő és a **további**
+      - **Érkezési** vezérlőpálcájának mozgatásakor az **indulási** idő és a **további**
 eseményidők is **módosulnak** .
 
-    - **Nem** mozgatható az adott előrejelzés vonal **előző eseményénél** és az
+      - **Nem** mozgatható az adott előrejelzés vonal **előző eseményénél** és az
 **idővonalnál** **korábbi** időre.
 
-    - A vezérlőpálca **elengedése** után:
+      - A vezérlőpálca **elengedése** után:
  Ha az új érkezési idő az **idővonal** **előtt** van, „A tervezett eseményidő
 
 nem lehet korábbi, mint az aktuális idő!” popup **üzenet** jelenik meg. A
@@ -9669,13 +8360,26 @@ a kliens a mentésig tárol.
 
 szolgáltatásnak átadni.)
  Az **aktivitás** figyelés újraindul.
-   - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
+      - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
 módosulnak.
 
-    - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
+      - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
 idővonalnál **korábbi** időre.
 
-    - A vezérlőpálca **elengedése** után:
+      - A vezérlőpálca **elengedése** után:
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 135/526|
+
+
  Ha az új indulási idő az **idővonal** **előtt** van, „A tervezett eseményidő
 
 nem lehet korábbi, mint az aktuális idő!” popup **üzenet** jelenik meg. A
@@ -9695,27 +8399,14 @@ a kliens a mentésig tárol.
 
 szolgáltatásnak átadni.)
  Az **aktivitás** figyelés újraindul.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 135/526|
-
-
 `o` Az „ **előre küldendő** ” vonat:
-      - **Érkezési** vezérlőpálcájának mozgatásakor az **indulási** vezérlőpálca és a **további**
+   - **Érkezési** vezérlőpálcájának mozgatásakor az **indulási** vezérlőpálca és a **további**
 eseményidők is **módosulnak** .
 
-      - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
+    - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
 idővonalnál **korábbi** időre.
 
-      - A vezérlőpálca **elengedése** után:
+    - A vezérlőpálca **elengedése** után:
  Ha az új érkezési idő az **idővonal** **előtt** van, „A tervezett eseményidő
 
 nem lehet korábbi, mint az aktuális idő!” popup **üzenet** jelenik meg. A
@@ -9735,13 +8426,13 @@ a kliens a mentésig tárol.
 
 szolgáltatásnak átadni.)
  Az aktivitás figyelés újraindul.
-      - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
+   - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
 módosulnak.
 
-      - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
+    - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
 idővonalnál **korábbi** időre.
 
-      - A vezérlőpálca **elengedése** után:
+    - A vezérlőpálca **elengedése** után:
  Ha az új indulási idő az **idővonal** **előtt** van, „A tervezett eseményidő
 
 nem lehet korábbi, mint az aktuális idő!” popup **üzenet** jelenik meg. A
@@ -9754,6 +8445,19 @@ folytatható.
  A **szerkesztőpanelen** az „Indulási **idő”** adatbeviteli mező a grafikon
 
 szerinti értékre **módosul** .
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 136/526|
+
+
  Az utána levő események előrejelzés ideje kiszámításra kerül, amit
 
 a kliens a mentésig tárol.
@@ -9771,26 +8475,13 @@ az eredetire, a <Ment> nyomógomb nem kezelhető lesz ('ModJel' = FALSE), **mint
 a < **Visszavon**     - lett volna kezelve.
 
 - **Módosítás szerkesztőpanelen**
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 136/526|
-
-
 `o` „ **Előre küldendő** ” vonat:
-   - **„Érkezési idő”** kezelése
+      - **„Érkezési idő”** kezelése
 
-    - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
+      - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
 kezelhető.
 
-    - **Módosítása** után, arról lelépve ellenőrzésre kerül:
+      - **Módosítása** után, arról lelépve ellenőrzésre kerül:
  Nem lehet **korábbi**, mint a **rendszeridő** .
 
 Ha az, akkor pop-up üzenet "A tervezett eseményidő nem lehet korábbi,
@@ -9820,14 +8511,29 @@ Ha **nem**, akkor **üzenetet** ad: „A módosítás nem jelent előztetést,
 végezzen további módosításokat!”.
 A módosítás megmarad, a szerkesztés folytatható.
 
-    - A grafikonon az érkezési és az indulási és a további esemény idők
+      - A grafikonon az érkezési és az indulási és a további esemény idők
 módosulnak, amit a kliens a mentésig tárol.
-   - „ **Áthaladás** ” kapcsoló bekapcsolása után:
+      - „ **Áthaladás** ” kapcsoló bekapcsolása után:
 
-    - **Meghívásra** kerül az S_0151_49 - **ForgSzabMuveletEllenorzesQuery**     Forgalomszabályozási művelet ellenőrzése
+      - **Meghívásra** kerül az S_0151_49 - **ForgSzabMuveletEllenorzesQuery**       Forgalomszabályozási művelet ellenőrzése
 (core.usp_0151_checkForgSzabMuvelet) szolgáltatás, amely ellenőrzi, hogy
 az adott szolgálati helyen a vonathoz rendkívüli áthaladás rögzíthető-e.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 137/526|
+
+
  **Bemenő** adatok:
+
+
 
  **’MgmMvId’**     - a kijelölt (kapcsoló által meghatározott) menetvonal
 
@@ -9844,22 +8550,7 @@ bizonyos feltételeket = FALSE.
 *megerősítő üzenet elfogadása esetén TRUE lesz. Később a*
 *mentéskor ezt a jelzőt az előrejelzés módosítás előkészítő*
 *eljárásnak át kell adni.)*
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 137/526|
-
-
  Ha a szolgáltatás:
-
-
 
  UC_01_51_ERR_ATHALADAS_IRANYVALTAS „151015:
 Irányváltás miatt a rendkívüli áthaladás nem lehetséges!” VAGY
@@ -9902,12 +8593,24 @@ módosítások.
 valamint a további eseményidők **visszakapják** az **eredeti** értéküket, az
 „Érkezési idő” módosítható lesz.
 
- **„Indulási idő” kezelése**
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
-   - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 138/526|
+
+
+   **„Indulási idő” kezelése**
+
+    - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
 kezelhető.
 
-   - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
+    - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
  Nem lehet **korábbi**, mint a **rendszeridő** .
 
 Ha az, akkor pop-up üzenet "A tervezett eseményidő nem lehet korábbi,
@@ -9921,18 +8624,6 @@ mint az előző eseményidő!" üzenetet ad.
 Ha az, akkor popup ablakban **hibaüzenetet** ad: „A megadott idő a
 grafikon időszakán kívül esik!”
  Az új **indulási idő** **korábbi** -e, mint az **előzendő** vonat indulási ideje.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 138/526|
-
 
 Ha **nem**, akkor **üzenetet** ad: „A módosítás nem jelent előztetést,
 végezzen további módosításokat!”.
@@ -9978,6 +8669,19 @@ grafikon időszakán kívül esik!”
 indulási ideje.
 Ha **nem**, akkor **üzenetet** ad: „A módosítás nem jelent előztetést,
 végezzen további módosításokat!”.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 139/526|
+
+
 A módosítás megmarad, a szerkesztés folytatható.
  A **grafikonon** az érkezési és az indulási és a további **esemény idők**
 
@@ -9997,23 +8701,10 @@ eredeti értékét, vagy a módosított érkezési időt és üzenetet ad: „El
 nem tervezhető, az előzendő vonat áthalad!”
    - **„Indulási idő”** kezelése:
 
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 139/526|
-
-
-
-      - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
+    - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
 kezelhető. Ha a „ **Megállás** ” kapcsoló bekapcsolt, akkor **kezelhető** .
 
-      - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
+    - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
  Nem lehet **korábbi**, mint a **rendszeridő** .
 
 Ha az, akkor pop-up üzenet "A tervezett eseményidő nem lehet korábbi,
@@ -10033,7 +8724,7 @@ Ha **nem**, akkor **üzenetet** ad: „A módosítás nem jelent előztetést,
 végezzen további módosításokat!”.
 A módosítás megmarad, a szerkesztés folytatható.
 
-      - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
+    - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
 kliens a mentésig tárol.
 `o` 100478 Bármelyik idő módosításkor, ha az **előreküldendő** (elsőnek kiválasztott) vonat
 **érkezési** **VAGY** áthaladási ideje **korábbi,** mint az **előzendő** (másodiknak
@@ -10041,17 +8732,29 @@ kiválasztott) vonat **érkezési** ideje, akkor **hiba** : "Az előzendő vonat
 korábbi, mint az előre küldendő vonat érkezési ideje, előztetés nem lehetséges."
 Az üzenet **lekezelése** után a módosítás nem történik meg, a módosított adat **visszaáll**
 az eredetire, a <Ment> nyomógomb nem kezelhető lesz ('ModJel' = FALSE), **mintha**
-a < **Visszavon**     - lett volna kezelve.
+a < **Visszavon**   - lett volna kezelve.
 
 `o` 107096 A kijelölés megfordítása ikon kezelésére:
 
-      Ha a grafikonon már volt esemény is kiválasztva, akkor az megszűnik.
+   Ha a grafikonon már volt esemény is kiválasztva, akkor az megszűnik.
 
-      - ”
+   - ”
 Ha történt adatmódosítás is, akkor azok „törlésre kerülnek (lásd: <Visszavon>
 kezelése) a panelen és a grafikonon is.
-      - Meg változik a vonatok kijelölési sorrendje, azaz a korábban az " Előzendő
+   - Meg változik a vonatok kijelölési sorrendje, azaz a korábban az " Előzendő
 vonat " lesz az " Előre küldendő vonat ” .
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 140/526|
+
 
       - Ellenőrzésre kerül, hogy az előztetés a megfordított sorrendben is lehetséges       - e.
 Ha nem, akkor hibát ad.
@@ -10070,6 +8773,52 @@ vissza, nincs vezérlőpálca kiválasztva.
       - Szolgáltatáshívás és **adatmentés nem** történik, az üzemmód marad előztetés
 szerkesztése.
 
+      Az aktivitás figyelés újraindul.
+
+`o` < **Mégsem**        - Kezelésekor **adatmentés nem** történik, meghívásra kerül a menetvonal foglalást
+**feloldó** S_0151_38       - MenetvForgSzabFoglalasCommand (Menetvonalak
+forgalomszabályozásra lefoglalása) szolgáltatás.
+**Bemenő** adatok
+
+      - **’MenetvonalIdLista’**       - a feloldani kívánt menetvonal ’MGMMenetvId’
+adata. Egy elemű lista.
+
+      - **’MunkahelyId’**
+
+      - **’AbraId’**
+
+      - **’FoglalasJelzo’** = „E” - elengedés, feloldás.
+
+      - **’ModositasOk’** = NULL
+
+      - ’epaiParamXmlDoc’
+      - Sikeres **feloldás** után a grafikon kilép a „Előztetés tervezése” üzemmódból és a
+grafikon **frissül,** a fókuszban és **kiválasztva** maradnak a kiválasztott előrejelzés
+vonalak, a „funkciók” ikonsor marad a **szerkesztésen** .
+`o` < **Ment**  
+      - A nyomógomb akkor **kezelhető**, ha az előrejelzésben **módosítás** történt.
+      - Kezelésekor **ellenőrzésre** lerül, hogy az adott állomáson **történt-e előztetés**,
+azaz az előre küldendő vonat indulási ide korábbi, mint az előzendőé.
+Ha nem, akkor a "Módosítás nem jelent előztetést végezzen további módosítást."
+üzenetet ad ÉS nem történik szolgáltatás hívás, a vezérlés marad.
+      - **Kezelésére** (vagy az aktivitást figyelő idősáv lejártakor) meghívásra kerül a
+„Vonat előztetés és találkozás tervezése” *(* ***VonatEloztetesTalalkozasCommand*** *)*
+szolgáltatás, ami a megfelelő ellenőrzések után elvégzi az előrejelzés
+módosítását.
+
+**Bemenő** adatok:
+
+      - **’MunkahelyId’**       - Munkahely belső azonosítója.
+
+      - **’AbraId’**       - Ábra belső azonosítója.
+
+      - **’SzhId’**       - Szolgálati hely belső id.
+
+      - **’MenetvLista’** json - minden esetben kételemű lista, akkor is, ha az egyik
+menetvonalon nem történt módosítás.
+
+ **’MenetvId’**
+
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -10079,58 +8828,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
 |---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 140/526|
+|Készítette/módosította:|Változat: 1.03|Oldal: 141/526|
 
-
-    Az aktivitás figyelés újraindul.
-
-
-
-`o` < **Mégsem**    - Kezelésekor **adatmentés nem** történik, meghívásra kerül a menetvonal foglalást
-**feloldó** S_0151_38     - MenetvForgSzabFoglalasCommand (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás.
-**Bemenő** adatok
-
-    - **’MenetvonalIdLista’**     - a feloldani kívánt menetvonal ’MGMMenetvId’
-adata. Egy elemű lista.
-
-    - **’MunkahelyId’**
-
-    - **’AbraId’**
-
-    - **’FoglalasJelzo’** = „E” - elengedés, feloldás.
-
-    - **’ModositasOk’** = NULL
-
-    - ’epaiParamXmlDoc’
-   - Sikeres **feloldás** után a grafikon kilép a „Előztetés tervezése” üzemmódból és a
-grafikon **frissül,** a fókuszban és **kiválasztva** maradnak a kiválasztott előrejelzés
-vonalak, a „funkciók” ikonsor marad a **szerkesztésen** .
-`o` < **Ment** 
-   - A nyomógomb akkor **kezelhető**, ha az előrejelzésben **módosítás** történt.
-   - Kezelésekor **ellenőrzésre** lerül, hogy az adott állomáson **történt-e előztetés**,
-azaz az előre küldendő vonat indulási ide korábbi, mint az előzendőé.
-Ha nem, akkor a "Módosítás nem jelent előztetést végezzen további módosítást."
-üzenetet ad ÉS nem történik szolgáltatás hívás, a vezérlés marad.
-   - **Kezelésére** (vagy az aktivitást figyelő idősáv lejártakor) meghívásra kerül a
-„Vonat előztetés és találkozás tervezése” *(* ***VonatEloztetesTalalkozasCommand*** *)*
-szolgáltatás, ami a megfelelő ellenőrzések után elvégzi az előrejelzés
-módosítását.
-
-**Bemenő** adatok:
-
-    - **’MunkahelyId’**     - Munkahely belső azonosítója.
-
-    - **’AbraId’**     - Ábra belső azonosítója.
-
-    - **’SzhId’**     - Szolgálati hely belső id.
-
-    - **’MenetvLista’** json - minden esetben kételemű lista, akkor is, ha az egyik
-menetvonalon nem történt módosítás.
-
- **’MenetvId’**
 
  **’ModOk’**
+
+
 
  Az előre küldendő (elsőnek kiválasztott) vonat esetén = 21.
  Az előzendő (másodiknak kiválasztott) vonat esetén = 22.
@@ -10150,19 +8853,6 @@ Ha a menetvonalon **nem** történt **módosítás**, akkor **NULL** .
  **Megálló** volt (van "EsemTipId":1 eseménye) **ÉS** az is **marad**,
 
 akkor az UjErkIdo a módosított, vagy az eredeti lesz.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 141/526|
-
-
  Ha **haladós** volt ("EsemTipId":6) **ÉS** az is **maradt**, akkor
 
 UjErkIdo **nem** lesz **átadva** (nem NULL).
@@ -10212,24 +8902,6 @@ lesz.
 meghatározott 'szh_index' a tényadat lekérdező szolgáltatás által kapott
 adatok alapján.
 
-   - **epaiParamXmlDoc**
- - Az **eljárás ellenőrzi**, hogy:
-
-   - Az adott **munkahely** a felhasználó által van **lefoglalva** .
-Ha **UC_01_51_ERR_ERVENYTELEN_FOGLALAS** üzenetet ad vissza
-„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
-üzenetet ad, nem történik meg a létrehozás.
-
-   - A **menetvonal** nincs egy másik felhasználó által szerkesztésre **lefoglalva** .
-Ha a szolgáltatás **UC_01_51_ERR_MENETV_FOGLALT** üzenetet ad
-vissza, akkor „ **151010** : A menetvonalat más felhasználó szerkeszti,
-módosítás nem lehetséges!” hibaüzenetet ad, nem történik meg a módosítás.
-A feldolgozás leáll, kilép a szerkesztés üzemmódból, a menetvonal
-kijelöltsége megmarad.
-
-   - Az **előre** **küldendő** (elsőnek kiválasztott) **ÉS** az előzendő (másodiknak
-kiválasztott) vonatnak **sem** lehet MGM **tény** **érkezési** eseménye az adott
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -10242,6 +8914,24 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 142/526|
 
 
+
+    - **epaiParamXmlDoc**
+   - Az **eljárás ellenőrzi**, hogy:
+
+    - Az adott **munkahely** a felhasználó által van **lefoglalva** .
+Ha **UC_01_51_ERR_ERVENYTELEN_FOGLALAS** üzenetet ad vissza
+„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
+üzenetet ad, nem történik meg a létrehozás.
+
+    - A **menetvonal** nincs egy másik felhasználó által szerkesztésre **lefoglalva** .
+Ha a szolgáltatás **UC_01_51_ERR_MENETV_FOGLALT** üzenetet ad
+vissza, akkor „ **151010** : A menetvonalat más felhasználó szerkeszti,
+módosítás nem lehetséges!” hibaüzenetet ad, nem történik meg a módosítás.
+A feldolgozás leáll, kilép a szerkesztés üzemmódból, a menetvonal
+kijelöltsége megmarad.
+
+    - Az **előre** **küldendő** (elsőnek kiválasztott) **ÉS** az előzendő (másodiknak
+kiválasztott) vonatnak **sem** lehet MGM **tény** **érkezési** eseménye az adott
 szolgálati helyre és mind a két vonathoz kell legyen előrejelzés adat
 (MGM_TenyEsem.esem_tipus = „B”).
 Ha a szolgáltatás **UC_01_51_ERR_TENYADAT_LETEZIK** üzenetet ad
@@ -10249,16 +8939,16 @@ vissza, akkor „ **151026** : Előrejelzés nem módosítható, az adatok
 módosultak.” hibaüzenetet ad, nem történik meg a módosítás. A feldolgozás
 leáll, kilép a szerkesztés üzemmódból, a menetvonal kijelöltsége megmarad.
 
-      - 100544 Az előztetés nem lehet a másodlagos vonat kiindulási szolgálati helye.
+    - 100544 Az előztetés nem lehet a másodlagos vonat kiindulási szolgálati helye.
 Ha a szolgáltatás **UC_05_51_ERR_HELYBOL_INDULO_VONAT**
 üzenetet ad vissza, akkor „ **151041** : A vonat kiindulási állomásán előztetés,
 vonattalálkozás nem lehetséges.” üzenetet ad.
-      - Sikeres **mentés** után a grafikon **kilép** a szerkesztő üzemmódból és a grafikon
+   - Sikeres **mentés** után a grafikon **kilép** a szerkesztő üzemmódból és a grafikon
 **frissül,** a fókuszban és **kiválasztva** maradnak a kiválasztott előrejelzés vonalak,
 a „funkciók” ikonsor marad a **szerkesztésen** .
 
 `o` **Felhasználói aktivitás lejártakor**
-      - 100302 Ha **popup üzenet** van a grafikonon **ÉS** a felhasználó az **aktivitási** figyelő
+   - 100302 Ha **popup üzenet** van a grafikonon **ÉS** a felhasználó az **aktivitási** figyelő
 **lejártáig** nem kezelte le azt, akkor az üzenet **automatikusan** **bezárásra** kerül, a
 mentő **szolgáltatás** hívása **nélkül** *(a megerősítő üzenetet úgy tekintjük, mintha*
 *nemleges választ adott volna a felhasználó)* a grafikon mentés nélkül **kilép** az
@@ -10268,28 +8958,15 @@ forgalomszabályozásra lefoglalása) szolgáltatás **’FoglalasJelzo’** = �
 többi menetvonal kijelölhető lesz, a „funkciók” ikonsor marad a „ **Szerkesztés** ”
 ikonon.
 
-      - **Ellenőrzi**, hogy az előztetés szolgálati helyén megtörtént-e az **előztetés** tervezés,
+   - **Ellenőrzi**, hogy az előztetés szolgálati helyén megtörtént-e az **előztetés** tervezés,
 azaz az elsőnek kiválasztott vonat elrejelzett indulási/áthaladási ideje korábbi,
 mint a másodiknak kiválasztott vonat indulási ideje.
 
-      - Ha **igen**, akkor **meghívásra** kerül a
-**ForgSzabMuveletElokeszitesCommand** szolgáltatás a < **Ment**        nyomógombnál leírt paraméterekkel, azzal a kitétellel, hogy ha a
+    - Ha **igen**, akkor **meghívásra** kerül a
+**ForgSzabMuveletElokeszitesCommand** szolgáltatás a < **Ment**      nyomógombnál leírt paraméterekkel, azzal a kitétellel, hogy ha a
 szolgáltatás **hibaüzenetet** ad vissza az **nem** lesz **figyelembe** véve és
 **meghívásra** kerül a menetvonal foglalását feloldó
 **MenetvForgSzabFoglalasCommand** (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás (lásd <Mégsem>
-nyomógomb leírásnál).
-
-      - Ha **nem**, akkor **nem** kerül meghívásra a
-ForgSzabMuveletElokeszitesCommand szolgáltatás, helyette a
-**MenetvForgSzabFoglalasCommand** szolgáltatás kerül meghívásra, 'E' elengedés paraméterrel.
-
-**[88979]** **„Vonattalálkozás tervezése” funkció**
-
-A vonattalálkozás tervezés **két ellentétes** irányú előrejelzés vonal, azon belül egy
-**vezérlőpálca** (esemény) kiválasztása után a vezérlőpálca bal egérgombbal **megragadásával**,
-annak az időtengellyel párhuzamos **mozgatásával** VAGY a szerkesztő **panelen** a dátumok és
-az idők **módosításával**, egy előrejelzés vonalnál rendkívüli **áthaladás**, rendkívüli **megállás**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10303,6 +8980,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 143/526|
 
 
+forgalomszabályozásra lefoglalása) szolgáltatás (lásd <Mégsem>
+nyomógomb leírásnál).
+
+      - Ha **nem**, akkor **nem** kerül meghívásra a
+ForgSzabMuveletElokeszitesCommand szolgáltatás, helyette a
+**MenetvForgSzabFoglalasCommand** szolgáltatás kerül meghívásra, 'E' elengedés paraméterrel.
+
+**[88979]** **„Vonattalálkozás tervezése” funkció**
+
+A vonattalálkozás tervezés **két ellentétes** irányú előrejelzés vonal, azon belül egy
+**vezérlőpálca** (esemény) kiválasztása után a vezérlőpálca bal egérgombbal **megragadásával**,
+annak az időtengellyel párhuzamos **mozgatásával** VAGY a szerkesztő **panelen** a dátumok és
+az idők **módosításával**, egy előrejelzés vonalnál rendkívüli **áthaladás**, rendkívüli **megállás**
 rögzítésével, illetve **tartózkodási** idő módosításával (a dátumok és az idők módosításával)
 végezhető el.
 
@@ -10339,19 +9029,6 @@ első **vonatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ + vonat ind
 
 ’ ’
 ( IndDatum ) éééé.hh.nn formában. [#103703] .
-`o` „ **Érkezési idő** ” dátum és idő beviteli mező. Üres.
-`o` „ **Áthaladás** ” kapcsoló, ami kikapcsolt.
-`o` „ **Indulási idő** ” dátum és idő beviteli mező. Üres.
-
-- A **grafikonon** a kiválasztott előrejelzés vonalak közül a **másodiknak** kiválasztott
-(„ **várakozó** ”) előrejelzés vonalon azokban a szolgálati **hely** és **esemény** ***(’EsemJelleg’ =***
-***"E")*** **metszéspontokban**, ahol a „ **várakozó** ” vonat előrejelzett **indulási** ideje **korábbi**,
-mint a „ **bevárandó** ” vonat előrejelzett **érkezési, vagy áthaladási** ideje, megjelennek a
-**vezérlőpálcák**, a **vonatszám** **zöld** betűszínnel jelenik meg **.**
-Az **elsőnek** kiválasztott („bevárandó”) menetvonalon **nem** jelennek meg a vezérlőpálcák,
-de rá lehet kattintani.
-
-**2.2.3.9.5.2** **Működés**
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10370,6 +9047,22 @@ esetén vesszővel elválasztva jeleníti meg őket a kliens. [#103703]
 |Készítette/módosította:|Változat: 1.03|Oldal: 144/526|
 
 
+`o` „ **Érkezési idő** ” dátum és idő beviteli mező. Üres.
+`o` „ **Áthaladás** ” kapcsoló, ami kikapcsolt.
+`o` „ **Indulási idő** ” dátum és idő beviteli mező. Üres.
+
+
+
+
+- A **grafikonon** a kiválasztott előrejelzés vonalak közül a **másodiknak** kiválasztott
+(„ **várakozó** ”) előrejelzés vonalon azokban a szolgálati **hely** és **esemény** ***(’EsemJelleg’ =***
+***"E")*** **metszéspontokban**, ahol a „ **várakozó** ” vonat előrejelzett **indulási** ideje **korábbi**,
+mint a „ **bevárandó** ” vonat előrejelzett **érkezési, vagy áthaladási** ideje, megjelennek a
+**vezérlőpálcák**, a **vonatszám** **zöld** betűszínnel jelenik meg **.**
+Az **elsőnek** kiválasztott („bevárandó”) menetvonalon **nem** jelennek meg a vezérlőpálcák,
+de rá lehet kattintani.
+
+**2.2.3.9.5.2** **Működés**
 
 - A **grafikonon** egy előrejelzés vonal **kiválasztásakor**, **váltáskor** a kiválasztott
 **előrejelzés** vonalon azokban a szolgálati hely és esemény *(’EsemJelleg’ = "E")*
@@ -10406,19 +9099,6 @@ szolgálati helyéhez tartozó **indulási** vagy **áthaladási** eseményének
 *vagy 6)* ideje *(’EsemIdo’ dátum idő)* .
 `o` „ **Megállás** ” kapcsoló - a **másodiknak** kiválasztott (várakozó) vonat rendkívüli
 megállásának jelzése kapcsoló, ami alapértelmezetten **kikapcsolt** .
-Akkor **kezelhető**, ha a **másodiknak** kiválasztott (várakozó) vonatnak eredetileg
-**áthaladási eseménye** van *(’EsemTipId’ = 6)* .
-Ha az adott szerkesztési **folyamatban** lett bekapcsolva, akkor a **módosított** értéknek
-megfelelően bekapcsolt és kikapcsolható.
-`o` **„** **Bevárandó vonat”**  - az **elsőnek** kiválasztott előrejelzés vona lnak a kiválasztott
-esemény által meghatározott **vonatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ + vonat
-indulási dátuma ( ’ IndDatum ’ ) éééé.hh.nn formában. Ha a vonatnál nincs kiválasztva
-esemény akkor az utoljára kiválasztott esemény alapján jelenik meg. [#103703] .
-`o` **„Érkezési idő”**  - az **elsőnek** kiválasztott (bevárandó) előrejelzés vonal adott
-szolgálati helyéhez tartozó érkezési eseményének *(’EsemTipId’ = 1* *)* ideje *(’EsemIdo’*
-*dátum idő)* .
-Ha a vonat az adott szolgálati helyen **áthalad** *(’EsemTipId’ = 6 eseménye van)*, akkor
-**nem jelenik meg** .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10432,6 +9112,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 145/526|
 
 
+Akkor **kezelhető**, ha a **másodiknak** kiválasztott (várakozó) vonatnak eredetileg
+**áthaladási eseménye** van *(’EsemTipId’ = 6)* .
+Ha az adott szerkesztési **folyamatban** lett bekapcsolva, akkor a **módosított** értéknek
+megfelelően bekapcsolt és kikapcsolható.
+`o` **„** **Bevárandó vonat”**  - az **elsőnek** kiválasztott előrejelzés vona lnak a kiválasztott
+esemény által meghatározott **vonatazonosítója** ( ’ VonatszamIrszam ’ ) + ’ / ’ + vonat
+indulási dátuma ( ’ IndDatum ’ ) éééé.hh.nn formában. Ha a vonatnál nincs kiválasztva
+esemény akkor az utoljára kiválasztott esemény alapján jelenik meg. [#103703] .
+`o` **„Érkezési idő”**  - az **elsőnek** kiválasztott (bevárandó) előrejelzés vonal adott
+szolgálati helyéhez tartozó érkezési eseményének *(’EsemTipId’ = 1* *)* ideje *(’EsemIdo’*
+*dátum idő)* .
+Ha a vonat az adott szolgálati helyen **áthalad** *(’EsemTipId’ = 6 eseménye van)*, akkor
+**nem jelenik meg** .
 `o` **„Indulási idő”**  - az **elsőnek** kiválasztott (bevárandó) előrejelzés vonal adott
 szolgálati helyéhez tartozó indulási vagy áthaladási eseményének *(’EsemTipId’ = 2*
 *vagy 6)* ideje *(’EsemIdo’ dátum idő)* .
@@ -10473,22 +9166,6 @@ nem lehet későbbi, mint a bevárandó vonat érkezési/áthaladási ideje.”
  **Későbbi**, mint a **bevárandó** (elsőnek kiválasztott) vonat **indulási** vagy
 
 **áthaladási** **ideje**, akkor üzenetet ad: „A módosítás nem jelent
-vonattalálkozást, végezzen további módosításokat!”. A módosítás
-megmarad, a szerkesztés folytatható.
-
-      - A **szerkesztőpanelen** az „Érkezési idő” és az „Indulási **idő”** adatbeviteli
-mezők a grafikon szerinti értékre **módosulnak** .
- Az utána levő események előrejelzés ideje kiszámításra kerül, amit a
-
-kliens a mentésig tárol.
- Az **érkezési** esemény és a módosított **indulás** esemény ’ModJel’ értéke
-
-= TRUE lesz. (Ezt az eseményt kell majd a szolgáltatásnak átadni.)
-
-      - Az **aktivitás** figyelés **újraindul** .
-
-      - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
-módosulnak.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10502,6 +9179,22 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 146/526|
 
 
+vonattalálkozást, végezzen további módosításokat!”. A módosítás
+megmarad, a szerkesztés folytatható.
+
+    - A **szerkesztőpanelen** az „Érkezési idő” és az „Indulási **idő”** adatbeviteli
+mezők a grafikon szerinti értékre **módosulnak** .
+ Az utána levő események előrejelzés ideje kiszámításra kerül, amit a
+
+kliens a mentésig tárol.
+ Az **érkezési** esemény és a módosított **indulás** esemény ’ModJel’ értéke
+
+= TRUE lesz. (Ezt az eseményt kell majd a szolgáltatásnak átadni.)
+
+    - Az **aktivitás** figyelés **újraindul** .
+
+   - **Indulási** vezérlőpálcájának mozgatásakor a további eseményidők is
+módosulnak.
 
     - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
 idővonalnál **korábbi** időre.
@@ -10552,25 +9245,6 @@ szerkesztés folytatható.
 végezzen további módosításokat.”. A módosítás megmarad, a szerkesztés
 folytatható.
 
-    - A **szerkesztőpanel** az „Érkezési idő” és az „Indulási **idő”** adatbeviteli mező
-a grafikon szerinti értékre **módosul** .
- Az utána levő események előrejelzés ideje kiszámításra kerül, amit a
-
-kliens a mentésig tárol.
- A szolgálati helyhez tartozó **érkezési** és az **indulási** esemény ’ModJel’
-
-értéke = TRUE lesz. (Ezt kell majd a szolgáltatásnak átadni.)
-
-    - Az **aktivitás** figyelés **újraindul** .
-
-   - **Indulási** vagy **áthaladási** vezérlőpálcájának mozgatásakor a további
-eseményidők is módosulnak.
-
-    - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
-idővonalnál **korábbi** időre.
-
-    - A vezérlőpálca **elengedése** után, ha az **új indulási/áthaladási** idő:
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -10583,6 +9257,25 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 147/526|
 
 
+
+      - A **szerkesztőpanel** az „Érkezési idő” és az „Indulási **idő”** adatbeviteli mező
+a grafikon szerinti értékre **módosul** .
+ Az utána levő események előrejelzés ideje kiszámításra kerül, amit a
+
+kliens a mentésig tárol.
+ A szolgálati helyhez tartozó **érkezési** és az **indulási** esemény ’ModJel’
+
+értéke = TRUE lesz. (Ezt kell majd a szolgáltatásnak átadni.)
+
+      - Az **aktivitás** figyelés **újraindul** .
+
+      - **Indulási** vagy **áthaladási** vezérlőpálcájának mozgatásakor a további
+eseményidők is módosulnak.
+
+      - **Nem** mozgatható az adott előrejelzés vonal **előző** eseményénél és az
+idővonalnál **korábbi** időre.
+
+      - A vezérlőpálca **elengedése** után, ha az **új indulási/áthaladási** idő:
  Az **idővonal** **előtt** van, „A tervezett esemény idő nem lehet korábbi,
 
 mint az aktuális idő!” popup **üzenet** jelenik meg. A grafikonon és a
@@ -10631,6 +9324,19 @@ eseményidő!" **üzenetet** ad.
 
 Ha az, akkor **hibaüzenetet** ad: „A megadott idő a grafikon időszakán
 kívül esik!”
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 148/526|
+
+
  Az „ **Indulási** idő” az eredeti érkezési idő és az új érkezési idő
 
 különbségével **módosul és ellenőrzésre kerül:**
@@ -10645,49 +9351,36 @@ Ha **az**, akkor: „A módosítás nem jelent előztetést, végezzen további
 módosításokat!” figyelmeztető **üzenetet** ad.
 A módosítás megmarad, a szerkesztés folytatható.
 
-      - A **grafikonon** az érkezési és az indulási és a további esemény idők
+   - A **grafikonon** az érkezési és az indulási és a további esemény idők
 **módosulnak**, amit a kliens a mentésig tárol.
 
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 148/526|
-
-
-
-    - A szolgálati **helyhez** tartozó **érkezési** és a módosuló **indulási** esemény
+   - A szolgálati **helyhez** tartozó **érkezési** és a módosuló **indulási** esemény
 **’ModJel’** értéke = TRUE lesz. (Ezt kell majd a szolgáltatásnak átadni.)
 
-   - „ **Megállás** ” kapcsoló
+ - „ **Megállás** ” kapcsoló
 
-    - Akkor **kezelhető**, ha a „várakozó” (másodiknak kijelölt) vonat az adott
+   - Akkor **kezelhető**, ha a „várakozó” (másodiknak kijelölt) vonat az adott
 szolgálati helyen **áthalad** *(’EsemTipId’ = 6)* .
 
-    - **Bekapcsolása** után:
+   - **Bekapcsolása** után:
  Az „ **Érkezési** **idő** ” megjelenik és felveszi az „Indulási idő” **értékét** (a
 
 módosítottat is). Az **indulási** idő **nem** módosul automatikusan.
  **Megtörténnek** az „Érkezési idő” módosításánál leírt **ellenőrzések** .
  A grafikonon **új** érkezési **vezérlőpálca** kerül beszúrásra és az kezelhető.
 
-    - **Kikapcsolása** után:
+   - **Kikapcsolása** után:
  Az „ **Érkezési** idő” **eltűnik**, az **indulási** idő **visszakapja** **eredeti** értékét
 
 és **üzenetet** ad: „Vonattalálkozás nem tervezhető, a várakozó vonat
 áthalad!”
  A grafikonon a beszúrt **érkezési** **vezérlőpálca** **törlésre** kerül.
-   - **„Indulási idő”** kezelése:
+ - **„Indulási idő”** kezelése:
 
-    - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
+   - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
 kezelhető. Ha a „ **Megállás** ” kapcsoló bekapcsolt, akkor **kezelhető** .
 
-    - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy az új indulási idő:
+   - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy az új indulási idő:
  Nem lehet **korábbi,** mint a **rendszeridő** .
 
 Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az
@@ -10707,8 +9400,21 @@ Ha **az**, akkor „A módosítás nem jelent vonattalálkozást, végezzen
 további módosításokat!” üzenetet ad.
 A módosítás megmarad, a szerkesztés folytatható.
 
-    - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
+   - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
 kliens a mentésig tárol.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 149/526|
+
+
 
     - A szolgálati **helyhez** tartozó **indulási** esemény **’ModJel’** értéke = TRUE
 lesz. (Ezt kell majd a szolgáltatásnak átadni.)
@@ -10727,18 +9433,6 @@ meg.
 Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az
 aktuális idő!" **üzenetet** ad.
  Nem lehet **korábbi**, mint az ábrán levő **megelőző** esemény **ideje** .
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 149/526|
-
 
 Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az előző
 eseményidő!" **üzenetet** ad.
@@ -10762,18 +9456,18 @@ Ha **az**, akkor: „A módosítás nem jelent vonattalálkozást, végezzen
 további módosításokat!” figyelmeztető **üzenetet** ad
 A módosítás megmarad, a szerkesztés folytatható.
 
-   - A **grafikonon** az érkezési és az indulási és a további esemény idők
+    - A **grafikonon** az érkezési és az indulási és a további esemény idők
 **módosulnak**, amit a kliens a mentésig tárol.
 
-   - A szolgálati **helyhez** tartozó **érkezési** és a módosuló **indulási** esemény
+    - A szolgálati **helyhez** tartozó **érkezési** és a módosuló **indulási** esemény
 **’ModJel’** értéke = TRUE lesz. (Ezt kell majd a szolgáltatásnak átadni.)
 
- - „ **Áthaladás** ” kapcsoló
+   - „ **Áthaladás** ” kapcsoló
 
-   - Akkor **kezelhető**, ha a „bevárandó” (elsőnek kiválasztott) vonat az adott
+    - Akkor **kezelhető**, ha a „bevárandó” (elsőnek kiválasztott) vonat az adott
 szolgálati helyen **megáll** *(’EsemTipId’ <> 6)* .
 
-   - **Bekapcsolása** után **meghívásra** kerül az S_0151_49   **ForgSzabMuveletEllenorzesQuery**     - Forgalomszabályozási művelet
+    - **Bekapcsolása** után **meghívásra** kerül az S_0151_49     **ForgSzabMuveletEllenorzesQuery**      - Forgalomszabályozási művelet
 ellenőrzése (core.usp_0151_checkForgSzabMuvelet) szolgáltatás, amely
 ellenőrzi, hogy az adott szolgálati helyen a vonathoz rendkívüli áthaladás
 rögzíthető-e.
@@ -10785,19 +9479,6 @@ MGM belső azonosítója.
  **’SzhId’**     - a kijelölt szolgálati hely belső azonosítója.
  **’SzhIndex’**     - a kijelölt szolgálati hely (kapcsoló által
 meghatározott) vft-n belüli sorszáma.
- **’ModOk’**     - a módosítás oka = „A” - rendkívüli áthaladás.
- **’Megerositve’**     - annak a jelzése, hogy a felhasználó a vonatkozó
-
-megerősítő üzenetet elfogadta, mentéskor már nem kell ellenőrizni
-bizonyos feltételeket = FALSE.
-(Alapértelmezett FALSE az értéke, de egy a szolgáltatástól kapott
-megerősítő üzenet elfogadása esetén TRUE lesz. Később a
-mentéskor ezt a jelzőt az előrejelzés módosítás előkészítő
-eljárásnak át kell adni.)
- Ha a **szolgáltatás** :
-
- UC_01_51_ERR_ATHALADAS_IRANYVALTAS „ **151015** :
-Irányváltás miatt a rendkívüli áthaladás nem lehetséges!” VAGY
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10811,6 +9492,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 150/526|
 
 
+ **’ModOk’**     - a módosítás oka = „A” - rendkívüli áthaladás.
+ **’Megerositve’**     - annak a jelzése, hogy a felhasználó a vonatkozó
+
+megerősítő üzenetet elfogadta, mentéskor már nem kell ellenőrizni
+bizonyos feltételeket = FALSE.
+(Alapértelmezett FALSE az értéke, de egy a szolgáltatástól kapott
+megerősítő üzenet elfogadása esetén TRUE lesz. Később a
+mentéskor ezt a jelzőt az előrejelzés módosítás előkészítő
+eljárásnak át kell adni.)
+ Ha a **szolgáltatás** :
+
+ UC_01_51_ERR_ATHALADAS_IRANYVALTAS „ **151015** :
+Irányváltás miatt a rendkívüli áthaladás nem lehetséges!” VAGY
  UC_01_51_ERR_ATHALAD_ELTERO_OSSZEALLITAS
 
 „ **151018** : Eltérő vonatösszeállítás miatt a rendkívüli áthaladás nem
@@ -10855,22 +9549,6 @@ A módosítás megmarad, a szerkesztés folytatható.
 **érkezési** ideje, akkor: „A módosítás nem jelent előztetést, végezzen
 további módosításokat!” figyelmeztető **üzenetet** ad.
 A módosítás megmarad, a szerkesztés folytatható.
- Az „ **Áthaladás** ” kapcsoló **kikapcsolása** után az „Érkezési idő” és az
-
-„Indulási idő”, valamint a további eseményidők **visszakapják** az
-**eredeti** értéküket, az „Érkezési idő” módosítható lesz, az érkezési
-vezérlőpálca újra megjelenik.
-
- - **„Indulási idő”** kezelése
-
-   - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
-kezelhető.
-
-   - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
- **Nem lehet korábbi**, mint a **rendszeridő** .
-
-Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az
-aktuális idő!" üzenetet ad. Az eredeti idő kerül visszaírásra.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10884,6 +9562,22 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 151/526|
 
 
+ Az „ **Áthaladás** ” kapcsoló **kikapcsolása** után az „Érkezési idő” és az
+
+„Indulási idő”, valamint a további eseményidők **visszakapják** az
+**eredeti** értéküket, az „Érkezési idő” módosítható lesz, az érkezési
+vezérlőpálca újra megjelenik.
+
+   - **„Indulási idő”** kezelése
+
+    - Ha a vonat **áthalad** a szolgálati helyen *(’EsemTipId’ = 6)*, akkor **nem**
+kezelhető.
+
+    - **Módosítása** után, arról lelépve **ellenőrzésre** kerül, hogy:
+ **Nem lehet korábbi**, mint a **rendszeridő** .
+
+Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az
+aktuális idő!" üzenetet ad. Az eredeti idő kerül visszaírásra.
  **Nem lehet korábbi**, mint az ábrán levő **megelőző** esemény **ideje** .
 
 Ha az, akkor "A tervezett eseményidő nem lehet korábbi, mint az előző
@@ -10907,10 +9601,10 @@ Ha **az**, akkor „A módosítás nem jelent vonattalálkozást, végezzen
 további módosításokat!” üzenetet ad.
 A módosítás megmarad, a szerkesztés folytatható.
 
-      - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
+    - A grafikonon az **indulási** és a **további esemény idők** **módosulnak,** amit a
 kliens a mentésig tárol.
 
-      - A szolgálati **helyhez** tartozó **indulási** esemény **’ModJel’** értéke = TRUE
+    - A szolgálati **helyhez** tartozó **indulási** esemény **’ModJel’** értéke = TRUE
 lesz. (Ezt kell majd a szolgáltatásnak átadni.)
 
 `o` 102793 Bármelyik idő módosításakor (akár vezérlőpálcával, akár panelen), ha a
@@ -10920,15 +9614,28 @@ várakozó vonat érkezési ideje nem lehet későbbi, mint a bevárandó vonat
 érkezési/áthaladási ideje."
 Az üzenet **lekezelése** után a módosítás nem történik meg, a módosított adat **visszaáll**
 az eredetire, a <Ment> nyomógomb nem kezelhető lesz ('ModJel' = FALSE), **mintha**
-a < **Visszavon**     - lett volna kezelve.
+a < **Visszavon**   - lett volna kezelve.
 
 `o` 107096 A kijelölés megfordítása ikon kezelésére:
 
-      Ha a grafikonon már volt esemény is kiválasztva, akkor az megszűnik.
+   Ha a grafikonon már volt esemény is kiválasztva, akkor az megszűnik.
 
-      - ”
+   - ”
 Ha történt adatmódosítás is, akkor azok „törlésre kerülnek (lásd: <Visszavon>
 kezelése) a panelen és a grafikonon is.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 152/526|
+
+
       - Meg változik a vonatok kijelölési sorrendje, azaz a korábban az " Várakozó
 vonat " lesz az " Bevárandó vonat ” .
 
@@ -10943,6 +9650,52 @@ kijelölés szerint.
 - **Nyomógombok** a szerkesztőpanelen
 `o` < **Visszavon**  
       - Akkor kezelhető, ha bármelyik előrejelzés **vonal módosult** .
+      - A nyomógomb **kezelésekor** az előrejelzés vonalak az **eredeti** helyzetre állnak
+vissza, nincs vezérlőpálca kiválasztva.
+
+      Minden eseménynél a ’ModJel’ = FALSE lesz.
+      - Szolgáltatáshívás és **adatmentés** **nem** történik, az üzemmód marad
+vonattalálkozás tervezése.
+
+      Az aktivitás figyelés újraindul.
+
+`o` < **Mégsem**        - Kezelésekor **adatmentés nem** történik, **meghívásra** kerül a menetvonal
+foglalást **feloldó** MenetvForgSzabFoglalasCommand (Menetvonalak
+forgalomszabályozásra lefoglalása) szolgáltatás.
+**Bemenő** adatok
+
+      - **’MenetvonalIdLista’**       - a feloldani kívánt menetvonalak ’MGMMenetvId’
+
+adata. Kételemű lista.
+
+      - **’MunkahelyId’**
+
+      - **’AbraId’**
+
+      - **’FoglalasJelzo’** = „E” - elengedés, feloldás.
+
+      - **’ModositasOk’** = NULL
+
+      - ’epaiParamXmlDoc’
+      - Sikeres **feloldás** után a grafikon kilép a „Vonattalálkozás tervezése”
+üzemmódból és a grafikon **frissül,** a fókuszban és **kiválasztva** maradnak a
+kiválasztott előrejelzés vonalak, a „funkciók” ikonsor marad a **szerkesztésen** .
+`o` < **Ment**  
+      - A nyomógomb akkor **kezelhető**, ha az előrejelzésben **módosítás** történt.
+      - Kezelésekor **ellenőrzésre** kerül, hogy az adott állomáson **történt-e**
+**vonattalálkozás tervezés**, azaz a bevárandó vonat **érkezési** /áthaladási ideje
+**későbbi**, mint a **várakozó** vonat **érkezési** ideje **ÉS** **korábbi**, mint mint a
+várakozó vonat **indulási** ideje.
+Ha nem, akkor a "Módosítás nem jelent vonattalálkozást végezzen további
+módosítást." üzenetet ad ÉS nem történik szolgáltatás hívás, a vezérlés marad.
+      - **Kezelésére** (vagy az aktivitást figyelő idősáv lejártakor) meghívásra kerül a
+„Vonat előztetés és találkozás tervezése” *(* ***VonatEloztetesTalalkozasCommand*** *)*
+szolgáltatás, ami a megfelelő ellenőrzések után elvégzi az előrejelzések
+módosítását.
+
+**Bemenő** adatok:
+
+      - **’MunkahelyId’**       - Munkahely belső azonosítója.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -10953,60 +9706,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
 |---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 152/526|
+|Készítette/módosította:|Változat: 1.03|Oldal: 153/526|
 
 
-   - A nyomógomb **kezelésekor** az előrejelzés vonalak az **eredeti** helyzetre állnak
-vissza, nincs vezérlőpálca kiválasztva.
 
-   Minden eseménynél a ’ModJel’ = FALSE lesz.
-   - Szolgáltatáshívás és **adatmentés** **nem** történik, az üzemmód marad
-vonattalálkozás tervezése.
+   - **’AbraId’**   - Ábra belső azonosítója.
 
-   Az aktivitás figyelés újraindul.
+   - **’SzhId’**   - Szolgálati hely belső id.
 
-`o` < **Mégsem**    - Kezelésekor **adatmentés nem** történik, **meghívásra** kerül a menetvonal
-foglalást **feloldó** MenetvForgSzabFoglalasCommand (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás.
-**Bemenő** adatok
-
-    - **’MenetvonalIdLista’**     - a feloldani kívánt menetvonalak ’MGMMenetvId’
-
-adata. Kételemű lista.
-
-    - **’MunkahelyId’**
-
-    - **’AbraId’**
-
-    - **’FoglalasJelzo’** = „E” - elengedés, feloldás.
-
-    - **’ModositasOk’** = NULL
-
-    - ’epaiParamXmlDoc’
-   - Sikeres **feloldás** után a grafikon kilép a „Vonattalálkozás tervezése”
-üzemmódból és a grafikon **frissül,** a fókuszban és **kiválasztva** maradnak a
-kiválasztott előrejelzés vonalak, a „funkciók” ikonsor marad a **szerkesztésen** .
-`o` < **Ment**    - A nyomógomb akkor **kezelhető**, ha az előrejelzésben **módosítás** történt.
-   - Kezelésekor **ellenőrzésre** kerül, hogy az adott állomáson **történt-e**
-**vonattalálkozás tervezés**, azaz a bevárandó vonat **érkezési** /áthaladási ideje
-**későbbi**, mint a **várakozó** vonat **érkezési** ideje **ÉS** **korábbi**, mint mint a
-várakozó vonat **indulási** ideje.
-Ha nem, akkor a "Módosítás nem jelent vonattalálkozást végezzen további
-módosítást." üzenetet ad ÉS nem történik szolgáltatás hívás, a vezérlés marad.
-   - **Kezelésére** (vagy az aktivitást figyelő idősáv lejártakor) meghívásra kerül a
-„Vonat előztetés és találkozás tervezése” *(* ***VonatEloztetesTalalkozasCommand*** *)*
-szolgáltatás, ami a megfelelő ellenőrzések után elvégzi az előrejelzések
-módosítását.
-
-**Bemenő** adatok:
-
-    - **’MunkahelyId’**     - Munkahely belső azonosítója.
-
-    - **’AbraId’**     - Ábra belső azonosítója.
-
-    - **’SzhId’**     - Szolgálati hely belső id.
-
-    - **’MenetvLista’** json - minden esetben kételemű lista, akkor is, ha az egyik
+   - **’MenetvLista’** json - minden esetben kételemű lista, akkor is, ha az egyik
 menetvonalon nem történt módosítás.
 
  **’MenetvId’**
@@ -11020,18 +9728,6 @@ menetvonalon nem történt módosítás.
 A tényadat lekérdező szolgáltatás által kapott érkezési idő. *(Ha a*
 *menetvonal eredetileg áthaladt, akkor NULL.)*
  **’UjErkIdo’**
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 153/526|
-
 
 Ha a menetvonalon **nem** történt **módosítás**, akkor **NULL** .
 **Módosítás** esetén
@@ -11083,24 +9779,6 @@ lesz.
 
 akkor az ’UjIndIdo’ a módosított, vagy az eredeti **indulási** idő
 lesz.
- **Haladós** volt *(van "EsemTipId":6 eseménye)* **ÉS** **megálló** lesz,
-
-akkor az ’UjIndIdo’ a módosított, vagy az eredeti **áthaladási**
-idő lesz.
- **’SzhIndex’**   - az előztetés **szolgálati** helye **ÉS** a 'MenetvId' által
-
-meghatározott 'szh_index' a tényadat lekérdező szolgáltatás által kapott
-adatok alapján.
-
-   - **epaiParamXmlDoc**
- - Az **eljárás ellenőrzi**, hogy:
-
-   - Az adott **munkahely** a felhasználó által van **lefoglalva** .
-Ha **UC_01_51_ERR_ERVENYTELEN_FOGLALAS** üzenetet ad vissza
-„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
-üzenetet ad, nem történik meg a létrehozás.
-
-   - A **menetvonal** nincs egy másik felhasználó által szerkesztésre **lefoglalva** .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11114,6 +9792,24 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 154/526|
 
 
+ **Haladós** volt *(van "EsemTipId":6 eseménye)* **ÉS** **megálló** lesz,
+
+akkor az ’UjIndIdo’ a módosított, vagy az eredeti **áthaladási**
+idő lesz.
+ **’SzhIndex’**    - az előztetés **szolgálati** helye **ÉS** a 'MenetvId' által
+
+meghatározott 'szh_index' a tényadat lekérdező szolgáltatás által kapott
+adatok alapján.
+
+    - **epaiParamXmlDoc**
+   - Az **eljárás ellenőrzi**, hogy:
+
+    - Az adott **munkahely** a felhasználó által van **lefoglalva** .
+Ha **UC_01_51_ERR_ERVENYTELEN_FOGLALAS** üzenetet ad vissza
+„ **151005** : Érvénytelen munkahely foglalás, az adatok mentése sikertelen!”
+üzenetet ad, nem történik meg a létrehozás.
+
+    - A **menetvonal** nincs egy másik felhasználó által szerkesztésre **lefoglalva** .
 Ha a szolgáltatás **UC_01_51_ERR_MENETV_FOGLALT** üzenetet ad
 vissza, akkor „ **151010** : A menetvonalat más felhasználó szerkeszti,
 módosítás nem lehetséges!” hibaüzenetet ad, nem történik meg a módosítás.
@@ -11148,22 +9844,6 @@ forgalomszabályozásra lefoglalása) szolgáltatás **’FoglalasJelzo’** = �
 többi menetvonal kijelölhető lesz, a „funkciók” ikonsor marad a „ **Szerkesztés** ”
 ikonon.
 
-   - **Ellenőrzi**, hogy a vonattalálkozás szolgálati helyén megtörtént-e a
-**vonattalálkozás** tervezés, azaz az elsőnek kiválasztott vonat előrejelzett
-indulási/áthaladási ideje korábbi, mint a másodiknak kiválasztott vonat indulási
-ideje.
-
-    - Ha **igen**, akkor **meghívásra** kerül a
-**ForgSzabMuveletElokeszitesCommand** szolgáltatás a < **Ment**      nyomógombnál leírt paraméterekkel, azzal a kitétellel, hogy ha a
-szolgáltatás **hibaüzenetet** ad vissza az **nem** lesz **figyelembe** véve és
-**meghívásra** kerül a menetvonal foglalását feloldó
-**MenetvForgSzabFoglalasCommand** (Menetvonalak
-forgalomszabályozásra lefoglalása) szolgáltatás (lásd <Mégsem>
-nyomógomb leírásnál).
-
-    - Ha **nem**, akkor **nem** kerül meghívásra a
-ForgSzabMuveletElokeszitesCommand szolgáltatás, helyette a
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -11177,6 +9857,21 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 155/526|
 
 
+      - **Ellenőrzi**, hogy a vonattalálkozás szolgálati helyén megtörtént-e a
+**vonattalálkozás** tervezés, azaz az elsőnek kiválasztott vonat előrejelzett
+indulási/áthaladási ideje korábbi, mint a másodiknak kiválasztott vonat indulási
+ideje.
+
+      - Ha **igen**, akkor **meghívásra** kerül a
+**ForgSzabMuveletElokeszitesCommand** szolgáltatás a < **Ment**        nyomógombnál leírt paraméterekkel, azzal a kitétellel, hogy ha a
+szolgáltatás **hibaüzenetet** ad vissza az **nem** lesz **figyelembe** véve és
+**meghívásra** kerül a menetvonal foglalását feloldó
+**MenetvForgSzabFoglalasCommand** (Menetvonalak
+forgalomszabályozásra lefoglalása) szolgáltatás (lásd <Mégsem>
+nyomógomb leírásnál).
+
+      - Ha **nem**, akkor **nem** kerül meghívásra a
+ForgSzabMuveletElokeszitesCommand szolgáltatás, helyette a
 **MenetvForgSzabFoglalasCommand** szolgáltatás kerül meghívásra, 'E' elengedés paraméterrel.
 
 **[#88981]** **„Irányítói feltartóztatás” funkció**
@@ -11219,26 +9914,6 @@ Az ikon kezelésekor:
 
 Ha a szolgáltatás UCkliens program megerősítő üzenetet _ 01 _ 51 _ CONF ad. _ME N E TV _ F O GLALT üzenetet ad vissza, akkor a
 
-Megerősítő üzenet: 151004  - UC_0 1_51_C ON F _MENETV_FOGLALT – „A {0} vonatot
-{1} munkahelyen {2} óta szerkeszt i k! F elülír ja a m e netvonal foglalását? ”, ahol:
-
-    - =
-{0} ERRTEXT első paramétere (a lefoglalt menetvonal első vonatazonosítója).
-
-    - =
-{1} ERRTEXT második paramétere (a foglaló munkahely megnevezése).
-
-    - =
-{2} ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
-
-A megerősítő üzenetre adott **<Nem** **>** vála sz es et é n, nem történik meg a menetvonal
-foglalása, a menetvonal kijelölése m egszűni k, a tö bbi objektum elérhetővé válik, és az
-ikonsor marad a „Szerkesztés ” ikon on .
-
-**<Igen>** esetén újra meghívja az S _0151_38 - MenetvForgSzabFoglalasCommand
-(Menetvonalak forgalomszabályoz ásr a lef og lalá s a) szolgáltatást, de a Foglalás jelzőbe
-(FoglalasJelzo) :„A ” (átvétel) értéket hely ez.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -11251,6 +9926,25 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 156/526|
 
 
+Megerősítő üzenet: 151004 - UC_0 1_51_C ON F _MENETV_FOGLALT – „A {0} vonatot
+{1} munkahelyen {2} óta szerkeszt i k! F elülír ja a m e netvonal foglalását? ”, ahol:
+
+ - =
+{0} ERRTEXT első paramétere (a lefoglalt menetvonal első vonatazonosítója).
+
+ - =
+{1} ERRTEXT második paramétere (a foglaló munkahely megnevezése).
+
+ - =
+{2} ERRTEXT harmadik paramétere (a foglalás kezdő ideje).
+
+A megerősítő üzenetre adott **<Nem** **>** vála sz es et é n, nem történik meg a menetvonal
+foglalása, a menetvonal kijelölése m egszűni k, a tö bbi objektum elérhetővé válik, és az
+ikonsor marad a „Szerkesztés ” ikon on .
+
+**<Igen>** esetén újra meghívja az S _0151_38 - MenetvForgSzabFoglalasCommand
+(Menetvonalak forgalomszabályoz ásr a lef og lalá s a) szolgáltatást, de a Foglalás jelzőbe
+(FoglalasJelzo) :„A ” (átvétel) értéket hely ez.
 
 - Ha sikeres volt a kiválasztott menetvonal lefoglalása, akkor a g r af i k o n **„** **Irá** **ny** **í** **tó** **i**
 
@@ -11286,33 +9980,13 @@ előrejelzés) nem kiválaszthatóvá válik.
 
 panel.
 
-`o` Fejlécben megjelenik a „Irányítói feltartóztatás ” szöveg, az áb ra m eg n ev ezés e, a
+`o` Fejlécben megjelenik a „Irányítói feltartóztatás ” szöveg, az ábra m eg n ev ezés e, a
 
 felhasználói aktivitást figyelő idősáv, a <Ment>, és a <Mégsem> ny om óg om b ok,
 valamint a szerkesztéshez szükséges ikonok (nagyítások, kicsinyíté sek, i d ő v o nalra
 ugrás, alapértelmezett kameranézet).
 
 `o` A szerkesztőpanelen megjelennek a következő adatelemek:
-
-    - **„Vonatazonosító** **”** megjelenítő mező. A kijelölt menetvonal vonatszáma
-
-(VonatszamIrszam) + ’ / ’ + vonat indulási dátuma ( ’ IndDatum ’ ) éééé.hh.nn
-formában. Több vonatazonosító e setén vesszővel elválasztva jeleníti meg
-őket a kliens. [#103703] .
-
-    - **„Feltartóztatás helye** **”** rövid nevet tartalmazó lenyíló, beviteli mező. A
-
-kliens program a rövid nevet (SzhR ov idNev) az **S_0151_02** **–** **Út tengely**
-**adatok lekérdezése szolgáltatás** **(** **U** **t** **tengelySzolgalatiHelyAdatokQuery)**
-adataiból veszi (SzhId alapján) . Alapértelmezetten üres a mező.
-Értékkészletében a menetvonal azon s zolgálati helyeinek a rövid neve jelenik
-meg, amelyekre teljesülnek a következő feltételek:
-
-       - Az **S_0151_05** **–** **Tényadatok lekérdezése (TenyadatokQuery)**
-
-szolgáltatás által a szolgálati helyre visszaadott események között
-szerepel előrejelzett, nem nyílt vonali esemény (EsemJelleg = ’ E ’,
-SzhIdIg = NULL )
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11327,7 +10001,27 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-        - Az S _ 0151 _ 05 szolgáltatás által a szolgálati helyre visszaado tt
+      - **„Vonatazonosító** **”** megjelenítő mező. A kijelölt menetvonal vonatszáma
+
+(VonatszamIrszam) + ’ / ’ + vonat indulási dátuma ( ’ IndDatum ’ ) éééé.hh.nn
+formában. Több vonatazonosító e setén vesszővel elválasztva jeleníti meg
+őket a kliens. [#103703] .
+
+      - **„Feltartóztatás helye** **”** rövid nevet tartalmazó lenyíló, beviteli mező. A
+
+kliens program a rövid nevet (SzhR ov idNev) az **S_0151_02** **–** **Út tengely**
+**adatok lekérdezése szolgáltatás (** **U** **t** **t** **engelySzolgalatiHelyAdatokQuery)**
+adataiból veszi (SzhId alapján) . Alapértelmezetten üres a mező.
+Értékkészletében a menetvonal azon s zolgálati helyeinek a rövid neve jelenik
+meg, amelyekre teljesülnek a következő feltételek:
+
+        - Az **S_0151_05** **–** **Tényadatok lekérdezése (TenyadatokQuery)**
+
+szolgáltatás által a szolgálati helyre visszaadott események között
+szerepel előrejelzett, nem nyílt vonali esemény (EsemJelleg = ’ E ’,
+SzhIdIg = NULL )
+
+        - Az S_0151 _ 05 szolgáltatás által a szolgálati helyre visszaado tt
 
 előrejelzett esemény típusa érkezés (EsemTipId = 1) vagy áthaladás
 (EsemTipId = 6) vagy indulás (EsemTipId = 2)
@@ -11361,15 +10055,28 @@ jeleníti meg:
 `o` Ha a feltartóztatás helyén a vezérlőpálca előrejelzett indulási esemé n y hez t ar t o zik
 
 és a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” kapcsoló b ek ap cso l t,
-akkor hibát ad: UClehet az indító állomás előtt! _ 01 _ 51 _ ERR ” _ FELTART _ IND _ ELOTT „A feltartóztatá s n em
+akkor hibát ad: UClehet az indító állomás előtt! _ 01 _ 51 _ ERR ” _ FELTART _ IND _ ELOTT „A feltartó ztatá s n em
 `o` Ha a feltartóztatás helyén a vezérlőpálca előrejelzett áthaladási esemén y hez
 
 tartozik és a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” kap cso l ó
-kikapcsolt, akkor hibát ad: UC„Áthaladás esetén a feltartóztatás csak a szolgálati hely előtt lehetséges _ 01 _ 51 _ ERR _ SZH _ FELTART _ ATHALAD !”
+kikapcsolt, akkor hibát ad: UC„Áthaladás esetén a feltartóztatás csak a szolgálati hely előtt lehetséges! _ 01 _ 51 _ ERR_SZH_FELTART_ATHAL ” AD
 `o` Ha a feltartóztatás helyén a vezérlőpálcához tartozó eseménynél az Sszolgáltatástól kapott Esemény be/kilépés jelző (SzakaszBeKiJel) értéke _0 1 51 1 _ 0 5
 
 (belépés) és a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” k ap cso l ó
 bekapcsolt, akkor hibát ad: UCfeltartóztatás nem lehet az ábrára való belépés előtt! _ 01 _ 51 _ ERR _ FELTART ” _ BELEPES _ EL OTT „A
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 158/526|
+
+
 `o` Ha a feltartóztatás helyén a vezérlőpálcához tartozó eseménynél az Sszolgáltatástól kapott Menetvonal indító/cél jelző (MenetvIndCelJel) ért _0 1 ék5 1e _„c” 0 5 és
 
 a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” kapcsoló kik ap cso l t,
@@ -11387,19 +10094,6 @@ szolgálati hely vonalán tartózkodási vonalat húz a lekérdezett időszak v 
 
 bekapcsolt, akkor a menetvonal haladási irányát figyelembe véve a kivála s zt o t t
 vezérlőpálcához tartozó szolgálati hely előtt 100m      - el húzza a tartózkodási v o n alat,
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 158/526|
-
-
 a szolgálati hely vonalával párhuzamosan a kiválasztott esemény idejétő l k ezdv e,
 majd eltünteti a kiválasztott vezérlőpálcát.
 
@@ -11412,15 +10106,15 @@ Módosítás a vezérlőpálca mozgatásával nem lehetséges.
 `o` Az aktivitás figyelés újraindul.
 `o` Ha a módosítás után a mező üres, akkor a grafikonon a szerkesztő p an el
 
-megnyitásakori állapot szerint jelenik meg a kiválasztott menetvonal el ő re j el zés
+megnyitásakori állapot szerint jelenik meg a kiválasztott menetvonal elő re j el zés
 vonala és rajta a vezérlőpálcák.
 `o` Ha a módosítás után a mező nem üres, akkor a program a feltartózta tá s hely ér e
 
-rajzolt vezérlőpácát kiválasztottá teszi (ha látszik a vezérlőpálca a feltar t ó ztatás
+rajzolt vezérlőpácát kiválasztottá teszi (ha látszik a vezérlőpálca a felta r t ó ztatás
 helyén), és elvégzi a vezérlő pálca kiválasztásánál leírt ellenőrzéseket ( az
 ellenőrzéseket akkor is elvégzi, ha nem látszik a vezérlőpálca a korábbi
-módosítások miatt). Ha hibát talál, akkor azt popup üzenetben megjelen íti .
-`o` Ha a módosítás után a mező nem üres és az ellenőrzéseknél nem vol t h i b a, ak kor a
+módosítások miatt). Ha hibát talál, akkor azt popup üzenetben megjeleníti .
+`o` Ha a módosítás után a mező nem üres és az ellenőrzéseknél nem vo l t h i b a, ak kor a
 
 következők szerint módosítja a kiválasztott menetvonal előrejelzés vonalát.
 
@@ -11432,7 +10126,7 @@ vezérlőpálcákat.
        - Ha a „ **Feltartóztatás a szolgálati hely előtt** ” kapcsoló **kikapcsolt**, akkor
 
 ha szükséges a feltartóztatás helyén megrajzolja és kiválasztottá teszi a
-vezérlőálcát, majd a vezérlő pálcáho z tartozó eseménytől a szolgálati hely
+vezérlőálcát, majd a vezérlő pálcához tartozó eseménytől a szolgálati hely
 vonalán tartózkodási vonalat húz a a lekérdezett időszak végéig.
 
        - Ha a „ **Feltartóztatás a szolgálati hely előtt** **”** kapcsoló **bekapcsolt**, akkor a
@@ -11447,6 +10141,19 @@ pálcát.)
 `o` **Bekapcsolásakor** :
 
        - Az aktivitás figyelés újraindul.
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 159/526|
+
+
 
        - Ha a „ **Feltartóztatás helye** ” mező **üres**, akkor nem változik a grafikon
 
@@ -11466,19 +10173,6 @@ vezérlő pálca eltűnik)
        - Az aktivitás figyelés újraindul.
 
        - Ha a „ **Feltartóztatás helye** ” mező **üres**, akkor nem változik a grafikon
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 159/526|
-
-
 
        - Ha a „ **Feltartóztatás helye** ” mező **kitöltött**, akkor a program elvégzi a
 
@@ -11511,14 +10205,28 @@ akkor hibát ad: UClehet az indító állomás előtt! _ 01 _ 51 _ ERR ” _ FEL
 
 tartozik és a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” kap cso l ó
 kikapcsolt, akkor hibát ad: UC„Áthaladás esetén a feltartóztatás csak a szolgálati hely előtt lehetséges! _ 01 _ 51 _ ERR _ SZH _ FELTART _ ATHALAD ”
-`o` Ha a feltartóztatás helyén a vezérlőpálcához tartozó eseménynél az Sszolgáltatástól kapott Esemény be/kilépés jelző (SzakaszBeKiJel) értéke _0 1 51 1 _ 0 5
+`o` Ha a feltartóztatás helyén a vezérlőpálcához tartozó eseménynél az S_ 0 1 5 1_0 5
 
+szolgáltatástól kapott Esemény be/kilépés jelző (SzakaszBeKiJel) értéke 1
 (belépés) és a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” k ap cso l ó
 bekapcsolt, akkor hibát ad: UCfeltartóztatás nem lehet az ábrára való belépés előtt! _ 01 _ 51 _ ERR _ FELTART ” _ BELEPES _ EL OTT „A
 `o` Ha a feltartóztatás helyén a vezérlőpálcához tartozó eseménynél az Sszolgáltatástól kapott Menetvonal indító/cél jelző (MenetvIndCelJel) ér _0t 1ék 5 1 e _ „c0 5” és
 
 a szerkesztő panelen „Feltartóztatás a szolgálati hely előtt ” kapcsoló ki k ap cso l t,
 akkor hibát ad: UClehet a célállomáson! _ 01 ” _ 51 _ ERR _ FELTART _ CELALL „A feltartóztat á s nem
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 160/526|
+
+
 
 - Ha az ellenőrzések során nem talált hibát, akkor meghívja az **S_0151_42** **-** **Forgalom**
 
@@ -11536,19 +10244,6 @@ figyelembe vett eseményt
        - ’ SzhId ’       - a feltartóztatás helyének belső azonosítója
 
        - ’ ModOk ’       - a módosítás oka.
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 160/526|
-
-
 
           - 11           - „Irányítói feltartóztatás szolgálati helyen ” Ha a „Feltartóztatás a
 
@@ -11583,8 +10278,7 @@ fókuszban és kiválasztva marad a módosított előrejelzés vonal.
 
 - A nyomógomb használatakor adatmentés nem történik, a kliens program meghívja a
 
-kiválasztott menetvonal szerkesztésre lefoglalását, feloldását vé g ző S _ 0 1 5 1_3 8  **MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabály o zásra l ef og l alá sa)
-szolgáltatást a következő adatokkal, hogy megszüntesse a menetvonal f og lalás át:
+kiválasztott menetvonal szerkesztésre lefoglalását, feloldását vég **MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabály oző zásra l S_0ef 1 5 og1 _l alá3 8sa) szolgáltatást a következő adatokkal, hogy megszüntesse a menetvonal f og l alás át:
 
 `o` MenetvonalIdLista: A kiválasztott menetvonal belső MGM azonosítója
 
@@ -11593,22 +10287,12 @@ szolgáltatást a következő adatokkal, hogy megszüntesse a menetvonal f og la
 `o` AbraId: A felhasználó által szerkesztésre lefoglalt ábra belső azonosítója
 `o` FoglalasJelzo = „E ”      - elengedés.
 `o` ModositasOk = NULL
+
 `o` epaiParamXmlDoc
 
 Ezután a program az adatok mentése nélkül kilép az „ **Irányító** **i** **f** **elta** **rt** **ó** **zt** **a** **tá** **s”**
 **üzemmódból** . Meghívásra kerülnek a grafikon frissítéséhez szüksége s szo l g ált atá sok . A
 fókuszban és kiválasztva marad a módosított előrejelzés vonal.
-
-***Felhasználói aktivitás lejártakor***
-
-- Ha popup üzenet van a grafikonon és a felhasználó az aktivitási figyelő lejártáig nem
-
-kezelte le azt, akkor az üzenet automatikusan bezárásra kerül, a mentő szo l g ált atá s h í v ás a
-nélkül *(a megerősítő üzenetet úgy tekintjük, mintha nemleges válas* *zt* *a* *d* *o* *t* *t* *vo* *ln* *a* *a*
-*felhasználó),* a program mentés nélkül **kilép** az „ **Irányítói feltartózta** **tá** **s** **” üzem** **m** **ó** **d** **bó** **l** **.**
-Meghívásra **MenetvForgSzabFoglalasCommand** kerül a menetvonal (Menetvonalak forgalomszabályfoglalását feloldó o zásra l S_0 1 5ef 1 _ og3 8l alá sa) szolgáltatás **’** **FoglalasJelzo** **’** = „E ”   - elengedés, paraméterrel. Meg h í v ásra k erü l nek a
-grafikon frissítéséhez szükséges szolgáltatások. A fókuszban és kiv ála s zt v a m ar ad az
-előrejelzés vonal.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11622,21 +10306,35 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 161/526|
 
 
+***Felhasználói aktivitás lejártakor***
+
+
+
+
+- Ha popup üzenet van a grafikonon és a felhasználó az aktivitási figyelő lejártáig nem
+
+kezelte le azt, akkor az üzenet automatikusan bezárásra kerül, a mentő szo l g ált atá s h í v ás a
+nélkül *(a megerősítő üzenetet úgy tekintjük, mintha nemleges vála* *s* *zt* *a* *d* *o* *t* *t* *vo* *ln* *a* *a*
+*felhasználó),* a program mentés nélkül **kilép** az „ **Irányítói feltartózta** **tá** **s** **” üzem** **m** **ó** **d** **bó** **l** **.**
+Meghívásra **MenetvForgSzabFoglalasCommand** kerül a menetvonal (Menetvonalak forgalomszabályfoglalását feloldó o zásra l S_0 1 5ef 1 _ og3 8l alá sa) szolgáltatás **’** **FoglalasJelzo** **’** = „E ”   - elengedés, paraméterrel. Meg h í v ásra k erü l nek a
+grafikon frissítéséhez szükséges szolgáltatások. A fókuszban és kiv ála s zt v a m ar ad az
+előrejelzés vonal.
 
 - Ha az előrejelzés vonal nem változott, akkor a program mentés nélkül **kilép** az „ **Irányítói**
 
 **feltartóztatás** **”** **üzemmódból.** Meghívásra kerül a menetvonal f og l alás át f elo l d ó
 S_0151_38  - **MenetvForgSzabFoglalasCommand** ( Men e t v o nala k
 forgalomszabályozásra lefoglalása) szolgáltatás **’** **FoglalasJelzo** **’** = „E” - eleng ed és,
-paraméterrel. Meghívásra kerülnek a grafikon frissítéséhez szükséges szo l g ált atá sok . A
+paraméterrel. Meghívásra kerülnek a grafikon frissítéséhez szüksége s szo l g ált atá sok . A
 fókuszban és kiválasztva marad az előrejelzés vonal.
 
 - Ha az előrejelzés vonal változott, akkor a < **Ment** - nyomógombn ál l eírtak szeri n t
 
-működik, azzal a kitétellel, hogy hiba esetén a mentés nem történik m e g . A h i b át nem
+működik, azzal a kitétellel, hogy hiba esetén a mentés nem történik m e g. A h i b át nem
 jeleníti meg a program, de meghívja a menetvonal f og l alás át f elo l d ó
 **MenetvForgSzabFoglalasCommand** (Menetvonalak forgalomszabály o zásra l ef og l alá sa)
-szolgáltatás **’** **FoglalasJelzo** **’** = „E ”   - elengedés, feloldás paraméterrel.
+
+**’** **’** = ”          szolgáltatás **FoglalasJelzo** „E elengedés, feloldás paraméterrel.
 
 **[88976]** **Másik pályán közlekedés tervezése funkció**
 
@@ -11664,18 +10362,6 @@ közlekedés tervezhető-e.
 `o` **Bemenő** adatok:
 
       **’MgmMvId’**     - a kijelölt menetvonal MGM belső azonosítója.
-      - **’SzhId’**       - a kijelölt szolgálati hely belső azonosítója.
-      - **’SzhIndex’**       - a kijelölt szolgálati hely vft-n belüli sorszáma.
-      - **’ModOk’**       - a módosítás oka = „M” - másik pályán közlekedés.
-
-      **’Megerositve’**       - annak a jelzése, hogy a felhasználó a vonatkozó megerősítő
-üzenetet elfogadta, mentéskor már nem kell ellenőrizni bizonyos feltételeket =
-FALSE.
-
-`o` Ha a **szolgáltatás** :
-      - UC_01_51_ERR_MAS_PALYA_ **UTVONAL** hibaüzenetet ad vissza, akkor
-megjelenik a „151044: Másik pályán közlekedés {0} szolgálati helytől nem
-engedélyezett!” hibaüzenet:
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11689,6 +10375,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 162/526|
 
 
+   - **’SzhId’**    - a kijelölt szolgálati hely belső azonosítója.
+   - **’SzhIndex’**    - a kijelölt szolgálati hely vft-n belüli sorszáma.
+   - **’ModOk’**    - a módosítás oka = „M” - másik pályán közlekedés.
+
+   **’Megerositve’**     - annak a jelzése, hogy a felhasználó a vonatkozó megerősítő
+üzenetet elfogadta, mentéskor már nem kell ellenőrizni bizonyos feltételeket =
+FALSE.
+
+`o` Ha a **szolgáltatás** :
+   - UC_01_51_ERR_MAS_PALYA_ **UTVONAL** hibaüzenetet ad vissza, akkor
+megjelenik a „151044: Másik pályán közlekedés {0} szolgálati helytől nem
+engedélyezett!” hibaüzenet:
 
     - Az üzenetben a {0} helyére a visszakapott ERRTEXT-ben levő paraméter
 kerül.
@@ -11739,14 +10437,6 @@ az < **Igen**     - nyomógomb a kijelölt.
 ’ UC_01_51_CONF_MASIKPALYA_RK ’      - 151047: „A vonat közlekedése nem
 tervezhető másik pályára Rk küldemény továbbítása miatt! Valóban áttervezi? ”
 megerősítő üzenetet ad. Az üzeneten a < **Nem**     - nyomógomb a kijelölt.
-   - Ha az **’** **RkRid** **’** = **2**, akkor
-’ UC_01_51_CONF_MASIKPALYA_RID ’      - 151048 „A vonat közlekedése nem
-tervezhető másik pályára veszélyes áru továbbítása miatt! Valóban áttervezi? ”
-megerősítő üzenetet ad. Az üzeneten a < **Nem**     - nyomógomb a kijelölt.
-   - Ha az **’** **RkRid** **’** = **3**, akkor
-’ nem tervezhető másik pályára Rk küldemény és veszélyes áru továbbítása miatt! UC _ 01 _ 51 _ CONF _ MASIKPALYA _ RK _ RID ’      - 151049 „A vonat közlekedése
-Valóban áttervezi? ” megerősítő üzenetet ad. Az üzeneten a < **Nem**     - nyomógomb
-a kijelölt. [106120 vége]
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11760,6 +10450,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 163/526|
 
 
+      - Ha az **’** **RkRid** **’** = **2**, akkor
+’ UC_01_51_CONF_MASIKPALYA_RID ’         - 151048 „A vonat közlekedése nem
+tervezhető másik pályára veszélyes áru továbbítása miatt! Valóban áttervezi? ”
+megerősítő üzenetet ad. Az üzeneten a < **Nem**       - nyomógomb a kijelölt.
+      - Ha az **’** **RkRid** **’** = **3**, akkor
+’ nem tervezhető másik pályára Rk küldemény és veszélyes áru továbbítása miatt! UC _ 01 _ 51 _ CONF _ MASIKPALYA _ RK _ RID ’         - 151049 „A vonat közlekedése
+Valóban áttervezi? ” megerősítő üzenetet ad. Az üzeneten a < **Nem**       - nyomógomb
+a kijelölt. [106120 vége]
       - < **Igen**       - esetén meghívásra kerül a **MasPalyaMgmCommand**
 (core.usp_0151_setMasPalyaMgm) szolgáltatás, amely ellenőrzi, hogy a másik
 pályán közlekedés egyéb feltételei (ábrafoglalás, menetvonal foglalás, nincs
@@ -11809,17 +10507,6 @@ a **’FoglalasJelzo’** = „ **E** ” - elengedés,
 - A < **Mégsem** - nyomógomb kezelésekor adatmentés nem történik, meghívásra kerül a
 menetvonal foglalást feloldó MenetvForgSzabFoglalasCommand (Menetvonalak
 forgalomszabályozásra lefoglalása) szolgáltatás.
-`o` **Bemenő** adatok
-
-      - **’MenetvonalIdLista’**       - a feloldani kívánt menetvonal ’MGMMenetvId’ adata.
-Egy elemű lista.
-
-      **’MunkahelyId’**
-      - **’AbraId’**
-      - **’FoglalasJelzo’** = „ **E** ” - elengedés, feloldás.
-      - **’ModositasOk’** = NULL
-
-      ’epaiParamXmlDoc’
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -11833,13 +10520,24 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 164/526|
 
 
+`o` **Bemenő** adatok
+
+      - **’MenetvonalIdLista’**       - a feloldani kívánt menetvonal ’MGMMenetvId’ adata.
+Egy elemű lista.
+
+      **’MunkahelyId’**
+      - **’AbraId’**
+      - **’FoglalasJelzo’** = „ **E** ” - elengedés, feloldás.
+      - **’ModositasOk’** = NULL
+
+      ’epaiParamXmlDoc’
 `o` **Sikeres feloldás** után a grafikon **kilép** a szerkesztő üzemmódból és a grafikon **frissül**
 a fókuszban és kiválasztva marad a módosított előrejelzés vonal, a „funkciók”
 **ikonsor** marad a **szerkesztésen** .
 
 - Felhasználói **aktivitás** figyelő lejártakor a működés a < **Mégsem** - nyomógomb szerinti.
 
-**2.2.3.10** **Vágányzárak megjelenítése** **,** **[ 88953]** **tény vágányzárak szerkesztése** **[88953]** **[vége]** **a**
+**2.2.3.10** **Vágányzárak megjelenítés** **e,** **[ 88953]** **tény vágányzárak szerkesztése** **[88953]** **[vége]** **a**
 
 **diagramon**
 
@@ -11887,12 +10585,6 @@ meghatározott idő.
 kapott lekérdezési időszak vége. Időhenger üzemmód esetén az aktuális időpont plusz
 az A_0151_02 ablaktól kapott jövő időintervallum paraméter által meghatározott idő.
 
-**Vágányzárak megjelenítése**
-
-A kliens program az **S_0151_06 Vágányzárak lekérdezése (VaganyzarakQuery)**
-szolgáltatástól kapott adatok alapján ábrázolja a vágányzárakat. Egy vágányzárhoz több
-vonali és több állomási kizárás is tartozhat. Amennyiben egy vágányzáron belül szükség van a
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -11910,6 +10602,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 165/526|
 
 
+**Vágányzárak megjelenítése**
+
+
+
+A kliens program az **S_0151_06 Vágányzárak lekérdezése (VaganyzarakQuery)**
+szolgáltatástól kapott adatok alapján ábrázolja a vágányzárakat. Egy vágányzárhoz több
+vonali és több állomási kizárás is tartozhat. Amennyiben egy vágányzáron belül szükség van a
 korlátozások összevonására vagy darabolására, azt az **S_0151_06 Vágányzárak lekérdezése**
 **(VaganyzarakQuery)** szolgáltatás elvégzi. A kliens a szolgáltatástól kapott minden
 
@@ -11956,17 +10655,6 @@ vágányzárak vonali kizárásait kell így ábrázolni, ha nem tartalmaznak p�
 
 **Vágányzárak feliratai**
 
-A vágányzárakhoz kapcsolódóan az alábbi adatokat jeleníti meg a kliens egy sablonban előre
-meghatározott (sárga) színnel:
-
-  - Vágányzár azonosító (VgzAzon)
-
-pl.: 2021/14921/0
-
-  - Vágány (Vagany) A vágányzár azonosító alatt írja ki. (Csak vonali kizárások esetén
-
-kitöltött.) Az **S_0151_06** **Vágányzárak** **lekérdezése** **(VaganyzarakQuery)**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -11982,6 +10670,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 166/526|
 
 
+A vágányzárakhoz kapcsolódóan az alábbi adatokat jeleníti meg a kliens egy sablonban előre
+meghatározott (sárga) színnel:
+
+  - Vágányzár azonosító (VgzAzon)
+
+pl.: 2021/14921/0
+
+  - Vágány (Vagany) A vágányzár azonosító alatt írja ki. (Csak vonali kizárások esetén
+
+kitöltött.) Az **S_0151_06** **Vágányzárak** **lekérdezése** **(VaganyzarakQuery)**
 szolgáltatás több Vagany adatot is visszaadhat (a vágányok előtt szereplő előtaggal
 együtt), amelyket egymás alatt ír ki.
 
@@ -12026,15 +10724,6 @@ Irányítói üzemmódban, egy ábrán megjelenő vágányzárnál, ha az ábrá
 szerkesztésre lefoglalta (ami csak időhenger üzemmódban lehetséges), akkor lehet
 kezdeményezni egy vágányzár tény adatainak a szerkesztését.
 
-A szerkesztő üzemmód egy vágányzári objektum bal egér gombbal történő kiválasztása után
-(vagy az objektumválasztó menüből a vágányzárat kiválasztva), majd a „Szerkesztés ”
-menüponthoz tartozó almenüsorból a Vágányzár szerkesztése ikonra kattintva indul el.
-
-A Vágányzár szerkesztése ikonra kattintva a kliens program meghívja az S_0151_22 –
-Vágányzár szerkesztéshez adatok lekérdezése (VaganyzarSzerkeszteshezQuery) szolgáltatást
-a kiválasztott vágányzár belső azonosítójával (VgzId), ami visszaadja a szerkesztéshez
-szükséges adatokat.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12046,6 +10735,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 167/526|
 
+
+A szerkesztő üzemmód egy vágányzári objektum bal egér gombbal történő kiválasztása után
+(vagy az objektumválasztó menüből a vágányzárat kiválasztva), majd a „Szerkesztés ”
+menüponthoz tartozó almenüsorból a Vágányzár szerkesztése ikonra kattintva indul el.
+
+A Vágányzár szerkesztése ikonra kattintva a kliens program meghívja az S_0151_22 –
+Vágányzár szerkesztéshez adatok lekérdezése (VaganyzarSzerkeszteshezQuery) szolgáltatást
+a kiválasztott vágányzár belső azonosítójával (VgzId), ami visszaadja a szerkesztéshez
+szükséges adatokat.
 
 Ezután az ablak átvált Vágányzár szerkesztése üzemmódra, megjelenik az ehhez tartozó fejléc
 és a kiválasztott vágányzári objektum szerkeszthetővé, a grafikonon megjelenő többi
@@ -12089,8 +10787,6 @@ A Vágányzárak szerkesztése fejlécre pozícionálva beúszó szerkesztő pan
 kiválasztott vágányzárhoz tény adatok rögzítésére, módosítására, valamint a grafikonon
 rögzített tény idők kiegészítésére, módosítására, mentésére.
 
-*2.2.3.10.3.2.1* *Vágányzári szerkesztő panel megjelenése*
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12102,6 +10798,8 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 168/526|
 
+
+*2.2.3.10.3.2.1* *Vágányzári szerkesztő panel megjelenése*
 
 2.2.3.10.3.2.2 *Vágányzári szerkesztő panel működése*
 
@@ -12149,19 +10847,6 @@ kliens program.
 
 mező
 
-  - Vágányzár oka: Vágányzár okának megnevezését (VgzOkNev) me g j elen ít ő mező
-
-  - Vágányzár típusa: Vágányzár típusának megnevezését (VgzTipNev) m eg j elen ítő mező
-
-  - Terület: A vágányzárhoz tartozó kizárások területének (Terulet) f elso r o l ását eg y m ás
-
-alatt megjelenítő mező. Ötnél több terület esetén függőlegesen görgethető v é v áli k .
-Vonali kizárásnál a terület tartalm a: v onal tak t neve+ ’ ’ +szolgálati helytől hosszú
-neve+ ’    - ’ +szolgálati helyig hosszú ne ve
-Állomási kizárásnál a terület tartalm a: a k izá r ás szolgálati helyének hosszú neve
-
-  - Elmaradás: Kapcsoló a vágányzár elmaradásának jelzéséhez (Elmar ad as)
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12173,6 +10858,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 169/526|
 
+
+
+- Vágányzár oka: Vágányzár okának megnevezését (VgzOkNev) me g j elen ít ő mező
+
+- Vágányzár típusa: Vágányzár típusának megnevezését (VgzTipNev) m eg j elen ítő mező
+
+- Terület: A vágányzárhoz tartozó kizárások területének (Terulet) f elso r o l ását eg y m ás
+
+alatt megjelenítő mező. Ötnél több terület esetén függőlegesen görgethető v é v áli k .
+Vonali kizárásnál a terület tartalm a: v onal tak t neve+ ’ ’ +szolgálati helytől hosszú
+neve+ ’  - ’ +szolgálati helyig hosszú ne ve
+Állomási kizárásnál a terület tartalm a: a k izá r ás szolgálati helyének hosszú neve
+
+- Elmaradás: Kapcsoló a vágányzár elmaradásának jelzéséhez (Elmar ad as)
 
 Bekapcsolásakor a kliens program a K ezdési é s Befejezési időket törli és mindkét
 mezőt nem kezelhetővé teszi. A gr afi k onon a vá gányzárhoz tartozó tény téglalapokat
@@ -12192,7 +10891,7 @@ szerkesztéshez adatok lekérdezése s zol gáltatá stól kapott adatokban a Te
 mező üres és az Elmaradás é r t ék e F alse. ), akkor a tervezett kezdési időt
 (TervErvKezdet) kínálja fel a mező ben a pr og r am .
 Ha az Elmaradás kapcsoló bekapcsolt, akk or ür es és nem kezelhető a mező.
-Ha a Befejezési idő kitöltött, akkor k ötel ez ő a k it öltése.
+Ha a Befejezési idő kitöltött, akkor k ötel ez ő a k itöltése.
 Ha a mezőbe kerülő idő későbbi, mint a ter v eze t t kezdési idő (TervErvKezdet), akkor
 a Megjegyzés mező kitöltése kötele zővé v áli k .
 Ha a Kezdési idő későbbi, vagy az onos a B e fejezési idővel, akkor a mező alatt
@@ -12219,14 +10918,6 @@ max 30 karakter hosszú, szöveges beviteli mező (Tavirat)
 mező.
 Ha a panel megnyitásakor a vágányzá r hoz nincs tényadat (Az S_0151_22 – Vágányzár
 szerkesztéshez adatok lekérdezése s zol gáltatá s tól kapott adatokban a TenyErvVeg
-mező üres és az Elmaradás értéke F al se. ), akk or a tervezett vége időt (TervErvVeg)
-kínálja fel a mezőben a program.
-Ha az Elmaradás kapcsoló bekapcsolt, akk or ür es és nem kezelhető a mező.
-Ha a Kezdési idő kitöltött, akkor kö telező a k itöltése
-Ha a mezőbe kerülő idő későbbi, m int a ter v ezett vége idő (TervErvVeg), akkor a
-Megjegyzés mező kitöltése kötelezőv é válik .
-Ha a Kezdési idő későbbi, vagy az onos a B efejezési idővel, akkor a mező alatt
-hibaüzenet jelenik meg. („Nagyobb k ell legy en, mint a kezdete. ” )
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -12240,6 +10931,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 170/526|
 
 
+mező üres és az Elmaradás értéke F al se. ), akk or a tervezett vége időt (TervErvVeg)
+kínálja fel a mezőben a program.
+Ha az Elmaradás kapcsoló bekapcsolt, akk or ür es és nem kezelhető a mező.
+Ha a Kezdési idő kitöltött, akkor kötelező a k itöl tése
+Ha a mezőbe kerülő idő későbbi, m int a ter v ezett vége idő (TervErvVeg), akkor a
+Megjegyzés mező kitöltése kötelezőv é válik .
+Ha a Kezdési idő későbbi, vagy az onos a B efejezési idővel, akkor a mező alatt
+hibaüzenet jelenik meg. („Nagyobb k ell legy en, mint a kezdete. ” )
 Ha a Kezdési és a Befejezési idő is k itöltött, akkor a kliens program a megadott
 időkkel a grafikonon létrehozza, v agy ha m á r léteznek, akkor módosítja a tény
 vágányzári téglalapokat. Ha a K ezdé si idő vagy a Befejezési idő túlnyúlik a
@@ -12288,16 +10987,6 @@ szerkesztése.
 
 
 
-  - Ha a szerkesztő panelen az Elmaradás kikapcsolt, a Kezdési valami n t a Bef ejezési i d ő
-
-üres és a szerkesztés megkezdésekor az Elmaradás bekapcsolt volt (A z S _ 0 1 5 1 _ 2 2
-szolgáltatástól kapott adatokban) akkor megerősítést kér a folytatáshoz:
-
-„Biztos törli az elmaradást? (I/N) ”
-
-Igenlő válasz esetén a program fol y tatja a k öve tkezőkben leírt működést. Nemleges
-válasz esetén a többi műveletet nem v ég zi el é s f olytatható a vágányzár szerkesztése.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12313,6 +11002,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
   - Ha a szerkesztő panelen az Elmaradás kikapcsolt, a Kezdési valami n t a Bef ejezési i d ő
 
+üres és a szerkesztés megkezdésekor az Elmaradás bekapcsolt volt (A z S _ 0 1 5 1 _ 2 2
+szolgáltatástól kapott adatokban) akkor megerősítést kér a folytatáshoz:
+
+„Biztos törli az elmaradást? (I/N) ”
+
+Igenlő válasz esetén a program fol y tatja a k öve tkezőkben leírt működést. Nemleges
+válasz esetén a többi műveletet nem v ég zi el é s f olytatható a vágányzár szerkesztése.
+
+  - Ha a szerkesztő panelen az Elmaradás kikapcsolt, a Kezdési valami n t a Bef ejezési i d ő
+
 üres és a szerkesztés megkezdésekor volt tényadat a vágányzárhoz ( A z S _ 0 1 5 1 _ 2 2
 szolgáltatástól kapott adatokban a TenyErvKezdet mező nem ür es), ak k or
 megerősítést kér a folytatáshoz:
@@ -12320,7 +11019,7 @@ megerősítést kér a folytatáshoz:
 „Biztos törli a vágányzári tény adatot? ( I /N)”
 
 Igenlő válasz esetén a program fol y tatja a k öve tkezőkben leírt működést. Nemleges
-válasz esetén a többi műveletet nem v ég zi el é s folytatható a vágányzár szerkesztése
+válasz esetén a többi műveletet nem v ég zi el é s f olytatható a vágányzár szerkesztése
 
 Ha a program az ellenőrzések során nem talált hibát, valamint megerősítő üzenet esetén
 
@@ -12363,17 +11062,6 @@ beállítása szerint szükséges, meghívja az **S_0151_19** **–** **RDE adat
 
 A <Mégsem> nyomógomb mindig használható.
 
-A nyomógomb használatakor, ha a szerkesztő panel megnyitása óta a szerkesztő panelen vagy
-a grafikonon változtak a vágányzár tény adatai, akkor a program megerősítést kér a
-folytatáshoz. (151009 - UC_01_51_CONF_CANCEL - „Biztosan kilép? A nem mentett
-adatok elvesznek! ” )
-
-A megerősítő üzenetre adott nemleges válasz esetén folytatható a Vágányzár szerkesztése.
-
-Igenlő válasz esetén a program az adatok mentése nélkül kilép a Vágányzár szerkesztése
-üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fejléc és panel, a vágányzár kijelölése
-megszűnik, a többi objektum elérhetővé válik és a Vágányzár szerkesztése ikon nem
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12386,6 +11074,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 172/526|
 
 
+A nyomógomb használatakor, ha a szerkesztő panel megnyitása óta a szerkesztő panelen vagy
+a grafikonon változtak a vágányzár tény adatai, akkor a program megerősítést kér a
+folytatáshoz. (151009 - UC_01_51_CONF_CANCEL - „Biztosan kilép? A nem mentett
+adatok elvesznek! ” )
+
+A megerősítő üzenetre adott nemleges válasz esetén folytatható a Vágányzár szerkesztése.
+
+Igenlő válasz esetén a program az adatok mentése nélkül kilép a Vágányzár szerkesztése
+üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fejléc és panel, a vágányzár kijelölése
+megszűnik, a többi objektum elérhetővé válik és a Vágányzár szerkesztése ikon nem
 kezelhetővé válik. A program meghívja a következő szolgáltatásokat és a szolgáltatásoktól
 kapott adatokkal frissíti a grafikon tartalmát:
 
@@ -12433,17 +11131,6 @@ A szöveges megjegyzések megjelenítéséhez szükséges adatokat az **S** **_*
 **megjegyzések lekérdezése (SzovMegjegyzesekQuery)** szolgáltatás biztosítja. A kliens az
 adott ábra belső azonosítójával és a lekérdezett időszakkal hívja meg a szolgáltatást.
 
-Időhenger üzemmódban, a szöveges megjegyzések frissítéséhez a kliens 30 másodpercenként
-újra meghívja az **S_0151_32** szolgáltatást és a kapott adatokkal újra rajzolja a szöveges
-megjegyzéseket.
-
-A Szöveges megjegyzések megjelenítése ikon állapota szerint a következő ábrázolási módok
-lehetségesek:
-
-  - Nem kell megjeleníteni a szöveges megjegyzéseket
-
-  - Csak a szöveges megjegyzés típusának megfelelő ikont kell megjelen íten i
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12456,11 +11143,20 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 173/526|
 
 
+Időhenger üzemmódban, a szöveges megjegyzések frissítéséhez a kliens 30 másodpercenként
+újra meghívja az **S_0151_32** szolgáltatást és a kapott adatokkal újra rajzolja a szöveges
+megjegyzéseket.
+
+A Szöveges megjegyzések megjelenítése ikon állapota szerint a következő ábrázolási módok
+lehetségesek:
+
+  - Nem kell megjeleníteni a szöveges megjegyzéseket
+
+  - Csak a szöveges megjegyzés típusának megfelelő ikont kell megjelen íten i
 
   - A szöveges megjegyzések típusának megfelelő ikont és mellette a szö v eg es
 
-megjegyzés első 20 karakterét kell megjeleníteni. A szövegrészt az A _ 01 51_0 4
-ablakon beállított stílusnak megfelelő színnel kell kiírni a grafikonon.
+megjegyzés első 20 karakterét kell megjeleníteni. A szövegrészt az Aablakon beállított stílusnak megfelelő színnel kell kiírni a grafikonon. _ 0 1 51 _ 0 4
 A grafikonon a szöveges megjegyzés ábrázolását, a kliens program az **S_0151_32**
 szolgáltatástól kapott adatok alapján végzi.
 Térben:
@@ -12508,13 +11204,6 @@ ezzel jelezve, hogy ez kattintható terület.
 A kattintható területen a jobb egér gombot használva, ha a kattintás helyén nincs más
 objektum, vagy több objektum esetén bármelyik egér gomb használatakor feljövő menüből,
 jobb egér gombbal a szöveges megjegyzést választva, megnyílik a Szöveges megjegyzés
-információs terület. Ennek leírása a Szöveges megjegyzés információs terület című fejezetben
-található
-
-A kattintható területen bal egér gombot használva, ha a kattintás helyén nincs más objektum,
-vagy több objektum esetén bármelyik egér gomb használatakor feljövő menüből, bal egér
-gombbal a szöveges megjegyzést választva, a szöveges megjegyzés megjelenített része
-félkövéren és nagyobb betűmérettel jelenik meg.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -12528,9 +11217,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 174/526|
 
 
+információs terület. Ennek leírása a Szöveges megjegyzés információs terület című fejezetben
+található
+
+A kattintható területen bal egér gombot használva, ha a kattintás helyén nincs más objektum,
+vagy több objektum esetén bármelyik egér gomb használatakor feljövő menüből, bal egér
+gombbal a szöveges megjegyzést választva, a szöveges megjegyzés megjelenített része
+félkövéren és nagyobb betűmérettel jelenik meg.
+
 **Szöveges megjegyzések szerkesztése**
-
-
 
 Irányítói üzemmódba, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
 üzemmódban lehetséges) és a Szöveges megjegyzések megjelenítése ikon állapota szerint a
@@ -12569,13 +11264,6 @@ történhet a grafikonon és a szerkesztő fejlécre pozicionálva beúszó szer
 VK105779 Amennyiben a kiválasztott szöveges megjegyzést nem a szerkesztést kezdeményező
 felhasználó hozta létre, akkor a szöveges megjegyzésnek csak az idővonalhoz kötöttsége
 változtatható a szerkesztő panelen. [ VK105779vége ] A beúszó szerkesztő panelen lévő mezőket, az
-**S_0151_32** **–** **Szöveges** **megjegyzések** **lekérdezése** **(SzovMegjegyzesekQuery)**
-szolgáltatástól kapott adatokkal tölti fel a kliens program.
-
-**2.2.3.11.2.3** **Szöveges megjegyzés szerkesztése a grafikonon**
-
-VK105779 Ha a kiválasztott szöveges megjegyzést a szerkesztést kezdeményező felhasználó
-hozta létre, akkor [ VK105779vége] a grafikonon a kiválasztott szöveges megjegyzéshez tartozó ikon
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -12589,6 +11277,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 175/526|
 
 
+**S_0151_32** **–** **Szöveges** **megjegyzések** **lekérdezése** **(SzovMegjegyzesekQuery)**
+szolgáltatástól kapott adatokkal tölti fel a kliens program.
+
+**2.2.3.11.2.3** **Szöveges megjegyzés szerkesztése a grafikonon**
+
+VK105779 Ha a kiválasztott szöveges megjegyzést a szerkesztést kezdeményező felhasználó
+hozta létre, akkor [ VK105779vége] a grafikonon a kiválasztott szöveges megjegyzéshez tartozó ikon
 és a megjelenő szövegrész (amennyiben megjelenik a beállítások szerint), egérrel megfogható
 és mozgatható.
 
@@ -12623,15 +11318,6 @@ változtatható a szerkesztő panelen. [ VK105779vége]
 A szerkesztő fejléc bal oldalán fixen megjelenik a „Szöveges megjegyzés szerkesztése ”
 felirat.
 
-Középen található a és a nyomógomb.
-
-A szerkesztő fejléc jobb oldalán pedig azok az ikonok, amelyek szerkesztés közben is
-használhatók:
-
-  -   - Idővonalra ugrás ikon
-
-  -   - X és Y tengely kicsinyítése ikon
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12644,6 +11330,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 176/526|
 
 
+Középen található a és a nyomógomb.
+
+A szerkesztő fejléc jobb oldalán pedig azok az ikonok, amelyek szerkesztés közben is
+használhatók:
+
+  -   - Idővonalra ugrás ikon
+
+  -   - X és Y tengely kicsinyítése ikon
 
   -   - X és Y tengely nagyítása ikon
 
@@ -12657,15 +11351,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 ***Beúszó szerkesztő panel***
 
-
-
 Szöveges megjegyzés módosítása esetén a beúszó szerkesztő panelen lévő mezőket, a
 **S_0151_32** **–** **Szöveges** **megjegyzések** **lekérdezése** **(SzovMegjegyzesekQuery)**
 szolgáltatástól kapott adatokkal tölti fel a kliens program.
 
 *Szerkesztő panelen lévő mezők*
 
-  - Szöveges megjegyzés típusa rádiógomb csoport, aminél a követk ez ő ért ék ek k özü l
+  - Szöveges megjegyzés típusa rádiógomb csoport, aminél a követ k ez ő ért ék ek k özü l
 
 lehet választani:
 
@@ -12682,7 +11374,7 @@ kezelhető mező. [VK105779vége]
 A panel megnyitásakor, ha az **S_** **0151_32 –** **Szöveges megjegyzések lekérdezése**
 **(SzovMegjegyzesekQuery)** szolgá ltatá stól k apo tt adatokban az érvényesség kezdete
 NULL, akkor bekapcsolt egyébként p edig k i k apc solt az állapota.
-Bekapcsolásakor a grafikonon a szöv ege s m eg je gyzéshez tartozó ikont és a megjelenő
+Bekapcsolásakor a grafikonon a szöv eges m eg jegyzéshez tartozó ikont és a megjelenő
 szövegrészt (amennyiben megjele nik a beállítások szerint) a kliens program az
 idővonalhoz mozgatja. A kapcsoló bek apcsolt á llapota esetén a szöveges megjegyzés
 automatikusan mozog az idővonalla l.
@@ -12694,12 +11386,6 @@ automatikusan az idővonallal.
 
 függőlegesen scrollozható beviteli mező. Kitöltése kötelező. [VK105779] Csak a szö v eg es
 megjegyzést létrehozó felhasználó számára kezelhető mező. [VK105779vége]
-A beírt megjegyzés első 20 kar ak ter e, a m ező elhagyása után, amennyiben a
-megjelenítési beállítások szerint szüks é g es, megjelenik a grafikonon, a szöveges
-megjegyzéshez tartozó ikon mellett.
-
-A szerkesztés befejezése a fejlécen található <Ment> és
-<Mégsem> nyomógombokkal lehetséges.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -12713,18 +11399,22 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 177/526|
 
 
+A beírt megjegyzés első 20 karak ter e, a mező elhagyása után, amennyiben a
+megjelenítési beállítások szerint s züks é g es, megjelenik a grafikonon, a szöveges
+megjegyzéshez tartozó ikon mellett.
+
+A szerkesztés befejezése a fejlécen található <Ment> és
+<Mégsem> nyomógombokkal lehetséges.
+
 ***nyomógomb***
 
 A <Ment> nyomógomb a következő esetekben kezelhető:
 
   - új szöveges megjegyzés létrehozásakor
 
-
-
-
   - szöveges megjegyzés módosításakor, ha a szerkesztő panel m eg ny i t ása ó t a a
 
-szerkesztő panelen vagy a grafikonon változás történt a szöveges megje g y zésnél .
+szerkesztő panelen vagy a grafikonon változás történt a szöveges megje gy zés nél .
 
 A nyomógomb használatakor a program a következő ellenőrzéseket végzi:
 
@@ -12763,18 +11453,6 @@ megjelenítési beállítások szerint akkor meghívja az **S_0151_04** **–** 
 beállítása szerint szükséges, meghívja az **S_0151_19** **–** **RDE adat** **ok** **l** **ek** **érdezés** **e**
 (RdeAdatokQurey) szolgáltatást.
 
-  - A vágányzári adatok frissítéséhez, amennyiben a megjelenít ési b eáll í t ások ( a
-
-megjelenítést vezérlő ikonok) szerint szükséges a vágányzárak megjelení t ése, ak k o r
-meghívja az **S_0151_06** **-** **Vágányzárak lekérdezése** (Vag an y zarak Qu e ry )
-szolgáltatást.
-
-  - A menetengedélyek frissítéséhez, amennyiben a megjelenítési b eáll í t ások ( a
-
-megjelenítést vezérlő ikon) szerint szükséges a menetengedélyek meg j elen ítés e a
-grafikonon, akkor az **S_0151_34** **–** **Menetengedélyek** **l** **ek** **érdezése**
-**(MenetengedelyekQuery)** szolgáltatást.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12787,6 +11465,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 178/526|
 
 
+
+  - A vágányzári adatok frissítéséhez, amennyiben a megjelenít ési b eáll í t ások ( a
+
+megjelenítést vezérlő ikonok) szerint szükséges a vágányzárak megjelení t ése, ak k o r
+meghívja az **S_0151_06** **-** **Vágányzárak lekérdezése** (Vag an y zarak Qu e ry )
+szolgáltatást.
+
+  - A menetengedélyek frissítéséhez, amennyiben a megjelenítési b eáll í t ások ( a
+
+megjelenítést vezérlő ikon) szerint szükséges a menetengedélyek meg j elen ítés e a
+grafikonon, akkor az **S_0151_34** **–** **Menetengedélyek** **l** **ek** **érdezése**
+**(MenetengedelyekQuery)** szolgáltatást.
 
   - A szöveges megjegyzések frissítéséhez meghívja az **S_0151** **_** **3** **2** **– S** **zö** **v** **eg** **es**
 
@@ -12815,7 +11505,7 @@ szolgáltatásokat és a szolgáltatásoktól kapott adatokkal frissíti a grafi
 megjelenítési beállítások szerint akkor meghívja az **S_0151_04** **–** **Menet** **rend** **i** **a** **da** **tok**
 **lekérdezése** (MenetrendiAdatokQuery) szolgáltatást
 
-  - A tény adatok frissítéséhez meghívja az **S_0151_05** **–** **Ténya** **da** **to** **k** **l** **ek** **érdezés** **e**
+  - A tény adatok frissítéséhez meghívja az **S_0151_05** **–** **Tényada** **to** **k** **l** **ek** **érdezés** **e**
 
 (TenyadatokQuery) szolgáltatást.
 
@@ -12826,7 +11516,7 @@ beállítása szerint szükséges, meghívja az **S_0151_19** **–** **RDE adat
 
   - A vágányzári adatok frissítéséhez, amennyiben a megjelenít ési b eáll í t ások ( a
 
-megjelenítést vezérlő ikonok) szerint szükséges a vágányzárak megj elení t ése, ak k o r
+megjelenítést vezérlő ikonok) szerint szükséges a vágányzárak megjelení t ése, ak k o r
 meghívja az **S_0151_06** **-** **Vágányzárak lekérdezése** (Vag an y zarak Qu e ry )
 szolgáltatást.
 
@@ -12835,17 +11525,6 @@ szolgáltatást.
 megjelenítést vezérlő ikon) szerint szükséges a menetengedélyek meg j elen ítés e a
 grafikonon, akkor az **S_0151_34** **–** **Menetengedélyek** **l** **ek** **érdezése**
 **(MenetengedelyekQuery)** szolgáltatást.
-
-  - A szöveges megjegyzések frissítéséhez meghívja az **S_0151** **_** **3** **2** **– S** **zö** **v** **eg** **es**
-
-**megjegyzések lekérdezése (SzovMegjegyzesekQuery)** szolgáltatást.
-
-**2.2.3.11.2.5** **Szöveges megjegyzés törlése**
-
-Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta és az ábrán bal egér
-gombbal egy olyan szöveges megjegyzést választott ki, amit ő hozott létre, akkor kezelhetővé
-
-válik a Szerkesztés menüponthoz tartozó almenüsorból a **Törlés** ikon.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -12858,6 +11537,18 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 179/526|
 
+
+
+  - A szöveges megjegyzések frissítéséhez meghívja az **S_0151** **_** **3** **2** **– S** **zö** **v** **eg** **es**
+
+**megjegyzések lekérdezése (SzovMegjegyzesekQuery)** szolgáltatást.
+
+**2.2.3.11.2.5** **Szöveges megjegyzés törlése**
+
+Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta és az ábrán bal egér
+gombbal egy olyan szöveges megjegyzést választott ki, amit ő hozott létre, akkor kezelhetővé
+
+válik a Szerkesztés menüponthoz tartozó almenüsorból a **Törlés** ikon.
 
 Ilyenkor a kiválasztott szöveges megjegyzés törlése a **Törlés** ikon kezelésével vagy a
 **Del/Delete** billentyű megnyomásával is kezdeményezhető.
@@ -12910,14 +11601,6 @@ módosítás ideje [VK105779vége]
 Ha az S _ 0151 _ 37 szolgáltatás nem adott vissza hibát, akkor meghívja a grafikon frissítéséhez
 szükséges szolgáltatásokat és a szolgáltatásoktól kapott adatokkal frissíti a grafikon tartalmát.
 
-89001vége
-
-**2.2.3.12** **[88998 ]** **Teljesítménycsökkenés szerkesztése**
-
-Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
-üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
-*1* *’* *)* vonathoz tartozó, menetvonalat választott, amihez tartozik tény/előrejelzés vonal, akkor
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12930,6 +11613,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 180/526|
 
 
+89001vége
+
+**2.2.3.12** **[88998 ]** **Teljesítménycsökkenés szerkesztése**
+
+
+
+Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
+üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
+*1* *’* *)* vonathoz tartozó, menetvonalat választott, amihez tartozik tény/előrejelzés vonal, akkor
 kezelhetővé válik a Szerkesztés menüponthoz tartozó almenüsorból a Teljesítménycsökkenés
 ikon.
 
@@ -12960,15 +11652,6 @@ teljesítménycsökkenés rögzítésére, módosítására, törlésére.
 A szerkesztő fejléc bal oldalán fixen megjelenik a „Teljesítménycsökkenés szerkesztése ”
 felirat.
 
-Középen található a és a nyomógomb.
-
-A szerkesztő fejléc jobb oldalán pedig azok az ikonok, amelyek szerkesztés közben is
-használhatók:
-
-  -   - Idővonalra ugrás ikon
-
-  -   - X és Y tengely kicsinyítése ikon
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -12981,6 +11664,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 181/526|
 
 
+Középen található a és a nyomógomb.
+
+A szerkesztő fejléc jobb oldalán pedig azok az ikonok, amelyek szerkesztés közben is
+használhatók:
+
+  -   - Idővonalra ugrás ikon
+
+  -   - X és Y tengely kicsinyítése ikon
 
   -   - X és Y tengely nagyítása ikon
 
@@ -12993,8 +11684,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
   -   - Y tengely nagyítása ikon
 
 ***Beúszó szerkesztő panel***
-
-
 
 **–**
 A beúszó szerkesztő panelen lévő mezőket és a gridet a **S_0151_40** **Teljesítménycsökkenés**
@@ -13040,17 +11729,6 @@ Csak akkor írható, ha van kiválasztott sor a listában.
 
 tartalmazó lenyíló beviteli mező, ahol a menetvonal szolgálati helyei közül
 lehet választani. Értékkészletét az **S_0151_44** **–** **Menetvonal szolgálati**
-**helyeinek** **lekérdezése** **(MenetvonalSzolgHelyekQuery** ) szolgáltatás
-biztosítja. Csak akkor írható a mező, ha van kiválasztott sor a listában. Ha a
-kiválasztott vontatójárműhöz még nincs rögzítve teljesítménycsökkenés, akkor
-az aktuális vonatösszeállítás kezdő szolgálati helyét kínálja fel a mezőben a
-
-program.
-`o` Szolgálati helyig: A szolgálati hely statisztikai számát és r öv i d nev ét
-
-tartalmazó lenyíló beviteli mező, ahol a menetvonal szolgálati helyei közül
-lehet választani. Értékkészletét az **S_0151_44** **–** **Menetvonal szolgálati**
-**helyeinek** **lekérdezése** **(MenetvonalSzolgHelyekQuery** ) szolgáltatás
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -13064,6 +11742,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 182/526|
 
 
+**helyeinek** **lekérdezése** **(MenetvonalSzolgHelyekQuery** ) szolgáltatás
+biztosítja. Csak akkor írható a mező, ha van kiválasztott sor a listában. Ha a
+kiválasztott vontatójárműhöz még nincs rögzítve teljesítménycsökkenés, akkor
+az aktuális vonatösszeállítás kezdő szolgálati helyét kínálja fel a mezőben a
+
+program.
+`o` Szolgálati helyig: A szolgálati hely statisztikai számát és r öv i d nev ét
+
+tartalmazó lenyíló beviteli mező, ahol a menetvonal szolgálati helyei közül
+lehet választani. Értékkészletét az **S_0151_44** **–** **Menetvonal szolgálati**
+**helyeinek** **lekérdezése** **(MenetvonalSzolgHelyekQuery** ) szolgáltatás
 biztosítja. Csak akkor írható a mező, ha van kiválasztott sor a listában. Ha a
 kiválasztott vontatójárműhöz még nincs rögzítve teljesítménycsökkenés, akkor
 az aktuális vonatösszeállítás vég szolgálati helyét kínálja fel a mezőben a
@@ -13080,7 +11769,7 @@ program az érintett mező alatt hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 7    U
 
   - Ha a Csökkentett teljesítmény mezőben 0 érték szerepel, akkor a k l i en s pr o g r am
 
-hibaüzenetet ad. Hibaüzenet: 151024    UC_01_51_ERR_NULLANAL_NAGYOBB_LEHET – „Csak 0   - n ál n ag yo bb
+hibaüzenetet ad. Hibaüzenet: 151024    UC_01_51_ERR_NULLANAL_NAGYOBB_LEHET – „Csak 0   - n ál n a g y o bb
 érték adható meg. ”
 
   - Ha a Szolgálati helytől mezőben megadott szolgálati helynél (az S _0 1 5 1 _ 4 4
@@ -13089,7 +11778,7 @@ szolgáltatástól kapott adatok alapján) a vonat sorszáma (VonatSors z) nag y
 mint Szolgálati helyig mezőhöz tartozó vonat sorszám, vagy ha a vonat sor s zám ok
 megegyeznek, de a Szolgálati helytől vonatforgalmi tervben lév ő sor s zám a
 (VftSzhIndex) nagyobb vagy egyenlő, mint a Szolgálat helyighez tarto zó so rs zám,
-akkor a kliens program hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8UC_01_51_ERR_SZHTOL_NEM_KORABBI   - „A Szolgálati hely t ő l cs ak
+akkor a kliens program hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8UC_01_51_ERR_SZHTOL_NEM_KORABBI   - „A Szolgálati h ely t ő l cs ak
 korábbi lehet, mint a Szolgálati helyig. ”
 Ha nem volt hiba, akkor a beviteli mezők tartalmával a kliens pr o g ram f elü l í r j a a
 kiválasztott sor tartalmát. A módosított értékek csak a <Ment> nyomó g omb h aszn ál atáv al
@@ -13100,26 +11789,12 @@ Használatakor kiürülnek a beviteli mezők és a gridben az Azonosítót ki v 
 vontatójárműnél is kiürülnek a mezők. Az adatbázisban a törlés csak a <M en t>
 nyomógomb használatával történik meg és csak ezután lesz láthatóvá m ás o k szám ár a.
 *Vontatójárművek teljesítménycsökkenése grid*
-Ez egy nem lapozható grid. A grid magassága maximum 3 sor lehet, en n él t ö b b so r esetén
+Ez egy nem lapozható grid. A grid magassága maximum 3 sor lehet, en n él t ö b b so r es etén
 függőleges gördítő sáv jelenik meg. A gridből csak egy sor válasz t h at ó k i . Eg y so r
 kijelölésekor, az adott sorban lévő adatok megjelennek a grid feletti mező k b en . A k l i en s
 program a szerkesztő panel megnyitásakor az **S_0151_40** **–** **Teljesí** **t** **mén** **y** **cs** **ö** **kk** **e** **nés**
 **szerkesztéséhez adatok lekérdezése (TeljesitmenycsokkQuery)** szo l g ál t atást ó l k ap o t t
 adatokkal tölti fel a gridet.
-*Vontatójárművek teljesítménycsökkenése grid* oszlopai az alapértelmezet t so rr endbe n
-
-
-
-
-
-
-
-
-|Col1|Felirat|Megnev ezés|Súgó (ToolTi p) szöveg|Hos sz|Maszk/Típus|Alapértelm ezett érték|Törzstábl a/kódtábl a|
-|---|---|---|---|---|---|---|---|
-||Azonosító|Vontatójá rműazono sító|Vontatój árműazo nosító|16|xx xx xxxx xxx-x||JarmuAzon|
-||Csökk telj|Csökkent|Csökken|2|99||Mertek|
-
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -13133,15 +11808,25 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 183/526|
 
 
+*Vontatójárművek teljesítménycsökkenése grid* oszlopai az alapértelmezet t so rr endbe n
 
 
 
 
 
-|(%)|ett teljesítm ény|tett teljesítm ény|Col4|Col5|Col6|Col7|
-|---|---|---|---|---|---|---|
-|Szolg helytől|Szolgálati helytől|Szolgálati helytől|12|||TCsKezdSz hRovidNev|
-|Szolg helyig|Szolgálati helyig|Szolgálati helyig|12|||TCsVegSzh RovidNev|
+
+
+
+
+
+
+
+|Col1|Felirat|Megnev ezés|Súgó (ToolTi p) szöveg|Hos sz|Maszk/Típus|Alapértelm ezett érték|Törzstábl a/kódtábl a|
+|---|---|---|---|---|---|---|---|
+||Azonosító|Vontatójá rműazono sító|Vontatój árműazo nosító|16|xx xx xxxx xxx-x||JarmuAzon|
+||Csökk telj (%)|Csökkent ett teljesítm ény|Csökken tett teljesítm ény|2|99||Mertek|
+||Szolg helytől|Szolgálati helytől|Szolgálati helytől|12|||TCsKezdSz hRovidNev|
+||Szolg helyig|Szolgálati helyig|Szolgálati helyig|12|||TCsVegSzh RovidNev|
 
 
 A szerkesztés befejezése a fejlécen található <Ment> és
@@ -13184,16 +11869,6 @@ változás [88997vége] )
 
 mértéke nem üres
 
-         - „T ” – Azoknál a módosított soroknál, ahol a csökkentett teljesítmény
-
-mértéke nincs kitöltve
-`o` Csökkentett teljesítmény mértéke (Mertek): A vontatójárműhöz rögzített
-
-csökkentett teljesítmény (NULL, ha nin c s kitöltve)
-`o` Csökkentett teljesítmény kezdő szolgálati helyének belső azonosítója
-
-(TCsKezdSzhId): Szolgálati helytől bels ő azonosítója (SzhId az S_0151_44        től kapott adatokból) (NULL, ha nin c s k itöltve a kezdő szolgálati hely)
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13206,6 +11881,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 184/526|
 
 
+
+         - „T ” – Azoknál a módosított soroknál, ahol a csökkentett teljesítmény
+
+mértéke nincs kitöltve
+`o` Csökkentett teljesítmény mértéke (Mertek): A vontatójárműhöz rögzített
+
+csökkentett teljesítmény (NULL, ha nin c s kitöltve)
+`o` Csökkentett teljesítmény kezdő szolgálati helyének belső azonosítója
+
+(TCsKezdSzhId): Szolgálati helytől bels ő azonosítója (SzhId az S_0151_44        től kapott adatokból) (NULL, ha nin c s k itöltve a kezdő szolgálati hely)
 `o` Csökkentett teljesítmény kezdő szolgálati helyéhez tartozó vonatforgalmi terv
 
                                     id (TCsKezdVftId) (VftId az S_0151_44 től kapott adatokból) (NULL, ha
@@ -13250,12 +11935,6 @@ menetvonal kijelölése megszűnik, a többi objektum elérhetővé válik és a
 Teljesítménycsökkenés szerkesztése ikon nem kezelhetővé válik. Majd a program meghívja a
 grafikon frissítéséhez szükséges szolgáltatásokat.
 
-**2.2.3.13** **Egyéb sebességkorlátozás szerkesztése**
-
-Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
-üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
-*1* *’* *)* vonathoz tartozó, menetvonalat választott, amihez tartozik tény/előrejelzés vonal, akkor
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13268,6 +11947,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 185/526|
 
 
+**2.2.3.13** **Egyéb sebességkorlátozás szerkesztése**
+
+
+
+Irányítói üzemmódban, ha az ábrát a felhasználó szerkesztésre lefoglalta (ami csak időhenger
+üzemmódban lehetséges) és az ábrán egy olyan, nem MRN *(menetrend nélküli,* *’* *VNTTId* *’* *<>*
+*1* *’* *)* vonathoz tartozó, menetvonalat választott, amihez tartozik tény/előrejelzés vonal, akkor
 kezelhetővé válik a Szerkesztés menüponthoz tartozó almenüsorból az Egyéb
 sebességkorlátozás ikon.
 
@@ -13318,14 +12004,6 @@ szolgáltatást, ami visszaadja a szerkesztéshez szükséges adatokat.
 **(MenetvonalSzolgHelyekQuery** ) szolgáltatást, ami a panelen lévő szo lg álati h ely
 beviteli mezők lenyíló listájának értékkészletét biztosítja.
 
-Ezután az ablak átvált Egyéb sebességkorlátozás szerkesztése üzemmódra, megjelenik az
-ehhez tartozó fejléc és a grafikonon az objektumok nem kiválaszthatóvá válnak.
-
-A szerkesztő fejlécre pozicionálva beúszó szerkesztő panelen lehetséges a kiválasztott
-menetvonalhoz egyéb sebességkorlátozás rögzítése, módosítása, törlése.
-
-**Egyéb sebességkorlátozás szerkesztése panel megjelenése**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13344,6 +12022,14 @@ formában.¶
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 186/526|
 
+
+Ezután az ablak átvált Egyéb sebességkorlátozás szerkesztése üzemmódra, megjelenik az
+ehhez tartozó fejléc és a grafikonon az objektumok nem kiválaszthatóvá válnak.
+
+A szerkesztő fejlécre pozicionálva beúszó szerkesztő panelen lehetséges a kiválasztott
+menetvonalhoz egyéb sebességkorlátozás rögzítése, módosítása, törlése.
+
+**Egyéb sebességkorlátozás szerkesztése panel megjelenése**
 
 **Egyéb sebességkorlátozás szerkesztése panel működése**
 
@@ -13376,18 +12062,6 @@ használhatók:
 **–**
 A beúszó szerkesztő panelen lévő mezőket és a gridet az **S_0151_41** **Egyéb**
 **sebességkorlátozások lekérdezése (EgyebSebKorlQuery)** és az **S_0151_44** **–** **Menetvonal**
-**szolgálati helyeinek lekérdezése (MenetvonalSzolgHelyekQuery** ) szolgáltatástól kapott
-adatokkal tölti fel a kliens program.
-
-*Szerkesztő panelen lévő mezők* :
-
-  - Megrendelés azonosító: Igénylés éve+ ’ / ’ +iktatószám+ ’ / ’ +verzi ószám (Meg rA zo n )
-
-Megjelenítő mező
-
-  - Megrendelő: VV rövid nevét megjelenítő mező (Megrendelo)
-
-  - Egyéb sebességkorlátozás (felirat)
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -13400,6 +12074,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 187/526|
 
+
+**szolgálati helyeinek lekérdezése (MenetvonalSzolgHelyekQuery** ) szolgáltatástól kapott
+adatokkal tölti fel a kliens program.
+
+*Szerkesztő panelen lévő mezők* :
+
+  - Megrendelés azonosító: Igénylés éve+ ’ / ’ +iktatószám+ ’ / ’ +verzi ószám (Meg rA zo n )
+
+Megjelenítő mező
+
+  - Megrendelő: VV rövid nevét megjelenítő mező (Megrendelo)
+
+  - Egyéb sebességkorlátozás (felirat)
 
 `o` Szolgálati helytől: A szolgálati hely statisztikai számát és r öv i d n ev ét
 
@@ -13415,20 +12102,62 @@ lehet választani. Értékkészletét az **S_0151_44** **–** **Menetvonal szol
 biztosítja.
 `o` Mérték:
 
-       - Az egyéb sebességkorlátozás mértékének megadására szolgáló 3
+        - Az egyéb sebességkorlátozás mértékének megadására szolgáló 3
 
 hosszú beviteli mező (999).
 
-       - ’ km/h ’ (felirat a beviteli mező mögött)
+        - ’ km/h ’ (felirat a beviteli mező mögött)
 `o` Megjegyzés: Maximum 1000 karakter hosszú, szabad szöveg r ög zít ésér e
 
 alkalmas, függőlegesen scrollozható beviteli mező.
 *<Hozzáad> nyomógomb*
-A < *Hozzáad* - nyomógomb mindig kezelhető.
-A < *Hozzáad* - nyomógomb használatakor a kliens program ellenőrzést v ég ez:
+A < *Hozzáad*  - nyomógomb mindig kezelhető.
+A < *Hozzáad*  - nyomógomb használatakor a kliens program ellenőrzést v ég ez:
+
+    - Ha a szerkesztő panelen van olyan beviteli mező #107055 a m eg j eg y zésen
+kívül [#107055vége], ami nincs kitöltve, akkor a kliens program az érintet t m ező alatt
+hibaüzenetet ad. Hibaüzenet: 151007      - UC_01_51_ERR_KITOLT_KO T E L EZO      
+”
+„Kitöltése kötelező! .
+
+    - Ha a Mérték mezőben 0 érték szerepel, akkor a kliens program hi baü zen etet ad .
+
+Hibaüzenet: 151024      - UC_01_51_ERR_NULLANAL_NAGYOBB _L E HET –
+
+            - ”
+„Csak 0 nál nagyobb érték adható meg.
+
+    - Ha a Szolgálati helytől mezőben megadott szolgálati helynél (az S_ 0 1 5 1_4 4
+
+szolgáltatástól kapott adatok alapján) a vonat sorszáma (VonatSors z) nag yo b b,
+mint Szolgálati helyig mezőhöz tartozó vonat sorszám, vagy ha a vonat sor s zám ok
+megegyeznek, de a Szolgálati helytől vonatforgalmi tervben lévő sor s zám a
+(VftSzhIndex) nagyobb vagy egyenlő, mint a Szolgálat helyighez tarto zó so rs zám,
+akkor a kliens program hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8UC_01_51_ERR_SZHTOL_NEM_KORABBI     - „A Szolgálati hely t ő l csak
+korábbi lehet, mint a Szolgálati helyig. ”
+Ha nem volt hiba, akkor a beviteli mezők tartalmával a kliens pr o g ram e g y ú j
+sebességkorlátozást ír a gridbe. Az adatok csak a <Ment> nyomógomb h aszn ál atáv al
+kerülnek elmentésre az adatbázisba és válnak láthatóvá mások számára .
+*<Módosít> nyomógomb*
+
+MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
+
+Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
+
+
+-----
+
+|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
+|---|---|---|
+|Készítette/módosította:|Változat: 1.03|Oldal: 188/526|
+
+
+A <Módosít> nyomógomb akkor használható, ha van kiválasztott sor a g r i d b en és a
+panelen változott valamelyik beviteli mező tartalma.
+A nyomógomb használatakor a kliens program ellenörzést végez:
 
   - Ha a szerkesztő panelen van olyan beviteli mező #107055 a m eg j eg y zésen
-kívül [#107055vége], ami nincs kitöltve, akkor a kliens program az érintet t m ező alat t
+kívül [#107055vége], ami nincs kitöltve, akkor a kliens program az érintet t m ező alatt
 hibaüzenetet ad. Hibaüzenet: 151007    - UC_01_51_ERR_KITOLT_KO T E L EZO    
 ”
 „Kitöltése kötelező! .
@@ -13445,58 +12174,16 @@ Hibaüzenet: 151024    - UC_01_51_ERR_NULLANAL_NAGYOBB _L E HET –
 szolgáltatástól kapott adatok alapján) a vonat sorszáma (VonatSorsz) nag yo b b,
 mint Szolgálati helyig mezőhöz tartozó vonat sorszám, vagy ha a vonat sor s zám ok
 megegyeznek, de a Szolgálati helytől vonatforgalmi tervben lévő sor s zám a
-(VftSzhIndex) nagyobb vagy egyenlő, mint a Szolgálat helyighez tarto zó so rs zám,
-akkor a kliens program hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8UC_01_51_ERR_SZHTOL_NEM_KORABBI   - „A Szolgálati hely t ő l csak
-korábbi lehet, mint a Szolgálati helyig. ”
-Ha nem volt hiba, akkor a beviteli mezők tartalmával a kliens pr o g ram eg y ú j
-sebességkorlátozást ír a gridbe. Az adatok csak a <Ment> nyomógomb h aszn ál atáv al
-kerülnek elmentésre az adatbázisba és válnak láthatóvá mások számára.
-*<Módosít> nyomógomb*
-A <Módosít> nyomógomb akkor használható, ha van kiválasztott sor a g r i d b en és a
-panelen változott valamelyik beviteli mező tartalma.
-A nyomógomb használatakor a kliens program ellenörzést végez:
-
-  - Ha a szerkesztő panelen van olyan beviteli mező #107055 a m eg j eg y zésen
-kívül [#107055vége], ami nincs kitöltve, akkor a kliens program az érintet t m ező alatt
-hibaüzenetet ad. Hibaüzenet: 151007    - UC_01_51_ERR_KITOLT_KO T E L EZO    
-”
-„Kitöltése kötelező! .
-
-MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
-
-Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
-
-
------
-
-|MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
-|---|---|---|
-|Készítette/módosította:|Változat: 1.03|Oldal: 188/526|
-
-
-
-  - Ha a Mérték mezőben 0 érték szerepel, akkor a kliens program h i baü zen etet ad .
-
-Hibaüzenet: 151024    - UC_01_51_ERR_NULLANAL_NAGYOBB _L E HET –
-
-          - ”
-„Csak 0 nál nagyobb érték adható meg.
-
-  - Ha a Szolgálati helytől mezőben megadott szolgálati helynél (az S_ 0 1 5 1_4 4
-
-szolgáltatástól kapott adatok alapján) a vonat sorszáma (VonatSors z) nag yo b b,
-mint Szolgálati helyig mezőhöz tartozó vonat sorszám, vagy ha a vonat sor s zám ok
-megegyeznek, de a Szolgálati helytől vonatforgalmi tervben lévő sor s zám a
 (VftSzhIndex) nagyobb vagy egyenlő mint a Szolgálat helyighez tarto zó s o rs zám,
-akkor a kliens program a hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8    UC_01_51_ERR_SZHTOL_NEM_KORABBI   - „A Szolgálati hely t ő l csak
+akkor a kliens program a hibaüzenetet ad. Hibaüzenet: 1 5 1 0 0 8    UC_01_51_ERR_SZHTOL_NEM_KORABBI   - „A Szolgálati h ely t ő l csak
 korábbi lehet, mint a Szolgálati helyig. ”
 Ha nem volt hiba, akkor a beviteli mezők tartalmával a kliens pr o g ram f elü l í r j a a
 kiválasztott sor tartalmát. A módosított értékek csak a <Ment> nyomó g omb h aszn ál atáv al
 kerülnek elmentésre az adatbázisba és válnak láthatóvá mások számára .
 *<Töröl> nyomógomb*
-A <Töröl> nyomógomb akkor használható, ha van kiválaszto t t so r a g r i d b en .
+A <Töröl> nyomógomb akkor használható, ha van kiválasztot t so r a g r i d b en .
 Használatakor kiürülnek a beviteli mezők és a gridből a kliens program t ö rl i a k i v ála szto t t
-sebességkorlátozást. Az adatbázisban a törlés csak a <Ment> nyomógomb h aszn ál atá v al
+sebességkorlátozást. Az adatbázisban a törlés csak a <Ment> nyomóg omb h aszn ál atá v al
 történik meg és csak ezután lesz láthatóvá mások számára.
 *Egyéb sebességkorlátozások grid*
 Ez egy nem lapozható grid. A grid magassága maximum 3 sor lehet, en n él t ö b b so r esetén
@@ -13528,13 +12215,6 @@ program a szerkesztő panel megnyitásakor az **S_0151_41** **–** **Egyéb seb
 ||Megjegyzés|Megjegyz és|Megjegyz és|max 1000|||Megjegyze s|
 
 
-A szerkesztés befejezése történhet automatikusan felhasználói inaktivitás miatt vagy a
-
-fejlécen található <Ment> vagy <Mégsem> nyomógomb
-használatával.
-
-***Felhasználói inaktivitás (felhasználói aktivitást figyelő idősáv*** ***)***
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13547,6 +12227,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 189/526|
 
 
+A szerkesztés befejezése történhet automatikusan felhasználói inaktivitás miatt vagy a
+
+fejlécen található <Ment> vagy <Mégsem> nyomógomb
+használatával.
+
+***Felhasználói inaktivitás (felhasználói aktivitást figyelő idősáv*** ***)***
+
 Ha a felhasználó utolsó aktivitása óta eltelt az MGM felhasználói aktivitás idő
 
 (mgm_aktivitas_ido) rendszerparaméterben megadott idő, akkor a kliens program a
@@ -13555,7 +12242,7 @@ következő műveleteket hajtja végre:
   - Ha a szerkesztő panel megnyitása óta változás történt a gridben szerep l ő ad at ok b an,
 
 akkor a <Ment> nyomógombnál leírt paraméterekkel meghívja az **S** **_** **0** **1** **5** **1** **_** **4** **5** **–**
-**Egyéb** **sebességkorlátozások** **mentése** **(EgyebSebKorlMentes** **Com** **m** **a** **n** **d)**
+**Egyéb** **sebességkorlátozások** **mentése** **(EgyebSebKorlMen** **tes** **Com** **m** **a** **n** **d)**
 szolgáltatást.
 
   - Meghívja a kiválasztott menetvonal szerkesztésre lefoglalását, f elo l dás á t v ég ző
@@ -13563,14 +12250,14 @@ szolgáltatást.
 S_0151_38    - **MenetvForgSzabFoglalasCommand** ( Men e t v o nala k
 forgalomszabályozásra lefoglalása) szolgáltatást a <Ment> nyomó g o m bnál l eí r t
 paraméterekkel ( Függetlenül attól, hogy szükség volt    - e előtte az S _ 0 1 5 1_4 5
-szolgáltatás hívására vagy sem, sikeres volt    - e az S _ 0151 _ 45 szolgálta tá s f u t ás a v ag y
+szolgáltatás hívására vagy sem, sikeres volt    - e az S_0151_45 szolgálta tá s f u t ás a v ag y
 sem ).
 
-  - Kilép az Egyéb sebességkorlátozás szerkesztése üzemmódból. E zá l t al a g raf i k o n o n
+  - Kilép az Egyéb sebességkorlátozás szerkesztése üzemmódból. E zált al a g raf i k o n o n
 
 eltűnik a szerkesztő fejléc és panel, a menetvonal kijelölése meg s zű ni k, a t ö b b i
 objektum elérhetővé válik és az Egyéb sebességkorlátozás szerkesz té s e i k o n n em
-kezelhetővé válik. Majd meghívja a grafikon frissítéséhez szükséges sz o lg ált at ások at.
+kezelhetővé válik. Majd meghívja a grafikon frissítéséhez szükséges sz o lg ált atások at.
 
 A szerkesztő panel fejlécében a felhasználói aktivitást figyelő idősáv
 jelzi a felhasználó utolsó aktivitása óta eltelt időt és azt, hogy még mennyi idő van hátra az
@@ -13596,17 +12283,6 @@ azonosítója
 
   - Menetvonal Id (MenetvId): A kiválasztott menetvonal belső MGM azo n osí t ó j a
 
-  - Bejelentkezett felhasználó azonosítója (Pass2UserId)
-
-  - Egyéb sebességkorlátozások lista:
-
-`o` Egyéb sebességkorlátozás belső azonosítója (MgmKorlId) (lehet NULL is)
-
-(Csak az S _ 0151 _ 41 szolgáltatás ált al v isszaadott soroknál kitöltött)
-`o` Működési mód (MukodesiMod) ( ’ U ’- Új, ’ M ’- Módosítás, ’ T ’- Törlés, [VK95023 ] ’
-
-’- Nincs változás [ VK95023vége] )
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13619,6 +12295,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 190/526|
 
 
+
+ - Bejelentkezett felhasználó azonosítója (Pass2UserId)
+
+ - Egyéb sebességkorlátozások lista:
+
+
+
+`o` Egyéb sebességkorlátozás belső azonosítója (MgmKorlId) (lehet NULL is)
+
+(Csak az S _ 0151 _ 41 szolgáltatás ált al v isszaadott soroknál kitöltött)
+`o` Működési mód (MukodesiMod) ( ’ U ’- Új, ’ M ’- Módosítás, ’ T ’- Törlés, [VK95023 ] ’
+
+’- Nincs változás [ VK95023vége] )
 
          - „U ” – A panel megnyitása óta a gridbe újonnan felvett soroknál (ahol
 
@@ -13638,7 +12327,7 @@ megnyitása óta [ VK95023vége]
 `o` Korlátozás mértéke (Mertek)
 `o` Korlátozás kezdő szolgálati helyének belső azonosítója (KezdSzhId):
 
-Szolgálati helytől belső azonosadatokból) ítója (SzhId az S _ 0151 _ 44          - től kapott
+Szolgálati helytől belső azonosítója (SzhId az Sadatokból) _ 0151 _ 44         - től kapott
 `o` Korlátozás kezdő szolgálati helyéhez tartozó vonatforgalmi terv id
 
 (KezdVftId) (VftId az S_0151_44        - t ől k a pott adatokból)
@@ -13650,7 +12339,7 @@ Szolgálati helytől belső azonosadatokból) ítója (SzhId az S _ 0151 _ 44   
 helyig belső azonosítója (SzhId az S _015 1 _ 44        - től kapott adatokból)
 `o` Korlátozás vég szolgálati helyéhez tartozó vonatforgalmi terv id (VegVftId)
 
-(VftId az S_0151_44        - től kapott adato k ból
+(VftId az S_0151_44        - től kapott adatok bó l
 `o` Korlátozás vég szolgálati helyének sorszáma a vonatforgalmi tervben
 
 (VegVftSzhIndex) (VftSzhIndex az S _01 51_44        - től kapott adatokból)
@@ -13673,13 +12362,6 @@ megszüntesse a menetvonal foglalását:
 
 `o` epaiParamXmlDoc
 
-Ezután a program kilép az Egyéb sebességkorlátozás szerkesztése üzemmódból. Ezáltal a
-grafikonon eltűnik a szerkesztő fejléc és panel, a menetvonal kijelölése megszűnik, a többi
-objektum elérhetővé válik és az Egyéb sebességkorlátozás szerkesztése ikon nem kezelhetővé
-válik. Majd a program meghívja a grafikon frissítéséhez szükséges szolgáltatásokat.
-
-***nyomógomb***
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13692,9 +12374,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 191/526|
 
 
+Ezután a program kilép az Egyéb sebességkorlátozás szerkesztése üzemmódból. Ezáltal a
+grafikonon eltűnik a szerkesztő fejléc és panel, a menetvonal kijelölése megszűnik, a többi
+objektum elérhetővé válik és az Egyéb sebességkorlátozás szerkesztése ikon nem kezelhetővé
+válik. Majd a program meghívja a grafikon frissítéséhez szükséges szolgáltatásokat.
+
+***nyomógomb***
+
 A <Mégsem> nyomógomb mindig használható.
-
-
 
 A nyomógomb használatakor, ha a szerkesztő panel megnyitása óta a szerkesztő panelen
 változtak az adatok, akkor a program megerősítést kér a folytatáshoz. (151009 UC_01_51_CONF_CANCEL - „Biztosan kilép? A nem mentett adatok elvesznek! ” )
@@ -13738,18 +12425,6 @@ megjelenítés ott bekapcsolt, akkor megjelennek és a megjelenítési nyomógom
 
 Ha valamelyik menetengedély megjelenítés bekapcsolt, akkor az ábrán, a szolgáltatástól
 visszakapott menetengedélyeket az adataik alapján megrajzolja (a megjelenítési
-beállításoknak megfelelően). A kezdő szolgálati helytől ( *Vágányos* nézet esetén, iránynak
-megfelelően, a szolgálati hely **utolsó vágányától** ) a vége szolgálati helyig ( *Vágányos* nézet
-
-|esetén a szolgálati hely első vagy utolsó vágányáig), a kapott időpontban rajzol. Egy olyan|Col2|
-|---|---|
-|, ami párhuzamos az út tengellyel, a nyíl hegye a típusnak megfelelően (’k’)||
-|vagy|(’b’) és a nyíl kezdete alá kerül a vonatszám.|
-
-
-
-Eltérés 101375 Ha a kezdő szolgálati hely megegyezik a vége szolgálati hellyel, akkor az iránynak
-megfelelően (True = bal/False = jobb) csak egy nyílhegyet rajzol. [Eltérés 101375 vége]
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -13762,6 +12437,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 192/526|
 
+
+beállításoknak megfelelően). A kezdő szolgálati helytől ( *Vágányos* nézet esetén, iránynak
+megfelelően, a szolgálati hely **utolsó vágányától** ) a vége szolgálati helyig ( *Vágányos* nézet
+
+|esetén a szolgálati hely első vagy utolsó vágányáig), a kapott időpontban rajzol. Egy olyan|Col2|
+|---|---|
+|, ami párhuzamos az út tengellyel, a nyíl hegye a típusnak megfelelően (’k’)||
+|vagy|(’b’) és a nyíl kezdete alá kerül a vonatszám.|
+
+
+
+Eltérés 101375 Ha a kezdő szolgálati hely megegyezik a vége szolgálati hellyel, akkor az iránynak
+megfelelően (True = bal/False = jobb) csak egy nyílhegyet rajzol. [Eltérés 101375 vége]
 
 **MEFI/MERÁFI menetengedélyek szerkesztése (létrehozása)**
 
@@ -13788,7 +12476,7 @@ tartozó, **menetvonal**, amely **szerepel a ténymenetvonalak között** .
 
 **bekapcsolja** .
 
-  - A választott ikonnak megfe lelően az alá bbi **menetengedélyek létrehozása**
+  - A választott ikonnak megfe l elő en az alá bbi **menetengedélyek létrehozása**
 
 lehetséges:
 
@@ -13815,17 +12503,6 @@ menetvonal **vonatszáma** .
   - Az ábra felett **megjelenik** **a** **s** **zer** **k** **es** **ztő** **panel** (ami csak egy fejléc
 nyomógombokkal).
 
-  - Az ábrán a kiválasztott menetvonal egyi k **szo** **lgálati helyének a vonalára** **kattintva**
-
-lehet indítani a nyíl rajzolását. A kattintást k öv etően **megjelenik egy nyílhegy** ~~[Eltérés]~~
-
-~~100246~~ ~~a~~ ~~két~~ ~~oldalán~~ ~~**egy**~~ ~~**-**~~ ~~**egy**~~ ~~**vezér**~~ ~~**l**~~ ~~**őpá**~~ ~~**lcáva**~~ ~~**l**~~ ~~E~~ ~~ltérés~~ ~~100246~~ ~~vége~~ . **Alatta** a kiválasztott
-menetvonal **vonatszáma** látható.
-
-  - **Ha nem szolgálati helytől** **indít** **aná** a m enetengedélyt, akkor nem kezdi meg a
-
-rajzolást és **hibaüzenetet** ad: „Csak szolgálati helytől indítható a menet en g ed ély !” .
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13839,6 +12516,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
+  - Az ábrán a kiválasztott menetvonal egyi k **szo** **lgálati helyének a vonalára** **kattintva**
+
+lehet indítani a nyíl rajzolását. A kattint ást k övetően **megjelenik egy nyílhegy** ~~[Eltérés]~~
+
+~~100246~~ ~~a~~ ~~két~~ ~~oldalán~~ ~~**egy**~~ ~~**-**~~ ~~**egy**~~ ~~**vezér**~~ ~~**l**~~ ~~**őpá**~~ ~~**lcáva**~~ ~~**l**~~ ~~E~~ ~~ltérés~~ ~~100246~~ ~~vége~~ . **Alatta** a kiválasztott
+menetvonal **vonatszáma** látható.
+
+  - **Ha nem szolgálati helytől** **indít** **aná** a m enetengedélyt, akkor nem kezdi meg a
+
+rajzolást és **hibaüzenetet** ad: „Csak szolgálati helytől indítható a menet en g ed ély !” .
+
   - Ha a [Eltérés 101375] „Menetengedél y a szol g ál ati h ely bejárati jelzőjéig ” (sárga hegyű)
 
 Eltérés 101375 vége nyíl mérete rövid ( csak egy **n** **yílhegy** ), akkor **nem menthető el** a
@@ -13851,7 +12539,7 @@ menetengedély.
   - **Mindkét menetengedély** (kijárati/be jár ati jelző ig) **létrehozása** esetén a **nyílhegyből**
 
 történő **első húzás iránya** határozza meg **a nyíl** **irány** át. A nyíl iránya
-**megfordítható**, amíg a szerkesztő pane l ny it v a van.
+**megfordítható**, amíg a szerkesztő p ane l ny it v a v an.
 
   - Eltérés 101375 **Menetengedély** kijárati jelzőig **nyílhegy létrehozása** esetén, amíg **csak**
 **nyílhegy**, a grafikonon **bárhova** való **kattintás** **megváltoztatja a** **nyílhegy** **irány** át.
@@ -13894,15 +12582,6 @@ következő szolgálati helyig **hosszabbod** **i** **k meg a nyíl** .
 
 `o`     - X tengely nagyítása ikon
 
-`o`     - Y tengely kicsinyítése ikon
-
-`o`     - Y tengely nagyítása ikon
-
-A **mentés** a szerkesztő panelen található <Ment> nyomógomb kezelésével
-lehetséges.
-
-A szerkesztés megszakítása a <Mégsem> nyomógomb használatával lehetséges.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13915,6 +12594,17 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 194/526|
 
 
+`o`    - Y tengely kicsinyítése ikon
+
+`o`    - Y tengely nagyítása ikon
+
+
+
+A **mentés** a szerkesztő panelen található <Ment> nyomógomb kezelésével
+lehetséges.
+
+A szerkesztés megszakítása a <Mégsem> nyomógomb használatával lehetséges.
+
 A megrajzolt menetengedély csak mentés után lesz látható más PV felhasználók számára.
 
 <Ment> nyomógomb
@@ -13923,7 +12613,7 @@ A megrajzolt menetengedély csak mentés után lesz látható más PV felhaszná
 
 **változás történt** .
 
-  - A [Eltérés 101375] „Menetengedély a szolgálati hely bejárati jelzőjéig ” (sárg a h eg yű) [Eltérés ]
+  - A [Eltérés 101375] „Menetengedély a szolgálati hely bejárati jelzőjéig ” ( s árg a h eg yű) [Eltérés ]
 
 101375 vége menetengedély **mérete legalább egy szolgálati helyköznyi** .
 
@@ -13972,14 +12662,6 @@ egyezik meg
 
         - „ **Hamis** ”, ha a nyílhegy jobbra mutat [Eltérés 101375 vége]
 
-  - **Ha** a szolgáltatás rendben **lefutott**, akkor a program **kilép** *M* *e* *neten* *g* *e* *d* *élyek*
-
-*szerkesztése* üzemmódból. Ezáltal a grafikonon **eltűnik a szerkesztő fej** **l** **éc** **és** **panel**, a
-menetvonal **kijelölése megszűnik**, a **többi** objektum **elérhetőv** **é** **v** **á** **l** **i** **k** és a
-*Menetengedély a szolgálati hely bejárati/kijárati jelzőjéig szerkesz* *t* *és* **i** **k** **o** **n** **nem**
-**kezelhetővé** válik. Majd a program meghívja a grafikon frissítéséh ez szü k ség es
-szolgáltatásokat.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -13992,28 +12674,34 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 195/526|
 
 
+
+- **Ha** a szolgáltatás rendben **lefutott**, akkor a program **kilép** *M* *e* *neten* *g* *e* *d* *élyek*
+
+*szerkesztése* üzemmódból. Ezáltal a grafikonon **eltűnik a szerkesztő fej** **l** **éc** **és** **panel**, a
+menetvonal **kijelölése megszűnik**, a **többi** objektum **elérhetőv** **é** **v** **á** **l** **i** **k** és a
+*Menetengedély a szolgálati hely bejárati/kijárati jelzőjéig szerkesz* *t* *és* **i** **k** **o** **n** **nem**
+**kezelhetővé** válik. Majd a program meghívja a grafikon frissítéséh ez szü k ség es
+szolgáltatásokat.
+
 <Mégsem> nyomógomb
 
- - A <Mégsem> nyomógomb **mindig használható** .
-
-
-
+- A <Mégsem> nyomógomb **mindig használható** .
 
 - Megszakítja a szerkesztést (rajzolást) és visszaáll a szerkesztés előt t i áll ap o t .
 
-- A nyomógomb használatakor, ha a szerkesztő panel megnyitása ó t a a g r af i k o n
+- A nyomógomb használatakor, ha a szerkesztő panel megnyitá sa ó t a a g r af i k o n
 
 változott (menetengedély készült), akkor a program megerősítést kér a f o l y t atá sh o z.
 (151009  - UC_01_51_CONF_CANCEL  - „Biztosan kilép? A nem m en t ett ad at o k
 elvesznek! ” )
 
-- A megerősítő üzenetre adott nemleges válasz esetén folytatható a sz er k es zt és.
+- A megerősítő üzenetre adott nemleges válasz esetén folytatható a szer k es zt és.
 
 - Igenlő válasz esetén a program az adatok mentése nélkül kilép a *Men* *eten* *g* *ed* *ély* *ek*
 
 *szerkesztése* üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fe jl éc és pan el, a
-menetvonal kijelölése megszűnik, a többi objektum elérhetőv é v álik és a
-*Menetengedély a szolgálati hely bejárati/kijárati jelzőjéig szerkes* *z* *t* *és* i k o n n em
+menetvonal kijelölése megszűnik, a többi objektum elérhetőv é v ál i k és a
+*Menetengedély a szolgálati hely bejárati/kijárati jelzőjéig szerkesz* *t* *és* i k o n n em
 kezelhetővé válik. Majd a program meghívja a grafikon frissítéséh ez szü k ség es
 szolgáltatásokat.
 
@@ -14026,7 +12714,7 @@ szolgáltatásokat.
 
 - A felhasználónak **rendelkeznie k** **ell** az **OP_0151_MGMIranyito** illetve az
 
-**OP_0151_MGMMefiMerafiRogzi** **t** oper anduso kkal.
+**OP_0151_MGMMefiMerafiRogzi** **t** oper an dusokkal.
 
 - Megfelelő jogosultság esetén a **t** **ö** **rl** **és** v égr eha jtása előtt megerősítő üzenetet kap a
 
@@ -14049,18 +12737,6 @@ szolgálati hely bejárati jelzőjéig ” szerkesztés esetén
 
 objektum belső azonosítója
 
-`o` Menetengedély típusa ( **MenetengTip** ) ( ’ k ’- kijárati jelzőig, ’ b ’- b e j ár ati
-
-jelzőig) = **NULL**
-
-`o` Menetengedély ideje ( **MenetengIdo** ) = **NULL**
-
-`o` Ábra belső azonosítója ( **AbraId** ) = az **aktuális ábra belső azonosí** **tó** **ja**
-
-`o` MGM menetvonal belső azonosítója ( **MgmMvId** ) = **NULL**
-
-`o` Vonatszám ( **Vonatszam** ) = **NULL**
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14073,7 +12749,19 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 196/526|
 
 
-`o` Menetengedély kezdő szolgálati hely belső azo n osí t ó j a
+`o` Menetengedély típusa ( **MenetengTip** ) ( ’ k ’- kijárati jelzőig, ’ b ’- b e j ár ati
+
+jelzőig) = **NULL**
+
+`o` Menetengedély ideje ( **MenetengIdo** ) = **NULL**
+
+`o` Ábra belső azonosítója ( **AbraId** ) = az **aktuális ábra belső azonosí** **tó** **ja**
+
+`o` MGM menetvonal belső azonosítója ( **MgmMvId** ) = **NULL**
+
+`o` Vonatszám ( **Vonatszam** ) = **NULL**
+
+`o` Menetengedély kezdő szolgálati hely belső az o n osí t ó j a
 ( **MenetengKezdSzhId** ) = **NULL**
 
 `o` Menetengedély vége szolgálati hely belső azonosítója ( **MenetengVeg** **eSz** **hI** **d** )
@@ -14119,18 +12807,6 @@ objektum jobb oldalán, az **ábrán látható részén**, az objektum **kezdet�
 
   - Legyen **kiválasztva egy szolgála** **t** **i** **hely** .
 
-  - A „Kulcsfüggés feloldás rög zítése” **i** **k** **ont** **k** **ezeli** .
-
-  - Ha a szolgálati helyen **már va** **n** **nyit** **o** **t** **t** k ulcs függés feloldás, akkor **hibaüzenetet**
-
-kap: „Nem lehet új kulcsfüggés feloldást rögzíteni, mert már l éte zik ny i t o t t
-kulcsfüggés feloldás a szolgálati helyen! ”
-
-  - Ha **még nincs nyitott** kulcsfüg gés f eloldás a k iválasztott szolgálati helyen, akkor az
-
-ábra felett megjelenik a szerkesztő **panel**, melyen látható a kiválaszto t t s zo l g álati
-hely.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14143,6 +12819,21 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 197/526|
 
 
+
+ - A „Kulcsfüggés feloldás rög zítése” **i** **k** **ont** **k** **ezeli** .
+
+
+
+
+- Ha a szolgálati helyen **már va** **n** **nyit** **o** **t** **t** k ulcs függés feloldás, akkor **hibaüzenetet**
+
+kap: „Nem lehet új kulcsfüggés feloldást rögzíteni, mert már l éte zik ny i t o t t
+kulcsfüggés feloldás a szolgálati helyen! ”
+
+- Ha **még nincs nyitott** kulcsfüg gés f eloldás a k iválasztott szolgálati helyen, akkor az
+
+ábra felett megjelenik a szerkesztő **panel**, melyen látható a kiválaszto t t s zo l g álati
+hely.
 
 - A **szolgálati hely vonalán** egy a dott **m** **últ** **beli** id őpontra vagy az idővonalra **kattintva**
 
@@ -14201,17 +12892,6 @@ kattint, akkor a vonatszámmal kitölti a mezőt. Ha nem menetvonalra
 kattint, akkor üres marad.
 `o` *Kezdési idő*
 
-- Csak a *Felirat* vagy a *Kezdési id* *ő* m ódosítható a panelen!
-
-- Az objektumhoz a szerkesztő pane len **m** **egad** **ható** (módosítható) a *Felirat*, amely
-
-lehet egy vonatszám vagy egy tetszől eg es **szöv** **eg**, ami az ábrán a **objektum fölött**
-**jelenik meg** .
-
-- Az objektum adatai megjelenn ek a pane len, azok még módosíthatók. A rögzítés a
-
-szerkesztő panelen lévő nyomógombokk al bef ejezhető.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14224,12 +12904,21 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 198/526|
 
 
+
+  - Csak a *Felirat* vagy a *Kezdési id* *ő* m ódosítható a panelen!
+
+  - Az objektumhoz a szerkesztő pane len **m** **egad** **ható** (módosítható) a *Felirat*, amely
+
+lehet egy vonatszám vagy egy tetszőle g es **szöv** **eg**, ami az ábrán a **objektum fölött**
+**jelenik meg** .
+
+  - Az objektum adatai megjelenn ek a pane len, azok még módosíthatók. A rögzítés a
+
+szerkesztő panelen lévő nyomógombokk al bef ejezhető.
+
 **Kulcsfüggés feloldás lezárása**
 
-
-
-
-  - Legyen **kiválasztva egy nyitott** **ku** **l** **csf** **üggés** **f** **el** **oldás** .
+  - Legyen **kiválasztva egy nyitott** **ku** **l** **cs** **f** **üggés** **f** **eloldás** .
 
   - A „Kulcsfüggés feloldás lez ár ása ” **i** **k** **ont** **k** **ezeli** .
 
@@ -14262,7 +12951,7 @@ kulcsfüggés feloldás *Lezárási idő* mező.
 
 befejezési időpontig lesz megrajzolva. )
 
-  - A lezárás a szerkesztő panelen lév ő <Ment> vagy <Mégsem> nyomógombokkal
+  - A lezárás a szerkesztő panele n lévő <Ment> vagy <Mégsem> nyomógombokkal
 
 befejezhető.
 
@@ -14282,16 +12971,6 @@ befejezhető.
 
 `o`     - Idővonalra ugrás ikon
 
-`o`     - X és Y tengely kicsinyítése ikon
-
-`o`     - X és Y tengely nagyítása ikon
-
-`o`     - X tengely kicsinyítése ikon
-
-`o`     - X tengely nagyítása ikon
-
-`o`     - Y tengely kicsinyítése ikon
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14303,6 +12982,16 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 199/526|
 
+
+`o`     - X és Y tengely kicsinyítése ikon
+
+`o`     - X és Y tengely nagyítása ikon
+
+`o`     - X tengely kicsinyítése ikon
+
+`o`     - X tengely nagyítása ikon
+
+`o`     - Y tengely kicsinyítése ikon
 
 `o`     - Y tengely nagyítása ikon
 
@@ -14316,7 +13005,7 @@ Szöveges **megjelenítő** .
 Létrehozáskor a kiválasztott szolgálati hel y neve.
 Lezáráskor a kiválasztott kulcsfügg és feloldás ob jektum szolgálati helynek a neve.
 
-  - *Felirat*
+- *Felirat*
 
 **Létrehozáskor kötelező** en kitöltendő, de s zabad on írható, egyébként megjelenítő.
 Maximum 30 karakter.
@@ -14330,7 +13019,7 @@ aktuális vonat
 
 kiválasztott vonat
 
-  - *Kezdési idő*
+- *Kezdési idő*
 
 Dátum és idő beviteli mező kiválasztó funkcióval/megjelenítő.
 **Létrehozáskor kötelezően kitölten** **dő**, egy ébként megjelenítő.
@@ -14354,7 +13043,7 @@ korábbi, akkor **hibaüzenetet** ad: „Kezdési idő nem lehet korábbi, mint 
 ”
 grafikonon megjelenített legkorábbi időpont! .
 
-  - *Lezárási idő*
+- *Lezárási idő*
 
 Dátum és idő beviteli mező kiválasztó funkcióval.
 
@@ -14371,13 +13060,6 @@ a panelen, akkor ellenőrizni kell, hogy az időpont
 ”
 „Nem lehet korábbi, mint a Kezdési idő! .
 
-Ha a felhasználó **szabályosan változtatja** az adatokat, akkor az adott objektum megjelenése a
-változtatásnak megfelelően **változik az ábrán is** . (Ez még nem mentett, csak a szerkesztés
-közbeni állapot!)
-
-A **mentés** a szerkesztő panelen található <Ment> nyomógomb kezelésével
-lehetséges.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14389,6 +13071,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat: 1.03|Oldal: 200/526|
 
+
+Ha a felhasználó **szabályosan változtatja** az adatokat, akkor az adott objektum megjelenése a
+változtatásnak megfelelően **változik az ábrán is** . (Ez még nem mentett, csak a szerkesztés
+közbeni állapot!)
+
+A **mentés** a szerkesztő panelen található <Ment> nyomógomb kezelésével
+lehetséges.
 
 A szerkesztés megszakítása a <Mégsem> nyomógomb használatával lehetséges.
 
@@ -14443,16 +13132,8 @@ kulcsfüggés feloldás ***Kezdési idő***
 
   - Ha a szolgáltatás rendben lefutott, akkor a program kilép *Kul* *csf* *ü* *g* *g* *és* *f* *elo* *l* *d* *ás*
 
-*szerkesztése* üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fejl éc és pan el, a
+*szerkesztése* üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fe jl éc és pan el, a
 menetvonal kijelölése megszűnik, a többi objektum elérhetővé válik é s a *K* *u* *l* *csf* *ü* *g* *g* *és*
-*feloldás szerkesztés* ikon nem kezelhetővé válik. Majd a program megh í v j a a g r af i k o n
-frissítéséhez szükséges szolgáltatásokat.
-
-<Mégsem> nyomógomb
-
-  - A <Mégsem> nyomógomb mindig használható.
-
-  - Megszakítja a szerkesztést (rajzolást) és visszaáll a szerkesztés elő t t i áll ap o t .
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -14466,16 +13147,24 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 201/526|
 
 
+*feloldás szerkesztés* ikon nem kezelhetővé válik. Majd a program meg h í v j a a g r af i k o n
+frissítéséhez szükséges szolgáltatásokat.
 
-  - A nyomógomb használatakor, ha a szerkesztő panel megnyitása ó t a a g r af i k o n
+<Mégsem> nyomógomb
+
+- A <Mégsem> nyomógomb mindig használható.
+
+- Megszakítja a szerkesztést (rajzolást) és visszaáll a szerkesztés elő t t i áll ap o t .
+
+- A nyomógomb használatakor, ha a szerkesztő panel megnyitá sa ó t a a g r af i k o n
 
 változott (kulcsfüggés feloldás készült), akkor a program meger ősí t ést k ér a
-folytatáshoz. (151009    - UC_01_51_CONF_CANCEL    - „Biztosan k i l ép? A n em
+folytatáshoz. (151009   - UC_01_51_CONF_CANCEL   - „Biztosan k i l ép? A n em
 mentett adatok elvesznek! ” )
 
-  - A megerősítő üzenetre adott nemleges válasz esetén folytatható a sz er k es zt és.
+- A megerősítő üzenetre adott nemleges válasz esetén folytatható a szer k es zt és.
 
-  - Igenlő válasz esetén a program az adatok mentése nélkül kilép a *Ku* *l* *csf* *ü* *gg* *és f* *elo* *l* *d* *ás*
+- Igenlő válasz esetén a program az adatok mentése nélkül kilép a *Ku* *l* *csf* *ü* *gg* *és f* *elo* *l* *d* *ás*
 
 *szerkesztése* üzemmódból. Ezáltal a grafikonon eltűnik a szerkesztő fe jl éc és pan el, a
 menetvonal kijelölése megszűnik, a többi objektum elérhetővé válik és a K *u* *l* *csf* *ü* *g* *gés*
@@ -14484,24 +13173,24 @@ frissítéséhez szükséges szolgáltatásokat.
 
 **Kulcsfüggés feloldás törlése**
 
-  - Egy megjelenített kulcsfüggés f eloldás **k** **i** **j** **el** **ö** **lését követően törölhető** .
+- Egy megjelenített kulcsfüggés f eloldás **k** **i** **j** **el** **ö** **lését követően törölhető** .
 
-  - A **törlés** a szerkesztő ikonsávon található **Törlés** ikon kezelésével vagy a
+- A **törlés** a szerkesztő ikonsávon található **Törlés** ikon kezelésével vagy a
 **Del/Delete** billentyű megnyomásával k ez dem én yezhető.
 
-  - A felhasználónak **rendelkeznie k** **ell** az **OP_0151_MGMIranyito** illetve az
+- A felhasználónak **rendelkeznie k** **ell** az **OP_0151_MGMIranyito** illetve az
 
 **OP_0151_MGMMefiMerafiRogzi** **t** oper anduso kkal.
 
-  - Megfelelő jogosultság esetén a **t** **ö** **rl** **és** v égr eha jtása előtt megerősítő üzenetet kap a
+- Megfelelő jogosultság esetén a **t** **ö** **rl** **és** v égr eha jtása előtt megerősítő üzenetet kap a
 
 felhasználó.
 
-„Törli a kiválasztott {0}? <Igen>/<N em    - ”
+„Törli a kiválasztott {0}? <Igen>/<N em   - ”
 
 Ahol a {0} = ’ Kulcsfüggés feloldás objektumot ’ szöveg.
 
-  - Ha a törlés végrehajtható, akko r m eg hí v ódi k az „ **47** **–** **Kulcsfüggés feloldás mentése**
+- Ha a törlés végrehajtható, akko r m eg hí v ódi k az „ **47** **–** **Kulcsfüggés feloldás mentése**
 
 **(KulcsfuggesMentesCommand)** ” szol g áltatá s az alábbi paraméterekkel:
 
@@ -14523,13 +13212,6 @@ feloldás objektum belső azonosítója
 
 `o` Kulcsfüggés feloldás lezárási idő ( **KulcsfuggesLezar** ) = **NULL**
 
-  - Sikeres törlést követően az objek tum eltűnik az á bráról.
-
-**2.2.3.16** **Objektumválasztó menü**
-
-A grafikon olyan kattintható területén (a megváltozott egér kurzor jelzi a kattintható területet)
-használva az egér bal vagy jobb gombját, ahol több objektum található egymáson, egy
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14542,6 +13224,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 202/526|
 
 
+
+  - Sikeres törlést követően az objek tum eltűnik az á bráról.
+
+**2.2.3.16** **Objektumválasztó menü**
+
+A grafikon olyan kattintható területén (a megváltozott egér kurzor jelzi a kattintható területet)
+használva az egér bal vagy jobb gombját, ahol több objektum található egymáson, egy
 választó menü jelenik meg az egymáson lévő objektumok felsorolásával. A menü mérete
 dinamikusan igazodik a tartalomhoz.
 
@@ -14564,7 +13253,7 @@ A menüben a következő objektumok lehetségesek:
 
 vonatszám előtag nélkül. (pl. 2474)
 
-  - 89001 Szöveges megjegyzés: Előtag nélkül a szöveges me g j eg y zés els ő 2 0
+  - 89001 Szöveges megjegyzés: Előtag nélkül a szöveges meg j eg y zés els ő 2 0
 karaktere [89001]
 
   - #88980 Csatlakozásra várás: „Csatlakozásra várás: ” előtag után a csatlak o zás v árásban
@@ -14588,12 +13277,6 @@ következő, Információs területek, pontban található.
 
 **2.2.3.17** **Információs területek**
 
-Jelen pont az A_0151_01 – Út-idő diagram ablakról megnyitható információs terület típusú
-popup ablakok leírásait tartalmazza.
-Az információs területek az egér segítségével, a bal vagy jobb egérgombot az információs
-területen nyomva tartva/drag and drop módszerrel/, mozgathatók a grafikus terület széléig.
-Egérrel egy információs terület mellé kattintva az információs terület bezáródik.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14609,9 +13292,13 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 203/526|
 
 
+Jelen pont az A_0151_01 – Út-idő diagram ablakról megnyitható információs terület típusú
+popup ablakok leírásait tartalmazza.
+Az információs területek az egér segítségével, a bal vagy jobb egérgombot az információs
+területen nyomva tartva/drag and drop módszerrel/, mozgathatók a grafikus terület széléig.
+Egérrel egy információs terület mellé kattintva az információs terület bezáródik.
+
 **Út tengely/szolgálati hely információs terület**
-
-
 
 Az út tengelynél található szolgálati hely nevére jobb gombbal kattintva jelenik meg az Út
 tengely/szolgálati hely információs terület külön popup ablakban. Az ablak forrásadatait az
@@ -14650,12 +13337,6 @@ linkszerű megjelenítés [#89004 VÉGE]
 
 **[60618]** **Menetvonal/szolgálati hely információs terület**
 
-Egy menetvonalhoz rajzolt bármelyik vonal és egy szolgálati hely találkozása fölé
-pozícionálva és ott a jobb egér gombot használva, ha ott nincs más objektum, vagy több
-objektum esetén az ott feljövő választó menüből jobb egér gombbal menetvonalhoz tartozó
-objektumot választva, jelenik meg a Menetvonal/szolgálati hely információs terület külön
-popup ablakban.
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
@@ -14667,8 +13348,6 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 **törölt:**
 
-**törölt:**
-
 
 -----
 
@@ -14677,6 +13356,11 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 204/526|
 
 
+Egy menetvonalhoz rajzolt bármelyik vonal és egy szolgálati hely találkozása fölé
+pozícionálva és ott a jobb egér gombot használva, ha ott nincs más objektum, vagy több
+objektum esetén az ott feljövő választó menüből jobb egér gombbal menetvonalhoz tartozó
+objektumot választva, jelenik meg a Menetvonal/szolgálati hely információs terület külön
+popup ablakban.
 Pályavasúti (belső /vvt_szerv_id=11/) felhasználó esetén bármelyik vonal és szolgálati hely
 találkozásánálmegjelenik az információs terület.
 Vasútvállalati (külső /vvt_szerv_id<>11/) felhasználó esetén csak olyan menetvonalnál
@@ -14704,25 +13388,18 @@ paraméterekkel:
 
 kiválasztott metszéspontnál lévő sorszáma
 
-A szolgáltatástól kapott adatokat felhasználva a kliens program megjeleníti az információs
 területet.
-
-**A popup ablak megjelenése és tartalma:**
 
 A popup ablak mérete igazodik a megjelenítendő tartalomhoz. Egy menetvonal menetrendi
 vagy tény vonalán ugyanazon szolgálati helyre (a szolgálati hely ugyanazon előfordulására)
 kattintva, nincs különbség a megjelenő információs terület tartalmában.
 
-Adattartalom:
-
-  - Vonatazonosító: {Vonatszám irányszámmal+’/’+vonat indulási dátuma (éééé.hh.nn)
-
-(S_0151_09 szolgáltatástól kapott Vonatazon)}
-
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
 Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
+
+**törölt:**
 
 **törölt:**
 
@@ -14734,6 +13411,14 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.03|Oldal: 205/526|
 
 
+Adattartalom:
+
+
+
+
+- Vonatazonosító: {Vonatszám irányszámmal+’/’+vonat indulási dátuma (éééé.hh.nn)
+
+(S_0151_09 szolgáltatástól kapott Vonatazon)}
 
 - Szolgálati hely: {Szolgálati hely teljes név (S_0151_02 szolgáltatástól kapott
 
@@ -15039,7 +13724,7 @@ VonKiseroNev)} [ VK93679vége]
 VonKiseroTel)}
 
 - VK93679 Menetrendi sebesség
-`o` Alap: {Legmagasabb értékű ala p sebes s ég ( S _ 0151 _ 08 szolgáltatástól kapott
+`o` Alap: {Legmagasabb értékű ala p sebes ség ( S _ 0151 _ 08 szolgáltatástól kapott
 
 LegmErtAlapSeb)}
 `o` Legnagyobb: {Legmagasabb értékű leg nagy o bb sebesség (S_0151_08
@@ -15491,7 +14176,7 @@ Amennyiben az így kapott érték előjel nélküli (tehát nullánál nagyobb),
 akkor a kliens egy ’ + ’ előtaggal egy üt t jeleníti meg (pl. +5)
 `o` A cella alsó sorában a MenetrendLista\IndKesesAdatok tömb adott
 
-szolgálati helyre vonatkozó Keses ér t ékeinek összegét jeleníti meg a kliens.
+szolgálati helyre vonatkozó Keses é r tékeinek összegét jeleníti meg a kliens.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -15666,7 +14351,7 @@ kliens és jeleníti meg az alábbi módon:
 A _ 0151 _ 01 ablaktól kapott Abrar olI d v agy AbraraId alapján az **S_0151_14** **–**
 **Vasútvonalak,** **menetirányítói** **szak** **a** **szok** **és** **ábrák** **lekérdezése**
 **(VasutvonalEsMenetirSzakaszEsA** **bra** **Q** **ue** **ry)** szolgáltatás kimenő listájából
-keresi ki a kliens és jeleníti meg az alábbi m ó don:
+keresi ki a kliens és jeleníti meg az alábbi m ódon:
 
 `o` Megnevezés
 
@@ -17915,6 +16600,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
+
 -----
 
 |MGM – UC_01_51 Menetvonalak grafikus megjelenítése|Col2|Azonosító: UC_01_51|
@@ -18153,8 +16839,7 @@ szolgáltatás leírásánál találhatók).
 
 VK105782 –
 Az ablak megnyitásakor az első vonatszám tartomány tól mezőjében megjelenik az
-A_0151_01 ablak fejlécben megadott vonatszám, ami az A_0151_01 ablakon a vonatszám
-mező elhagyásakor, ill. a mezőben X vagy Enter használatakor kerül átvezetésre az
+A_0151_01 ablak fejlécben megadott vonatszám, ami az Amező elhagyásakor, ill. a mezőben X vagy Enter használatakor kerül átvezetésre az _ 0151 _ 01 ablakon a vonatszám
 A_0151_05 ablakon megadható szűrő paraméterek közé. A vonatszám átvezetésekor a szűrő
 paraméterekben szereplő vonatszám tartományok többi mezője kiürül. [ VK105782vége]
 
@@ -19208,6 +17893,7 @@ feladatokat keresni kell.
 - Az ablak megnyitásakor **meghívásra** kerül a K_007_lang - Általános nyelvesített
 kódtábla betöltő (usp_K007_lang_selKodtabla) közös szolgáltatás
 `o` Bemenő adatok:
+
       - ’KodTablaNev’ = ’T_VSZR ’ .
 
       **’Nyelv** = a beállított nyelv kódja.
@@ -19271,7 +17957,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |---|---|---|
 |Készítette/módosította:|Változat:1.0|Oldal: 299/526|
 
-##### **Adminisztratív feladatok (nincs feliratozva) grid ** A g rid oszlo p ai ala pé rt e lm e z e tt so rr e n dbe n :
+##### **Adminisztratív feladatok (nincs feliratozva) grid ** A g ri d os zl op ai ala pé rt e lmezett sorrendben :
 
 
 
@@ -20172,7 +18858,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 **2.10.3.1** **Ablak elérése, betöltése**
 
 Az ablak minden esetben új lapon (külön ablakban) nyílik meg, a hívó ablakra visszatérés
-nincs, viszont az adatok mentésekor az ablak bezárása után az Akerül. _ 0151_01 ablak frissítésre
+nincs, viszont az adatok mentésekor az ablak bezárása után az Akerül. _ 0151 _ 01 ablak frissítésre
 
 Az A _ 0151 _ 01 ablaktól minden működési módban és esetben a következő adatokat kapja a
 kliens program:
@@ -20213,10 +18899,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 Irányítói üzemmódban, ha az ábrát a f elha s ználó szerkesztésre lefoglalta (ami csak
 időhenger üzemmódban lehetséges) és a C satlak ozásra várás megjelenítése ikon
-bekapcsolt állapotú, akkor egy szolgálati hel y nevére bal egér gombbal kattintva
+bekapcsolt állapotú, akkor egy szolg álati hel y ne vére bal egér gombbal kattintva
 feléled az Csatlakozásra várás szerk es zt ése i k on.
 Az ikon használatakor szerkesztés mvárás ablak, ahol ilyenkor a felhasználóna ódban k ny l ehe ílitő k meg az Asége van a kiválasztott szolgálati _ 0151 _ 10 – Csatlakozásra
-helyhez új csatlakozásra várás rögzí tésér e.
+helyhez új csatlakozásra várás rögzítésér e.
 Ebben az esetben az ablak nyitásakor a k liens pr ogram a következő műveleteket végzi:
 
     - A ’ menetv_ervv_utk ’ kóddal és az aktuális idővel meghívja a
@@ -20231,8 +18917,8 @@ szolgáltatást.
 A kliens a szolgáltatástól kapott vonatok közül azokkal, amelyeknél az
 Előrejelzett érkezési esemény mgm       - es belső azonosítója (ErkEsemId) k i t ö l t ö t t
 feltölti a Bevárandó vonatoknál a Vonatazonosító (autocomplete) bevit eli
-mező értékkészletét. Azokkal a vonatokkal pedig, amelyeknél az Előrej elzet t
-indulási esemény mgm      - es belső azonosítója (IndEsemId) kitöltött, feltöl t i a
+mező értékkészletét. Azokkal a vonatokkal pedig, amelyeknél az Előrej el zet t
+indulási esemény mgm      - es belső azonosítója (IndEsemId) kitöltött, feltö l t i a
 Várakozó vonatoknál a Vonatazonosító (autocomplete) beviteli mező
 értékkészletét. (Lehetnek olyan vonatok, amelyek mindkét Vonatazono sí t ó
 értékkészletébe bekerülnek).
@@ -20254,10 +18940,10 @@ Irányítói üzemmódban, ha az ábrát a f elha s ználó szerkesztésre lefog
 időhenger üzemmódban lehetséges) és a C satlak ozásra várás megjelenítése ikon
 bekapcsolt állapotú, akkor a grafiko non m eg jelenő egy csatlakozásra várást jelképező
 
-ikonra bal vagy jobb egér gom bbal kat tintv a, feléled az Csatlakozásra várás
+ikonra bal vagy jobb egér gom bbal kattintv a, feléled az Csatlakozásra várás
 szerkesztése ikon.
 A Csatlakozásra várás szerkesztése ikon használatakor szerkesztés módban ny í l i k m eg
-az A_0151_10 – Csatlakozásra várás ablak, ahol ilyenkor a felhasználónak l eh et ő s é g e
+az A_0151_10 – Csatlakozásra várás ablak, ahol ilyenkor a felhasználónak l eh e t ő s é g e
 van a kiválasztott csatlakozás szerkesztésére.
 Ebben az esetben az ablak nyitásakor a k liens pr ogram a következő műveleteketket
 végzi:
@@ -20292,7 +18978,7 @@ vonatoknak az adataival, amelyeknél a Várakozás típusa ’ B ’ – Bevára
 vonat, feltölti a Bevárandó vonatok gridet, amelyeknél pedig a Várakoz ás
 típusa ’ V ’ – Várakozó vonat, feltölti a Várakozó vonatok gridet.
 
-     - Az A_0151_01 ablaktól kapott szolgálati hely belső azonosítójával meghívja
+     - Az A _ 0151 _ 01 ablaktól kapott szolgálati hely belső azonosítójával meghívja
 
 az **S_0151_51** **–** **Csatlakozó vonatok keresése** (CsatlakozoVonatokQuer y )
 szolgáltatást.
@@ -20300,7 +18986,7 @@ A kliens a szolgáltatástól kapott vonatok közül azokkal, amelyeknél az
 Előrejelzett érkezési esemény mgm        - es belső azonosítója (ErkEsemId) k i t ö l t ö t t
 feltölti a Bevárandó vonatoknál a Vonatazonosító (autocomplete) bevit eli
 mező értékkészletét. Azokkal a vonatokkal pedig, amelyeknél az Előrej elzet t
-indulási esemény mgm       - es belső azonosítója (IndEsemId) kitöltött, feltöl t i a
+indulási esemény mgm       - es belső azonosítója (IndEsemId) kitöltött, feltö l t i a
 Várakozó vonatoknál a Vonatazonosító (autocomplete) beviteli mező
 értékkészletét. (Lehetnek olyan vonatok, amelyek mindkét Vonatazono sí t ó
 értékkészletébe bekerülnek).
@@ -20319,8 +19005,7 @@ Várakozó vonatoknál a Vonatazonosító (autocomplete) beviteli mező
 
 **csatlakozásra várást jelképező** **ikonra jobb egér gombbal kattin** **tv** **a** **,**
 **megjelenítés üzemmódban** nyílik meg.
-Megjelenítő üzemmódban az A _ 0151 _ 01 ablakon, ha a Csatlakozásra várás
-megjelenítése ikon bekapcsolt állapotú, akkor a grafikonon megjelenő e g y
+Megjelenítő üzemmódban az Amegjelenítése ikon bekapcsolt állapotú, akkor a grafikonon megjelenő eg _ 0151 _ 01 ablakon, ha a Csatlakozásra várás y
 
 csatlakozásra várást jelképező ikonra jobb egér gombbal kattintva, a k i v álaszto t t
 csatlakozás adataival megjelenítés üzemmódban nyílik meg az AEbben az esetben az ablak nyitásakor a kliens program a következő műv _ 0151 _elete 1 0 abk laet v k . ég zi:
@@ -20329,7 +19014,7 @@ csatlakozás adataival megjelenítés üzemmódban nyílik meg az AEbben az eset
 
 meghívja az **S_0151_50** **–** **Csatlakozás adatainak lekérdezése**
 (CsatlakozasAdatokQuery) szolgáltatást.
-A kliens a szolgáltatástól kapott Csatlakozó menetvonalak listából azok n ak a
+A kliens a szolgáltatástól kapott Csatlakozó menetvonalak listából azokn ak a
 vonatoknak az adataival, amelyeknél a Várakozás típusa ’ B ’ – Beváran d ó
 vonat, feltölti a Bevárandó vonatok gridet, amelyeknél pedig a Várakoz ás
 típusa ’ V ’ – Várakozó vonat, feltölti a Várakozó vonatok gridet.
@@ -20409,7 +19094,7 @@ hibaüzenetet ad.
 
 vagy a Várakozó vonatok gridben, akkor hibát ad.
 
-Ha nem volt hiba, akkor a megadott vonatnál, az S _ 0151 _ 51 sz o l g ált atást ó l k ap o t t
+Ha nem volt hiba, akkor a megadott vonatnál, az S _ 0151 _ 51 szo l g ált atást ó l k ap o t t
 Előrejelzett érkezési esemény mgm  - es belső azonosítójával (ErkEsem Id ) és a Vo n at
 azonosítójával (VonatAzon), meghívja a **S0151_52** **–** **Csatlakozó** **v** **o** **na** **t** **ese** **mény**
 **adatainak lekérdezése (CsatlakozoVonatEsemenyQuery)** szolgáltatá st .
@@ -20437,7 +19122,7 @@ Vonatazonosító beviteli mezőt kiüríti.
 Nem lapozható grid, ami a csatlakozás során bevárandó vonatokat tarta lm azza.
 A grid magassága maximum 10 sor lehet, ennél több sor esetén megjele n ik a f üg g ő l eg es
 gördítő sáv.
-A gridben a sorok átrendezhetők, de az oszlopok nem. Alapértelmezett en a Várh ató
+A gridben a sorok átrendezhetők, de az oszlopok nem. Alapértelmezetten a Várh ató
 érkezési idő szerinti sorrendben szerepelnek benne a vonatok.
 A gridben csak egy sor jelölhető ki. Egy sor kiválasztásakor az adott sor b an l évő v o nat
 azonosítója a grid feletti Vonatazonosító mezőbe kerül. A sor kijelölésé n ek
@@ -20448,7 +19133,7 @@ gridet. A kapott Csatlakozó menetvonalak közül azokat helyezi a gridb e, am e
 Várakozás típusa ’ B ’ – Bevárandó vonat.
 A Várható érkezési idő oszlopban az adatokat a következő módon színezi:
 
-    - Azoknál a soroknál, amelyeknél az S_0151_50 – Csatlakozás adata in a k
+    - Azoknál a soroknál, amelyeknél az S_0151_50 – Csatlakozás adata in ak
 
 lekérdezése (CsatlakozasAdatokQuery) szolgáltatástól, kapott Szín (Sz in ) mező
 értéke ’ T ’- Tény, félkövér módon, nappali üzemmód esetén fekete, éjsz ak ai
@@ -20476,10 +19161,10 @@ A Várakozó vonatok csoportban található elemek:
 
 - **Vonatazonosító** : beviteli mező kiválasztás funkcióval (JqxComboBox).
 
-A mezőben egy karakter begépelése után válik láthatóvá a lista, m ely b en a m eg ad o tt
+A mezőben egy karakter begépelése után válik láthatóvá a lista, mely b en a m eg ad o tt
 karaktereket tartalmazó vonatazonosítók jelennek meg. A mezőben a z ab l ak ny i t ásak or
 meghívott **S_0151_51** **–** **Csatlakozó vonatok keresése (Csatlako** **zo** **V** **ona** **tok** **Q** **uery** **)**
-szolgáltatás által visszaadott, azon vonatok vonatazonosítói (Vona tAzo n ) (S zámozási
+szolgáltatás által visszaadott, azon vonatok vonatazonosítói (VonatAzo n ) (S zámozási
 rendszer kódja (55   - t nem kell kiírni)+ ’ ’ +Vonatszám irányszámmal + ’ / ’ +v o n at i n d u l ási
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
@@ -20494,7 +19179,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat:1.0|Oldal: 319/526|
 
 
-dátuma (éééé.hh.nn)) között lehet keresni, amelyeknél az Előrejelzet t i n d u l ási esem ény
+dátuma (éééé.hh.nn)) között lehet keresni, amelyeknél az Előrejelzet t i n d u l ási esem én y
 
       mgm es belső azonosítója (IndEsemId) kitöltött.
 
@@ -20520,7 +19205,7 @@ Megjelenítés üzemmódban a kapcsolók nem kezelhetők.
 mező.
 
 Szerkesztő üzemmódban írható. Alapértelmezett érték a mezőben 5 perc. Az ab la k
-nyitásakor és a gridhez egy sor hozzáadása után az alapértelmezett ért ék et f elk í n álj a a
+nyitásakor és a gridhez egy sor hozzáadása után az alapértelmezett ért ék et f elk í n ál j a a
 program. A felkínált érték szabadon módosítható. 0   - nál kisebb érték n em ad h ató m eg a
 mezőben.
 
@@ -20566,7 +19251,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat:1.0|Oldal: 320/526|
 
 
-Ha nem volt hiba, akkor a megadott vonatnál, az S _ 0151 _ 51 sz o l g ált atást ó l k ap o t t
+Ha nem volt hiba, akkor a megadott vonatnál, az S _ 0151 _ 51 szo l g ált atást ó l k ap o t t
 Előrejelzett indulási esemény mgm  - es belső azonosítójával (IndEs em I d) és a Vo n at
 azonosítójával (VonatAzon), meghívja a _ **S0151_52** **–** **Csatlakozó** **v** **o** **na** **t** **es** **e** **mény**
 **adatainak lekérdezése (CsatlakozoVonatEsemenyQuery)** szolgáltatá st .
@@ -20615,13 +19300,13 @@ kiválasztott sorban lévő Vonatazonosítóval, akkor a kliens program hib át 
 `o` Ha a csatlakozási idő beviteli mező üres, vagy értéke 0  - nál kisebb, v ag y nag y o b b mi n t
 
 a Menetvonal érvényesség vége útközbeni vonatnál (óra) (men etv _ erv v _ u t k)
-rendszerparaméter értéke percbe átszámolva, akkor a kliens program hibát j elez .
+rendszerparaméter értéke percbe átszámolva, akkor a kliens program hi bát j elez .
 
 A hibaüzenetben {0}: a Menetvo nal ér vény esség vége útközbeni vonatnál (óra)
 (menetv_ervv_utk) rendszerparamét er ér ték e percbe átszámolva.
 
 Ha nem volt hiba, akkor a kliens program a megadott adatokkal felülírj a a v o n at ad at ait a
-Várakozó vonatok gridben. A csatlakozás típusánál a bekapcsolt ka p csol ó k h o z t art o zó
+Várakozó vonatok gridben. A csatlakozás típusánál a bekapcsolt ka p csol ó k ho z t art o zó
 értékeket öszzefűzve helyezi a Típus oszlopba. Pl. : „UJV ”, ha a z ös s zes k ap cso l ó
 
 ” – ” – ” –
@@ -20629,7 +19314,7 @@ bekapcsolt. („U Utas, „J Jármű, „V Vonatszemélyzet)
 
 - **Várakozó vonatok grid**
 
-Nem lapozható grid, ami a csatlakozásnál várakozó vonatokat tartalmazza.
+Nem lapozható grid, ami a csatlakozásnál várakozó vonatokat tartalmaz za.
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -20647,9 +19332,9 @@ A grid magassága maximum 10 sor lehet, ennél több sor esetén megjele n ik a 
 gördítő sáv.
 A gridben a sorok átrendezhetők, de az oszlopok nem. Alapértelmezett en a In d u l ási i d ő
 szerinti sorrendben szerepelnek benne a vonatok.
-A gridben csak egy sor jelölhető ki. Egy sor kiválasztásakor az adott sor b an l évő v o nat
+A gridben csak egy sor jelölhető ki. Egy sor kiválasztásakor az adott so r b an l évő v o nat
 adatai a grid feletti beviteli mezőkbe kerülnek.
-Egy sor kijelölésének megszüntetésekor a grid feletti mezőket alapértelm ezet t ál l ap o t b a
+Egy sor kijelölésének megszüntetésekor a grid feletti mezőket alapértelm ezet t áll ap o t b a
 helyezi a kliens program :
 
     - A Vonatazonosító beviteli mezőt kiüríti
@@ -20766,7 +19451,7 @@ szolgáltatástól kapott (MenetvId)
                                          visszaadott Előrejelzett vonatesemény mgm es belső azonosítója
 (EsemId).
 
-        Újonnan felvett Bevárandó vonatoknál az S_0151_51 szolgáltatástól
+        - Újonnan felvett Bevárandó vonatoknál az S _ 0151 _ 51 szolgáltatástól
 
                                          kapott Előrejelzett érkezési esemény mgm es belső azonosítója
 (ErkEsemId),
@@ -21553,7 +20238,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 `o` ’ Szov _ Megjegyzes _ CsakIkon ’= true/false,
 
-`o` ’ Szov _ Megjegyzes _ IkonSzoveg ’= true/false, [89001vége]
+`o` ’ Szov _ Megjegyzes_IkonSzoveg ’= true/false, [89001vége]
 
 `o` 88957 ’ VgAdat ’ = true/false,
 
@@ -22217,7 +20902,7 @@ következők szerint állítja. (Áthaladás eseménynél az indulásra vonatkoz
 értéket állítja be. ) [#89000] Ábra szerinti lekérdezés esetén, a más irányultsággal
 rendelkező vonalról be      - vagy k il é pő vonatok eseményeinek megfelelő
 megjelenítése miatt az eljárás az esemény szintű kezdő/végpont felőli
-(MGM_TervEsem) jelzőt megf or dítja (Akkor van fordítás, ha az
+(MGM_TervEsem) jelzőt megfor dítja (Akkor van fordítás, ha az
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -22566,7 +21251,7 @@ szerepelnie kell a menetvonal útvonalán . [ #88992] [#88981 ] ~~MRN~~ ~~vonat~
 ~~munkavégzés~~ ~~helye~~ Illetve a szolgálati helyek közötti események esetén az
 esemény [#88981vége ] előtti és utáni szol g ál at i helynek is szerepelnie kell a kapott
 szolgálati helyek között. [ #88992vége] Ábra esetén az ábra belső azonosító alapján
-olvassa ki az eljárás az ábra s zol gálati helyeit az **MGM_AbraUtvonal**
+olvassa ki az eljárás az ábra szol gál ati helyeit az **MGM_AbraUtvonal**
 táblából.
 
     - Ha a bemenő adatokban a forgalmi vonatkategóriák listája nem üres, akkor PV
@@ -22720,7 +21405,7 @@ MGM_Menetvonal. vszam_keret_jelzo értéke ’ M ', vagy ' X ' )
 
 menetvonalhoz tartozó utolsó érvényes vonatösszeállításban lévő
 járművekhez tartozik korlátozás (járműsebességkorlátozás, vag y
-mozdony szintű menetdinamikai csoport azonosító alapján rosszabb
+mozdony szintű menetdinamikai csoport azonosító alapján rosszab b
 mozdony, vagy teljesítménycsökkenés). (Ha az MGM_Menetvonal.
 vszam_keret_jelzo értéke ’ V ', vagy ' L ', akkor az eljárás megkeresi a
 megjelenített szakaszon érvényes utolsó vonatösszeállítást és a
@@ -22833,7 +21518,7 @@ akkor a tartózkodás eseményt körjelölő nélkül adja át.
 a Menetvonal indító/cél jelzőt (MenetvIndCelJel) „c” értékre állítja a
 menetvonal vége miatt.
 
-`o` #88981 Feltartóztatott menetvonalaknál (masod _ jelolo =’ F ’ ), ha a
+`o` #88981 Feltartóztatott menetvonalaknál (masod_jelolo =’ F ’ ), ha a
 feltartóztatás egy szolgálati hely előtt (két szolgálati hely között)
 történik, akkor a feltartóztatás helyére érkezés eseményt ad át ( az
 MGM_NyiltVonalEsem táblából):
@@ -23073,7 +21758,7 @@ készrejelentésre [#97445vége] ~~továbbá~~ ~~ha~~ ~~egy~~ ~~közbenső~~ ~~(
 `o` NULL- Egyéb esetben
 
     - #88981 Ha a bemenő adatokban az Időhenger jelző értéke true, akkor az
-eseményeknél az eljárás visszaadja a v on at aktuális állapotához tartozó másod
+eseményeknél az eljárás visszaadja a v onat aktuális állapotához tartozó másod
 jelölőt is (MGM_Menetvonal.mas od_jel olo) a MasodJelolo mezőben. VV      - i
 felhasználó esetén csak olyan mene t v o nalaknál adja vissza, amelyeknél a
 felhasználó VV      - a a menetvonal meg r endelője vagy üzemeltetője (A többinél
@@ -23288,7 +21973,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
          - 93048 Nyíltvonali vágány jele, amelyre a menetvonal indul az
 
 ’ ’
-MGM _ TenyEsem.mgm_helyt _ vag _ ind adatelem alapján: NULL       
+MGM _ TenyEsem.mgm_helyt_vag _ ind adatelem alapján: NULL       
                                -                                érkezési esemény esetén, 0 helyes vágány, 1 helytelen vágány, 3
 
               harmadik (helytelen) vágány. (MGMHelytVaganyraInd)
@@ -23659,7 +22344,7 @@ táblából.
 
 mezőbe).
 
-Ha egy vágányzárhoz olyan [#88955 ] log ikailag nem tör ölt (V _ KKF _ TENY.torolt _ jelzo = False)
+Ha egy vágányzárhoz olyan [#88955 ] log ikailag nem tör ölt (V _ KKF _ TENY.torolt_jelzo = False)
 #88955vége rekord tartozik a V _ KKF _ TEN Y tábláb an, amelynél az elmaradt jelző értéke igaz,
 akkor nem képez külön tény rekordok at a k i m enő ada t okban, hanem az adott vágányzárhoz
 tartozó terv rekordoknál jelzi az elm ar adást . [ 88953vége]
@@ -24061,7 +22746,7 @@ tényadatokat az MGM tényadatokbó l ( M GM _T enyEsem) olvassa ki az eljárás
 
   - A lekérdezés a menetrendi ad a tok on alap s zi k és ahhoz párosítja a tényadatokat.
 
-Amennyiben egy terv adathoz nincs tény adat (pl. más pályaudvaros közlekedés),
+Amennyiben egy terv adathoz nin cs tény adat (pl. más pályaudvaros közlekedés),
 akkor a tényadatot nem adja vissza a z eljár ás.
 
   - Esemény idő formátum meghatá r ozási log i ka :
@@ -24069,7 +22754,7 @@ akkor a tényadatot nem adja vissza a z eljár ás.
 `o` Első és utolsó szolgálati hely e s et ébe n m indig ÉÉ/HH/NN ÓÓ:PP formátumú
 
 (pl. ’ 23/05/17 14:00 ’ )
-`o` Közbenső szolgálati helyeknél Ó Ó :P P formátumú, kivéve, ha:
+`o` Közbenső szolgálati helyeknél ÓÓ :P P for mátumú, kivéve, ha:
 
         adott terv eseménynél történik napváltás, ekkor ÉÉ/HH/NN ÓÓ:PP
 
@@ -26151,7 +24836,7 @@ Pass2UserProfile **.Pass2FullName** (A Szerkesztés kezdő időpontjában
 
  MGM_MunkahelyFoglEsem. **fogl_kezd_ido**
 
-`o` Szerkesztés vég időpontja ( **SzerkVeg** ) = MGM_Abra.ter_munkahe l y _ i d 
+`o` Szerkesztés vég időpontja ( **SzerkVeg** ) = MGM_Abra.ter_munkahely _ i d 
 
 MGM_MunkahelyFoglEsem. **fogl_veg_ido**
 
@@ -26243,7 +24928,7 @@ Vágányzárnál megjelenő beúszó szerkesztő panelhez adatok lekérdezése.
 
 **Működés**
 
-A szerviz a vágányzáraknál megjelenő beúszó szerkesztő panelhez szükséges adatok
+A szerviz a vág án yzáraknál megjelenő beúszó szerkesztő panelhez szükséges adatok
 lekérdezéséhez, m eg hívja az usp_0151_selVaganyzarSzerkeszteshez tárolt eljárást, a bemenő
 adatokban kapott p ar améterekkel.
 
@@ -26252,13 +24937,13 @@ adatokban meghatár o zott adatait keresi meg és adja át a hívó modulnak.
 
 A vágányzár fejad a tait a V _ KKF, a tény adatokat a V _ KKF _ TENY, a vonali kizárásokat a
 V_KKVK az állo m ási kizárásokat pedig a V _ KKAK táblából olvassa ki. [#88955 ] A
-V _ KKF _ TENY táb l ában csak a logikailag nem törölt (V _ KKF _ TENY.torolt _ jelzo = False)
+V_KKF _ TENY t áb lában csak a logikailag nem törölt (V _ KKF _ TENY.torolt _ jelzo = False)
 rekordokat veszi f ig yelembe. [#88955vége]
 
 A terület listában a vágányzárhoz tartozó vonali kizárások és állomási kizárások területét
 sorolja fel a követ k ezők szerint:
 
-  - Ha a vágányzárhoz sem vonal i, sem állom ási kizárás nem tartozik, de a V_KKF
+  - Ha a vágányzárhoz sem vonali, sem állom ási kizárás nem tartozik, de a V_KKF
 
 táblában lévő vonal (vnl_id), szolg álati hel ytől (szh_id_tol), szolgálati helyig
 (szh_id_ig) adatok közül valamelyi k k itöltött, a kkor az ezek alapján képzett terület
@@ -26382,7 +25067,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 **Rendszerparaméterek**
 
 Nincs
-##### **3.24 S_0151_23 – Vágányzári tény adatok mentése** **(VaganyzarTenyMentesComma n d) (u s p _0 1 51_VaganyzarTenyMentes)**
+##### **3.24 S_0151_23 – Vágányzári tény adatok mentése** **(VaganyzarTenyMentesComma n d) (u s p _0151_VaganyzarTenyMentes)**
 
 **Szolgáltatás feladatai**
 
@@ -26434,9 +25119,9 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-  - Ha a bemenő adatokban az U tolsó m ódosítás ideje kitöltött és a V_KKF_TENY
+  - Ha a bemenő adatokban az Utolsó m ódosítás ideje kitöltött és a V_KKF_TENY
 
-táblában nem létezik [#88955] logikailag nem törölt (V_KKF_TENY.torolt_jelzo = False)
+táblában nem létezik [#88955] logikailag nem tör öl t (V_KKF_TENY.torolt_jelzo = False)
 #88955vége adat a vágányzárhoz, vagy lét ez i k, de az adatbázisban az utolsó módosítás
 ideje nagyobb, mint a bemenő adato k ban kapott, akkor hibát ad.
 
@@ -26450,7 +25135,7 @@ V _ KKF _ TENY táblában létezi k #88955 logikailag nem törölt
 ~~valamint~~ ~~nem~~ ~~történ~~ t ~~elmaradás~~ ~~(Elmaradás~~ ~~=~~ ~~False)~~, ~~akkor~~ ~~a~~ ~~V~~ _ ~~KKF~~ _ ~~TENY~~ ~~táblából~~ ~~törli~~ ~~a~~
 ~~vágányzárhoz~~ ~~tarto~~ zó ~~tényadatot~~ .
 
-~~Egyébként~~ ~~pedig~~, h ~~a~~ ~~az~~ ~~ellenőrzések~~ ~~során~~ ~~nem~~ ~~talált~~ ~~hibát~~, ~~akkor~~ ~~a~~ ~~kapott~~ ~~tény~~ ~~adatokat~~
+~~Egyébként~~ ~~pedig~~, ~~h~~ a ~~az~~ ~~ellenőrzések~~ ~~során~~ ~~nem~~ ~~talált~~ ~~hibát~~, ~~akkor~~ ~~a~~ ~~kapott~~ ~~tény~~ ~~adatokat~~
 ~~elmenti~~ ~~a~~ ~~vágányzárhoz~~ ~~a~~ ~~V~~ _ ~~KKF~~ _ ~~TENY~~ ~~táblába~~, ~~úgy~~ ~~hogy~~ ~~az~~ ~~utolsó~~ ~~módosítás~~ ~~idejébe~~ ~~az~~
 ~~aktuális~~ ~~időt~~ ~~írja~~ . H ~~a~~ ~~már~~ ~~létezik~~ ~~tényadat~~ ~~a~~ ~~vágányzárhoz~~, ~~akkor~~ ~~azt~~ ~~felülírja~~ . ~~Ha~~ ~~nem~~ ~~létezik~~
 ~~tényadat~~, ~~akkor~~ ~~új~~ rek ~~ordot~~ ~~hoz~~ ~~létre~~ .
@@ -26486,7 +25171,7 @@ táblába:
 
 `o` megjegyzes: Megjegyzés (Megj)
 
-`o` utolso _ mod: aktuális idő
+`o` utolso_mod: aktuális idő
 
 `o` mod_felh_id: a felhasználó PASS2 azonosítója
 
@@ -26509,7 +25194,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 Ha az ellenőrzése k során nem talált hibát az eljárás és a vágányzárhoz nem tartozik tény adat
-a V _ KKF _ TENY t á blában (a logikailag törölt adatokat nem vesszük figyelembe), akkor a
+a V_KKF_TENY t á blában (a logikailag törölt adatokat nem vesszük figyelembe), akkor a
 kapott adatokkal új r ekordot hoz létre a V _ KKF _ TENY táblába az előző bekezdésben leírtak
 szerint.
 
@@ -27581,7 +26266,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 Batch modulok egyéb adatai
-##### **3.33 [89001] S_0151 _3 2 – Szöveges megjegyzések lekérdezése ** **(SzovMegjegyzesekQuery) (usp_0151_selSzovMegjegyzesek) **
+##### **3.33 [89001] S_0151 _ 32 – Szöveges megjegyzések lekérdezése ** **(SzovMegjegyzesekQuery) (usp_0151_selSzovMegjegyzesek) **
 
 **Szolgáltatás feladatai**
 
@@ -27607,7 +26292,7 @@ akkor abban az es et ben hozza fel, ha az aktuális idő beleesik a lekérdezett
 A megtalált szöveg e s megjegyzések kimenő adatokban meghatározott adatait adja át a hívó
 modulnak.
 
-A szöveges megje g yzések adatait az MGM _ SzovegesMegj táblából olvassa ki.
+A szöveges megjeg y zések adatait az MGM _ SzovegesMegj táblából olvassa ki.
 
 **Kimenő adatok**
 
@@ -28312,7 +26997,7 @@ NULL)
 
   - Érvényesség vége (ErvVeg) (leh et N UL L )
 
-  - Kezdő szolgálati hely (KezdSzh I d) ( Tör lés esetén lehet NULL)
+  - Kezdő szolgálati hely (KezdSzhI d) ( Tör lés esetén lehet NULL)
 
   - Távolság a kezdő szolgálati hel y től ( T a v K ez dSzhTol) (A kezdőpont távolsága a
 
@@ -28478,7 +27163,7 @@ Forgalomszabályo zá si művelet által érintett menetvonalak használhatósá
 szerkesztésre lefog l alása, a lefoglalás megszűntetése.
 
 A szolgáltatás a g rafikonon egy vagy több menetvonal szerkesztésre lefoglalásakor, a
-szerkesztés befeje zés ekor (mentéssel vagy anélkül), szolgálat befejezésekor kerül meghívásra.
+szerkesztés befeje z ésekor (mentéssel vagy anélkül), szolgálat befejezésekor kerül meghívásra.
 
 A szolgáltat á s a kapott bemenő adatokkal meghívja a
 core.usp_0151_se t MenetvForgSzabFoglalas tárolt eljárást. Az eljárásnak kimenő adatai
@@ -28583,7 +27268,8 @@ munkaállomás által van lefoglalva: ’ MGM_Menetvonal.ter_munkahely_id ’ =
 ’ ’
 TerMunkahelyId .
 `o` Ha **igen**, akkor **törli** a forgalomszabályozásra lefoglalást:
-’’ MGMMGM __ Menetvonal.ter_munkahelyMenetvonal.szerk _ kezd_ido _' id = NULL. ’ = NULL **ÉS**
+’ MGM _ Menetvonal.ter_munkahely_id ’ = NULL **ÉS**
+’ MGM _ Menetvonal.szerk _ kezd_ido ' = NULL.
 `o` Ha nem, akkor a forgalomszabályozásra lefoglalás törlése **nem** történik meg, erre
 **üzenetet** **nem** ad.
 
@@ -28721,7 +27407,7 @@ Teljesítménycsökk en és rögzítéséhez, módosításához adatok lekérdez
 
 A szerviz a teljesítménycsökkenés rögzítéséhez, módosításához szükséges adatok
 lekérdezéséhez, m eg hívja az usp _ 0151 _ selTeljesitmenycsokk tárolt eljárást, a bemenő
-adatokban kapott p ar améterekkel.
+adatokban kapott p araméterekkel.
 Az eljárás megker esi a bemenő adatokban kapott menetvonal aktuális (rendszeridő szerint
 közlekedő, ha nincs közlekedő, akkor az első előrejelzéssel rendelkező) vonatának aktuális
 vonatösszeállítását . E lőször a vonat aktuális (utolsó tény esemény, ha nincs akkor az első
@@ -28742,7 +27428,7 @@ eljárás az MGM _ K o rlatozasok táblából
 
 (V _ IGF táblából)
 
-  - Megrendelő VV rövid neve (Me g r ende lo) ( T _ VVUJ táblából)
+  - Megrendelő VV rövid neve (Meg r ende lo) ( T _ VVUJ táblából)
 
   - Vonatazonosító (Vonatszám+ ’ / ’+v onat indulási dátuma (éééé.hh.nn)) (VonatAzon)
 
@@ -28767,7 +27453,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-  - Vonatösszeállítás kezdő szolgálati hel yének sorszáma a vonatforgalmi tervben
+  - Vonatösszeállítás kezdő szolgál ati hel yének sorszáma a vonatforgalmi tervben
 
 (VoKezdVftSzhIndex)(Vonatosszea llitas táblából)
 
@@ -28782,7 +27468,7 @@ táblából)
   - Vontatójárművek lista
 
 `o` Járműazonosító (xx xx xxxx xxx     - x) ( Jar muAzon)(T _ VOJ táblából)
-`o` Jármű belső azonosító (JarmuId ) (VonatosszeallitasJarmu táblából)
+`o` Jármű belső azonosító (JarmuId) (VonatosszeallitasJarmu táblából)
 
 `o` Teljesítménycsökkenés bel ső azonosítója (MgmKorlId)
 (MGM_Korlatozasok.mgm_korl_id) (lehet NULL is)
@@ -28902,7 +27588,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 Az eljárás a bemen ő adatokban kapott menetvonalhoz rögzített, egyéb sebességkorlátozásokat
-keresi meg az MGM _ Korlatozasok táblából. A menetvonalnak és a megtalált korlátozásoknak
+keresi meg az MGM_Korlatozasok táblából. A menetvonalnak és a megtalált korlátozásoknak
 a kimenő adatokb an meghatározott adatait adja át.
 
 **Kimenő adatok**
@@ -28911,7 +27597,7 @@ a kimenő adatokb an meghatározott adatait adja át.
 
 (V _ IGF táblából)
 
-  - Megrendelő VV rövid neve (Meg r ende lo) ( T _ VVUJ táblából)
+  - Megrendelő VV rövid neve (Me g r ende lo) ( T _ VVUJ táblából)
 
   - Egyéb sebességkorlátozások list a ( Lehet ür e s i s)
 
@@ -29250,7 +27936,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-     - Ha az ’ SzhIdIg ’ <> NULL, akkor a kapott ’ SzhIdIg ’ és ’ SzhInd ex Ig ’
+     - Ha az ’ SzhIdIg ’ <> NULL, akkor a kapott ’ SzhIdIg ’ és ’ SzhIndex Ig’
 szolgálati helyig, a ’ helyt_vagany_ind ’ és ’ helyt_vagany _er k ’
 adatelemekbe. [93048 vége]
 
@@ -29772,9 +28458,7 @@ Esemény típusa (esem _ id) Az új előrejelzés első esményének típusa
       - 2: Indulás esetén
 
       - 6: Áthaladás esetén
-
-      - =
-Esemény ideje (esem _ ido) Az új előrejelzés első eseményének ideje
+      - Esemény ideje (esem_ido) = Az új előrejelzés első eseményének ideje
 (MGM_TenyEsem.esem_ido)
       - Objektum adatai (objektum_adat) (JSON) = NULL
 
@@ -30094,7 +28778,7 @@ Teljesítménycsökk en és mentése.
 
   - Menetvonal Id (MenetvId)
 
-  - Bejelentkezett felhasználó azonosítója ( Pas s2Us erId)
+  - Bejelentkezett felhasználó azono sítója ( Pas s2UserId)
 
   - Teljesítménycsökkenés lista
 
@@ -30125,15 +28809,15 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 |Készítette/módosította:|Változat: 1.0|Oldal: 464/526|
 
 
-`o` Csökkentett teljesítmény kezdő szolgálati helyének sorszáma a von atf o rg alm i
+`o` Csökkentett teljesítmény kezdő szolgálati helyének sorszáma a von atf o rg almi
 
 tervben (TCsKezdVftSzhIndex) (lehet NULL is)
 `o` Csökkentett teljesítmény vég szolgálati helyének belső azo n o sí t ó j a
 (TCsVegSzhId) (lehet NULL is)
-`o` Csökkentett teljesítmény vég szolgálati helyéhez tartozó vonatforgalmi t er v i d
+`o` Csökkentett teljesítmény vég szolgálati helyéhez tartozó vonatforg almi t er v i d
 
 (TCsVegVftId) (lehet NULL is)
-`o` Csökkentett teljesítmény vég szolgálati helyének sorszáma a vo n atf o rg almi
+`o` Csökkentett teljesítmény vég szolgálati helyének sorszáma a von atf o rg almi
 
 tervben (TCsVegVftSzhIndex) (lehet NULL is)
 
@@ -30150,7 +28834,7 @@ Az eljárás a követ k ező ellenőrzéseket végzi:
 hívásával ellenőrzi, hogy a bemenő ada tok ban k apott ábrát még a szerkesztést végző
 felhasználó foglalja     - e. A függvény t a bem enő adatokban kapott felhasználó
 azonosítójával (epaiParamXmlDoc    - ból) és az ábra belső azonosítójával hívja meg.
-Amennyiben a függvény false érték et ad v i s s za, vagyis már nem a felhasználó foglalja
+Amennyiben a függvény false értéket ad v i s s za, vagyis már nem a felhasználó foglalja
 az ábrát, akkor hibát ad.
 
 Ha az ellenőrzése k során nem talált hibát az eljárás, akkor a teljesítménycsökkenés listában
@@ -30162,7 +28846,7 @@ annál a rekordnál nem módosítja az M GM_K or l atozasok táblát. [88997vég
 
   - Ha a bemenő adatokban egy r ek or dnál a M űködési mód ’ T ’- Törlés,, akkor a
 
-Teljesítménycsökkenés belső azonosítónak ( M gmKorlId) megfelelő rekordot törli az
+Teljesítménycsökkenés belső azono sító nak ( M gmKorlId) megfelelő rekordot törli az
 MGM_Korlatozasok táblából.
 
   - Ha a bemenő adatokban egy rek or dnál a Műk öd ési mód ’ M ’- Mentés:
@@ -30195,12 +28879,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 VK95023 Ha a bemen ő adatokban a Teljesítménycsökkenés listában van olyan sor, aminél nem
-üres a Csökkente t t teljesítmény mértéke (Mertek), akkor az MGM_Menetvonal táblában a
+üres a Csökkente tt teljesítmény mértéke (Mertek), akkor az MGM_Menetvonal táblában a
 menetvonalhoz tar t o z ó rekordnál a vszam_keret_jelzo értékét a következők szerint állítja:
 
   - Ha NULL vagy „L ” az értéke, ak k or „V”- t ír a mezőbe
 
-  - Ha „V ”- t vagy „X ”- t tartalmaz, a zt ne m változtatja
+  - Ha „V ”- t vagy „X ”- t tartalmaz, a zt ne m változta t ja
 
   - Ha „M ”- t tartalmaz, akkor azt át ír ja „X ”-r e
 
@@ -30240,7 +28924,7 @@ külön naplóbe j egyzéseket készít az *MGM* *objektum* *események* *napló
 
   - Napló belső azonosító (mgm_es em napl_id) = a utomatikus
 
-  - PASS2 felhasználó belső azonosító ( pas s2user id) = A bemenő adatokban kapott
+  - PASS2 felhasználó belső azono sító ( pas s2user id) = A bemenő adatokban kapott
 
 felhasználó azonosítója (Pass2UserI d)
 
@@ -30250,7 +28934,7 @@ felhasználó azonosítója (Pass2UserI d)
 
 (AbraId)
 
-  - Objektum típusa (objektum _ tipus) = 5 – K o r látoz ás
+  - Objektum típusa (objektum_tipu s) = 5 – K o r látoz ás
 
   - Objektum belső azonosító (obje ktum_ id) = Ú jonnan létrehozott, módosított vagy
 
@@ -30292,7 +28976,7 @@ belső azonosítója (KezdSzhId)
 tartalmazza) =
 
 `o` Az érintett menetvonal belső azonosítója (mgm_mv_id)
-`o` Korlátozás vége szolgálati helyé nek bel ső azonosítója (veg_szh_id)
+`o` Korlátozás vége szolgálati helyének bel ső azonosítója (veg_szh_id)
 `o` Vontatójármű belső azonosítója ( jar m u_id )
 `o` Korlátozás mértéke (mertek)
 
@@ -30309,7 +28993,7 @@ módon regisztráció t végez a PbiReg táblába:
 
   - pbi_kuldes_szamlalo: NULL
 
-  - pbi_create_timestamp: Aktuális idő [#88986vége]
+  - pbi _ create _ timestamp: Aktuális idő [#88986vége]
 
 **Kimenő adatok**
 
@@ -30398,7 +29082,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 A szerviz a beme n ő adatokban kapott menetvonal szolgálati helyeinek a lekérdezéséhez a
-bemenő adatokba n kapott paraméterekkel, meghívja az **usp_0151_selMvSzolghelyek** tárolt
+bemenő adatokban k apott paraméterekkel, meghívja az **usp_0151_selMvSzolghelyek** tárolt
 eljárást.
 
 Az eljárás a beme n ő adatokban kapott menetvonal szolgálati helyeit kérdezi le a menetvonal
@@ -30473,20 +29157,20 @@ Egyéb sebességko rl átozás mentése.
 
   - Egyéb sebességkorlátozások lista
 
-`o` Egyéb sebességkorlátozás belső azonosítója (MgmKorlId) (lehet NULL i s )
+`o` Egyéb sebességkorlátozás belső azonosítója (MgmKorlId) (lehet N U LL i s )
 `o` Működési mód (MukodesiMod) ( ’ U ’- Új, ’ M ’- Módosítás, ’ T ’- Törlé s, [ VK95023 ] ’
 
 ’- Nincs változás [ VK95023vége] )
 `o` Korlátozás mértéke (Mertek)
 `o` Korlátozás kezdő szolgálati helyének belső azonosítója (KezdSzhId)
-`o` Korlátozás kezdő szolgálati helyéhez tartozó vonatforgalm i t er v i d
+`o` Korlátozás kezdő szolgálati helyéhez tartozó vonatforgalmi t er v i d
 
 (KezdVftId)
-`o` Korlátozás kezdő szolgálati helyének sorszáma a vonatforgal mi t erv b en
+`o` Korlátozás kezdő szolgálati helyének sorszáma a vonatforgalmi t erv b en
 
 (KezdVftSzhIndex)
 `o` Korlátozás vég szolgálati helyének belső azonosítója (VegSzhId)
-`o` Korlátozás vég szolgálati helyéhez tartozó vonatforgalmi terv id (V egVf t I d )
+`o` Korlátozás vég szolgálati helyéhez tartozó vonatforgalmi terv id (VegVf t I d )
 `o` Korlátozás vég szolgálati helyének sorszáma a vonatforgalmi t erv b en
 
 (VegVftSzhIndex)
@@ -30499,11 +29183,11 @@ A szerviz az egyéb sebességkorlátozások mentéséhez meghívja az
 
 Az eljárás a követ k ező ellenőrzéseket végzi:
 
-  - Az S_0151_39 – Munkahely fo g lalá s ellenőr zés (uf _ checkMunkahelyFogl), függvény
+  - Az S_0151_39 – Munkahely fog lalá s ellenőr zés (uf _ checkMunkahelyFogl), függvény
 
 hívásával ellenőrzi, hogy a bemenő ada tok ban k apott ábrát még a szerkesztést végző
 felhasználó foglalja     - e. A függvény t a bem enő adatokban kapott felhasználó
-azonosítójával és az ábra belső az onosítójá val hívja meg. Amennyiben a függvény
+azonosítójával és az ábra belső az onosítójáva l hívja meg. Amennyiben a függvény
 false értéket ad vissza, vagyis már nem a felh asználó foglalja az ábrát, akkor hibát ad.
 
   - Az eljárás ellenőrzi, hogy a menet v onal a bem enő adatokban kapott munkahely által
@@ -30535,10 +29219,10 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
   - Ha a bemenő adatokban egy re k or dnál a Működési mód ’ M ’- Módosítás, akkor az
 
-MGM_Korlatozasok táblában a bel ső az onosítónak megfelelő rekordot felülírja a
-kapott adatokkal, valamint az utolsomezőbe pedig a bemenő adatokban k _mapott od _ fido elham sználó azonosítóját írja (Pass2UserId). ezőbe az aktuális időt, a mod _ felh _ id
+MGM _ Korlatozasok táblában a b el ső az onosí tónak megfelelő rekordot felülírja a
+kapott adatokkal, valamint az utolsomezőbe pedig a bemenő adatokban k _map ott od _f ido elha ms ználó azonosítóját írja (Pass2UserId). ezőbe az aktuális időt, a mod _ felh _ id
 
-  - Ha a bemenő adatokban egy rek or dnál a Mű k ödési mód ’ U ’- Új, akkor a kapott
+  - Ha a bemenő adatokban egy r ek or dnál a Mű ködési mód ’ U ’- Új, akkor a kapott
 
 adatokkal egy új rekordot hoz létre a z MGM _ Korlatozasok táblában. Az új rekordnál
 az mgm _ korl _ fajta mezőbe „2 ”    - t (E gy éb seb ességkorlátozás), az utolso_mod_ido
@@ -30572,7 +29256,7 @@ vszam _ keret _ jelzo mezőbe, egyébként p edig N U LL    - ra állítja.
 
   - Ha „X ”- t tartalmaz, akkor azt átír ja „ V”-r e
 
-  - Egyéb érték esetén nem változtatj a a m ez ő t ar tal mát.
+  - Egyéb érték esetén nem változtatja a m ez ő t ar tal m át.
 
 VK95023vége
 
@@ -30611,7 +29295,7 @@ seb _ korl _ menetido mezőbe.
 
   - Meghívja az usp _ 0202 _ updMenetv E lor ejelzes2 tárolt eljárást a következő bemenő
 
-paraméterekkel, hogy az előkészített ada tok alapján módosítsa a menetvonal
+paraméterekkel, hogy az előkés zített ada tok alapján módosítsa a menetvonal
 előrejelzését:
 
 `o` vft_id: A bemenő adatokban ka pott k or látozások által érintett első vonat belső
@@ -30660,7 +29344,7 @@ marad    - e még rögzített korláto zá s. A me nnyiben nem, akkor törli az
   - Ezután az eljárás ellenőrzi, hogy a k or látozásban érintett menetvonal hátralévő részén
 
 van    - e forgalom szabályozási művelet k apcs án érintett más ábra. Amennyiben igen,
-akkor érintett ábránként egy új rekor dot r ög zít a z **MGM_PulzaloMenetvonal** táblába
+akkor érintett ábránként egy új reko r dot r ög zít az **MGM_PulzaloMenetvonal** táblába
 (amennyiben ez még nem létezik) a z alábbi adat okkal:
 
 `o` abra_id – Hátralévő szakasz érintett ábra belső azonosítója
@@ -30702,7 +29386,7 @@ kapott felhasználó azonosítója (Pass2UserId)
 
 `o` Ábra belső azonosítója (abraazonosítója (AbraId) _ i d) = A bemenő adatokban kapott ábra belső
 
-`o` Objektum típusa (objektum _ tipu s) = 5 – Korlátozás
+`o` Objektum típusa (objektum _ tipus) = 5 – Korlátozás
 
 `o` Objektum belső azonosító (objek tum_ id) = Újonnan létrehozott, módosított
 
@@ -30719,7 +29403,7 @@ vagy törölt egyéb sebességkorlátozás belső azonosítója (mgm_korl_id)
 
 `o` 107 – Egyéb sebeségkorlátozás
 
-`o` Szolgálati hely belső azonosí tója ( szh_id) = Korlátozás kezdő szolgálati
+`o` Szolgálati hely belső azonosítója ( szh_id) = Korlátozás kezdő szolgálati
 
 helyének belső azonosítója (KezdSzhId)
 
@@ -30781,7 +29465,7 @@ korlátozások kezdő szolgálati helyével)
 
 `o` Esemény típusa (esem _ id) = 2: I ndulás
 
-`o` Esemény ideje (esem _ ido) = Indulási idő arról a szolgálati helyről, ahonnan
+`o` Esemény ideje (esem_ido) = Indulási idő arról a szolgálati helyről, ahonnan
 
 módosult a menetvonal (esem_ido)
 
@@ -30806,7 +29490,7 @@ módon regisztráció t végez a PbiReg táblába:
 
   - pbi_kuldes_szamlalo: NULL
 
-  - pbi_create_timestamp: Aktuális idő [#88986vége]
+  - pbi _ create _ timestamp: Aktuális idő [#88986vége]
 
 **Kimenő adatok**
 
@@ -31022,7 +29706,8 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 **Ellenőrzés**
 
 A tárolt eljárás ell en őrzi, hogy a kulcsfüggés feloldás ábráját még mindig a szerkesztést végző
-felhasználó foglal ja- e. Ez egy közös eljárás, függvény ( **uf_checkMunkahelyFogl** ) hívásával
+
+            felhasználó foglalja e. Ez egy közös eljárás, függvény ( **uf_checkMunkahelyFogl** ) hívásával
 történik. Ha már n em a felhasználó foglalja az ábrát, akkor hibaüzenetet kap a felhasználó
 ( ’ Az ábrát már más felhasználó foglalja! ’ ).
 
@@ -31064,7 +29749,7 @@ törölt kulcsfüggés f e loldások **alapján** **naplóbejegyzést készít**
 
   - Napló belső azonosító ( **mgm_ese** **m** **napl_i** **d** ) = au tomatikus
 
-  - PASS2 felhasználó belső azonosító ( **pas** **s** **2us** **eri** **d** ) = Szerkesztő felhasználó
+  - PASS2 felhasználó belső azono sító ( **pas** **s** **2us** **eri** **d** ) = Szerkesztő felhasználó
 
 ( **szerk_felh_azon** )
 
@@ -31123,7 +29808,7 @@ módon regisztráció t végez a PbiReg táblába:
 
     - pbi_kuldes_szamlalo: NULL
 
-    - pbi _ create _ timestamp: Aktuális idő [#88986vége]
+    - pbi_create_timestamp: Aktuális idő [#88986vége]
 
 **Kimenő adatok**
 
@@ -31244,7 +29929,7 @@ rendelt **MÁV** szolgálati hely:
       - Ha van, akkor UC_01_51_ERR_UJ_ELOREJELZES_HIBA üzenetet ad
 vissza.
 
-      - Ha **nincs**, akkor meghívja az uf_ **checkVonatGysevTrazit** függvényt.
+      - Ha **nincs**, akkor meghívja az uf _ **checkVonatGysevTrazit** függvényt.
 
       
  Ha a függvény **FALSE** értéket ad vissza, ak k o r
@@ -31582,7 +30267,7 @@ adatbázisból.
 Az eljárás a bem en ő adatokban kapott csatlakozásnak a kimenő adatokban meghatározott
 adatait adja át a hív ó modulnak.
 
-A csatlakozás adat a it az MGM _ Csatlakozas, a csatlakozásban érintett menetvonalakat az
+A csatlakozás ad at ait az MGM _ Csatlakozas, a csatlakozásban érintett menetvonalakat az
 MGM_CsatlVonat t áblából olvassa ki. Az MGM_CsatlVonat tábla tartalmazza a bevárandó
 (varakozas _ tipus =”B” ) és a várakozó (varakozas _ tipus =” V ” ) menetvonalakat/vonatokat is.
 
@@ -31627,7 +30312,7 @@ keres tervezett vágányt.
 (MGM_CsatlVonat.mgm_teny_id) ( Lehet NULL, ha a vonat előrejelzését
 törölték)
 
-`o` Vonatazonosító (VonatAzon) (S zá mozási rendszer kódja (55      - t nem kell
+`o` Vonatazonosító (VonatAzon) (S zám ozási rendszer kódja (55      - t nem kell
 
 kiírni)+ ’ ’ +Vonatszám irányszámmal + ’ / ’ +vonat indulási dátuma
 (éééé.hh.nn)) (MGM_CsatlVonat, M GM_Menetvonal, P_VFT, T_OR
@@ -31635,7 +30320,7 @@ táblák alapján)
 
 `o` Várakozás típusa (VarakozasT ipus) ( ’ B ’ – Bevárandó vonat, ’ V ’ –
 
-Várakozó vonat) (MGM _ CsatlVonat. v arakozas _ tipus)
+Várakozó vonat) (MGM_CsatlVonat. v arakozas_tipus)
 
 `o` Előrejelzett/tény esemény ideje ( E semIdo) (Lehet NULL, ha a vonat
 
@@ -31654,7 +30339,7 @@ esemény és az MGM_TenyEsem `.` esem_tipus nem ' B ' .
 
 `o` Csatlakozás típusa (CsatlTipus) ( M G M _CsatlVonat.csatl_tipus)
 
-`o` Csatlakozás ideje (CsatlIdo) (M GM_C satlVonat.csatl_ido)
+`o` Csatlakozás ideje (CsatlIdo) (MGM _ CsatlVonat.csatl _ ido)
 
 **Interfészek**
 
@@ -31872,7 +30557,7 @@ hibát ad. A hibaüzenetben {0} = Vonat A zon.
   - Ha a bemenő adatokban kapott esem ény m ár szerepel 1 – Folyamatban vagy 2  
 Teljesült állapotú csatlakozásban, a kk or hibát ad . A hibaüzenetben {0} = VonatAzon.
 
-Ha az ellenőrzések során nem talált hibát az eljárás, akkor a kimenő adatokban meghatározott
+Ha az ellenőrzése k s orán nem talált hibát az eljárás, akkor a kimenő adatokban meghatározott
 paramétereket adj a á t a hívó modulnak.
 
 Az esemény adatok a t az MGM _ Tenyesem táblából olvassa ki.
@@ -32006,7 +30691,7 @@ Csatlakozás mentése.
 
 változás )
 
-`o` Csatlakozó vonat belső azonosító (CsatlVonId) (Újonnan felvett v o natn ál
+`o` Csatlakozó vonat belső azonosító (CsatlVonId) (Újonnan felve tt v o natn ál
 
 NULL) (MGM_CsatlVonat.mgm_csatl_von_id)
 
@@ -32054,7 +30739,7 @@ false értéket ad vissza, vagyis már nem a felh asználó foglalja az ábrát,
 
   - Már létező csatlakozásnál (ha a bem enő ada tokban a Csatlakozás belső azonosítója
 
-(CsatlakozasId) nem üres) és az MGM _ Cs at lk o zas.utolso _ mod _ ido nagyobb, mint a
+(CsatlakozasId) nem üres) és az M GM_Cs at lk ozas.utolso _ mod _ ido nagyobb, mint a
 bemenő adatokban kapott Csatlakozás utolsó módosításának ideje (UtolsoModIdo),
 akkor hibát ad.
 
@@ -32080,14 +30765,14 @@ nem, akkor az esemény típusának m egf elelelő hibát ad (Lásd Rendszerüzen
 (A hibaüzenetbe behelyezi a bem enő adato kban kapott vonatazonosítót. {0} =
 VonatAzon)
 
-  - A csatlakozó menetvonalak list ában k apott esem ények közül, azoknál, amelyeknél a
+  - A csatlakozó menetvonalak list áb an k apott események közül, azoknál, amelyeknél a
 
-Működési mód (MukodesiMod) ’ U ’- Ú j és az Előrejelzett vonatesemény mgm    - es
+Működési mód (MukodesiMod) ’U’- Ú j és az Előrejelzett vonatesemény mgm    - es
 belső azonosítójának (EsemId) megfelelő es e m ény már szerepel 1 – Folyamatban
 vagy 2    - Teljesült állapotú csatlako zásban, akk o r hibát ad. A hibaüzenetben {0} =
 VonatAzon
 
-  - Ha valamelyik a Bevárandó vonatnál ( Var akozasTipus =’ B ’ ) az esemény ideje
+  - Ha valamelyik a Bevárandó v onatnál ( Var akozasTipus =’ B ’ ) az esemény ideje
 
 (MGM_TenyEsem. esem_ido) nagyobb, m int az aktuális idő + 12óra, akkor hibát ad.
 A hibaüzenetben:
@@ -32096,7 +30781,7 @@ A hibaüzenetben:
 
 `o` {1} = MGM_TenyEsem.esem_ido
 
-  - Ha valamelyik a Várakozó v onatnál ( Var akozasTipus =’ V ’ ) az esemény ideje
+  - Ha valamelyik a Várakozó v onatnál ( Var a kozasTipus =’ V ’ ) az esemény ideje
 
 (MGM_TenyEsem. esem_ido) nagyobb, m int az aktuális idő + 12óra, akkor hibát ad.
 A hibaüzenetben:
@@ -32107,7 +30792,7 @@ A hibaüzenetben:
 
 Ha az ellenőrzések során nem talált hibát az eljárás, akkor a következőket végzi:
 
-  - Ha a bemenő adatokban a C satlak ozás bel s ő azonosítója (CsatlakozasId) nincs
+  - Ha a bemenő adatokban a Csatlak ozás bel ső azonosítója (CsatlakozasId) nincs
 
 kitöltve, akkor az MGM_Csatlakozas táblába l ét rehoz egy új rekordot:
 
@@ -32141,11 +30826,11 @@ vagy ’ ’- Nincs változás/) bevárandó vonatok közül a legkésőbb érke
  - Ha a bemenő adatokban a Csatlak ozás bels ő azonosítója (CsatlakozasId) kitöltött,
 
 akkor a csatlakozás adataiban, az elő ző pontban leírtak szerint felülírja az
-utolso _ mod _ ido, mod _ felh _ id és az utolso _ er k_ ido mezőket.
+utolso_mod_ido, mod _ felh _ id és az utolso _ er k_ ido mezőket.
 
- - Csatlakozó menetvonalak listába Működési módtól (MukodesiMod) a n k f apott ügg ően r ek or a következő műveleteket végzi: doknál az MGM _ CsatlVonat táblában
+ - Csatlakozó menetvonalak listábaa Működési módtól (MukodesiMod) n k fapott ügg ően r ek ora következő műveleteket végzi: d oknál az MGM _ CsatlVonat táblában
 
-`o` Ha a bemenő adatokban egy rekordnál a Működési mód ’ T ’- Törlé s, ak k o r a
+`o` Ha a bemenő adatokban egy rekordnál a Működési mód ’ T ’- Törl és, ak k o r a
 
 Csatlakozó vonat belső azonosítójának (CsatlVonId)
 (MGM _ CsatlVonat.mgm _ csatl _ von _ id) megfelelő rekordot törli az
@@ -32154,7 +30839,7 @@ MGM _ CsatlVonat táblából.
 `o` Ha a bemenő adatokban egy rekordnál a Működési mód ’ M ’- Mó d o sí t ás,
 
 akkor a Csatlakozó vonat belső azonosítójának (CsatlVonId)
-(MGM_CsatlVonat.mgm_csatl_von_id) megfelelő rekordot felülírja a kapott
+(MGM _ CsatlVonat.mgm _ csatl _ von _ id) megfelelő rekordot felülírja a kapott
 adatokkal az MGM _ CsatlVonat táblában.
 
 `o` Ha a bemenő adatokban egy rekordnál a Működési mód ’ U ’- Ú j, ak k o r a
@@ -32171,7 +30856,7 @@ akkor azt a rekordot változatlanul hagyja.
 kódot (MGM_TenyEsem.fsz_mod_ok) ’10’- re, ezzel jelezve, hogy ez egy
 csatlakozásban érintett, várakozó v onatho z tartozó, esemény. (Egy várakozó vonat
 törlésekor a forgalmi szabá l y ozási művelet átírása a
-usp _ 0151 _ updCsatlakVaroVonatEl or ejelzes eljá ráson belül történik.)
+usp_0151_updCsatlakVaroVonatElor ejelzes eljáráson belül történik.)
 
  - A csatlakozásban lévő vára k ozó v onato k előrejelzésének módosításához, a
 
@@ -32189,7 +30874,7 @@ mód =’ M ’- Módosítás vagy ’ U ’- Új vagy ’ T ’- Törlés).
 
  - A csatlakozásból törölt (Működési m ód ’ T ’- Törlés) várakozó vonatok
 előrejelzésének frissítéséhez vonaton k ént a k övetkező paraméterekkel hívja meg az
-usp_0202_updMenetvElorejelzes2 t ár olt eljár ást:
+usp _ 0202 _ updMenetvElorejelzes2 t ár olt eljár ást:
 
 MÁV Szolgáltató Központ Zrt. Székhely: 1087 Budapest, Könyves Kálmán körút 54-60.
 
@@ -32210,7 +30895,7 @@ mgm _ teny _ id alapján)
 
 (MGM _ TenyEsem táblából)
 `o` varhato_keses (percben): NULL
-`o` forg_szab_muv_kod: 10 (ez jelzi, hogy várakozó vonat)
+`o` forg_szab _ muv _ kod: 10 (ez jelzi, hogy várakozó vonat)
 
 `o` a többi paraméter NULL, illetve jelzők esetén False ’
 
@@ -32232,7 +30917,7 @@ Menetvonal id (MenetvId)
 
                                 Előrejelzett vonatesemény mgm es belső azonosítója (EsemId)
 
-        - fsz _ mod _ ok: ’ 10 ’
+        - fsz_mod_ok: ’ 10 ’
 
 `o` A törölt [100633-al törölve] ~~bevárandó~~ vonatokhoz tartozó rekordokat, ak árm i l y en
 
@@ -32391,7 +31076,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 #88986vége
 
-**Az usp_0151_upd** **C** **satlakVaroVonatElorejelzes eljárás működése**
+**Az usp_0151_updCsatlakVaroVonatElorejelzes eljárás működése**
 
 Megkeresi a beme n ő adatokban kapott csatlakozáshoz tartozó várakozó vonatokat.
 Ha a csatlakozás állapota ’ 1 ’ - Folyamatban vagy ’ 2 ’– Teljesült, akkor a várakozó
@@ -32402,7 +31087,7 @@ vonatokkal a köve t k e ző műveleteket végzi:
 időt = az utolsó bevárandó vonat ér k ez ési ideje + a várakozó vonatnál megadott
 csatlakozási idő
 
-  - A Vonatelorejelzés táblában a csatlak ozá s hel y é nél:
+  - A Vonatelorejelzés táblában a c satlak ozá s hel y énél:
 
 `o` Ha a módosítás ok kódja irányítói bevezetés (1 vagy 2), akkor azt tö r l i .
 `o` Ha a várható indulási idő nem egyezik meg a csatlakozás miatti l eg ko ráb b i
@@ -32410,13 +31095,13 @@ csatlakozási idő
 indulási idővel, akkor ezzel felülírja várható indulási időt és a módosítás ok
 kódját törli.
 
-  - Ha a vonat még nem indult el a cs atlak ozás helyéről és az előrejelzett indulás idő
+  - Ha a vonat még nem indult el a cs at lak ozás h elyéről és az előrejelzett indulás idő
 
 kisebb, mint a csatlakozás miat ti legkor ábbi indulási idő, akkor a következő
 paraméterekkel hívja meg az usp _ 02 02_updMen etvElorejelzes2 tárolt eljárást:
 
 `o` vft _ id: várakozó vonat belső azonosítója
-`o` vft _ szh _ index: csatlakozás helyének sorszáma a várakozó vonatnál
+`o` vft_szh_index: csatlakozás helyének sorszáma a várakozó vonatnál
 `o` varhato_keses (percben): a csatlakozás miatti legkorábbi indulási i d ő – az
 
 előrejelzett indulási idő (a csatlakozás helyétől az előrejelzés végéig, ezzel az
@@ -32430,7 +31115,7 @@ előrejelzett indulási idő (a csatlakozás helyétől az előrejelzés végéi
 megegyezik a régi várható indulá si idővel, de nagyobb, mint a csatlakozás miatti
 legkorábbi indulási idő (az új v ár ható indul ási idő), akkor megvizsgálja, hogy
 csökkenthető    - e az indulási idő. Ezt úgy teszi, hogy a következő idők közül veszi a
-legnagyobbat, és ha az eltér a régi indulási időtől, akkor a különbséggel frissíti az
+legnagyobbat, és ha az eltér a régi indulási id őtől, akkor a különbséggel frissíti az
 előrejelzést:
 
 `o` Ha van érkezési idő a csatlakozás helyére, akkor az érkezési idő + t ar t ó zk od ási
@@ -32466,12 +31151,12 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 
 
 
-  - #88995 Ezen kívül az eljárás ellenőr zi, hogy a csatlakozásra várás miatt módosult
+  - #88995 Ezen kívül az eljárás ell enőr zi, hogy a csatlakozásra várás miatt módosult
 előrejelzés kapcsán kell     - e pulzáltat ni az ér intett menetvonalat egy későbbi ábrán. Az
 eljárás az **MGM_ForgMuvErintet** **t** **Menet** **von** **al** tábla alapján állapítja meg az
 érintettséget, mely esetén ábr ánk ént új rekordot vesz fel az
 **MGM_PulzaloMenetvonal** tábláb a, ha az adott ábrára vonatkozóan azok még nem
-léteznek aktív (nem tudomásul vett és nem töröl t) állapotban. Ilyen esetben „Irányítói
+léteznek aktív (nem tudomásul vett és nem tör ölt) állapotban. Ilyen esetben „Irányítói
 beavatkozás ” ok miatt (kivalto _ ok =1) tör téni k p ulzáltatás. [ #88995 VÉGE]
 
 Ha a csatlakozás ál lapota nem ’ 1 ’ - Folyamatban és nem ’ 2 ’– Teljesült, akkor várakozó
@@ -32481,7 +31166,7 @@ tárolt eljárást az el ő rejelzés frissítéséhez:
 `o` vft _ id: várakozó vonat belső azonosítója
 `o` vft _ szh _ index: csatlakozás helyének sorszáma a várakozó vonatnál
 `o` varhato_keses (percben): NULL
-`o` forg_szab_muv_kod: 10 (ez jelzi, hogy várakozó vonat)
+`o` forg _ szab _ muv _ kod: 10 (ez jelzi, hogy várakozó vonat)
 `o` IF_4004_kuldes = 1 [#105188]
 `o` a többi paraméter NULL, illetve jelzők esetén False ’
 
@@ -32615,7 +31300,7 @@ Tel.: 36 1 457 9300 Fax: 36 1 457 9500 www.mav-szk.hu
 A szolgáltatás a kapott adatokkal és a ’ FelhasznVvId ’= 11 adattal meghívja a
 core.usp_0151_selU j EloreJelzesMenetrend eljárást.
 
-Az eljárás egy ad o t t menetvonalhoz az adott ábrát érintő menetrendi adatokat adja vissza a
+Az eljárás egy ad o tt menetvonalhoz az adott ábrát érintő menetrendi adatokat adja vissza a
 hívó kliensnek.
 
 **Bemenő adatok**
@@ -32660,7 +31345,7 @@ Meghívja az usp _ 0 1 51 _ selMenetrendiAdatok eljárást, ahol a bemenő adato
 
 - ' FoKodArray '= NULL, FIX
 
-- ' SKodArray '=N ULL, FIX
+- ' SKodArray '= N U LL, FIX
 
 - ' Idohenger '= 1, F IX
 
@@ -32793,7 +31478,7 @@ Csatlakozás törlése.
 
   - Ábra belső azonosítója (AbraId)
 
-  - Felhasználó azonosítója (Pass2User I d) ( M GM_Csatlakozas.mgm_mod_felh_id)
+  - Felhasználó azonosítója (Pass2U ser I d) ( M GM_Csatlakozas.mgm_mod_felh_id)
 
   - Csatlakozás belső azonosító ja ( C s at lak oza sId) (Új csatlakozásnál NULL)
 (MGM_Csatlakozas.mgm_csatl_id)
@@ -32807,10 +31492,10 @@ Az eljárás a követ k ező ellenőrzéseket végzi:
 
   - Az S_0151_39 – Munkahely fog lalá s ellenőr zés (uf _ checkMunkahelyFogl), függvény
 
-hívásával ellenőrzi, hogy a bemenő ada tok ban kapott ábrát még a szerkesztést végző
+hívásával ellenőrzi, hogy a bemenő ada tok ban k apott ábrát még a szerkesztést végző
 felhasználó foglalja     - e. A függvény t a bem enő adatokban kapott felhasználó
 azonosítójával és az ábra belső az onosítójáva l hívja meg. Amennyiben a függvény
-false értéket ad vissza, vagyis már nem a fel használó foglalja az ábrát, akkor hibát ad.
+false értéket ad vissza, vagyis már nem a felh asználó foglalja az ábrát, akkor hibát ad.
 
   - Ha a csatlakozás állapota nem 1   - F ol y am atb an, akkor hibát ad.
 
@@ -33093,7 +31778,7 @@ Ha igen, akkor ’ MunkahelyId ’ <> ' UC ’_ MGM01 _ 51 __ MenetvonalERR _ ME
 helyre *(* *’* *VonatElorejelzes.erk* *_* *jelzo* *’* *VAGY* *’* *ind* *_* *jelzo* *’* *=* *„B* *”* *)* .
 100977 Ha az adott ’ szh _ index ’ alapján az ’ erk _ jelzo ’ = „E ”, akkor az előző olyan
 rekordnál ellenőrzi, ahol ’ Ha az szh _ index ’ ind ’ _- 1. jelzo ’ = „K ”’ mgm, akkor a következő olyan rekordnál ellenőrzi, ahol _ mv _ id ’ és az ’ szh _ id ’ azonos ÉS ’ szh _ index ’ =
-’ Ha van, akkor mgm _ mv _ id ’ és az ' UC_01_51_ERR_TENYADAT_LETEZIK ’ szh _ id ’ azonos ÉS ’ szh _ index ’ = ’ szh ' üzenetet ad. _ index ’ + 1. [100977 vége]
+’ Ha van, akkor mgm _ mv _ id ’ és az ' UC_01_51_ERR_TENYADAT_LETEZIK ’ szh _ id ’ azonos ÉS ’ szh _ index ’ = ’ szh '_ üzenetet ad.index ’ + 1. [100977 vége]
 `o` **Ellenőrzi**, hogy a vonat **szerepel**  - e az adott szolgálati helyen **más** előztetésben,
 keresztezésben vagy csatlakozásban *(MGM* *_* *TenyEsem.fsz* *_* *mod* *_* *ok* *’* *=* *4, 5, vagy 10)* .
       - Ha az fszüzenetet ad. _ mod _ ok ’ = 21, akkor UC_01_51_ERR_TOBB_ELOZTETES
@@ -33595,13 +32280,12 @@ táblába:
 
 `o` pbi_kuldes_szamlalo: NULL
 
-`o` pbi_create _ timestamp: Aktuális idő
-#88986vége
+#88986vége `o` pbi _ create _ timestamp: Aktuális idő
 
 - A men et vonalak foglalásának feloldásához meghívja az
 usp _ 0151 _ setMenetvForgSzabFoglalas eljárást menetvonalanként.
 **Bemenő** adatok:
-`oo` ’’ MenetvonalIdListaTerMunkahelyId ’ =’=’ a kapott MunkahelyId ’ mgm ’ . _ mv _ id ’ adatok vesszővel elválasztva.
+`oo` ’’ MenetvonalIdListaTerMunkahelyId ’ =’=’ MunkahelyId a kapott ’ mgm ’ . _ mv _ id ’ adatok vesszővel elválasztva.
 `o` ’ AbraId ’ = ’ AbraId ’ .
 `o` ’ FoglalasJelzo ’ = ' E '  - foglalás elengedése.
 `o` ’ ModositasOk ’ = NULL.
@@ -33771,7 +32455,7 @@ Adott ábrán találhat ó, előrejelzés változás miatt keletkező értesít�
 
 **Működés**
 
-A szerviz a kapott AbraId - val meghívja az **usp_0151_selElorejelzesValtozasAdatok** eljárást,
+                A szerviz a kapott AbraId val meghívja az **usp_0151_selElorejelzesValtozasAdatok** eljárást,
 mely az adott ábrá r a vonatkozó, előrejelzés változásról szóló értesítések adatait kérdezi le. Az
 eljárás az **MGM_** **P** **ulzaloMenetvonal** táblából keresi ki azokat a rekordokat, melyek:
 
@@ -34097,8 +32781,7 @@ felhasználó azonosítója (Pass2UserId)
       - =
 Ábra belső azonosítója (abraazonosítója (AbraId) _ id) A bemenő adatokban kapott ábra belső
       - Objektum típusa (objektum _ tipus) = 3 – Menetvonal
-      - Objektum belső azonosító (objektum _ id) = Az adott menetvonal belső
-azonosítója (MenetvId)
+      - Objektum belső azonosító (objektumazonosítója (MenetvId) _ id) = Az adott menetvonal belső
       - Művelet típusa (muvelet _ tipus) = M – Módosítás
       - Tevékenység típus kódja (tevekenyseg_tipus_kod) = 14       - Más pályán közlekedés
       - Szolgálati hely belső azonosítója (szh_id) = Más pályán közlekedés kezdő
@@ -34125,7 +32808,7 @@ táblába:
       pbi_query_param2: NULL
 
       pbi_kuldes_szamlalo: NULL
-      - pbi_create _ timestamp: Aktuális idő [#88986vége]
+      - pbi _ create _ timestamp: Aktuális idő [#88986vége]
 
 - Ha az adott szo l gálati helynél a P _ VTS.vts _ mpp _ jelzo ’ = True, akkor az adott szolgálati
 helytől a visszatérés helyéig visszaállítja az eredeti adatokat a menetrendi adatok alapján.
